@@ -1,0 +1,1 @@
+[11-Apr-2012 14:07:45 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/masedi/public_html/wp-content/themes/dfblog/index.php on line 1

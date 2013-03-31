@@ -1,0 +1,67 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:url(../images/bg-grey.jpg) left top repeat-x, #dddddd url(../images/bg.jpg) left top repeat;
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#757575;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#left_col, #full_width_col {
+	border:1px solid #ccc;
+        -webkit-box-shadow: inset 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0px 0px 8px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#footer-background {
+	background:transparent;
+}
+
+ul#opl-launch-items li.opl-launch-top {
+	border-bottom:1px solid #E5E5E5 !important;
+}
+
+.opl-launch-top {
+	color:#757575;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:14px;
+}
+
+.opl-launch-item-image img {
+	border:2px solid #757575;
+}
+
+
+/* =TOP NAV
+-----------------------------------------*/
+#opl_nav li li {
+	background:#e6e6e6; 
+	border:1px solid #c1c1c1;
+	border-width:0 1px 1px 1px;
+}
+
+#opl_nav li li:last-child {
+	border-right:1px solid #c1c1c1; 
+}
+
+#opl_nav li ul li a:hover {
+	color:#212121;
+	background:#b4b4b4;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#optin .optin_body {
+	background-color:transparent;
+}
+
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #808080;
+}

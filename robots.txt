@@ -1,0 +1,37 @@
+# Google Bot
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /search/
+Disallow: /trackback/
+Disallow: *?*
+Disallow: */trackback/
+Disallow: */date/*
+Disallow: /author
+Disallow: /wget/
+Disallow: /httpd/
+Disallow: /i/
+Disallow: /f/
+Disallow: /t/
+Disallow: /c/
+Disallow: /j/
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Google AdSense
+User-agent: Mediapartners-Google*
+Allow: /
+Disallow: *?*
+
+User-agent: Adsbot-Google
+Allow: /
+
+Sitemap: http://masedi.net/sitemaps/masedi-net.xml

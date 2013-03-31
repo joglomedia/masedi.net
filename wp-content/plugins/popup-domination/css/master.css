@@ -1,0 +1,425 @@
+/*
+
+PopUp Domination Master CSS
+Version: 1.0
+Created/Edited For: v 3.0
+Author: Callum
+Description: Main CSS styles chared throughout PopUp Domination.
+
+*/
+
+/* Resets */
+
+li{
+	margin:0;
+}
+
+h3{
+	margin: 0;
+}
+
+
+.clearfix:after { 
+	content: "."; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0; 
+	height: 0; 
+}
+.clearfix {	
+	display: inline-block; 
+}
+html[xmlns] .clearfix { 
+	display: block; 
+}
+* html .clearfix { 
+	height: 1%; 
+}
+
+/* Div Setups - #PopUp_Domination / .Wrap = Main div with EVERYTHING! */
+
+#popup_domination{ 
+	margin-top: 30px; 
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+#popup_domination .popup_domination_top_left{
+	float: left;
+}
+
+/* PopUp Doination - Activation Button */
+
+#popup_domination_active .popup_domination_activate_button{
+	height: 19px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	background-color: #797979; 
+	width: 74px; 
+	display: inline-block; 
+	margin-left: 15px; 
+	-webkit-box-shadow: 0px 1px 0px 0px #333333;
+	-moz-box-shadow: 0px 1px 0px 0px #333333;
+	box-shadow: 0px 1px 0px 0px #333333; 
+	padding:1px;
+}
+#popup_domination_active .popup_domination_activate_button .border{
+	border:1px solid #a2a2a2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-left: 4px;
+}
+#popup_domination_active {
+	float: right; 
+	height: 25px; 
+	border: 1px solid #dbd789; 
+	background-color: #ffffa8; 
+	padding: 5px 8px 2px;  
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	margin-right: 5px; 
+	margin-bottom: 5px; 
+	margin-top: 25px;
+	-webkit-box-shadow: 0px 1px 2px 0px #c2c2c2;
+	-moz-box-shadow: 0px 1px 2px 0px #c2c2c2;
+	box-shadow: 0px 1px 2px 0px #c2c2c2; 
+	font-size: 8pt;  
+	color: #1f2021; 
+	padding-top: 5px;
+}
+#popup_domination_active .wording{
+	margin-top: 10px;
+	font-weight: bold; 
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif; 
+	text-shadow: 1px 0px 0px #e8e8e8;
+	filter: dropshadow(color=#e8e8e8, offx=1, offy=0); 
+}
+#popup_domination_active a {
+	text-decoration: none; 
+	text-shadow: 0px 2px 0px #2e2e2e; 
+	filter: dropshadow(color=#2e2e2e, offx=0, offy=2); 
+	margin-left: 5px; 
+}
+#popup_domination_active span.inactive img, #popup_domination_active span.active img{
+	margin-right: 8px;
+}
+#popup_domination_active span.active, #popup_domination_active span.inactive {
+	color: #000; 
+	font-weight: bold; 
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif; 
+	text-shadow: 1px 0px 0px #e8e8e8;
+	filter: dropshadow(color=#e8e8e8, offx=1, offy=0);
+}
+#popup_domination_active a.turn-off, #popup_domination_active a.turn-on {
+	color: #fff;
+}
+
+/* PopUp Domination Tabs - The main styling for the top bar tab layout */
+
+#popup_domination_tabs { 
+	line-height: 30px; 
+	height:100%; 
+	max-height: 80px; 
+	min-height: 35px; 
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #dfdfdf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dfdfdf));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#dfdfdf 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#dfdfdf 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#dfdfdf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=0 );
+	background: linear-gradient(top, #ffffff 0%,#dfdfdf 100%); 
+	border: 1px solid #b9b9bb;
+	-webkit-box-shadow: 0px 1px 3px 0px #cccccc;
+	-moz-box-shadow: 0px 1px 3px 0px #cccccc;
+	box-shadow: 0px 1px 3px 0px #cccccc; 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+	padding-top: 7px; 
+	padding-left:22px; 
+	font-weight: bold;
+}
+#popup_domination_tabs a{ 
+	padding-right: 22px; 
+	font-size: 10pt; 
+	text-decoration: none; 
+	color: #373a74;
+	text-shadow: 1px 0px 0px #ffffff; 
+	filter: dropshadow(color=#ffffff, offx=1, offy=0); 
+}
+#popup_domination_tabs a:hover{
+	color:#a50000; 
+	text-decoration: underline;
+}
+#popup_domination_tabs .icon, #popup_domination_container .icon span, #popup_domination_container_advanced .icon span{
+	background-repeat: no-repeat; 
+	background-position: left center; 
+	padding-left: 25px;
+}
+
+/* Notices - Alerts for updates and messages in Pop Dom */
+
+#popup_domination_container .notices{
+	width: 99%; 
+	margin-top: 30px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+	background-color: #ffffcc; 
+	border: 1px solid #e6d65f; 
+	height:30px; 
+	-webkit-box-shadow: 0px 1px 3px 0px #cccccc;
+	-moz-box-shadow: 0px 1px 3px 0px #cccccc;
+	box-shadow: 0px 1px 3px 0px #cccccc;
+}
+#popup_domination_container .notices p{
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	text-align: center; 
+	font-weight: bold; 
+	color:#b1a549; 
+	font-size: 11pt; 
+	word-spacing: 2px;
+}
+
+/* Mainbox - Main content box area */
+
+#popup_domination_container .mainbox, #popup_domination_container_advanced .mainbox{ 
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif; 
+	border:1px solid #bbbbbd;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+	-webkit-box-shadow: 0px 1px 3px 0px #cccccc;
+	-moz-box-shadow: 0px 1px 3px 0px #cccccc;
+	box-shadow: 0px 1px 3px 0px #cccccc; 
+	margin-top: 30px;
+}
+#popup_domination_container .mainbox h3, #popup_domination_container_advanced .mainbox h3{
+	height:15px; 
+	padding: 14px 15px 15px 14px;
+	background: #fefefe;
+	background: -moz-linear-gradient(top, #fefefe 0%, #ebebeb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ebebeb));
+	background: -webkit-linear-gradient(top, #fefefe 0%,#ebebeb 100%);
+	background: -o-linear-gradient(top, #fefefe 0%,#ebebeb 100%);
+	background: -ms-linear-gradient(top, #fefefe 0%,#ebebeb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#ebebeb',GradientType=0 );
+	background: linear-gradient(top, #fefefe 0%,#ebebeb 100%); 
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif; 
+	font-weight: bold !important; 
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border-radius: 8px 8px 0px 0px; 
+	font-size: 10pt; 
+}
+#popup_domination_container .mainbox .inside, #popup_domination_container_advanced .mainbox .inside, #popup_domination_container .mainbox .sidebar-inside { 
+	background-color: #fff; 
+	padding: 15px;
+}
+#popup_domination_container .mainbox .twodivs, #popup_domination_container_advanced .mainbox .twodivs{ 
+	padding-left: 315px;
+}
+#popup_domination_container .mainbox .twomaindivs, #popup_domination_container_advanced .mainbox .twomaindivs{ 
+	padding-left: 50%; 
+	position: relative;
+}
+#popup_domination_container .mainbox .twomaindivs .the_content_box, #popup_domination_container_advanced .mainbox .twomaindivs .the_content_box{
+	margin-left: -49%; 
+	position: absolute; 
+	width: 49%; 
+}
+
+#popup_domination_container .popdom-inner-sidebar .postbox .hndle, #popup_domination_container_advanced .popdom-inner-sidebar .postbox .hndle{
+	height:10px !important;
+}
+#popup_domination_container .mainbox .popdom_contentbox, #popup_domination_container_advanced .mainbox .popdom_contentbox{
+	display: block; 
+	background: #ffffff; 
+	border: 1px solid #DFDFDF; 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+	margin-left: 15px; 
+	padding-bottom: 30px;
+}
+#popup_domination_container .mainbox .popdom_contentbox h3, #popup_domination_container_advanced .mainbox .popdom_contentbox h3{
+	height: 10px !important;
+	color: #293060; 
+	margin-bottom: 25px; 
+	border-bottom: 1px solid #DFDFDF;
+}
+#popup_domination_container .mainbox .popdom_contentbox .popdom_contentbox_inside, #popup_domination_container_advanced .mainbox .popdom_contentbox .popdom_contentbox_inside{	
+	padding-left: 20px;
+}
+
+#popup_domination_container_advanced .mainbox .twomaindivs .the_content_box{
+	margin-left: -50.5%;
+}
+#popup_domination_container .mainbox .topbar, #popup_domination_container_advanced .mainbox .topbar{
+	-webkit-box-shadow: 0px 1px 3px 0px #cccccc;
+	-moz-box-shadow: 0px 1px 3px 0px #cccccc;
+	box-shadow: 0px 1px 3px 0px #cccccc;
+}
+#popup_domination_container .mainbox .title span, #popup_domination_container_advanced .mainbox .title span{
+	font-weight: bold;
+	color: #293060;
+	text-shadow: 1px 0px 0px #ffffff;
+	filter: dropshadow(color=#ffffff, offx=1, offy=0); 
+}
+.popdom-inner-sidebar{
+	margin-left:-300px; 
+	width: 290px; 
+	position: absolute;
+}
+
+/* Postbox - Mini Boxes Within the main container */
+
+#popup_domination_container .mainbox .popdom-inner-sidebar .postbox{
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border-radius: 8px 8px 0px 0px; 
+}
+#popup_domination_container .mainbox .popdom-inner-sidebar .postbox .hndle span{ 
+	font-weight: bold; 
+	color:#373A74;
+}
+#popup_domination_container .mainbox .popdom-inner-sidebar .sidebar-inside li{
+	border-bottom: 1px solid #dfdfdf; 
+	padding: 5px 0px;
+}
+
+/* Form Inputs - Styles for form inputs */
+
+#popup_domination_container .mainbox select, #popup_domination_container_advanced .mainbox select{
+	border: 1px solid #DDDDDD;
+	display: block;
+	height: 25px;
+	margin-top: 10px;
+	padding: 5px;
+	width: 100%;
+}
+#popup_domination_container .mainbox select option, #popup_domination_container_advanced .mainbox select option{ 
+	padding: 5px;
+}
+#popup_domination_container .mainbox input[type='text'], #popup_domination_container .mainbox input[type='video'], #popup_domination_container_advanced .mainbox input[type='text']{ 
+	margin:10px 0px; 
+	display:block; 
+	background-color: white; 
+	border: 1px solid #dfdfdf;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	line-height: 9pt;
+	margin-bottom: 5px;
+	padding: 5px; 
+	vertical-align: middle;
+	-webkit-box-shadow: inset 1px 1px 0px 0px #f2f2f2;
+	-moz-box-shadow: inset 1px 1px 0px 0px #f2f2f2;
+	box-shadow: inset 1px 1px 0px 0px #f2f2f2; 
+	color: #8E8E8E;
+}
+#popup_domination_container .mainbox textarea, #popup_domination_container_advanced .mainbox textarea{
+	display:block;
+}
+#popup_domination_container .mainbox input[disabled='disabled'], #popup_domination_container_advanced .mainbox input[disabled='disabled']{
+	color: #dedede !important; 
+	display:block;
+}
+#popup_domination_container .mainbox .popdom_contentbox .popdom_contentbox_inside li input[type="text"], #popup_domination_container_advanced .mainbox .popdom_contentbox .popdom_contentbox_inside li input[type="text"]{
+	display: inline !important; 
+	margin-top: 1px;
+}
+#popup_domination_form_submit .submit input[type='submit']{
+ 	margin-right: 20px;
+ 	line-height: 30px; 
+ 	height:35px; 
+ 	background: #ffffff;
+ 	background: -moz-linear-gradient(top, #ffffff 0%, #dfdfdf 100%);
+ 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dfdfdf));
+ 	background: -webkit-linear-gradient(top, #ffffff 0%,#dfdfdf 100%);
+ 	background: -o-linear-gradient(top, #ffffff 0%,#dfdfdf 100%);
+ 	background: -ms-linear-gradient(top, #ffffff 0%,#dfdfdf 100%);
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=0 );
+ 	background: linear-gradient(top, #ffffff 0%,#dfdfdf 100%); 
+ 	border: 1px solid #b9b9bb;
+ 	-webkit-box-shadow: 0px 1px 3px 0px #cccccc;
+ 	-moz-box-shadow: 0px 1px 3px 0px #cccccc;
+ 	box-shadow: 0px 1px 3px 0px #cccccc;
+ 	-webkit-border-radius: 8px;
+ 	-moz-border-radius: 8px;
+ 	border-radius: 8px; 
+ 	padding-top: 7px; 
+ 	font-weight: bold; 
+ 	color: #373A74; 
+ 	font-size: 12pt !important;
+ 	padding: 0 10px;
+}
+#popup_domination_form_submit .submit input[type='submit']:hover{
+	margin-right: 20px;
+	line-height: 30px; 
+	height:35px; 
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f4f4f4));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f4f4f4 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f4f4f4 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f4f4f4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 );
+	background: linear-gradient(top, #ffffff 0%,#f4f4f4 100%);
+}
+#popup_domination_form_submit .submit input[type='submit']:active{ 
+	background: #dfdfdf;
+	background: -moz-linear-gradient(top, #dfdfdf 11%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(11%,#dfdfdf), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #dfdfdf 11%,#ffffff 100%);
+	background: -o-linear-gradient(top, #dfdfdf 11%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #dfdfdf 11%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#ffffff',GradientType=0 );
+	background: linear-gradient(top, #dfdfdf 11%,#ffffff 100%); 
+	border: 1px solid #b9b9bb;
+}
+#popup_domination_tab_schedule .page_list ul.children { 
+	margin-left: 20px;
+}
+
+/* Bottom - Contact that appears at the bottom of the plugin */
+
+#popup_domination_form_submit{ 
+	width: 100%; 
+	float: left;
+}
+#popup_domination_current_version{ 
+	float: right; 
+	margin-right: 20px; 
+	padding-top: 23px; 
+	width: 20%; 
+	text-align: right;
+}
+.submit {
+	float: left; 
+	width: 70%;
+}
+.the_content_box .popdom_contentbox_inside .submit{
+	float:none;
+}
+
+/* Misc - not sure what these do, but worth keeping ;) */
+
+.fileedit-sub{
+	float:left;
+}
+.alignright{ 
+	margin-top: 10px; 
+	clear: both;
+}
+

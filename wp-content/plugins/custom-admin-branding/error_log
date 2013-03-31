@@ -1,0 +1,1 @@
+[01-Jun-2012 11:21:20 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/masedi/public_html/wp-content/plugins/custom-admin-branding/custom_admin_branding.php on line 19

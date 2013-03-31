@@ -1,0 +1,56 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:#283c43 url(../images/bg-blue.jpg) center top fixed no-repeat;
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#9ca7ac;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	background:transparent;
+}
+
+
+ul#opl-launch-items li.opl-launch-top {
+	border-bottom:1px solid #9ca7ac !important;
+}
+
+/* =TOP NAV
+------------------------------------------*/
+#opl-top-nav {
+	background:#547482;
+	-webkit-box-shadow: inset 0px 0px 4px 1px #425d69;
+	box-shadow: inset 0px 0px 4px 1px #425d69;
+}
+
+#opl_nav a:hover{
+	background:#8bacbb;
+}
+
+#opl_nav li li {
+	background:#547482; 
+	border:1px solid #8bacbb; 
+	border-width:0 1px 1px 1px; 
+}
+
+#opl_nav li ul li a {
+	color:#FFF;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#optin .optin_body {
+	background-color:transparent;
+}
+
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #b7cbd4;
+}

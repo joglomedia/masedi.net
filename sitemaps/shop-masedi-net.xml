@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://shop.masedi.net/wp-content/plugins/google-xml-sitemaps-with-multisite-support/sitemap.xsl"?><!-- generator="wordpress/3.5.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.2" -->
+<!-- generated-on="March 18, 2013 11:53 pm" -->
+<!-- Debug: Total comment count: 6 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://shop.masedi.net/</loc>
+		<lastmod>2013-03-18T23:06:37+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://shop.masedi.net/my-account/lost-password/</loc>
+		<lastmod>2013-03-16T16:43:18+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/checkout/order-received/</loc>
+		<lastmod>2013-02-04T18:53:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/checkout/pay/</loc>
+		<lastmod>2013-02-04T18:53:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/my-account/change-password/</loc>
+		<lastmod>2013-02-04T18:53:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/my-account/view-order/</loc>
+		<lastmod>2013-02-04T18:53:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/my-account/edit-address/</loc>
+		<lastmod>2013-02-04T18:53:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/my-account/</loc>
+		<lastmod>2013-02-04T18:53:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/order-tracking/</loc>
+		<lastmod>2013-02-04T18:53:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/checkout/</loc>
+		<lastmod>2013-02-04T18:53:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/cart/</loc>
+		<lastmod>2013-02-04T18:53:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://shop.masedi.net/shop/</loc>
+		<lastmod>2013-02-04T18:53:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

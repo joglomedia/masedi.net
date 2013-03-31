@@ -1,0 +1,9 @@
+<div id="author"> 
+ <img src="<?php bloginfo('template_directory'); ?>/images/author.jpg" alt="" />
+</div>
+<div id="author-text">
+<img src="<?php bloginfo('template_directory'); ?>/images/about_author.gif" alt="" />
+<p>
+Sed sed urna eu sapien ultricies vestibulum. Class aptent taciti sociosqu ad litora torquent per      conubia nostra, per inceptos himenaeos. Curabitur sed justo eu elit sodales sodales. Fusce augue diam,     commodo vel, congue eu, tristique Fusce augue diam, commodo vel, congue eu, tristique.
+</p>
+</div>

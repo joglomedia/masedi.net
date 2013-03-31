@@ -1,0 +1,242 @@
+
+2.9.2
+fixes:
+	-centered modal form message when registration is required (removed width: 960px; from master.css line 120)
+	-fixed another continue button bug on step 1 of modal form. (process_form_ajax.php multiple lines starting at 19)
+	-fixed total live ad counter on dashboard page (tpl-dashboard.php multiple lines 67 thru 97)
+	-fixed spelling error on ad form page (highlighed to highlighted)
+	-rolled back modal form to slider form
+	-added * next to required fields on ad edit page. Removed mandatory check for phone & moved location field up (tpl-edit-ad.php)
+	-fixed other ads listed by author section so it shows all live ads by author (author.php)
+	-added localization tag around "Categories" sidebar text (tpl-edit-ad.php)
+	-tightened up children sidebar li elements. Padded top/bottom to space out more. (master.css lines 93 and added line 107 & 141)
+	-fixed form so field values aren't reset if error is shown. (post-form.php)
+	-included currency symbol on paypal confirmation total. (post-form.php line 67)
+	-aligned sidebar lines under h2 text instead of above. Affects all .css files.
+	
+changes:
+	-changed .classform and added .adfields to css. Moved field width to html instead of within .css
+	-added "x" to close error box and #closelink elements. (post-form.php line 10 & master.css )
+	-updated bundled plugins to the latest versions
+	-dynamically create and find WP upload folder for image uploads (form_process.php line 80ish).
+	-create friendly image names when uploaded with post. Now uses part of ad title for increased SEO. (New function in functions.php lines 38-41 & form_process line 83ish)
+	
+
+2.9.1
+fixes:
+	-fixed incorrect calculation on category pricing total (header.php line 154)
+	-ad modal form resized from 780px to 560px (header.php line 143)
+	-free categories are now automatically published instead of being a draft unless it's featured. (classifiedform.class.php lines 106-112)
+	-changed text "step x of 2" to "step x of 3" since there are actually three steps. (step1.php & step2.php lines 2 & 1)
+	-fixed IE css issue on modal form. (all css files. removed "width: 95%;" from .classform class line 38ish)
+	-fixed step2 confirmation message in IE. Changed from <H2> to <p> (step2.php line 3)
+	-item number hidden parameter wasn't working for paypal. Minor issue but fixed. (functions.php line 603)
+	-included logo and report button .psd design files
+	-fixed continue button on step 1 of modal form when there are carriage returns in description field. (process_form_ajax.php lines 115-129)
+
+2.9
+fixes:
+	- fixed submited spelling error on post-form.php
+	- fixed show category icon on search.php results
+	- removed onsubmit search box function b/c it was causing problems with slashes
+	- made default prune status admin option set to "no"
+	- changed index.php main_page_img check from == 'yes' to != 'no' to instantly show thumbnails on new install
+	- fixed css files so W3C validated with no errors
+	- changed .js files to load using wp_enqueue_script to avoid conflicts with other .js files
+	- changed "posted" date to use date format under WP general settings page
+
+changes:
+	- added new customer dashboard with edit & pause ad features
+	- created new header-nav box with pages and login options
+	- overhauled the header and created a 468x60 ad spot
+	- created 2 new levels of dropdown navigation for the header pages
+	- revamped and created 5 new levels of dropdown navigation for the categories
+	- added Google maps option so ads will show map of item location
+	- added category-level pricing. Supports free categories as well
+	- added percentage-based pricing. Ad cost will depend on what item listing cost is
+	- added featured ad option so you can pay extra to be listed first
+	- added countdown timer to show remaining time left for each ad
+	- created new options field called "exclude pages from nav" to prevent new dashboard pages from showing in navigation
+	- added ascending and descending sorting by column header
+	- login, register and forgot password pages now match theme
+	- added sidebar.php and moved code from core classipress files
+	- added a new author.php page
+	- added orderby and order parameters to the wp_list_categories function on index.php
+	- added depth=1 into the footer wp_list_categories function on footer.php
+	- created a master.css file so it's easier to update all color schemes
+	- added the paypal button instead of linking to paypal's site to speed up load time
+	- replaced prototype and scriptaculous with jquery
+	- replaced lightbox with fancybox which uses jquery
+	- added new admin option to allow/disallow ad editing
+	- refactored admin options code
+	- added new ad form field called URL
+	- added a new custom field that records the total cost of the ad
+	- added a user profile page with gravatar support (requires plugin)
+	- added support for sociable plugin
+	- moved all includes to a include directory instead of theme root
+	- created app directory for non standard WP	
+	- added favicon to admin options menu
+	
+
+2.8.2
+fixes:
+	- fixed theme files so localization and .mo files work properly
+	- localized admin pages
+	- added note next to price field
+	- added missing options saved fade message on admin pages
+	- fixed expires date on submission custom field value
+	
+changes:	
+	- added 15 new PayPal currencies on drop down list
+	- included .po and .pot files
+
+
+2.8.1
+fixes:
+	- changed hardcoded select statement wp_posts to $wpdb->posts in header.php
+	- removed the addslashes function from the post description. Now supports embedded video submissions when "accept html" is enabled in form_process.php
+	- added report.jpg missing image in /styles/default/
+
+changes:
+	- added friendly search urls (i.e. /search/red+car instead of /?s=red+car) in header.php
+
+
+2.8
+fixes:
+	- set trim on all admin fields to remove blank spaces
+	- created placeholder image on listing if no image was uploaded
+	- fixed multiple spelling errors
+	- overall page width has been increased to 980px
+	- search box returns default text when click out of box
+	- fixed many trivial bugs
+	- optimized code and created multiple new functions
+	- category images now have transparent backgrounds instead of white
+	- after submitting ad the "post a classified" button now works
+	- pre-populates known ad fields for registered users
+	
+
+changes:
+	- four new color schemes easily changable via options page
+	- made image buttons blank for easy translation
+	- description snippet added under ad title
+	- posted date column now shows more detailed info (posted 2 hours ago, etc)
+	- comments page added and feature enabled
+	- 404.php error page has been added
+	- created search.php page
+	- created page.php page
+	- added new widget sidebar for pages 
+	- wrote new search function to include custom fields
+	- new pagination added to replace next and previous buttons
+	- moved values to custom fields instead of using post description field
+	- created expires date custom field
+	- breadcrumb category path added to single.php page
+	- next and previous links added to single.php page
+	- email this post plugin support
+	- print this post plugin support
+	- tagging is now enabled
+	- top posts of the day plugin support
+	- post hit counter plugin support added
+	- currency symbol field is now a text box. Was broken before
+	- optimized and cleaned up options page
+	- added "expand inquiry form" option
+	- support for multi-languages by creating a .pot file
+	- feedburner rss support
+	- google analytics support
+	- adsense support
+	- deprecated all instant messenger fields from new ad form
+	- optimized layout for ad form
+	- increased description max character amount to 5000
+	- added custom text box area on ad form
+	- removed redundant "listing details" section on single.php
+	- created several new admin menus for easier management
+	- added new icons to ad information column
+	- included several placeholder 125x125 ad images
+	- post expiration date being saved in a custom field
+	- improved seo for page meta title tags
+
+
+
+2.0.7
+fixes:
+	- 2.7 upgrade bug. the category icons wouldn't get saved
+	- some bug fixes in the publish form for IE. some texts woren't aligned right
+	- log-out link in the header wasn't working (wp 2.7 upgrade bug).
+changes:
+	- aded a meta tag for description in the header for better SEO
+	- aded a new icon over the uploaded images in the image manager so you can view the images and decide if you want to delete them.
+	- report email now also includes the ip and hostname of the person who reported the url
+file changes:
+	- ie.css (new file created)
+	- header.php
+	- single.php
+	- functions.php
+	- post-form.php
+	- style.css (just the version number of the theme on line 5)
+
+
+2.0.6
+fixes:
+	- small rss fix
+	- small bug from upgrading to wordpress 2.7. this bug was preventing the categories from displaying in the ClassiPress admin panel above the icons.
+file changes:
+	- functions.php
+	- style.css (just the version number of the theme on line 5)
+
+
+2.0.5
+changes:
+	- when someone logges in from the form in the header he will not be redirected to the admin panel any more. Instead he will be redirected back to the home page. that way your users will get a better experience from your site
+fixes:
+	- fixed the broken image when uploading (this was a IE only)
+file changes:
+	- header.php
+	- js/iconified.js
+	- css/iconified.css
+	- style.css (just the version number of the theme on line 5)
+
+
+
+2.0.4
+changes:
+	- added the ability to choose other currency than the three default ones
+	- on the home page I added the ability to show the first uploaded image from a post instead of the category icon of an ad
+	- when someone is logged in they no longer see the login box in the header. they will see a text like "Logged in as USERNAME" and a link to log-out
+fixes:
+	- fixed header static text. I forgat to change the static "$10" with the dinamic currency and ad value
+	- fixed some spacing issues with the column names on the front page
+	- shortened the php currency text (you probably won't understand this, but I just wanted to remember I did this :)  )
+file changes:
+	- functions.php
+	- header.php
+	- index.php
+	- style.css
+	- single.php
+
+
+
+2.0.3
+fixes:
+	- fixed small IE problem in footer
+	- renamed file "wwiconified.css" to iconified.css and moved it to /css theme directory
+	- renamed file "wwiconified.js" to iconified.js and moved it to /js theme directory
+	- fixed delete image problem from image upload. the image was not showing up
+	- fixed the text counter problem. the "characters left" number was not decreasing
+file changes:
+	- footer.php
+
+
+
+2.0.2
+fixes:
+	- fixed header IE problem. the login box wasn't display correct.
+file changes:
+	- header.php
+	- style.css
+
+
+
+2.0.1
+fixes:
+	- fixed header problem. when paypal was deactivated the header would break.
+file changes:
+	- header.php

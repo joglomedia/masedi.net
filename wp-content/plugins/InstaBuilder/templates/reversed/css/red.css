@@ -1,0 +1,34 @@
+/* =GENERAL
+------------------------------------------*/
+#opl-header-bg {
+	background:#FFF;
+	border-bottom:2px solid #d95454;
+	
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#d95454;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	background:#cc0000 url(../images/bg.png) left top scroll repeat;
+	border-top:1px solid #990000;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#opl_nav a:hover {
+	border-top:2px solid #d95454;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #b7cbd4;
+}

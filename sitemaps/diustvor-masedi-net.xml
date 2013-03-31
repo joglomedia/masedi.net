@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://diustvor.masedi.net/wp-content/plugins/google-xml-sitemaps-with-multisite-support/sitemap.xsl"?><!-- generator="wordpress/3.3.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.2" -->
+<!-- generated-on="January 28, 2012 4:38 pm" -->
+<!-- Debug: Total comment count: 1 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://diustvor.masedi.net/</loc>
+		<lastmod>2012-01-28T16:38:07+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 8: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://diustvor.masedi.net/2012/01/28/eclairage-pas-cher/</loc>
+		<lastmod>2012-01-28T16:38:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 7: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://diustvor.masedi.net/2011/10/09/diffrents-attention-pas-des-outils-annonce-de/</loc>
+		<lastmod>2011-10-09T15:06:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 6: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://diustvor.masedi.net/2011/10/09/renforcer-sousse-prsence-annonces-gratuites-soyez-venue-sa/</loc>
+		<lastmod>2011-10-09T09:15:01+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1: Comments: 1 of 1 = 1 points -->
+	<url>
+		<loc>http://diustvor.masedi.net/2011/09/18/hello-world/</loc>
+		<lastmod>2011-09-18T18:20:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://diustvor.masedi.net/sample-page/</loc>
+		<lastmod>2011-09-18T18:20:17+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

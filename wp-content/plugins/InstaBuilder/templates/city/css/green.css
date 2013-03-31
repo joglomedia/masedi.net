@@ -1,0 +1,41 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:#355f39 url(../images/bg-green.png) top left repeat-x;
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#d5e2bf;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	background:transparent;
+}
+
+/* =TOP NAV
+------------------------------------------*/
+#opl-top-nav {
+	background:#2d5431;
+	-webkit-box-shadow: inset 0px 0px 4px 1px #214125;
+	box-shadow: inset 0px 0px 4px 1px #214125;
+}
+
+#opl_nav a:hover{
+	background:#508e55;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#optin .optin_body {
+	background-color:transparent;
+}
+
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #99af94;
+}

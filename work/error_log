@@ -1,0 +1,10 @@
+[08-May-2011 15:11:20] PHP Warning:  include(ip2locationlite.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/masedi/public_html/work/ip2mail.php on line 7
+[08-May-2011 15:11:20] PHP Warning:  include(ip2locationlite.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/masedi/public_html/work/ip2mail.php on line 7
+[08-May-2011 15:11:20] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'ip2locationlite.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/masedi/public_html/work/ip2mail.php on line 7
+[08-May-2011 15:11:20] PHP Fatal error:  Class 'ip2location_lite' not found in /home/masedi/public_html/work/ip2mail.php on line 14
+[09-May-2011 12:32:47] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/masedi/public_html/work/blacklistip.php on line 3
+[09-May-2011 12:32:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/masedi/public_html/work/blacklistip.php on line 13
+[09-May-2011 12:38:12] PHP Warning:  fopen(../ip.blacklist.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/masedi/public_html/work/blacklistip.php on line 4
+[09-May-2011 12:38:12] PHP Notice:  Undefined variable: iplist in /home/masedi/public_html/work/blacklistip.php on line 14
+[09-May-2011 12:38:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/masedi/public_html/work/blacklistip.php on line 14
+[11-Feb-2012 18:59:44 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/masedi/public_html/work/thesaurus.php on line 12

@@ -1,0 +1,8 @@
+Template Name: New Template # 3
+Colors: Default[default:#000]
+Preview Size: 300x164
+Preview Ext: jpg
+Fields: Title[id:title,max:50]||Video URL[id:video,type:video,max_w:472,max_h:280|Video (with embedded code)[id:video-embed,type:videoembed,max_w:472,max_h:280]|Footer Security Note[id:footer_note,max:60]|Name Default Value[id:name_default,default_val:Your First Name...]|Email Default Value[id:email_default,default_val:Your Email Address...]|Submit Button[id:submit_button,max:26,default_val:FREE INSTANT ACCESS]
+List Items: 0
+Button Colors: Red[red]|Green[green]|Orange[orange]|Blue[blue]|Dark Red[dark-red]|Dark Green[dark-green]|Dark Orange[dark-orange]|Dark Blue[dark-blue]
+Center: Y

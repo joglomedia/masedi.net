@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="Shortcut Icon" href="http://images.ientrymail.com/jayde/fav.ico">
+<title>Jayde.com - The B2B Search Engine</title>
+<meta name="description" content="Jayde.com, the B2B Search Engine. All of your business search needs in one place. Whether it is a company name, product, service or other information, it can be found at the Jayde.com Business Directory.">
+<meta name="keywords" content="b2b, business search engine, business directory, company search, company directory, directory of businesses, b2b search, b2b directory, b2b search engine, business database">
+<link href="http://images.ientrymail.com/jayde/style09.css" rel="stylesheet" type="text/css">
+<!--[if IE 6]>
+<link href="http://images.ientrymail.com/jayde/styleIE6.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 7]>
+<link href="http://images.ientrymail.com/jayde/styleIE7.css" rel="stylesheet" type="text/css">
+<![endif]-->
+</head>
+
+<body>
+<div class="top-ientry-bar">
+<a href="http://www.ientry.com/10th-anniversary.html" id="ientry-bar-right"><img src="http://images.ientrymail.com/ientry/ientry-anniversary.gif" border="0" alt=""> iEntry 10th Anniversary</a> 
+<a href="http://submit2.jayde.com/"><img src="http://images.ientrymail.com/jayde/redesign/jayde-topbar-submit.png" border="0" alt=""> Submit Your Site</a> 
+<a href="http://www.jayde.com/about.html"><img src="http://images.ientrymail.com/webpronews/drupal/bar_advertising.gif" border="0" alt="">About</a> 
+<script type="text/javascript" language="JavaScript" src="http://aj.600z.com/aj/65582/0/vj?z=1&dim=65095"></script>
+<script type="text/javascript" language="JavaScript" src="http://aj.600z.com/aj/65583/0/vj?z=1&dim=65096"></script>
+<script type="text/javascript" language="JavaScript" src="http://aj.600z.com/aj/65584/0/vj?z=1&dim=65097"></script>
+<div class="clear"> </div>
+</div>
+<div class="top-750">
+  <script type="text/javascript" language="JavaScript" src="http://aj.600z.com/aj/5697/0/vj?z=1&dim=144&pos=1"></script>
+</div>
+<div class="contain">
+  <form  action="http://directory.jayde.com/search" name="searchpl" method="get" class="jayde-submit">
+    <div class="nav-links">
+	  <a href="http://www.jayde.com/categories.html" id="red"><img src="http://images.ientrymail.com/jayde/categories-icon.jpg" alt="" border="0"> <b>Categories</b></a> |
+	  <script type="text/javascript" language="javascript" src="http://aj.600z.com/aj/80104/0/vj?z=1&dim=80103"></script> | 
+	  <a href="http://www.jayde.com/contact.html"><img src="http://images.ientrymail.com/jayde/contact-icon.gif" alt="" border="0"> <b>Contact</b></a> | 
+	  <a href="http://www.jayde.com/about.html"><img src="http://images.ientrymail.com/jayde/about-icon.jpg" alt="" border="0"> <b>About</b></a> |
+	  <a href="http://submit2.jayde.com/"><img src="http://images.ientrymail.com/jayde/submit-icon.jpg" alt="" border="0"> <b>Submit</b></a>
+	</div>
+	<input value="" name="query" type="text" class="searchinput"><input value="" name="search" type="submit" class="searchbutton">
+	<img src="http://images.ientrymail.com/jayde/search-button-arrow.gif" alt="" class="search-arrow">
+	<input type="hidden" name="a" value="0">
+	<br>
+	<center><a href="http://submit2.jayde.com/" title="Submit Your Site To Jayde For Free!"><img src="http://images.ientrymail.com/jayde/jaydebutton.jpg" border="0" alt="Submit Your Site To Jayde For Free!"></a></center>
+  </form>
+  <a href="http://www.jayde.com/" class="logo" title="Jayde">Jayde</a>
+</div>
+<div class="jayde-info">
+  <div class="body-336">
+    <script type="text/javascript" language="JavaScript" src="http://aj.600z.com/aj/5698/0/vj?z=1&dim=122&pos=2"></script>
+  </div>
+  <b class="index-featured"><i>New:</i> Edit Your Listing!</b><br>
+  If you ever believe your Jayde listing to be in need of a tweak, this new tool will allow you to perform the alteration yourself.  A site’s title, description, and keywords can all be edited, and there are safety precautions in place to make sure other people don't modify your listing without permission.
+  <br><br>
+  <a href="http://edit.jayde.com/edit.php" title="Edit Your Listing!"><img src="http://images.ientrymail.com/jayde/edit-listings-ad.jpg" border="0" alt="Edit Your Listing!"></a>
+  <br><br>
+  <b class="index-featured">Jayde.com - The Business to Business Search Engine</b><br>
+  Jayde.com is the Premier Business to Business Search Engine. All of your business search needs in one place. Everything is designed around helping users find what they need when they need it. Whether it is a company name, product, service or other information, it can be found at the <b>Jayde.com Business to Business Directory</b>.
+  <div class="clear"> </div>
+</div>
+<div class="footer">
+  <a href="http://www.jayde.com/about.html">About Jayde.com</a> | <a href="http://submit2.jayde.com">Submit Your Site</a> | <a href="http://www.jayde.com/contact.html">Contact</a> | <a href="http://www.ientry.com/page/ad/">Advertise on Jayde.com</a>
+<br><br>
+  :: Business to Business Directory - Jayde.com - Business to Business Search Engine ::<br>
+  <a href="http://www.jayde.com/">Jayde.com</a> is an <a href="http://www.ientry.com/">iEntry, Inc.</a> ® website - 2009 All Rights Reserved <a href="http://www.ientry.com/page/corp/privacy.html">Privacy Policy</a> and <a href="http://www.ientry.com/page/corp/legal.html">Legal</a>
+</div>
+<a href="http://aj.600z.com/aj/80725/0/cc?z=1"><img 
+src="http://aj.600z.com/aj/80725/0/vc?z=1&dim=6869" width="1" height="1" 
+border="0"></a>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5364439-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

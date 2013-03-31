@@ -1,0 +1,25 @@
+CREATED BY KAI LOON @ KAILOON.COM
+=================================
+
+INTRODUCTION
+============
+Thanks for choosing superfresh by Kai Loon. I hope that you can enjoy your blogging with this theme.
+
+WHAT YOU GET
+============
+1. Theme folder (crybook)
+
+
+HOW TO INSTALL
+==============
+1. Extract the zip file to your wp-content folder.
+2. Log into WordPress administration and click on "Design"
+3. Look for the "crybook" image and click on it to install / activate this theme.
+4. Go back to your blog's front page and refresh / reload it.
+
+
+SUPPORT
+=======
+1. http://www.themetation.com/forum
+
+

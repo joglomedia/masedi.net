@@ -1,0 +1,361 @@
+@import url("../popreset.css");
+
+.popup-dom-lightbox-wrapper {
+	height: 100%;
+	min-height: 350px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-overlay {
+	background-image:url('images/bg-trans.png');
+	height: 100%;
+	min-height: 350px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.popup-dom-lightbox-wrapper .lightbox-main{
+	z-index: 1000;
+}
+
+.popup-dom-lightbox-wrapper .powered {
+	clear: both;
+	text-align: center;
+	margin-top: 40px;
+	display: block;
+	position: absolute;
+	width: 330px;
+}
+
+
+
+.popup-dom-lightbox-wrapper .powered a {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #000;
+	color: #fff;
+	font-size: 12px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.popup-dom-lightbox-wrapper .powered a:hover {
+	text-decoration: underline;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-close {
+	position: absolute;
+	background-image: url('images/lightbox-close.png');
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	top: -15px;
+	right: -15px;
+	height: 32px;
+	width: 30px;
+	background-size: 100%;
+	
+}
+
+.popup-dom-lightbox-wrapper .lightbox-close:hover {
+	background-position: left top;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-close span {
+	display: none;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main {
+	color: #fff;
+	width: 320px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('images/black-bg.jpg');
+	border: 1px solid #686868;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 20px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top {
+
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top-content {
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	/* min-height: 250px; */
+	padding-bottom: 20px;
+}
+
+
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top p.heading {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	color: #fff;
+	text-shadow: 0px 1px 0px #000;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top .bullet-listx {
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 100%;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top ul.bullet-list {
+	float: left;
+	margin-left: 50%;
+	margin-right: -25%;
+	position: relative;
+	list-style: none;
+	color: #fff;
+	max-width: 340px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top ul.bullet-list li {
+	right: 50%;
+	position: relative;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image: url('images/bullet.png');	
+	background-position: 0px 2px;
+	text-shadow: 0px 1px 0px #000;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	margin-bottom: 18px;
+	line-height: 22px;
+	color: #fff;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-middle-bar p.heading2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 60px;
+	text-shadow: 0px 1px 0px #000;
+	color: #fff;
+	 
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom {
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 0px;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info {
+	height: 230px;
+	float: left;
+	margin-left: 180px;
+	margin-top: 60px;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info h1 {
+	font-size: 24px;
+	line-height: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #002753;
+	font-weight: normal;
+	letter-spacing: -1px;
+	text-shadow: 0px 1px 0px #fff;
+	margin-bottom: 45px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .green-ticks {
+	list-style: none;
+	margin-top: 20px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .green-ticks li {
+	background-image: url('images/green-tick.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #002753;
+	font-weight: normal;
+	letter-spacing: -1px;
+	text-shadow: 0px 1px 0px #fff;
+	background-position: left center;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .discover {
+	background-image: url('images/discover.png');
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 176px;
+}	
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .discover span {
+	display: none;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-signup {
+	height: 260px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 50px;
+	width: 250px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-signup p.get-free {
+	font-size: 16px;
+	line-height: 21px;
+	font-family: Georgia, Garamond, Times, serif;
+	color: #fff;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 25px;
+	text-shadow: 0px 1px 0px #000;
+}
+
+.lightbox-clear {
+	clear: both;
+}
+.popup-dom-lightbox-wrapper .lightbox-bottom form {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="text"] {
+	margin-bottom: 10px;
+	border: 0px;
+	line-height: 20px;
+	padding: 8px 40px 8px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 264px;
+	border: 3px solid #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+	margin-top: 10px;
+	background-position: left top;
+	outline: none;
+	color:#888888;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	background-image: url('images/icons.png');
+	background-repeat: no-repeat;
+	background-position: 284px 10px;
+
+	background: #fafafa;
+	-moz-box-shadow: inset 0 2px 2px rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 0 2px 2px rgba(0,0,0,0.15);
+	box-shadow: inset 0 2px 2px rgba(0,0,0,0.15);
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="text"].email {
+	background-position: 284px -44px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"] {
+	width: 320px;
+	height: 49px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ff8900; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff8900 0%, #ff7e00 27%, #ff6000 76%, #ff5600 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8900), color-stop(27%,#ff7e00), color-stop(76%,#ff6000), color-stop(100%,#ff5600)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff8900 0%,#ff7e00 27%,#ff6000 76%,#ff5600 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff8900 0%,#ff7e00 27%,#ff6000 76%,#ff5600 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff8900 0%,#ff7e00 27%,#ff6000 76%,#ff5600 100%); /* IE10+ */
+	background: linear-gradient(top, #ff8900 0%,#ff7e00 27%,#ff6000 76%,#ff5600 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8900', endColorstr='#ff5600',GradientType=0 ); /* IE6-9 */	text-align: center;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #000;
+	text-transform: uppercase;
+	line-height: 45px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	border-top: 1px solid #ffba69;
+}
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"]:hover {
+background: #ff9419; /* Old browsers */
+background: -moz-linear-gradient(top, #ff9419 0%, #ff8c19 24%, #ff6f19 76%, #ff6619 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9419), color-stop(24%,#ff8c19), color-stop(76%,#ff6f19), color-stop(100%,#ff6619)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ff9419 0%,#ff8c19 24%,#ff6f19 76%,#ff6619 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ff9419 0%,#ff8c19 24%,#ff6f19 76%,#ff6619 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ff9419 0%,#ff8c19 24%,#ff6f19 76%,#ff6619 100%); /* IE10+ */
+background: linear-gradient(top, #ff9419 0%,#ff8c19 24%,#ff6f19 76%,#ff6619 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9419', endColorstr='#ff6619',GradientType=0 ); /* IE6-9 */}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"]:active {
+	background: #ff5600; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff5600 0%, #ff6000 24%, #ff7e00 73%, #ff8900 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff5600), color-stop(24%,#ff6000), color-stop(73%,#ff7e00), color-stop(100%,#ff8900)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff5600 0%,#ff6000 24%,#ff7e00 73%,#ff8900 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff5600 0%,#ff6000 24%,#ff7e00 73%,#ff8900 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff5600 0%,#ff6000 24%,#ff7e00 73%,#ff8900 100%); /* IE10+ */
+	background: linear-gradient(top, #ff5600 0%,#ff6000 24%,#ff7e00 73%,#ff8900 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5600', endColorstr='#ff8900',GradientType=0 ); /* IE6-9 */
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom .secure {
+	font-size: 12px;
+	margin-top: 10px;
+	line-height: 17px;
+	font-weight: bold;
+	width: 330px;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	left: -9px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #8e8e8e;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom .secure img {
+	position: relative;
+	top: 3px;
+	margin-right: 5px;
+}
+
+/* The Lightbox Designs
+=========================
+*/
+
+
+
+
+
+
+/* The Button Designs
+=======================
+*/
+

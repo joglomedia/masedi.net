@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://busanamuslim.masedi.net/wp-content/plugins/google-xml-sitemaps-with-multisite-support/sitemap.xsl"?><!-- generator="wordpress/3.5.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.2" -->
+<!-- generated-on="February 22, 2013 11:35 pm" -->
+<!-- Debug: Total comment count: 1 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://busanamuslim.masedi.net/</loc>
+		<lastmod>2012-07-26T16:06:50+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 1: Comments: 1 of 1 = 1 points -->
+	<url>
+		<loc>http://busanamuslim.masedi.net/2012/07/26/hello-world/</loc>
+		<lastmod>2012-07-26T16:06:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://busanamuslim.masedi.net/sample-page/</loc>
+		<lastmod>2012-07-26T16:06:50+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

@@ -1,0 +1,81 @@
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 4px;
+   border: 1px solid #e0e0e0;
+   background-color: #fff;
+}
+
+.alignleft {
+	float: left;
+   margin: 5px 5px 0 0;
+}
+
+.alignright {
+	float: right;
+   margin: 5px 0 0 5px;
+}
+
+img.alignleft {
+   float: left;
+   padding: 4px;
+   border: 1px solid #e0e0e0;
+   background-color: #fff;
+   margin: 5px 5px 0 0;
+}
+
+img.alignright {
+   float: right;
+   padding: 4px;
+   border: 1px solid #e0e0e0;
+   background-color: #fff;
+   margin: 5px 0 0 5px;
+}
+
+a img.attachment-thumbnail {
+   padding: 4px;
+   border: 1px solid #e0e0e0;
+   background-color: #fff;
+   margin: 0 0 5px 5px;
+   float: left;	
+}
+
+.wp-caption {
+   border: 1px solid #e0e0e0;
+   text-align: center;
+   background-color: #fff;
+   padding-top: 4px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+   color: #666;
+   font-style: italic;
+}
+#switcher { padding: 0 0 20px 0; }
+#switcher a { float: right; text-indent: -9999em; height: 10px; width: 10px; margin: 0 0 0 20px; display: inline; border: 1px solid #111; }
+a#blue { background-color: #3b5998; }
+a#blue:hover { background-color: #09f; }
+a#pink { background-color: #f28cb5; }
+a#pink:hover { background-color: red; }
+a#green { background-color: #70983b; }
+a#green:hover { background-color: green; }
+a#purple { background-color: #c9f; }
+a#purple:hover { background-color: purple; }
+a#red{ background-color: #e95959; }
+a#red:hover { background-color: #740f0f; }
+
+a { outline: none; }
+
+blockquote { padding: 20px 20px 0; background-color: #f7f7f7; border: 1px solid #e0e0e0; margin: 0 auto 10px; width: 70%; }

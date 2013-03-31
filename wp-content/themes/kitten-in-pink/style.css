@@ -1,0 +1,413 @@
+/*  
+Theme Name: Kitten in Pink
+Theme URI: http://myblogit.net/2008/07/15/free-wordpress-theme-kitten-in-pink/
+Description: A fun pink kitty theme with 2 column, widget ready theme.
+Version: 1.4
+Author: Mr.BlogIt (David Span)
+Author URI: http://davidspan.com/
+Tags:pink, 2 columns, widget ready
+
+*/
+
+*{
+	list-style:none;
+}
+body{
+margin:0px;	
+background:  url('images/backc.jpg') #fff repeat fixed;	
+	
+
+color:#cd9fc7;
+font: 12px arial, helvetica, verdana, sans-serif;
+
+
+/* font-family:"Gill Sans","Franklin Gothic Medium","Lucida Grande",Arial,Helvetica;
+font-size:65.5%;
+line-height:1.5em;*/
+}
+
+a{
+color:#F282E4;
+text-decoration:none;
+}
+a:hover{
+	
+color:#d66bc8;	
+}
+#wrapper{
+margin-top:0px;
+background:  url('images/main-bg.jpg') #fff;
+	background-repeat: repeat-y;	
+	
+}
+
+#header{
+	margin:0px;
+	height:175px;
+	background:  url('images/puttycat_header.jpg');
+	background-repeat: no-repeat;
+
+
+}
+#header-menu{
+	padding-left:6px;
+	padding-right:6px;
+	color:#fff;
+	
+float:left;
+}
+
+#header-menu a {
+padding:0;
+}
+
+#header-menu ul {
+
+list-style-type:none;
+line-height:20px;
+margin:0;
+padding:0;
+}
+
+#header-menu li {
+
+
+display:inline;
+font-size:1.2em;
+line-height:20px;
+padding-left:16px;
+padding-right:6px;
+}
+
+#header-menu a:link,#header-menu a:visited {
+color:#F282E4;
+text-decoration:none;
+font-weight:700;
+
+line-height:20px;
+text-transform:uppercase;
+}
+
+#header-menu a:hover,#header-menu a:active {
+color:#F282E4;
+font-weight:700;
+
+line-height:20px;
+text-decoration:underline;
+}
+
+#header-soc{
+	
+height:65px;
+margin-top:10px;
+float:right;
+}
+
+#goog-ad1{
+	float:right;
+	padding-top:4px;
+	
+}
+
+#search{
+float:left;
+padding-left:98px;
+padding-top:5px;
+}
+#search input{
+	float: left;
+	border: 0;
+	font-size: 11px;
+	margin-left:13px;
+
+}
+
+#search input#s{
+background:transparent none repeat scroll 0% 0%;
+color:#F282E4;
+display:inline;
+font-family:Verdana;
+width:110px;
+}
+
+
+
+#main-content{
+padding-left: 10px;	
+	
+}
+#post-title {
+/* font-family:Verdana,georgia;
+font-size:20px;*/
+padding-bottom:5px;
+}
+.post_by {
+
+
+/* line-height:19px;*/
+margin-bottom:5px;
+padding-bottom:5px;
+padding-left:1.9pt;
+padding-top:0pt;
+
+}
+p + p {
+margin-top:0;
+text-indent:0;
+}
+
+p img {
+float:left;
+margin:0em 1.5em 0em 0pt;
+padding:0pt;
+}
+
+
+.post {
+background:#FFFFFF none repeat scroll 0% 0%;
+
+border-bottom:1px solid #CCCCCC;
+float:left;
+/* font-size:1.1em; */
+margin:0pt 0pt 20px;
+overflow:hidden;
+padding:10px 30px;
+
+}
+.post h2{
+	margin-bottom:0px;
+	font-size:20px;
+}
+
+.post p{
+/* 	font-family:Arial,Helvetica,San-Serif;
+font-size:13px;
+line-height:21px;*/
+}
+
+
+	#logo-title	h1{
+			color:white;
+font-family:"Trebuchet MS",Arial,Sans-Serif;
+font-size:4em;
+font-weight:normal;
+margin-top:30px;
+text-align:right;
+text-transform:uppercase;
+			
+		}
+		#logo-title	a{
+			color:#F282E4;
+font-family:"Trebuchet MS",Arial,Sans-Serif;
+
+font-weight:normal;
+
+text-align:right;
+text-transform:uppercase;
+			
+		}
+.descrip{
+	color:#F282E4;
+margin-top:0px;
+padding-top:0px;
+text-align:center;
+}
+	
+
+
+.category {
+
+color:#2A2C2F;
+font-size:11px;
+line-height:12px;
+
+margin-left:0pt;
+margin-top:0pt;
+padding:5px 5px 10px 0px;
+width:100%;
+}
+
+
+.navigation{
+	display:block;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+#sidebar{
+	margin-left:25px;
+	margin-top:-60px;
+}
+
+#sidebar ul, ol {
+margin:0;
+}
+#sidebar ul li h2{
+
+color:#d66bc8;
+font-family:Times New Roman;
+font-size:25px;
+font-weight:bold;
+margin:15px 0px 0px;
+padding:0px;
+}
+
+#sidebar li ul li{
+
+border-bottom:1px dashed;
+color:#d66bc8;
+font-family:arial;
+font-size:16px;
+margin-right:35px;
+padding:0px;
+text-indent:15px;
+}
+#sidebar a{
+
+text-decoration:none;	
+
+}
+
+#rightsidebar{
+width:150px;	
+float:left;	
+}
+
+#leftsidebar{
+width:300px;	
+float:left;	
+}
+
+.adbox img{
+	padding:0px;
+}
+
+
+
+/* COMMENTS TEMPLATE */
+#comments-template {
+	overflow: hidden;
+	float: left;
+	clear: left;
+	display: block;
+	
+	margin: 0 0 10px 0;
+	
+	}
+#comments-template h3 {
+	margin: 10px 0 0 0;
+	padding: 0;
+	}
+#comments-template ol {
+	margin: 0;
+	padding: 0;
+	}
+#comments-template ol li {
+	float: left;
+	width: 97%;
+	margin: 10px 0;
+	padding: 5px;
+	list-style-type: none;
+
+	
+	
+	}
+#comments-template ol li.alt {
+	
+	}
+#comments-template ol li .comment-meta-data {
+	font-weight: bold;
+	}
+#comments-template ol li .comment-text {
+	width: 90%;
+	margin: 10px auto;
+	padding: 8px 15px 20px 0px;
+	background: #fff;
+	border: 1px solid #eee;
+	}
+/* TRACKBACKS */
+.trackback, .trackback a { color: #666; }
+.trackback .comment-meta-data em { color: #0C386E; }
+input .comments {
+	width: 100px;
+	padding: 5px;
+	margin:  10px 5px 0 0;
+	background: #fff;
+	border: 1px solid #0C386E;
+	}
+textarea {
+	width: 70%;
+	padding: 5px;
+	margin-top: 10px;
+	border: 1px solid #0C386E;
+	}
+
+
+.avatar{
+	float:left;
+	padding-right:5px;
+}
+
+
+
+
+
+#pre-footer{
+height:33px;	
+
+	
+}
+
+#footer{
+	
+height:50px;	
+background:  url('images/main-bg.jpg');	
+background-repeat: repeat-y;		
+
+font-size:0.8em;
+line-height:18px;
+padding:10px;	
+}
+#footer a{
+
+}
+
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}

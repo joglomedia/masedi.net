@@ -1,0 +1,514 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant Box 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-06 21:02+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mg12 <wuzhao.mail@gmail.com>\n"
+"Language-Team: Paconine.com.ua <info@skinik.name>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:7
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Не знайдено"
+
+#: archive.php:16
+msgid "Search Results"
+msgstr "Результати пошуку"
+
+#: archive.php:20
+#, php-format
+msgid "Archive for the &#8216;%1$s&#8217; Category"
+msgstr "Архів для категорії &#8216;%1$s&#8217;"
+
+#: archive.php:23
+#, php-format
+msgid "Posts Tagged &#8216;%1$s&#8217;"
+msgstr "Публікації із теґом &#8216;%1$s&#8217;"
+
+#: archive.php:26
+#: archive.php:29
+#: archive.php:32
+#, php-format
+msgid "Archive for %1$s"
+msgstr "Архів за %1$s"
+
+#: archive.php:26
+#: archives.php:17
+#: comments.php:63
+#: functions.php:472
+#: index.php:33
+#: links.php:20
+#: page.php:11
+#: single.php:15
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: archive.php:29
+msgid "F, Y"
+msgstr "F, Y"
+
+#: archive.php:32
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:35
+msgid "Author Archive"
+msgstr "Архів автора"
+
+#: archive.php:38
+msgid "Blog Archives"
+msgstr "Архіви блоґу"
+
+#: archive.php:53
+#: comments.php:63
+#: functions.php:472
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: archive.php:53
+msgid "l, F jS, Y"
+msgstr "l, F jS, Y"
+
+#: archive.php:53
+#: comments.php:63
+#: functions.php:472
+msgid "H:i"
+msgstr "H:i"
+
+#: archive.php:53
+#: index.php:50
+msgid "0 comments"
+msgstr "0 коментарів"
+
+#: archive.php:53
+#: index.php:50
+msgid "1 comment"
+msgstr "1 коментар"
+
+#: archive.php:53
+#: index.php:50
+#, php-format
+msgid "% comments"
+msgstr "% коментарів"
+
+#: archive.php:53
+#: archives.php:16
+#: comments.php:68
+#: comments.php:111
+#: functions.php:481
+#: index.php:31
+#: links.php:16
+#: page.php:10
+#: single.php:13
+msgid "Edit"
+msgstr "Редагувати"
+
+#: archive.php:54
+msgid "Categories: "
+msgstr "Категорії:"
+
+#: archive.php:55
+msgid "Tags: "
+msgstr "Теґи:"
+
+#: archive.php:62
+#: archives.php:45
+#: index.php:61
+#: links.php:44
+#: page.php:32
+#: single.php:61
+msgid "Sorry, no posts matched your criteria."
+msgstr "Вибачте, нічого не знайдено."
+
+#: archive.php:83
+#: index.php:78
+msgid "&laquo; Newer Entries"
+msgstr "&laquo; Свіжі записи"
+
+#: archive.php:84
+#: index.php:79
+msgid "Older Entries &raquo;"
+msgstr "Старі записи &raquo;"
+
+#: archives.php:17
+#: links.php:20
+#: page.php:11
+msgid "Update: "
+msgstr "Опубліковано:"
+
+#: comments.php:10
+msgid "Enter your password to view comments."
+msgstr "Введіть пароль для перегляду коментарів."
+
+#: comments.php:66
+#: functions.php:476
+#: functions.php:478
+msgid "Reply"
+msgstr "Відповісти"
+
+#: comments.php:67
+#: functions.php:480
+msgid "Quote"
+msgstr "Цитата"
+
+#: comments.php:75
+#: functions.php:488
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар очікує модерації."
+
+#: comments.php:97
+msgid " trackbacks"
+msgstr "трекбеки"
+
+#: comments.php:100
+msgid "Show"
+msgstr "Показати"
+
+#: comments.php:101
+msgid "Hide"
+msgstr "Приховати"
+
+#: comments.php:130
+msgid "Comment pages"
+msgstr "Сторінки коментарів"
+
+#: comments.php:145
+msgid "No comments yet."
+msgstr "Ще немає коментарів."
+
+#: comments.php:154
+msgid "Comments are closed."
+msgstr "Коментувати заборонено."
+
+#: comments.php:168
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вам необхідно <a href=\"%s\">залогуватися </a> для коментування."
+
+#: comments.php:188
+msgid "Logged in as"
+msgstr "Ви увійшли як"
+
+#: comments.php:189
+msgid "Log out of this account"
+msgstr "Вийти"
+
+#: comments.php:189
+msgid "Logout &raquo;"
+msgstr "Вийти &raquo;"
+
+#: comments.php:196
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "З поверненням <strong>%s</strong>."
+
+#: comments.php:197
+msgid "Change &raquo;"
+msgstr "Змінити &raquo;"
+
+#: comments.php:198
+msgid "Close &raquo;"
+msgstr "Закрити &raquo;"
+
+#: comments.php:205
+msgid "Name"
+msgstr "Ім'я"
+
+#: comments.php:205
+#: comments.php:209
+msgid "(required)"
+msgstr "(обов'язково)"
+
+#: comments.php:209
+msgid "E-Mail (will not be published)"
+msgstr "E-Mail (не публікується)"
+
+#: comments.php:213
+msgid "Website"
+msgstr "Сайт / Блоґ"
+
+#: comments.php:232
+msgid "Subscribe to comments feed"
+msgstr "Підписатися на коментарі"
+
+#: comments.php:238
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: comments.php:240
+msgid "Submit Comment"
+msgstr "Надіслати коментар"
+
+#: footer.php:2
+msgid "TOP"
+msgstr "Вгору"
+
+#: footer.php:22
+msgid "Copyright &copy; "
+msgstr "&copy; "
+
+#: footer.php:31
+msgid " | Powered by <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr " | Базовано на  <a href=\"http://pavonine.com.ua/tag/wordpress/\">WordPress</a>"
+
+#: footer.php:32
+msgid " | Theme by <a href=\"http://www.neoease.com/\">NeoEase</a>"
+msgstr " | Тема від <a href=\"http://www.neoease.com/\">NeoEase</a>"
+
+#: functions.php:143
+#: functions.php:163
+msgid "Current Theme Options"
+msgstr "Налаштування теми"
+
+#: functions.php:168
+msgid "Style"
+msgstr "Стиль"
+
+#: functions.php:172
+msgid "Allow visitors to change the style."
+msgstr "Дозволити відвідувачам змінювати стиль."
+
+#: functions.php:175
+msgid "Default style:"
+msgstr "Стандартний стиль:"
+
+#: functions.php:188
+msgid "Please install a valid style in the /styles/ folder."
+msgstr "Будь ласка, встановіть коректний стиль у теку /styles/."
+
+#: functions.php:200
+msgid "Search"
+msgstr "Пошук"
+
+#: functions.php:204
+msgid "Using google custom search engine."
+msgstr "Використовувати користувацький пошук Google."
+
+#: functions.php:207
+msgid "CX:"
+msgstr "CX:"
+
+#: functions.php:210
+msgid "Find <code>name=\"cx\"</code> in the <strong>Search box code</strong> of <a href=\"http://www.google.com/coop/cse/\">Google Custom Search Engine</a>, and type the <code>value</code> here.<br/>For example: <code>014782006753236413342:1ltfrybsbz4</code>"
+msgstr "Знайдіть <code>name=\"cx\"</code>у <strong>Search box code</strong>  <a href=\"http://www.google.com/coop/cse/\">Google Custom Search Engine</a>,та вставте <code>value</code> тут.<br/>Для прикладу: <code>014782006753236413342:1ltfrybsbz4</code>"
+
+#: functions.php:219
+msgid "Menubar"
+msgstr "Менюбар"
+
+#: functions.php:223
+msgid "Show pages as menu."
+msgstr "Показувати сторінки в меню."
+
+#: functions.php:227
+msgid "Show categories as menu."
+msgstr "Показувати категорії в меню."
+
+#: functions.php:238
+msgid "Notice"
+msgstr "Нотатка"
+
+#: functions.php:240
+#: functions.php:266
+msgid "HTML enabled"
+msgstr "HTML дозволено"
+
+#: functions.php:245
+msgid "Show notice."
+msgstr "Показати нотатку."
+
+#: functions.php:249
+msgid "Display an icon in the notice bar."
+msgstr "Показувати іконку у колонці нотатки."
+
+#: functions.php:264
+msgid "Showcase"
+msgstr "Колонка"
+
+#: functions.php:271
+msgid "This showcase will display at the top of sidebar."
+msgstr "Ця колонка відображатиметься зверху сайдбару."
+
+#: functions.php:273
+#: functions.php:297
+msgid "Who can see?"
+msgstr "Хто бачитиме?"
+
+#: functions.php:276
+#: functions.php:300
+msgid "Registered Users"
+msgstr "Зареєстровані користувачі"
+
+#: functions.php:280
+#: functions.php:304
+msgid "Commentators"
+msgstr "Коментатори"
+
+#: functions.php:284
+#: functions.php:308
+msgid "Visitors"
+msgstr "Відвідувачі"
+
+#: functions.php:295
+msgid "This showcase will display at the bottom of sidebar."
+msgstr "Ця колонка відображатиметься внизу сайдбару"
+
+#: functions.php:324
+msgid "Posts"
+msgstr ""
+
+#: functions.php:328
+msgid "Show categories on posts."
+msgstr "Показувати категорії в публікаціях."
+
+#: functions.php:332
+msgid "Show tags on posts."
+msgstr "Показувати теґи в публікаціях."
+
+#: functions.php:342
+msgid "Comments"
+msgstr ""
+
+#: functions.php:346
+msgid "Submit comments with Ctrl+Enter."
+msgstr ""
+
+#: functions.php:356
+msgid "Feed"
+msgstr "Канал"
+
+#: functions.php:360
+msgid "Using custom feed."
+msgstr "Використовувати власний канал."
+
+#: functions.php:362
+msgid "Feed URL:"
+msgstr "URL каналу:"
+
+#: functions.php:367
+msgid "Show the feed reader list when mouse over on feed button."
+msgstr "Показувати рідери, при наведені миші."
+
+#: functions.php:375
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: header.php:26
+msgid "RSS 2.0 - all posts"
+msgstr "RSS 2.0 - публікації"
+
+#: header.php:27
+msgid "RSS 2.0 - all comments"
+msgstr "RSS 2.0 - коментарі"
+
+#: header.php:122
+#: header.php:124
+#: header.php:127
+#: header.php:133
+#: header.php:135
+msgid "Type text to search here..."
+msgstr ""
+
+#: header.php:144
+msgid "Home"
+msgstr "Головна"
+
+#: header.php:153
+msgid "Subscribe to this blog..."
+msgstr "Додати цей блоґ на..."
+
+#: header.php:153
+msgid "RSS feed"
+msgstr "Канал RSS"
+
+#: header.php:156
+#: header.php:157
+#: header.php:158
+#: header.php:159
+#: header.php:160
+#: header.php:161
+#: header.php:162
+#: header.php:163
+msgid "Subscribe with "
+msgstr "Додати на"
+
+#: header.php:156
+msgid "Youdao"
+msgstr "Youdao"
+
+#: header.php:157
+msgid "Xian Guo"
+msgstr "Xian Guo"
+
+#: header.php:158
+msgid "Zhua Xia"
+msgstr "Zhua Xia"
+
+#: header.php:159
+msgid "Google"
+msgstr "Google"
+
+#: header.php:160
+msgid "My Yahoo!"
+msgstr "My Yahoo!"
+
+#: header.php:161
+msgid "newsgator"
+msgstr "newsgator"
+
+#: header.php:162
+msgid "Bloglines"
+msgstr "Bloglines"
+
+#: header.php:163
+msgid "iNezha"
+msgstr "iNezha"
+
+#: index.php:35
+#: single.php:17
+msgid " | Categories: "
+msgstr " | Категорії: "
+
+#: index.php:38
+#: single.php:20
+msgid " | Tags: "
+msgstr " | Теґи: "
+
+#: index.php:45
+msgid "Read more..."
+msgstr "Далі"
+
+#: links.php:18
+msgid "Edit links"
+msgstr "Редагувати посилання"
+
+#: links.php:24
+msgid "Blogroll"
+msgstr "Блоґрол"
+
+#: sidebar.php:28
+msgid "Theme Styles : "
+msgstr "Оберіть стиль:"
+
+#: sidebar.php:34
+msgid "Switch to "
+msgstr ""
+
+#: single.php:32
+msgid "Leave a comment"
+msgstr "Напишіть коментар"
+
+#: single.php:34
+msgid "Trackback"
+msgstr "Трекбек"
+

@@ -1,0 +1,75 @@
+/*
+This code is written by Ibanescu Nicolae 
+Theme Name: FirstD
+Theme URI: http://wp-design.org
+Description: <a href="http://wp-design.org/portfolio/firstd/">FirstD</a> it`s a clean and simple theme for WordPress.
+Author: WP-design
+Author URI: http://wp-design.org
+*/
+
+
+* { margin:0; padding:0;}
+body {font:normal 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; color: #6D656B; background: url(images/bg.jpg) repeat-x; }
+
+a {text-decoration: none; color: #2EA5E3; }
+a:hover {text-decoration: none; color:#0066CC;  }
+input, textarea {font:normal 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; color: #6D656B; padding:3px; background:#fafafa ; border:1px solid #efefef; vertical-align:middle}
+input:focus, textarea:focus { background:#fff ; border:1px solid #ccc;}
+a img { border:0;}
+
+#container{ width:569px; min-height:351px; margin:56px auto 20px auto; text-align:left; background:url(images/bg_container.jpg) no-repeat; position:relative} 
+
+#header {width:569px; height:30px; position:relative; }
+#logo { position:absolute; left:60px; top:-35px; font-size:11px; font-weight: normal;}
+#logo a {font-size:22px; font-weight:normal; letter-spacing:-1px;}
+
+#menu * {list-style:none}
+#menu {position:absolute; left:60px; top:7px;  list-style-type:none; font-size:11px; }
+#menu li { float:left; background:url(images/left_both.jpg) no-repeat left top; padding-left:7px; line-height:23px; }
+#menu li a { background:url(images/right_both.jpg) no-repeat right top; padding:4px 10px 4px 3px; color:#6D656B; font-weight:bold;}
+#menu li a:hover { color:#000;}
+#menu li.current_page_item { background-position:left bottom;}
+#menu li.current_page_item a { background-position: right bottom; color:#000;}
+#menu li ul { display:none;}
+
+#content { padding:30px 60px 15px 60px;}
+#content h2 {font-family:'arial black'; font-size:24px; text-transform:uppercase; font-weight:normal; letter-spacing:-2px; color:#000}
+#content h3 {font-size:28px; font-weight:normal; text-transform:uppercase; letter-spacing:-2px; line-height:32px; margin-bottom:3px; }
+#content h3 a { color:#FF3366}
+
+#sidebar { position:absolute; width:150px; top:63px; right:-135px; }
+#sidebar ul { font-size:22px; list-style:none; margin-bottom:15px; letter-spacing:-1px; color:#000;}
+#sidebar ul li ul { font-size:12px; letter-spacing:normal;}
+#sidebar #search { margin-bottom:15px;}
+
+#footer { border-top:1px solid #efefef; width:450px; margin:0 auto; background:url(images/bg_footer.jpg) no-repeat center top; text-align:center; padding:5px 0; color:#B5B5B5; font:normal 9px 'Trebuchet MS', Arial, Helvetica, sans-serif; text-transform:uppercase}
+
+
+#comments { margin-bottom:5px;}
+#commentlist { list-style-type:none; margin-bottom:15px}
+#commentlist li { margin-bottom:5px; border:1px solid #efefef}
+#commentlist li p { padding:5px;}
+#commentlist li .cite { display:block; font-style:normal; background:#fafafa; color:#B5B5B5; font:normal 9px 'Trebuchet MS', Arial, Helvetica, sans-serif; text-transform:uppercase; padding:3px 5px;  }
+#commentlist li ol, #commentlist li ul, #commentlist li li { margin:0; padding:0; list-style:none; border:0; background:none;}
+
+
+#postcomment { margin:10px 0 5px 0;}
+
+#commentform p { margin-bottom:5px;}
+#comment { width:440px;}
+
+#wp-design a {padding:0 2px;}
+#wp-design a:hover { background:#65C9E2; color:#fff; }
+#wp-design a:hover strong {color:#FF3300;}
+
+.post { margin-bottom:15px; }
+.meta { margin-bottom:5px;}
+.storycontent p { margin-bottom:5px;}
+.storycontent ul { margin:0 20px 5px 30px!important;}
+.storycontent ol { margin:0 20px 5px 30px!important;}
+.storycontent code { display:block; border:1px dashed #ccc; background:#fafafa; padding:5px; margin-bottom:5px;}
+.storycontent blockquote { border-left:3px solid #ccc; padding:5px; background:#fafafa; margin-bottom:5px;}
+.feedback { margin-bottom:15px;}
+.button { cursor:pointer; height:24px; padding:3px; background:#efefef; color:#2EA5E3; font-weight:bold;}
+.left { float:left}
+.right { float:right}

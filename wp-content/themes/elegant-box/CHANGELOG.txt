@@ -1,0 +1,92 @@
+    VERSION DATE       TYPE   CHANGES
+    4.1     2009/08/17 NEW    Multi level menu is now supported.
+                       NEW    'Quick Comments' plugin is now supported.
+                       NEW    Added 'web analytics' options.
+                       NEW    Added 'twitter' options.
+                       NEW    Added 'Add link' button in link template.
+                       MODIFY Changed page width to 960px.
+                       MODIFY Optimize SQL to select the copyright years.
+                       MODIFY Change image captions of black style.
+                       MODIFY Split links by category in links page (links.php).
+                       MODIFY Changed layout of archive page and added excerpts to the archive items.
+                       MODIFY Optimize JavaScript.
+                       MODIFY Change the style of trackback box.
+                       MODIFY Update Simplified Chinese translation.
+                       FIX    Fixed the thread comments that were diff layouts between IEs and other browsers.
+                       FIX    Changed the link of Youdao reader.
+                       FIX    Fixed style of bullet lists.
+    4.0.1   2009/05/17 NEW    Added Turkish language support. (Thanks Ali KARA)
+                       MODIFY Updated Italian translation.
+                       MODIFY Updated Lithuanian translation.
+                       FIX    Fixed table style of WP-Syntax plugin.
+                       FIX    Fixed 'sidebar being pushed down in IE6'.
+                       FIX    Fixed 404 page.
+    4.0     2009/05/07 NEW    Compatible with IE8.
+                       NEW    Added 'Submit comments with Ctrl+Enter' option.
+                       NEW    'Mail To Commenter' plugin is now supported. (via '@+user+blank')
+                       NEW    Added style for tables.
+                       NEW    Added style for calendar widget.
+                       NEW    Added searchbox tip.
+                       NEW    Added tagline below blog title.
+                       NEW    Added Japanese language support. (Thanks をかもと)
+                       NEW    Added Romanian language support. (Thanks Ryan)
+                       NEW    Added German language support. (Thanks Linsen Florian)
+                       NEW    Added Lithuania language support. (Thanks Mantas Malcius)
+                       MODIFY Code optimization.
+                       MODIFY Changed style of searchbox.
+                       MODIFY Changed style of submenus.
+                       MODIFY Changed style of box and related posts.
+                       MODIFT Changed the item style in archive page and search page.
+                       MODIFY Changed font default size to 12px When language code is zh_CN or zh_TW.
+                       MODIFY Changed all the '<?' to '<?php'.
+                       MODIFY Update Spanish translation. (Thanks Michael)
+                       FIX    Fixed 'some unapproved spam comments were being taking into consideration'. (Thanks Marcelo Silveira)
+                       FIX    Someone got 'this.menu is undefined' error message and the feed combobox could not show up, the problem got fixed.
+                       FIX    Fixed background when page length shorted than browser height.
+                       FIX    Fixed the error that broke admin comments interface.
+                       FIX    Fixed thread comments in black style.
+                       REMOVE Removed 'description' and 'keywords' options, because there is conflict between this feature and some SEO plugins.
+                       REMOVE Removed JS and CSS about image switcher.
+                       REMOVE Removed 'Add post' link.
+    3.2.3   2009/01/21 NEW    'WP-EasyArchives' plugin is now supported.
+                       NEW    Added Italian language support. (Thanks Gianni Diurno)
+                       NEW    Added Spanish language support. (Thanks Eugenio Cavero)
+                       NEW    Added Ukrainian language support. (Thanks Jurko Chervony)
+                       MODIFY Optimize SQL to select the copyright years. (Thanks kouz)
+                       FIX    Added 'do_action('comment_form', $post->ID);' tag to comment from.
+                       FIX    Fixed style for trackbacks.
+                       FIX    Fixed 'Edit link'.
+    3.2.2   2009/01/05 FIX    Added 'rel="external nofollow"' tag to the comment links.
+    3.2.1   2009/01/02 MODIFY Combine 'search.php' with 'archive.php'.
+                       MODIFY Moved all the .mo files to 'languages' directory.
+                       MODIFY Using conditional comments as CSS hack for IE6.
+                       FIX    Apply translations to 'Current Theme Options'.
+                       FIX    Submenu are disabled when remove navigation from header, this bug now fixed.
+    3.2     2008/12/17 NEW    Added brown style. (Thanks Bryan Varner)
+                       NEW    Added Russian language support. (Thanks Fafnir)
+                       FIX    Fixed REPLY and QUERY events in Opera Browsers.
+                       FIX    Fixed a weird problem when people updated to WordPress 2.7.
+                       REMOVE Removed supported for 'SRG Clean Archives' plugin.
+    3.1.1   2008/11/29 MODIFY Changed '<?=' to '<?php echo'.
+    3.1     2008/11/27 NEW    Added 2-level menu and feed reader list.
+                       NEW    Added style for image captions.
+                       NEW    Added 'Show categories as menu' option.
+                       FIX    Fixed login/logout links on comment page, again.
+                       FIX    Fixed the mothod to get copyright term.
+    3.0     2008/11/15 NEW    Compatible with WordPress 2.7 (thread comments ready).
+                       NEW    Compatible with WP-RecentComments 1.6.
+                       NEW    Added meta options, include description and keywords.
+                       NEW    Google CSE is supported.
+                       MODIFY New style applied to the trackbacks and pingbacks.
+                       MODIFY Update the JavaScript and using namespace.
+                       FIX    Fixed style for tag cloud in sidebar.
+                       FIX    Fixed style for WP-Syntax.
+                       FIX    Fixed login/logout links on comment page.
+                       FIX    Fixed <pre> style for IE6.
+    2.1.7   2008/10/06 NEW    Created this CHANGLOG file.
+                       NEW    Added 'reply' and 'quote' button to all comments.
+                       NEW    Added 'Highslide4WP' plugin support.
+                       MODIFY Adding 'HTTP://' to the feed URL.
+                       FIX    Repaired the 'NEW post' link.
+                       FIX    Fixed image left/right alignment in posts.
+                       DELETE Removed 'Subscribe to Comments' plugin support.

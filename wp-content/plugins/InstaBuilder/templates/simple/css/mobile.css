@@ -1,0 +1,174 @@
+/* Tablet Layout
+-----------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#wrapper {
+		width:760px;
+		margin:0 auto;
+	}
+
+	.full_width_header {
+		width:760px;
+	}
+
+	#left_col {
+		width:443px;
+		min-height:450px;
+		float:left;
+	}
+
+	#right_col {
+		width:313px;
+		float:left;
+	}
+
+	#full_width_col {
+		width:730px;
+		min-height:450px;
+	}
+
+	#footer-content {
+		margin:0 auto;
+		width:760px;
+	}
+}
+
+/* Mobile Layout
+-----------------------------*/
+@media only screen and (max-width: 767px) {
+	#wrapper {
+		width:290px;
+		margin:0 auto;
+	}
+
+	.full_width_header {
+		width:290px;
+	}
+
+	#opl-top-nav {
+		position:static;
+		margin-top:10px;
+	}
+
+	#left_col {
+		width:290px;
+		min-height:50px;
+		float:none;
+	}
+
+	#right_col {
+		width:290px;
+		float:none;
+	}
+
+	#full_width_col {
+		width:260px;
+		margin:0 auto;
+		min-height:100px;
+	}
+
+	#footer-content {
+		margin:0 auto;
+		width:290px;
+	}
+
+	#optin {
+		width:290px;
+		background-image:none;
+		-webkit-border-radius: 8px;
+		border-radius: 8px; 
+	}
+
+	#optin .optin_header {
+		width:290px;
+		height:20px;
+		background-image:none;
+	}
+
+	#optin .optin_body {
+		width:290px;
+		min-height:80px;
+		background-color:transparent;
+		background-image:none;
+	}
+
+	#optin .optin_footer {
+		width:290px;
+		height:20px;
+		background-image:none;
+	}
+
+	#optin .opl-text-field {
+		width:215px;
+	}
+}
+
+/* Wide Mobile Layout
+-----------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#wrapper {
+		width:460px;
+		margin:0 auto;
+	}
+
+	.full_width_header {
+		width:460px;
+	}
+
+	#opl-top-nav {
+		position:static;
+		margin-top:10px;
+	}
+
+	#left_col {
+		width:460px;
+		min-height:50px;
+		float:none;
+	}
+
+	#right_col {
+		width:460px;
+		float:none;
+	}
+
+	#full_width_col {
+		width:430px;
+		margin:0 auto;
+		min-height:100px;
+	}
+
+	#footer-content {
+		margin:0 auto;
+		width:460px;
+	}
+
+	#optin {
+		width:460px;
+		background-image:none;
+		-webkit-border-radius: 8px;
+		border-radius: 8px; 
+	}
+
+	#optin .optin_header {
+		width:460px;
+		height:20px;
+		background-image:none;
+	}
+
+	#optin .optin_body {
+		width:460px;
+		min-height:80px;
+		background-color:transparent;
+		background-image:none;
+	}
+
+	#optin .optin_footer {
+		width:460px;
+		height:20px;
+		background-image:none;
+	}
+
+	#optin .opl-text-field {
+		width:215px;
+	}
+}
+

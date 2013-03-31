@@ -1,0 +1,514 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant Box 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-06 21:01+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mg12 <wuzhao.mail@gmail.com>\n"
+"Language-Team: NeoEase <http://www.neoease.com/themes/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:7
+msgid "Error 404 - Not Found"
+msgstr "Ошибка 404 - Не найдено"
+
+#: archive.php:16
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: archive.php:20
+#, php-format
+msgid "Archive for the &#8216;%1$s&#8217; Category"
+msgstr "Архив категории &#8216;%1$s&#8217;"
+
+#: archive.php:23
+#, php-format
+msgid "Posts Tagged &#8216;%1$s&#8217;"
+msgstr "Посты про &#8216;%1$s&#8217;"
+
+#: archive.php:26
+#: archive.php:29
+#: archive.php:32
+#, php-format
+msgid "Archive for %1$s"
+msgstr "Архив %1$s"
+
+#: archive.php:26
+#: archives.php:17
+#: comments.php:63
+#: functions.php:472
+#: index.php:33
+#: links.php:20
+#: page.php:11
+#: single.php:15
+msgid "F jS, Y"
+msgstr "jS F Y"
+
+#: archive.php:29
+msgid "F, Y"
+msgstr ""
+
+#: archive.php:32
+msgid "Y"
+msgstr ""
+
+#: archive.php:35
+msgid "Author Archive"
+msgstr "Архив автора"
+
+#: archive.php:38
+msgid "Blog Archives"
+msgstr "Архив блога"
+
+#: archive.php:53
+#: comments.php:63
+#: functions.php:472
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: archive.php:53
+msgid "l, F jS, Y"
+msgstr "S F Y, l"
+
+#: archive.php:53
+#: comments.php:63
+#: functions.php:472
+msgid "H:i"
+msgstr ""
+
+#: archive.php:53
+#: index.php:50
+msgid "0 comments"
+msgstr "0 комментариев"
+
+#: archive.php:53
+#: index.php:50
+msgid "1 comment"
+msgstr "1 комментарий"
+
+#: archive.php:53
+#: index.php:50
+#, php-format
+msgid "% comments"
+msgstr "% comments"
+
+#: archive.php:53
+#: archives.php:16
+#: comments.php:68
+#: comments.php:111
+#: functions.php:481
+#: index.php:31
+#: links.php:16
+#: page.php:10
+#: single.php:13
+msgid "Edit"
+msgstr "Редактировать"
+
+#: archive.php:54
+msgid "Categories: "
+msgstr "Категории:"
+
+#: archive.php:55
+msgid "Tags: "
+msgstr "Метки: "
+
+#: archive.php:62
+#: archives.php:45
+#: index.php:61
+#: links.php:44
+#: page.php:32
+#: single.php:61
+msgid "Sorry, no posts matched your criteria."
+msgstr "Подходящих записей не найдено."
+
+#: archive.php:83
+#: index.php:78
+msgid "&laquo; Newer Entries"
+msgstr "&laquo; Предыдущие записи"
+
+#: archive.php:84
+#: index.php:79
+msgid "Older Entries &raquo;"
+msgstr "Следующие записи &raquo;"
+
+#: archives.php:17
+#: links.php:20
+#: page.php:11
+msgid "Update: "
+msgstr "Обновить: "
+
+#: comments.php:10
+msgid "Enter your password to view comments."
+msgstr "Введите пароль для прочтения комментариев."
+
+#: comments.php:66
+#: functions.php:476
+#: functions.php:478
+msgid "Reply"
+msgstr "Ответить"
+
+#: comments.php:67
+#: functions.php:480
+msgid "Quote"
+msgstr "Цитировать"
+
+#: comments.php:75
+#: functions.php:488
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: comments.php:97
+msgid " trackbacks"
+msgstr ""
+
+#: comments.php:100
+msgid "Show"
+msgstr "Показать"
+
+#: comments.php:101
+msgid "Hide"
+msgstr "Скрыть"
+
+#: comments.php:130
+msgid "Comment pages"
+msgstr "Страницы комментариев"
+
+#: comments.php:145
+msgid "No comments yet."
+msgstr "Пока комментариев нет."
+
+#: comments.php:154
+msgid "Comments are closed."
+msgstr "Комментарии излишни."
+
+#: comments.php:168
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">авторизоваться</a> для отправки комментария."
+
+#: comments.php:188
+msgid "Logged in as"
+msgstr "Здравствуй, "
+
+#: comments.php:189
+msgid "Log out of this account"
+msgstr "Выйти"
+
+#: comments.php:189
+msgid "Logout &raquo;"
+msgstr "Выйти &raquo;"
+
+#: comments.php:196
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "С возвращением, <strong>%s</strong>."
+
+#: comments.php:197
+msgid "Change &raquo;"
+msgstr "Изменить &raquo;"
+
+#: comments.php:198
+msgid "Close &raquo;"
+msgstr "Закрыть &raquo;"
+
+#: comments.php:205
+msgid "Name"
+msgstr "Имя"
+
+#: comments.php:205
+#: comments.php:209
+msgid "(required)"
+msgstr "(обязательно)"
+
+#: comments.php:209
+msgid "E-Mail (will not be published)"
+msgstr "Е-mail (не публикуется)"
+
+#: comments.php:213
+msgid "Website"
+msgstr "Вебсайт"
+
+#: comments.php:232
+msgid "Subscribe to comments feed"
+msgstr "Подписаться на комментарии"
+
+#: comments.php:238
+msgid "Cancel"
+msgstr "Отмена"
+
+#: comments.php:240
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: footer.php:2
+msgid "TOP"
+msgstr "Наверх"
+
+#: footer.php:22
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#: footer.php:31
+msgid " | Powered by <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr " | На движке <a href=\"http://wordpress.org/\">WordPress</a>"
+
+#: footer.php:32
+msgid " | Theme by <a href=\"http://www.neoease.com/\">NeoEase</a>"
+msgstr " | Дизайн <a href=\"http://www.neoease.com/\">NeoEase</a>"
+
+#: functions.php:143
+#: functions.php:163
+msgid "Current Theme Options"
+msgstr "Настройки текущей темы"
+
+#: functions.php:168
+msgid "Style"
+msgstr "Оформление"
+
+#: functions.php:172
+msgid "Allow visitors to change the style."
+msgstr "Позволить посетителям менять оформление"
+
+#: functions.php:175
+msgid "Default style:"
+msgstr "Оформление по умолчанию:"
+
+#: functions.php:188
+msgid "Please install a valid style in the /styles/ folder."
+msgstr "Пожалуйста, установите корректный стиль в папку /styles/"
+
+#: functions.php:200
+msgid "Search"
+msgstr "Поиск"
+
+#: functions.php:204
+msgid "Using google custom search engine."
+msgstr "Пользовательский поиск Google"
+
+#: functions.php:207
+msgid "CX:"
+msgstr ""
+
+#: functions.php:210
+msgid "Find <code>name=\"cx\"</code> in the <strong>Search box code</strong> of <a href=\"http://www.google.com/coop/cse/\">Google Custom Search Engine</a>, and type the <code>value</code> here.<br/>For example: <code>014782006753236413342:1ltfrybsbz4</code>"
+msgstr "Отыщите <code>name=\"cx\"</code> в <strong>Search box code</strong> из <a href=\"http://www.google.com/coop/cse/\">Google Custom Search Engine</a>, и наберите значение <code>value</code> здесь.<br/> Например: <code>014782006753236413342:1ltfrybsbz4</code>"
+
+#: functions.php:219
+msgid "Menubar"
+msgstr "Меню"
+
+#: functions.php:223
+msgid "Show pages as menu."
+msgstr "Показывать страницы в меню."
+
+#: functions.php:227
+msgid "Show categories as menu."
+msgstr "Показывать категории в меню."
+
+#: functions.php:238
+msgid "Notice"
+msgstr "Предупреждение"
+
+#: functions.php:240
+#: functions.php:266
+msgid "HTML enabled"
+msgstr "HTML вкл"
+
+#: functions.php:245
+msgid "Show notice."
+msgstr "Показывать предупреждение."
+
+#: functions.php:249
+msgid "Display an icon in the notice bar."
+msgstr "Показывать иконку в строке предупреждения."
+
+#: functions.php:264
+msgid "Showcase"
+msgstr "\"Витрина\""
+
+#: functions.php:271
+msgid "This showcase will display at the top of sidebar."
+msgstr "Этот текст будет наверху сайдбара."
+
+#: functions.php:273
+#: functions.php:297
+msgid "Who can see?"
+msgstr "Кому показывать?"
+
+#: functions.php:276
+#: functions.php:300
+msgid "Registered Users"
+msgstr "Зарегистрированные пользователи"
+
+#: functions.php:280
+#: functions.php:304
+msgid "Commentators"
+msgstr "Комментаторы"
+
+#: functions.php:284
+#: functions.php:308
+msgid "Visitors"
+msgstr "Посетители"
+
+#: functions.php:295
+msgid "This showcase will display at the bottom of sidebar."
+msgstr "Этот текст будет внизу сайдбара."
+
+#: functions.php:324
+msgid "Posts"
+msgstr ""
+
+#: functions.php:328
+msgid "Show categories on posts."
+msgstr "Показывать категории в сообщениях."
+
+#: functions.php:332
+msgid "Show tags on posts."
+msgstr "Показывать метки в сообщениях."
+
+#: functions.php:342
+msgid "Comments"
+msgstr ""
+
+#: functions.php:346
+msgid "Submit comments with Ctrl+Enter."
+msgstr ""
+
+#: functions.php:356
+msgid "Feed"
+msgstr "Подписка"
+
+#: functions.php:360
+msgid "Using custom feed."
+msgstr "Настроить подписку."
+
+#: functions.php:362
+msgid "Feed URL:"
+msgstr "URL подписки:"
+
+#: functions.php:367
+msgid "Show the feed reader list when mouse over on feed button."
+msgstr "Предлагать список RSS-агрегаторов при наведении мыши."
+
+#: functions.php:375
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: header.php:26
+msgid "RSS 2.0 - all posts"
+msgstr "RSS 2.0 - все посты"
+
+#: header.php:27
+msgid "RSS 2.0 - all comments"
+msgstr "RSS 2.0 - все комментарии"
+
+#: header.php:122
+#: header.php:124
+#: header.php:127
+#: header.php:133
+#: header.php:135
+msgid "Type text to search here..."
+msgstr ""
+
+#: header.php:144
+msgid "Home"
+msgstr "Домой"
+
+#: header.php:153
+msgid "Subscribe to this blog..."
+msgstr "Подписаться на блог..."
+
+#: header.php:153
+msgid "RSS feed"
+msgstr "RSS канал"
+
+#: header.php:156
+#: header.php:157
+#: header.php:158
+#: header.php:159
+#: header.php:160
+#: header.php:161
+#: header.php:162
+#: header.php:163
+msgid "Subscribe with "
+msgstr "Подписаться  "
+
+#: header.php:156
+msgid "Youdao"
+msgstr ""
+
+#: header.php:157
+msgid "Xian Guo"
+msgstr ""
+
+#: header.php:158
+msgid "Zhua Xia"
+msgstr ""
+
+#: header.php:159
+msgid "Google"
+msgstr ""
+
+#: header.php:160
+msgid "My Yahoo!"
+msgstr ""
+
+#: header.php:161
+msgid "newsgator"
+msgstr ""
+
+#: header.php:162
+msgid "Bloglines"
+msgstr ""
+
+#: header.php:163
+msgid "iNezha"
+msgstr ""
+
+#: index.php:35
+#: single.php:17
+msgid " | Categories: "
+msgstr " | Категории: "
+
+#: index.php:38
+#: single.php:20
+msgid " | Tags: "
+msgstr "| Метки: "
+
+#: index.php:45
+msgid "Read more..."
+msgstr "Дальше..."
+
+#: links.php:18
+msgid "Edit links"
+msgstr "Редактировать ссылки"
+
+#: links.php:24
+msgid "Blogroll"
+msgstr "Ссылки"
+
+#: sidebar.php:28
+msgid "Theme Styles : "
+msgstr "Варианты темы: "
+
+#: sidebar.php:34
+msgid "Switch to "
+msgstr "Переключить"
+
+#: single.php:32
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+#: single.php:34
+msgid "Trackback"
+msgstr "Trackback"
+

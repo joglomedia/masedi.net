@@ -1,0 +1,39 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:#483b39 url(../images/bg-brown.jpg) left top scroll repeat;
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#665754;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	background:transparent;
+}
+
+ul#opl-launch-items li.opl-launch-top {
+	border-bottom:1px solid #665754 !important;
+}
+
+/* =TOP NAV
+------------------------------------------*/
+#opl_nav li li {
+	background:#382d2a; 
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#optin .optin_body {
+	background-color:transparent;
+}
+
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #b7cbd4;
+}

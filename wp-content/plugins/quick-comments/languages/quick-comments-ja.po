@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: quick-comments\n"
+"POT-Creation-Date: 2008-09-17 15:13+0900\n"
+"PO-Revision-Date: 2008-12-19 18:47+0900\n"
+"Last-Translator: wokamoto <wokamoto1973@gmail.com>\n"
+"Language-Team: JAPANESE <http://wppluginsj.sourceforge.jp/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Quick Comments"
+msgstr "Quick Comments"
+
+msgid "Please wait"
+msgstr "コメント送信中"
+
+msgid "Loading"
+msgstr "読み込み中"
+
+msgid "Done!"
+msgstr "完了！"
+
+msgid "Quick Comments Options"
+msgstr "Quick Comments の設定"
+
+msgid "Comment Form CSS Path"
+msgstr "コメントフォームの CSS パス"
+
+msgid "Comment List CSS Path"
+msgstr "コメントリストの CSS パス"
+
+msgid "Wait Message"
+msgstr "コメント送信中に表示するメッセージ"
+
+msgid "Loading Image"
+msgstr "コメント送信中に表示する画像"
+
+msgid "Message CSS"
+msgstr "コメント送信中メッセージに適用するスタイル"
+
+msgid "Overlay CSS"
+msgstr "コメント送信中メッセージの背景に適用するスタイル"
+
+msgid "Effect"
+msgstr "コメント追加時の効果"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Slide Down"
+msgstr "スライドダウン"
+
+msgid "Fade In"
+msgstr "フェードイン"
+
+msgid "Fast"
+msgstr "速い"
+
+msgid "Normal"
+msgstr "通常"
+
+msgid "Slow"
+msgstr "遅い"
+
+msgid "Allows users to edit their comments?"
+msgstr "コメントの編集を許可"
+
+msgid "Allows users to edit their comments for a limited number of minutes after posting."
+msgstr "コメント投稿後、指定された時間だけコメントの編集を許可します"
+
+msgid "Simple check"
+msgstr "簡易的なチェック"
+
+msgid "Severe check"
+msgstr "より厳格なチェック"
+
+msgid "Number of minutes that users are allowed to edit their comment"
+msgstr "コメント編集を許可するタイムリミット"
+
+msgid "minutes after posting"
+msgstr "分後"
+
+msgid "Comment Loading Message"
+msgstr "コメント読込中に表示するメッセージ"
+
+msgid "Edit icon"
+msgstr "編集アイコン"
+
+msgid "Position that returns after it edits it"
+msgstr "編集後戻る位置"
+
+msgid "css path (%ID% is converted into comment ID.)"
+msgstr "CSS パス (%ID% は、コメントIDで置換されます)"
+
+msgid "Update Options"
+msgstr "設定を更新する"
+
+msgid "Uninstall"
+msgstr "アンインストール"
+
+msgid "Delete Options"
+msgstr "設定を削除する"
+
+msgid "You aren't allowed to edit this comment."
+msgstr "このコメントを修正することはできません。"
+
+msgid "You aren't allowed to edit this comment, either because you didn't write it or you passed the %d minute time limit."
+msgstr "このコメントは、あなたが書いたコメントで無いか、投稿後 %d 分経過しているため、修正することはできません。"
+
+msgid "403 Forbidden"
+msgstr "アクセス権がありません"
+
+msgid "Edit button label"
+msgstr "更新ボタンの文字"
+
+msgid "Update Comment"
+msgstr "コメント更新"
+
+msgid "Automatically display it"
+msgstr "自動的に表示する"
+
+msgid "Item that permits edit"
+msgstr "編集を許可する項目"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Email"
+msgstr "メール"
+
+msgid "Website"
+msgstr "ウェブサイト"
+
+msgid "Reject SPAM"
+msgstr "SPAM対策"
+
+msgid "Reject SPAM. (IP Address is registered in the DNSBL &quot;<a href=\"http://spam-champuru.livedoor.com/dnsbl/\">SPAM Champuru</a>&quot;)"
+msgstr "<a href=\"http://spam-champuru.livedoor.com/dnsbl/\">スパムちゃんぷるーDNSBL</a>に登録されているIPアドレスからのコメントを拒否する。"
+
+msgid "Error: Your IP Address is registered in the DNSBL (http://spam-champuru.livedoor.com/dnsbl/)."
+msgstr "エラー: スパムちゃんぷるーDNSBL(http://spam-champuru.livedoor.com/dnsbl/)に登録されているホストからはコメントできません。"
+
+msgid "Enable"
+msgstr "有効"
+
+msgid "Notify Comment Author"
+msgstr "コメント通知"
+
+msgid "Notify Comment Author Options"
+msgstr "コメント通知の設定"
+
+msgid "&quot;Notify Comment Author&quot; is not Enable!"
+msgstr "&quot;コメント通知&quot;が有効ではありません!"
+
+msgid "Notify the comment author with Email."
+msgstr "メールでコメント投稿者に通知する"
+
+msgid "Notify the comment author with Twitter."
+msgstr "Twitterでコメント投稿者に通知する"
+
+msgid "Site Name"
+msgstr "サイト名"
+
+msgid "Site Email Address"
+msgstr "サイト管理者のメールアドレス"
+
+msgid "Twitter ID"
+msgstr "Twitter アカウント"
+
+msgid "Twitter Password"
+msgstr "Twitter パスワード"
+
+msgid "\"Twitter ID\" who notifies without fail"
+msgstr "必ず＠リプライする Twitter アカウント"
+
+msgid "Tweet text"
+msgstr "Twitter でつぶやく言葉"
+
+msgid "There is a new comment on the post \"%s\""
+msgstr "\"%s\" に新しいコメントがあります"
+
+msgid "Author: %s"
+msgstr "投稿者: %s"
+
+msgid "Comment:"
+msgstr "コメント:"
+
+msgid "See all comments on this post here:"
+msgstr "この投稿へのすべてのコメントは次の URL で見ることができます:"
+
+msgid "[%1$s] New Comment On: %2$s"
+msgstr "[%1$s] 新しいコメントがあります: %2$s"
+
+msgid "[%1$s] New comment! #%2$s \"%3$s\": %4$s"
+msgstr "[%1$s] #%2$s \"%3$s\" に新しいコメントがあります: %4$s"
+
+msgid "To use it by your theme"
+msgstr "使用方法"
+
+msgid "When you remove the check on &quot;Automatically display it&quot; of the comment edit icon."
+msgstr "コメント編集アイコンの&quot;自動的に表示する&quot;のチェックを外した場合"
+
+msgid "Please insert the following codes in the template to display the comment edit icon."
+msgstr "テンプレートに以下のコードを挿入して、コメント編集アイコンを表示してください。"
+
+msgid "You need to insert the following code snippet into the comments template."
+msgstr "コメントテンプレートに以下のコードを追加する必要があります。"
+
+msgid "When the comment is added to this post, the notification is received with mail."
+msgstr "この投稿にコメントが追加されたとき、メールで通知を受け取ります。"
+
+msgid "The following characters are converted respectively."
+msgstr "以下の文字は、それぞれ変換されます。"
+
+msgid "Post No."
+msgstr "ポスト番号"
+
+msgid "Post Title"
+msgstr "タイトル"
+
+msgid "Comment No."
+msgstr "コメント番号"
+
+msgid "Excerpt of content of comment"
+msgstr "コメント内容の抜粋"
+
+msgid "The notification is collectively tweeted."
+msgstr "まとめてつぶやく"
+
+msgid "Only the changed comment is sent."
+msgstr "変更されたコメントデータだけを送信する"
+
+msgid "Should compress comments (gzip) if browsers ask for them."
+msgstr "ブラウザの要求があった場合にコメントデータを圧縮 (gzip) する"
+

@@ -1,0 +1,20 @@
+[27-Apr-2010 04:17:46] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/raiderhost/index.php on line 59
+[27-Apr-2010 13:32:48] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/raiderhost/index.php on line 59
+[05-Aug-2010 00:04:20] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Session key invalid or no longer valid' in /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/raiderhost/index.php(19): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php on line 3003
+[05-Aug-2010 00:04:28] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Session key invalid or no longer valid' in /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/raiderhost/index.php(19): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php on line 3003
+[05-Aug-2010 00:04:43] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Session key invalid or no longer valid' in /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/raiderhost/index.php(19): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/raiderhost/facebookapi_php5_restlib.php on line 3003

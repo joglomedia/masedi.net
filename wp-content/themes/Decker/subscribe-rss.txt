@@ -1,0 +1,1 @@
+<img src="<?php bloginfo('template_directory'); ?>/images/feed2.gif" alt="" /><a href="http://feeds.feedburner.com/feedburner-id">&nbsp;Subcribe via RSS</a>

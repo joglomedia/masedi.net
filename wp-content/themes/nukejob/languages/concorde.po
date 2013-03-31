@@ -1,0 +1,1391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Concorde v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-22 00:55+0700\n"
+"PO-Revision-Date: 2012-06-22 00:55+0700\n"
+"Last-Translator: habieb <habieb@wpnuke.com>\n"
+"Language-Team: WPNuke <info@wpnuke.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:5
+msgid "Error 404 - Page Not Found"
+msgstr ""
+
+#: ../404.php:14
+msgid "Page not found"
+msgstr ""
+
+#: ../archive.php:6
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: ../archive.php:8
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: ../archive.php:10
+#: ../archive.php:12
+#: ../archive.php:14
+msgid "Archive for"
+msgstr ""
+
+#: ../archive.php:16
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:30
+#: ../author.php:41
+#: ../home.php:77
+#: ../index.php:14
+#: ../search.php:18
+msgid "by "
+msgstr ""
+
+#: ../archive.php:30
+#: ../author.php:41
+#: ../home.php:77
+#: ../index.php:14
+#: ../search.php:18
+msgid "in "
+msgstr ""
+
+#: ../archive.php:30
+#: ../author.php:41
+#: ../home.php:77
+#: ../index.php:14
+#: ../search.php:18
+msgid "No comments"
+msgstr ""
+
+#: ../archive.php:30
+#: ../author.php:41
+#: ../home.php:77
+#: ../index.php:14
+#: ../search.php:18
+msgid "1 Comment"
+msgstr ""
+
+#: ../archive.php:30
+#: ../author.php:41
+#: ../comments.php:15
+#: ../home.php:77
+#: ../index.php:14
+#: ../search.php:18
+msgid "% Comments"
+msgstr ""
+
+#: ../archive.php:38
+#: ../author.php:49
+#: ../home.php:84
+#: ../index.php:24
+#: ../page.php:54
+#: ../search.php:26
+#: ../single-wpnuke_gallery.php:104
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../attachment.php:29
+msgid "Return to"
+msgstr ""
+
+#: ../attachment.php:29
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: ../attachment.php:29
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: ../author.php:9
+msgid "All Posts by "
+msgstr ""
+
+#: ../author.php:21
+msgid "About the Author"
+msgstr ""
+
+#: ../author.php:28
+msgid "Visit Author's Website"
+msgstr ""
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:15
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:15
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:17
+msgid "Older"
+msgstr ""
+
+#: ../comments.php:18
+msgid "Newer"
+msgstr ""
+
+#: ../comments.php:29
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:34
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Cancel"
+msgstr ""
+
+#: ../comments.php:39
+msgid "You must be"
+msgstr ""
+
+#: ../comments.php:39
+msgid "logged in"
+msgstr ""
+
+#: ../comments.php:39
+msgid "to post a comment."
+msgstr ""
+
+#: ../comments.php:43
+msgid "Logged in as"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../comments.php:46
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:46
+#: ../comments.php:48
+msgid "required"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Mail"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Website"
+msgstr ""
+
+#: ../options.php:96
+msgid "General"
+msgstr ""
+
+#: ../options.php:100
+msgid "Logo"
+msgstr ""
+
+#: ../options.php:101
+msgid "Upload a logo for your theme, or specify an image URL directly."
+msgstr ""
+
+#: ../options.php:106
+msgid "Favicon"
+msgstr ""
+
+#: ../options.php:107
+msgid "A favicon is a 16x16 pixel icon that represents your site, upload your favicon here."
+msgstr ""
+
+#: ../options.php:113
+msgid "Custom Login Logo"
+msgstr ""
+
+#: ../options.php:114
+msgid "Upload your custom login logo here."
+msgstr ""
+
+#: ../options.php:120
+msgid "RSS Feed URL"
+msgstr ""
+
+#: ../options.php:121
+msgid "Enter your Feedburner (or other) RSS feed URL here."
+msgstr ""
+
+#: ../options.php:127
+msgid "Gallery Slug"
+msgstr ""
+
+#: ../options.php:128
+msgid "Enter your gallery post type slug here."
+msgstr ""
+
+#: ../options.php:134
+msgid "Related Gallery"
+msgstr ""
+
+#: ../options.php:135
+msgid "Check to enable related gallery on the single gallery post."
+msgstr ""
+
+#: ../options.php:141
+msgid "Related Gallery Title"
+msgstr ""
+
+#: ../options.php:142
+msgid "Type your related gallery title here."
+msgstr ""
+
+#: ../options.php:148
+msgid "Comment on Page"
+msgstr ""
+
+#: ../options.php:149
+msgid "Check if you want to enable comment on standard page."
+msgstr ""
+
+#: ../options.php:155
+msgid "Footer Text"
+msgstr ""
+
+#: ../options.php:156
+msgid "Enter text used in the left side of the footer. e.g: Copyright WPNuke. All Rights Reserved."
+msgstr ""
+
+#: ../options.php:162
+msgid "Error 404 Text"
+msgstr ""
+
+#: ../options.php:163
+msgid "This text will appear on error 404 page. You can visit your 404 page here: http://yoursite.com/404"
+msgstr ""
+
+#: ../options.php:169
+msgid "Tracking Code"
+msgstr ""
+
+#: ../options.php:170
+msgid "Paste your Google Analytics (or other) tracking code here. This will be automatically added to the footer."
+msgstr ""
+
+#: ../options.php:176
+#: ../options.php:180
+msgid "Skins"
+msgstr ""
+
+#: ../options.php:181
+msgid "Select your theme alternative skins."
+msgstr ""
+
+#: ../options.php:194
+msgid "Homepage"
+msgstr ""
+
+#: ../options.php:198
+msgid "Homepage Slider"
+msgstr ""
+
+#: ../options.php:199
+msgid "Choose type of slider you want to use on your homepage or disable it."
+msgstr ""
+
+#: ../options.php:206
+msgid "Piecemaker ID"
+msgstr ""
+
+#: ../options.php:207
+msgid "Insert your piecemaker ID here. Leave it blank if you are using another slider."
+msgstr ""
+
+#: ../options.php:213
+msgid "Video Embed Code"
+msgstr ""
+
+#: ../options.php:214
+msgid "Insert your YouTube or other video embed code here, best viewed at 560px wide. Leave it blank if you are using another slider."
+msgstr ""
+
+#: ../options.php:220
+msgid "Video Title"
+msgstr ""
+
+#: ../options.php:221
+msgid "Insert your video title here. Leave it blank if you are using another slider."
+msgstr ""
+
+#: ../options.php:227
+msgid "Content Under Video Title"
+msgstr ""
+
+#: ../options.php:228
+msgid "Type your content here, you can use shortcode here. Leave it blank if you are using another slider."
+msgstr ""
+
+#: ../options.php:234
+msgid "Homepage Teaser Text"
+msgstr ""
+
+#: ../options.php:235
+msgid "Type your homepage teaser text here, leave it blank if you want to disable teaser text on the homepage."
+msgstr ""
+
+#: ../options.php:241
+msgid "Homepage Teaser Text Subheading"
+msgstr ""
+
+#: ../options.php:242
+msgid "Type your homepage teaser text subheading here, leave it blank to disable it."
+msgstr ""
+
+#: ../options.php:254
+msgid "Homepage Custom Content"
+msgstr ""
+
+#: ../options.php:255
+msgid "Type your custom content here, this content will appear under the teaser text. Leave it blank to disable it."
+msgstr ""
+
+#: ../options.php:261
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: ../options.php:262
+msgid "Choose your sidebar position or disable it."
+msgstr ""
+
+#: ../options.php:269
+msgid "Enable Latest Blog Posts"
+msgstr ""
+
+#: ../options.php:270
+msgid "Check if you want to enable latest blog posts on the homepage."
+msgstr ""
+
+#: ../options.php:276
+msgid "Latest Blog Posts Title"
+msgstr ""
+
+#: ../options.php:277
+msgid "Type the title of latest blog posts you wish to display."
+msgstr ""
+
+#: ../options.php:283
+msgid "Number of Blog Entries"
+msgstr ""
+
+#: ../options.php:284
+msgid "Enter the number of blog entries you wish to display."
+msgstr ""
+
+#: ../options.php:290
+msgid "Enable Gallery"
+msgstr ""
+
+#: ../options.php:291
+msgid "Check if you want to enable latest gallery on the homepage. Add gallery posts using the 'Gallery' custom post type."
+msgstr ""
+
+#: ../options.php:297
+msgid "Gallery Title"
+msgstr ""
+
+#: ../options.php:298
+msgid "Type the title of latest gallery you wish to display."
+msgstr ""
+
+#: ../options.php:304
+msgid "Number of Gallery Posts"
+msgstr ""
+
+#: ../options.php:305
+msgid "Enter the number of gallery posts you wish to display."
+msgstr ""
+
+#: ../options.php:311
+msgid "Slider"
+msgstr ""
+
+#: ../options.php:315
+msgid "Nivo Slider Options"
+msgstr ""
+
+#: ../options.php:319
+msgid "Animation Effect"
+msgstr ""
+
+#: ../options.php:320
+msgid "Select the slider animation effect."
+msgstr ""
+
+#: ../options.php:327
+#: ../options.php:376
+msgid "Number of Slides"
+msgstr ""
+
+#: ../options.php:328
+#: ../options.php:377
+msgid "Enter the number of slides you want to display."
+msgstr ""
+
+#: ../options.php:334
+msgid "Animation Speed"
+msgstr ""
+
+#: ../options.php:335
+msgid "The time in miliseconds the animation between frames will take."
+msgstr ""
+
+#: ../options.php:341
+#: ../options.php:399
+msgid "Slide Interval"
+msgstr ""
+
+#: ../options.php:342
+msgid "The time in milliseconds each slide pauses for, before sliding to the next."
+msgstr ""
+
+#: ../options.php:348
+#: ../options.php:391
+msgid "Pause on Hover"
+msgstr ""
+
+#: ../options.php:349
+msgid "Stop animation while hovering slide."
+msgstr ""
+
+#: ../options.php:356
+msgid "Keyboard Navigation"
+msgstr ""
+
+#: ../options.php:357
+msgid "Use keyboard left & right arrows to control slider."
+msgstr ""
+
+#: ../options.php:364
+msgid "Next/Previous Buttons"
+msgstr ""
+
+#: ../options.php:365
+msgid "Display next/previous buttons while hovering slide."
+msgstr ""
+
+#: ../options.php:372
+msgid "Accordion Slider Options"
+msgstr ""
+
+#: ../options.php:383
+msgid "Autoplay"
+msgstr ""
+
+#: ../options.php:384
+msgid "Slider play automatically."
+msgstr ""
+
+#: ../options.php:392
+msgid "If autoplay is enabled, the slider will pause while hovering slide."
+msgstr ""
+
+#: ../options.php:400
+msgid "How long between slide transitions in autoplay mode."
+msgstr ""
+
+#: ../options.php:406
+msgid "Animation Time"
+msgstr ""
+
+#: ../options.php:407
+msgid "How long the slide transition takes."
+msgstr ""
+
+#: ../options.php:413
+msgid "Expanded Width"
+msgstr ""
+
+#: ../options.php:414
+msgid "Width of the expanded slide (in pixels)."
+msgstr ""
+
+#: ../options.php:420
+msgid "Single Post"
+msgstr ""
+
+#: ../options.php:424
+msgid "Show Author Bios"
+msgstr ""
+
+#: ../options.php:425
+msgid "Check to show an author bio box on each single post."
+msgstr ""
+
+#: ../options.php:431
+msgid "Enable Social Media Share"
+msgstr ""
+
+#: ../options.php:432
+msgid "Check to enable a social media share box on each single post."
+msgstr ""
+
+#: ../options.php:438
+msgid "Enable Post tags"
+msgstr ""
+
+#: ../options.php:439
+msgid "Check to display post tags on each single post."
+msgstr ""
+
+#: ../options.php:445
+msgid "Custom Gravatar"
+msgstr ""
+
+#: ../options.php:446
+msgid "Upload an image for custom gravatar."
+msgstr ""
+
+#: ../options.php:451
+msgid "Typography"
+msgstr ""
+
+#: ../options.php:455
+msgid "Enable Custom Typography"
+msgstr ""
+
+#: ../options.php:456
+msgid "Check to enable the use of custom typography for your site."
+msgstr ""
+
+#: ../options.php:461
+#: ../options.php:462
+msgid "General Typography"
+msgstr ""
+
+#: ../options.php:468
+msgid "General Heading Font"
+msgstr ""
+
+#: ../options.php:469
+msgid "Font setting for general heading."
+msgstr ""
+
+#: ../options.php:475
+msgid "Link"
+msgstr ""
+
+#: ../options.php:476
+msgid "Setting for general link font."
+msgstr ""
+
+#: ../options.php:481
+msgid "Link Hover"
+msgstr ""
+
+#: ../options.php:482
+msgid "Setting for general link font when mouse over the link."
+msgstr ""
+
+#: ../options.php:487
+msgid "Post Title"
+msgstr ""
+
+#: ../options.php:488
+msgid "Setting for post title font."
+msgstr ""
+
+#: ../options.php:493
+msgid "Post Title Hover"
+msgstr ""
+
+#: ../options.php:494
+msgid "Setting post title font when mouse over the link."
+msgstr ""
+
+#: ../options.php:499
+msgid "Teaser Text Heading"
+msgstr ""
+
+#: ../options.php:500
+msgid "Setting for teaser text heading font."
+msgstr ""
+
+#: ../options.php:505
+msgid "Teaser Text Subheading"
+msgstr ""
+
+#: ../options.php:506
+msgid "Setting for teaser text subheading font."
+msgstr ""
+
+#: ../page.php:52
+msgid "Not Found"
+msgstr ""
+
+#: ../search.php:5
+msgid "Search Results for"
+msgstr ""
+
+#: ../single-wpnuke_gallery.php:87
+#: ../single-wpnuke_gallery.php:99
+msgid "Categories: "
+msgstr ""
+
+#: ../single.php:81
+#: ../single.php:180
+#: ../single.php:278
+msgid "Tags:"
+msgstr ""
+
+#: ../single.php:100
+#: ../single.php:199
+#: ../single.php:297
+#, php-format
+msgid "View all posts by %s &raquo;"
+msgstr ""
+
+#: ../template-blog-large-thumb.php:61
+#: ../template-blog-small-thumb.php:1
+#: ../template-blog.php:53
+#: ../template-gallery-1-col.php:76
+msgid "Read More"
+msgstr ""
+
+#: ../000assets/breadcrumb.php:80
+msgid "Page"
+msgstr ""
+
+#: ../000assets/admin/options-framework.php:228
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../000assets/admin/options-framework.php:260
+msgid "Default options restored."
+msgstr ""
+
+#: ../000assets/admin/options-framework.php:301
+msgid "Options saved."
+msgstr ""
+
+#: ../000assets/admin/options-framework.php:359
+msgid "Theme Options"
+msgstr ""
+
+#: ../000assets/admin/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: ../000assets/admin/options-medialibrary-uploader.php:128
+msgid "Upload"
+msgstr ""
+
+#: ../000assets/admin/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr ""
+
+#: ../000assets/admin/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr ""
+
+#: ../000assets/admin/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/functions.php:128
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:32
+msgid "One"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:33
+msgid "Two"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:34
+msgid "Three"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:35
+msgid "Four"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:36
+msgid "Five"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:41
+msgid "French Toast"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:42
+msgid "Pancake"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:43
+msgid "Omelette"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:44
+msgid "Crepe"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:45
+msgid "Waffle"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:98
+msgid "Basic Settings"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:102
+msgid "Input Text Mini"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:103
+msgid "A mini text input field."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:110
+msgid "Input Text"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:111
+msgid "A text input field."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:117
+msgid "Textarea"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:118
+msgid "Textarea description."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:124
+msgid "Input Select Small"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:125
+msgid "Small Select Box."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:133
+msgid "Input Select Wide"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:134
+msgid "A wider select box."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:141
+msgid "Select a Category"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:142
+msgid "Passed an array of categories with cat_ID and cat_name"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:148
+msgid "Select a Page"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:149
+msgid "Passed an pages with ID and post_title"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:155
+msgid "Input Radio (one)"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:156
+msgid "Radio select with default options \"one\"."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:163
+msgid "Example Info"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:164
+msgid "This is just some example information you can put in the panel."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:168
+msgid "Input Checkbox"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:169
+msgid "Example checkbox, defaults to true."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:175
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:179
+msgid "Check to Show a Hidden Text Input"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:180
+msgid "Click here and see what happens."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:185
+msgid "Hidden Text Input"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:186
+msgid "This option is hidden unless activated by a checkbox click."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:193
+msgid "Uploader Test"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:194
+msgid "This creates a full size uploader that previews the image."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:211
+msgid "Example Background"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:212
+msgid "Change the background CSS."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:218
+msgid "Multicheck"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:219
+msgid "Multicheck description."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:226
+msgid "Colorpicker"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:227
+msgid "No color selected by default."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:233
+msgid "Example typography."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:239
+msgid "Custom Typography"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:240
+msgid "Custom typography options."
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:247
+msgid "Text Editor"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:265
+msgid "Default Text Editor"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/options.php:266
+#, php-format
+msgid "You can also pass settings to the editor.  Read more about wp_editor in <a href=\"%1$s\" target=\"_blank\">the WordPress codex</a>"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-medialibrary-uploader.php:26
+#: ../inc/options-medialibrary-uploader.php:26
+msgid "Theme Options Media"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:232
+#: ../inc/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:233
+#: ../inc/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:234
+#: ../inc/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:235
+#: ../inc/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:248
+#: ../inc/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:249
+#: ../inc/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:250
+#: ../inc/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:251
+#: ../inc/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:252
+#: ../inc/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:253
+#: ../inc/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:254
+#: ../inc/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:255
+#: ../inc/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:256
+#: ../inc/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:269
+#: ../inc/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:270
+#: ../inc/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:344
+#: ../inc/options-sanitize.php:374
+msgid "Normal"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:345
+#: ../inc/options-sanitize.php:375
+msgid "Italic"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:346
+#: ../inc/options-sanitize.php:376
+msgid "Bold"
+msgstr ""
+
+#: ../000assets/devinsays-options-framework-theme-75b9a41/inc/options-sanitize.php:347
+#: ../inc/options-sanitize.php:377
+msgid "Bold Italic"
+msgstr ""
+
+#: ../includes/pagenavi.php:168
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: ../includes/pagenavi.php:171
+msgid "&laquo; First"
+msgstr ""
+
+#: ../includes/pagenavi.php:172
+msgid "Last &raquo;"
+msgstr ""
+
+#: ../includes/pagenavi.php:173
+msgid "&raquo;"
+msgstr ""
+
+#: ../includes/pagenavi.php:174
+msgid "&laquo;"
+msgstr ""
+
+#: ../includes/pagenavi.php:175
+#: ../includes/pagenavi.php:176
+msgid "..."
+msgstr ""
+
+#: ../includes/theme-functions.php:44
+#: ../includes/theme-functions.php:45
+msgid "Slide"
+msgstr ""
+
+#: ../includes/theme-functions.php:46
+#: ../includes/theme-functions.php:47
+#: ../includes/theme-functions.php:49
+msgid "Add New Slide"
+msgstr ""
+
+#: ../includes/theme-functions.php:48
+msgid "Edit Slide"
+msgstr ""
+
+#: ../includes/theme-functions.php:50
+msgid "View Slide"
+msgstr ""
+
+#: ../includes/theme-functions.php:51
+msgid "Search Slide"
+msgstr ""
+
+#: ../includes/theme-functions.php:52
+msgid "No slides found"
+msgstr ""
+
+#: ../includes/theme-functions.php:53
+msgid "No slides found in trash"
+msgstr ""
+
+#: ../includes/theme-functions.php:67
+#: ../includes/theme-functions.php:68
+#: ../includes/theme-functions.php:70
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../includes/theme-functions.php:69
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../includes/theme-functions.php:71
+msgid "View Gallery"
+msgstr ""
+
+#: ../includes/theme-functions.php:72
+msgid "Search Gallery"
+msgstr ""
+
+#: ../includes/theme-functions.php:73
+msgid "No galleries found"
+msgstr ""
+
+#: ../includes/theme-functions.php:74
+msgid "No galleries found in trash"
+msgstr ""
+
+#: ../includes/theme-functions.php:86
+#: ../includes/theme-functions.php:87
+msgid "Feedback"
+msgstr ""
+
+#: ../includes/theme-functions.php:88
+#: ../includes/theme-functions.php:89
+#: ../includes/theme-functions.php:91
+msgid "Add New Feedback"
+msgstr ""
+
+#: ../includes/theme-functions.php:90
+msgid "Edit Feedback"
+msgstr ""
+
+#: ../includes/theme-functions.php:92
+msgid "View Feedback"
+msgstr ""
+
+#: ../includes/theme-functions.php:93
+msgid "Search Feedback"
+msgstr ""
+
+#: ../includes/theme-functions.php:94
+msgid "No feedbacks found"
+msgstr ""
+
+#: ../includes/theme-functions.php:95
+msgid "No feedbacks found in trash"
+msgstr ""
+
+#: ../includes/theme-functions.php:171
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/theme-functions.php:172
+msgid "Categories"
+msgstr ""
+
+#: ../includes/theme-functions.php:173
+msgid "Author"
+msgstr ""
+
+#: ../includes/theme-functions.php:174
+msgid "Comments"
+msgstr ""
+
+#: ../includes/theme-functions.php:175
+msgid "Date"
+msgstr ""
+
+#: ../includes/theme-functions.php:199
+#: ../includes/theme-functions.php:206
+msgid "None"
+msgstr ""
+
+#: ../includes/theme-js.php:1
+msgid "Loading..."
+msgstr ""
+
+#: ../includes/meta-box/meta-box.php:108
+#: ../includes/meta-box/meta-box.php:349
+msgid "Delete this image"
+msgstr ""
+
+#: ../includes/meta-box/meta-box.php:108
+#: ../includes/meta-box/meta-box.php:306
+#: ../includes/meta-box/meta-box.php:349
+msgid "Delete"
+msgstr ""
+
+#: ../includes/meta-box/meta-box.php:302
+msgid "Uploaded files"
+msgstr ""
+
+#: ../includes/meta-box/meta-box.php:312
+msgid "Upload new files"
+msgstr ""
+
+#: ../includes/meta-box/meta-box.php:315
+msgid "Add more file"
+msgstr ""
+
+#: ../includes/meta-box/meta-box.php:356
+msgid "Add more images"
+msgstr ""
+
+#: ../includes/meta-box/meta-box.php:363
+msgid "Select a color"
+msgstr ""
+
+#: ../includes/widgets/adspace.php:13
+msgid "A widget that display any type of Ad as a widget."
+msgstr ""
+
+#: ../includes/widgets/adspace.php:17
+msgid "WPNuke - Ad Widget"
+msgstr ""
+
+#: ../includes/widgets/adspace.php:80
+#: ../includes/widgets/feedback.php:76
+#: ../includes/widgets/flickr.php:84
+#: ../includes/widgets/social-badge.php:1
+#: ../includes/widgets/social.php:113
+msgid "Title:"
+msgstr ""
+
+#: ../includes/widgets/adspace.php:84
+msgid "Insert ad code here:"
+msgstr ""
+
+#: ../includes/widgets/adspace.php:89
+msgid "Ad image URL:"
+msgstr ""
+
+#: ../includes/widgets/adspace.php:93
+msgid "Ad destination URL:"
+msgstr ""
+
+#: ../includes/widgets/adspace.php:97
+msgid "Ad alt text:"
+msgstr ""
+
+#: ../includes/widgets/feedback.php:13
+msgid "A widget that displays random feedback."
+msgstr ""
+
+#: ../includes/widgets/feedback.php:17
+msgid "WPNuke - Feedback Widget"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:13
+msgid "A widget that displays your Flickr photos."
+msgstr ""
+
+#: ../includes/widgets/flickr.php:17
+msgid "WPNuke - Flickr"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:88
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:92
+msgid "Number of Photos:"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:100
+msgid "Type (user or group):"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:107
+msgid "Display (random or latest):"
+msgstr ""
+
+#: ../includes/widgets/social-badge.php:1
+msgid "Facebook page link:"
+msgstr ""
+
+#: ../includes/widgets/social-badge.php:1
+msgid "Google+ page link:"
+msgstr ""
+
+#: ../includes/widgets/social-badge.php:1
+msgid "Google plusone link:"
+msgstr ""
+
+#: ../includes/widgets/social-badge.php:1
+msgid "Text next to Google plusone button:"
+msgstr ""
+
+#: ../includes/widgets/social-badge.php:1
+msgid "Twitter account:"
+msgstr ""
+
+#: ../includes/widgets/social.php:13
+msgid "A widget that display list of social media."
+msgstr ""
+
+#: ../includes/widgets/social.php:17
+msgid "WPNuke - Social Media"
+msgstr ""
+
+#: ../includes/widgets/social.php:117
+msgid "RSS link:"
+msgstr ""
+
+#: ../includes/widgets/social.php:121
+msgid "RSS Text:"
+msgstr ""
+
+#: ../includes/widgets/social.php:125
+msgid "Email subscribe link:"
+msgstr ""
+
+#: ../includes/widgets/social.php:129
+msgid "Email subscribe text:"
+msgstr ""
+
+#: ../includes/widgets/social.php:133
+msgid "Facebook link:"
+msgstr ""
+
+#: ../includes/widgets/social.php:137
+msgid "Facebook text:"
+msgstr ""
+
+#: ../includes/widgets/social.php:141
+msgid "Twitter link:"
+msgstr ""
+
+#: ../includes/widgets/social.php:145
+msgid "Twitter text:"
+msgstr ""
+
+#: ../includes/widgets/social.php:149
+msgid "YouTube link:"
+msgstr ""
+
+#: ../includes/widgets/social.php:153
+msgid "YouTube text:"
+msgstr ""
+
+#: ../includes/widgets/social.php:157
+msgid "Flickr link:"
+msgstr ""
+
+#: ../includes/widgets/social.php:161
+msgid "Flickr text:"
+msgstr ""
+
+#: ../includes/widgets/social.php:165
+msgid "LinkedIn link:"
+msgstr ""
+
+#: ../includes/widgets/social.php:169
+msgid "LinkedIn text:"
+msgstr ""
+
+#: ../includes/widgets/tab.php:13
+msgid "A tabbed widget that display popular posts, recent posts, comments and tags."
+msgstr ""
+
+#: ../includes/widgets/tab.php:17
+msgid "WPNuke - Tab Widget"
+msgstr ""
+
+#: ../includes/widgets/tab.php:96
+#: ../includes/widgets/tab.php:99
+msgid "on "
+msgstr ""
+
+#: ../includes/widgets/tab.php:148
+msgid "Tab 1 Title:"
+msgstr ""
+
+#: ../includes/widgets/tab.php:152
+msgid "Tab 2 Title:"
+msgstr ""
+
+#: ../includes/widgets/tab.php:156
+msgid "Tab 3 Title:"
+msgstr ""
+
+#: ../includes/widgets/tab.php:160
+msgid "Tab 4 Title:"
+msgstr ""
+
+#: ../includes/widgets/tweets.php:13
+msgid "A widget that displays your latest tweets."
+msgstr ""
+
+#: ../includes/widgets/tweets.php:17
+msgid "WPNuke - Latest Tweets"
+msgstr ""
+
+#: ../includes/widgets/tweets.php:83
+msgid "Twitter Username e.g. wpnuke"
+msgstr ""
+
+#: ../includes/widgets/tweets.php:87
+msgid "Number of tweets"
+msgstr ""
+
+#: ../includes/widgets/tweets.php:91
+msgid "Text e.g. WpNuke on Twitter"
+msgstr ""
+
+#: ../includes/widgets/video.php:13
+msgid "A widget that displays your video."
+msgstr ""
+
+#: ../includes/widgets/video.php:17
+msgid "WPNuke - Video Widget"
+msgstr ""
+
+#: ../includes/widgets/video.php:77
+msgid "Video embed code (best at 300px wide):"
+msgstr ""
+
+#: ../includes/widgets/video.php:81
+msgid "Your video description:"
+msgstr ""
+

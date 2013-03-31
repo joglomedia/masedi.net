@@ -1,0 +1,137 @@
+#opseo-tabs, #opseo-import-export-tabs
+{
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0;
+	float: left;
+	position: relative;
+	z-index: 1;
+	border: 0;
+	bottom: -1px;
+	width: 100%;
+}
+
+#opseo-tabs ul, #opseo-import-export-tabs ul
+{
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+	position: relative;
+	top: 1px;
+}
+
+#opseo-tabs li.opseotabs, #opseo-import-export-tabs li.importexporttabs
+{
+	/*resets*/margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	float: left;
+	/*border: 1px solid #d3d3d3;
+	border-right: none;
+	background-color: #dadada;*/
+}
+
+#opseo-tabs li.opseotabs a, #opseo-import-export-tabs li.importexporttabs a
+{
+	/*resetsmargin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none;
+	float: left;
+	font-size: 1em;
+	font-weight: normal;
+	text-decoration: none;
+	padding: .5em;
+	color: #555555;*/
+
+
+			height: 28px !important;
+			line-height: 32px !important;
+			width: auto !important;
+
+			float: none !important;
+			background-color: transparent;
+			display:inline-block !important;
+			position: relative !important;
+			text-decoration:none !important;
+			font-weight:normal !important;
+			font-size:14px !important;
+			color:rgb(90,90,90) !important;
+			text-shadow: 0 1px rgb(255,255,255) !important;
+			-moz-border-radius: 6px 6px 0 0 !important;
+			-webkit-border-top-left-radius:6px !important;
+			-khtml-border-top-left-radius:6px !important;
+			-webkit-border-top-right-radius:6px !important;
+			-khtml-border-top-right-radius:6px !important;
+			border-top: 1px solid rgb(187,187,187) !important;
+			border-left: 1px solid rgb(187,187,187) !important;
+			border-right: 1px solid rgb(187,187,187) !important;
+			border-bottom: 1px solid rgb(187,187,187) !important;
+			border-top-left-radius:6px !important;
+			border-top-right-radius:6px !important;
+			padding:1px 8px 5px 8px !important;
+			margin: 0 0 0 7px !important;
+			z-index: 99999 !important;
+			zoom: 1 !important;
+     			*display: inline !important;
+
+
+
+}
+
+#opseo-tabs li.opseotabs a:hover, #opseo-import-export-tabs li.importexporttabs a:hover
+{
+	color: #212121;
+}
+#opseo-tabs li.opseo-tabs-selected, #opseo-import-export-tabs li.opseo-tabs-selected
+{
+	border-bottom-color: #ffffff;
+}
+
+#opseo-tabs li.opseo-tabs-selected a, #opseo-tabs li.opseo-tabs-selected a:hover, #opseo-import-export-tabs li.opseo-tabs-selected a, #opseo-import-export-tabs li.opseo-tabs-selected a:hover
+{
+	/*background-color: #fff;
+	color: #212121;*/
+
+			float: none !important;
+			height: 28px !important;
+			line-height: 32px !important;
+			width: auto !important;
+			background: url(../images/adminsettingstabbg.png) repeat-x 0 0;
+			display:inline-block !important;
+			position:relative !important;
+			text-decoration:none !important;
+			font-weight:bold !important;
+			font-size:14px !important;
+			color:rgb(90,90,90) !important;
+			text-shadow: 0 1px rgb(255,255,255) !important;
+			-moz-border-radius: 6px 6px 0 0 !important;
+			-webkit-border-top-left-radius:6px !important;
+			-khtml-border-top-left-radius:6px !important;
+			-webkit-border-top-right-radius:6px !important;
+			-khtml-border-top-right-radius:6px !important;
+			border-top: 1px solid rgb(187,187,187) !important;
+			border-bottom: 1px solid rgb(226,226,226) !important;
+			border-left: 1px solid rgb(187,187,187) !important;
+			border-right: 1px solid rgb(187,187,187) !important;
+			border-top-left-radius:6px !important;
+			border-top-right-radius:6px !important;
+			padding:1px 8px 5px 8px !important;
+			margin: 0 0 0 7px !important;
+			z-index: 99999 !important;
+			zoom: 1 !important;
+     			*display: inline !important;
+
+
+}
+
+.opseo-tabs-panel, .import-export-tabs-panel {
+	background: url(../images/opseotabspanelbg.png) repeat-x 0 0;
+	clear:left;
+	border: 1px solid #d3d3d3 !important;
+	color: #222222;
+	margin: 0 0 15px 0;
+	padding: 15px;
+}
+
+.opseo-submit
+{
+	clear: both;
+	width: 100%;
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+}

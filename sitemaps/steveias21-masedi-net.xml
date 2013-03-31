@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://steveias21.masedi.net/wp-content/plugins/google-xml-sitemaps-with-multisite-support/sitemap.xsl"?><!-- generator="wordpress/3.3.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.2" -->
+<!-- generated-on="February 19, 2012 7:36 am" -->
+<!-- Debug: Total comment count: 1 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://steveias21.masedi.net/</loc>
+		<lastmod>2012-02-10T09:15:11+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 27: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2012/02/10/are-electronic-cigarettes-safe-or-not/</loc>
+		<lastmod>2012-02-10T09:15:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 23: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2012/01/20/some-beneficial-features-of-v2-cigs/</loc>
+		<lastmod>2012-01-20T10:17:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 20: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2011/12/30/south-beach-the-best-gift-i-received-on-this-christmas/</loc>
+		<lastmod>2011-12-30T06:29:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 17: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2011/12/27/best-e-cigarette-the-safe-cig-e-cigarette-leaves-behind-no-ash-or-smoke/</loc>
+		<lastmod>2011-12-27T09:07:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 14: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2011/12/12/how-to-buy-best-e-cigarette-brand/</loc>
+		<lastmod>2011-12-12T09:23:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 12: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2011/12/09/what-are-the-benefits-of-using-v2-cigs/</loc>
+		<lastmod>2011-12-09T11:28:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 9: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2011/12/06/e-cigarette-review-how-v2-cigs-gets-best-electric-review-award-each-year/</loc>
+		<lastmod>2011-12-06T10:15:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 4: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2011/12/03/best-electronic-cigarette-salutes-the-v2-cigs-review/</loc>
+		<lastmod>2011-12-03T10:18:39+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1: Comments: 1 of 1 = 1 points -->
+	<url>
+		<loc>http://steveias21.masedi.net/2011/12/03/hello-world/</loc>
+		<lastmod>2011-12-03T10:09:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://steveias21.masedi.net/sample-page/</loc>
+		<lastmod>2011-12-03T10:09:19+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

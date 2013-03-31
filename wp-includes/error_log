@@ -1,0 +1,5 @@
+[16-Sep-2010 03:31:55] PHP Fatal error:  Call to undefined function is_multisite() in /home/masedi/public_html/wp-includes/wp-db.php on line 505
+[16-Sep-2010 03:33:51] PHP Fatal error:  Call to undefined function is_multisite() in /home/masedi/public_html/wp-includes/wp-db.php on line 505
+[23-Jan-2011 21:04:55] PHP Fatal error:  Call to undefined function  is_multisite() in /home/masedi/public_html/wp-includes/wp-db.php on line 505
+[01-Jun-2012 11:21:07 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/masedi/public_html/wp-includes/rss-functions.php on line 8
+[12-Jul-2012 06:57:31 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/masedi/public_html/wp-includes/registration-functions.php on line 7

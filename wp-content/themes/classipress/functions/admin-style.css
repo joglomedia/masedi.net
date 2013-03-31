@@ -1,0 +1,27 @@
+h2 { margin-bottom: 20px; }
+.title { margin: 0px !important; background: #DFDFDF repeat-x scroll left top; padding: 10px; font-family: Georgia, serif; font-weight: normal !important; letter-spacing: 1px; font-size: 18px; }
+.container { background: #EAF3FA; padding: 10px; }
+.maintable { font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; background: ##F9F9F9; margin-bottom: 20px; padding: 10px 0px; border:1px solid #E6E6E6; width: 100%;}
+.mainrow { padding-bottom: 10px !important; border-bottom: 1px solid #E6E6E6 !important; float: left; margin: 0px 10px 10px 10px !important; }
+.titledesc { font-size: 12px; font-weight:bold; width: 220px !important; margin-right: 20px !important; }
+.forminp { width: 700px !important; valign: middle !important; }
+.forminp input, .forminp select, .forminp textarea { margin-bottom: 9px !important; background: #fff; border-top: 1px solid #ccc; border-left: 1px solid #ccc; padding: 4px; font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; font-size: 12px; }
+.info { background: #FFFFCC; border: 1px dotted #D8D2A9; padding: 10px; color: #333; }
+.forminp .checkbox { width:20px }
+.info a { color: #333; text-decoration: none; border-bottom: 1px dotted #333 }
+.info a:hover { color: #666; border-bottom: 1px dotted #666; }
+.warning { background: #FFEBE8; border: 1px dotted #CC0000; padding: 10px; color: #333; font-weight: bold; }
+
+/* this is for the images section */
+.one_category {border: 1px #5795C3 solid; margin-bottom: 30px; padding: 10px;}
+.nothing {color: #FF0000; float: right;}
+.one_category_name {background-color: #5795C3; text-align: center; color: #fff; font-size: 13px; padding: 3px 0;}
+.one_cat_img {float: left;margin: 0 0px 5px 5px;padding: 2px;display: block;width: 40px;text-align: center;}
+.one_cat_img:hover {background-color: #fff;}
+input.form-table-radio{cursor: pointer;border: none;}
+.classipress_images {height: 455px;	overflow: scroll;padding-top: 10px;	font-size: 10px;font-family: verdana;}
+.oneimage-box {	padding-bottom: 20px;float: left;padding-left: 10px;width: 120px;}
+.oneimage-box:hover {background-color: #F4F4F4;}
+.oneimage {border: 4px #5795C3 solid;float: left;width: 100px;height: 100px;display: block;}
+.del_image {background-color: #981401;padding: 3px 5px;	color: #fff;font-weight: bold;}
+

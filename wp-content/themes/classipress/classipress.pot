@@ -1,0 +1,1602 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ClassiPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-06 22:59-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: David Cowgill\n"
+"Language-Team: David Cowgill\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:16
+msgid "The page you are looking for has been moved or does not exist. Please try another url or use our search to find what you are looking for."
+msgstr ""
+
+#: author.php:27
+msgid "About"
+msgstr ""
+
+#: author.php:47
+msgid "Website:"
+msgstr ""
+
+#: author.php:49
+msgid "Description:"
+msgstr ""
+
+#: author.php:52
+msgid "Other ads listed by"
+msgstr ""
+
+#: author.php:67
+msgid "No ads by this poster yet."
+msgstr ""
+
+#: comments.php:9
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:21
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:21
+msgid "One Response"
+msgstr ""
+
+#: comments.php:21
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:21
+msgid "to"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:53
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:53
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:60
+msgid "You must be"
+msgstr ""
+
+#: comments.php:60
+msgid "logged in"
+msgstr ""
+
+#: comments.php:60
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:67
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:67
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:67
+#: header.php:81
+msgid "Log out"
+msgstr ""
+
+#: comments.php:72
+#: post-form.php:187
+#: single.php:216
+#: tpl-edit-ad.php:168
+msgid "Name"
+msgstr ""
+
+#: comments.php:72
+#: comments.php:75
+msgid "(required)"
+msgstr ""
+
+#: comments.php:75
+msgid "Email (will not be published)"
+msgstr ""
+
+#: comments.php:78
+#: tpl-profile.php:215
+msgid "Website"
+msgstr ""
+
+#: comments.php:86
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:4
+msgid "Home"
+msgstr ""
+
+#: footer.php:11
+msgid "Theme by"
+msgstr ""
+
+#: footer.php:12
+msgid "Powered by"
+msgstr ""
+
+#: form_process.php:50
+msgid "Please select a category"
+msgstr ""
+
+#: form_process.php:55
+msgid "This category does not exist"
+msgstr ""
+
+#: form_process.php:60
+msgid "Please fill in all mandatory * fields"
+msgstr ""
+
+#: form_process.php:64
+msgid "Please enter a valid email"
+msgstr ""
+
+#: form_process.php:68
+#: single.php:177
+msgid "The spam field is incorrect"
+msgstr ""
+
+#: form_process.php:104
+msgid "The file $value has 0 bytes."
+msgstr ""
+
+#: form_process.php:107
+msgid "The file $value is bigger than 2MB."
+msgstr ""
+
+#: form_process.php:113
+msgid "The file $value is not an image."
+msgstr ""
+
+#: form_process.php:181
+msgid "New ad submission"
+msgstr ""
+
+#: form_process.php:182
+#: functions.php:445
+#: header.php:159
+msgid "ClassiPress"
+msgstr ""
+
+#: form_process.php:183
+msgid "Someone has submitted a new ad. Go to your admin panel to view it."
+msgstr ""
+
+#: functions.php:69
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: functions.php:74
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: functions.php:91
+msgid "There are no images"
+msgstr ""
+
+#: functions.php:120
+#: functions.php:432
+msgid "You have to register in order to add a classified."
+msgstr ""
+
+#: functions.php:125
+#: functions.php:434
+#: header.php:85
+msgid "Register"
+msgstr ""
+
+#: functions.php:214
+#: functions.php:221
+#: functions.php:228
+msgid "Directions:"
+msgstr ""
+
+#: functions.php:214
+#: functions.php:221
+#: functions.php:228
+msgid "To here"
+msgstr ""
+
+#: functions.php:214
+#: functions.php:221
+#: functions.php:228
+msgid "From here"
+msgstr ""
+
+#: functions.php:217
+#: functions.php:224
+msgid "Get Directions"
+msgstr ""
+
+#: functions.php:245
+msgid "Address was not found"
+msgstr ""
+
+#: functions.php:260
+msgid "Sorry, the Google Maps API is not compatible with this browser"
+msgstr ""
+
+#: functions.php:275
+#: post-form.php:81
+#: tpl-dashboard.php:200
+msgid "days"
+msgstr ""
+
+#: functions.php:276
+msgid "day"
+msgstr ""
+
+#: functions.php:277
+msgid "hours"
+msgstr ""
+
+#: functions.php:278
+msgid "hour"
+msgstr ""
+
+#: functions.php:279
+msgid "mins"
+msgstr ""
+
+#: functions.php:280
+msgid "min"
+msgstr ""
+
+#: functions.php:281
+msgid "secs"
+msgstr ""
+
+#: functions.php:282
+msgid "remaining"
+msgstr ""
+
+#: functions.php:283
+msgid "Ad has expired"
+msgstr ""
+
+#: functions.php:363
+msgid "Sponsored Links"
+msgstr ""
+
+#: functions.php:446
+msgid "General Configuration"
+msgstr ""
+
+#: functions.php:446
+msgid "Configure"
+msgstr ""
+
+#: functions.php:447
+msgid "Settings"
+msgstr ""
+
+#: functions.php:448
+msgid "Payment Options"
+msgstr ""
+
+#: functions.php:448
+msgid "Payments"
+msgstr ""
+
+#: functions.php:449
+msgid "Category Options"
+msgstr ""
+
+#: functions.php:449
+#: tpl-edit-ad.php:225
+msgid "Categories"
+msgstr ""
+
+#: functions.php:450
+#: single.php:62
+msgid "Images"
+msgstr ""
+
+#: functions.php:470
+msgid "Ads Sidebar"
+msgstr ""
+
+#: functions.php:479
+msgid "Page Sidebar"
+msgstr ""
+
+#: header.php:8
+msgid "Search Results"
+msgstr ""
+
+#: header.php:9
+msgid "Author Posts"
+msgstr ""
+
+#: header.php:80
+msgid "Welcome,"
+msgstr ""
+
+#: header.php:81
+#: tpl-edit-ad.php:199
+#: tpl-edit-ad.php:206
+msgid "My Dashboard"
+msgstr ""
+
+#: header.php:85
+msgid "Welcome, visitor!"
+msgstr ""
+
+#: header.php:85
+msgid "Login"
+msgstr ""
+
+#: header.php:128
+msgid "Search Classifieds..."
+msgstr ""
+
+#: header.php:132
+msgid "Post a Classified!"
+msgstr ""
+
+#: header.php:143
+msgid "Payment date:"
+msgstr ""
+
+#: header.php:144
+msgid "First name:"
+msgstr ""
+
+#: header.php:145
+msgid "Last name:"
+msgstr ""
+
+#: header.php:146
+msgid "Country:"
+msgstr ""
+
+#: header.php:147
+msgid "Ad title:"
+msgstr ""
+
+#: header.php:148
+msgid "Payer email:"
+msgstr ""
+
+#: header.php:149
+msgid "Payer status:"
+msgstr ""
+
+#: header.php:150
+msgid "Verify sign:"
+msgstr ""
+
+#: header.php:158
+msgid "New ad payment"
+msgstr ""
+
+#: header.php:161
+msgid "Someone just paid for an ad."
+msgstr ""
+
+#: header.php:173
+msgid "Thank you for your payment. Your ad has been published."
+msgstr ""
+
+#: index.php:10
+msgid "Latest Listings"
+msgstr ""
+
+#: index.php:27
+#: search.php:12
+msgid "Item Name"
+msgstr ""
+
+#: index.php:32
+#: post-form.php:161
+#: search.php:13
+#: tpl-dashboard.php:107
+#: tpl-edit-ad.php:162
+msgid "Price"
+msgstr ""
+
+#: index.php:37
+#: post-form.php:164
+#: search.php:14
+#: tpl-edit-ad.php:165
+msgid "Location"
+msgstr ""
+
+#: index.php:42
+#: search.php:15
+msgid "Posted"
+msgstr ""
+
+#: page.php:21
+msgid "Read more &raquo;"
+msgstr ""
+
+#: page.php:22
+msgid "Edit Page"
+msgstr ""
+
+#: post-form.php:13
+msgid "Thank you! Your classified ad has been submitted succesfully."
+msgstr ""
+
+#: post-form.php:16
+msgid "Someone will review your ad shortly. If you have any questions, please contact the site owner."
+msgstr ""
+
+#: post-form.php:67
+msgid "Please click the PayPal button below to submit your"
+msgstr ""
+
+#: post-form.php:67
+msgid "listing fee."
+msgstr ""
+
+#: post-form.php:67
+msgid "Your ad will not be published until payment has been received."
+msgstr ""
+
+#: post-form.php:81
+#: tpl-dashboard.php:200
+msgid "Classified ad listing on "
+msgstr ""
+
+#: post-form.php:81
+#: post-form.php:118
+#: tpl-dashboard.php:200
+msgid "for"
+msgstr ""
+
+#: post-form.php:94
+msgid "IMPORTANT"
+msgstr ""
+
+#: post-form.php:94
+msgid "Be sure to click RETURN TO STORE (from paypal.com) for your ad to be activated."
+msgstr ""
+
+#: post-form.php:113
+msgid "All ad listings are FREE."
+msgstr ""
+
+#: post-form.php:117
+msgid "One ad listing costs"
+msgstr ""
+
+#: post-form.php:118
+#: post-form.php:123
+#: post-form.php:128
+msgid "days."
+msgstr ""
+
+#: post-form.php:123
+msgid "Ad listing prices vary based on category. List your item for"
+msgstr ""
+
+#: post-form.php:128
+msgid "Ad listing price equates to"
+msgstr ""
+
+#: post-form.php:128
+msgid "of your item price. List your item for"
+msgstr ""
+
+#: post-form.php:150
+msgid "Choose a Category"
+msgstr ""
+
+#: post-form.php:158
+#: tpl-dashboard.php:106
+#: tpl-edit-ad.php:159
+msgid "Title"
+msgstr ""
+
+#: post-form.php:161
+msgid "(do not enter currency symbol)"
+msgstr ""
+
+#: post-form.php:167
+#: single.php:31
+#: tpl-edit-ad.php:182
+msgid "Description"
+msgstr ""
+
+#: post-form.php:172
+#: tpl-edit-ad.php:187
+msgid "characters left"
+msgstr ""
+
+#: post-form.php:190
+#: single.php:217
+#: tpl-edit-ad.php:171
+#: tpl-profile.php:210
+msgid "Email"
+msgstr ""
+
+#: post-form.php:190
+msgid "(will not be displayed)"
+msgstr ""
+
+#: post-form.php:193
+#: tpl-edit-ad.php:174
+msgid "Phone"
+msgstr ""
+
+#: post-form.php:196
+#: single.php:41
+msgid "Tags"
+msgstr ""
+
+#: post-form.php:196
+msgid "(separate with commas)"
+msgstr ""
+
+#: post-form.php:199
+#: tpl-edit-ad.php:177
+msgid "URL"
+msgstr ""
+
+#: post-form.php:199
+msgid "(i.e. http://www.mysite.com)"
+msgstr ""
+
+#: post-form.php:201
+msgid "Add images"
+msgstr ""
+
+#: post-form.php:201
+msgid "images must be under 1 MB"
+msgstr ""
+
+#: post-form.php:210
+msgid "Featured Listing"
+msgstr ""
+
+#: post-form.php:211
+msgid "Your listing will appear highlighted in yellow on the front page and category page."
+msgstr ""
+
+#: post-form.php:230
+msgid "Submit Ad"
+msgstr ""
+
+#: search.php:7
+msgid "Search Results for "
+msgstr ""
+
+#: search.php:93
+msgid "Nothing found, please search again."
+msgstr ""
+
+#: sidebar.php:5
+#: tpl-edit-ad.php:219
+msgid "Archives"
+msgstr ""
+
+#: single.php:20
+msgid "Previous"
+msgstr ""
+
+#: single.php:20
+msgid "Next"
+msgstr ""
+
+#: single.php:39
+msgid "URL:"
+msgstr ""
+
+#: single.php:42
+msgid "Stats"
+msgstr ""
+
+#: single.php:42
+msgid "total views"
+msgstr ""
+
+#: single.php:42
+msgid "so far today"
+msgstr ""
+
+#: single.php:46
+msgid "Edit Ad"
+msgstr ""
+
+#: single.php:51
+msgid "Item Location"
+msgstr ""
+
+#: single.php:83
+msgid "URL reported for:"
+msgstr ""
+
+#: single.php:94
+msgid "Someone has reported the following classified ad on your site: "
+msgstr ""
+
+#: single.php:101
+msgid "The report has been sent!"
+msgstr ""
+
+#: single.php:114
+msgid "Posted By:"
+msgstr ""
+
+#: single.php:142
+msgid "Contact Ad Owner"
+msgstr ""
+
+#: single.php:156
+msgid "Enter your name"
+msgstr ""
+
+#: single.php:160
+msgid "Enter your email address"
+msgstr ""
+
+#: single.php:163
+msgid "Email format is incorrect"
+msgstr ""
+
+#: single.php:168
+msgid "Enter a message"
+msgstr ""
+
+#: single.php:181
+msgid "Someone is interested in your classified ad! They sent you a message from the following page:"
+msgstr ""
+
+#: single.php:203
+msgid "Your email has been sent."
+msgstr ""
+
+#: single.php:218
+msgid "Subject"
+msgstr ""
+
+#: single.php:219
+msgid "Re:"
+msgstr ""
+
+#: single.php:220
+msgid "Message"
+msgstr ""
+
+#: single.php:232
+msgid "Send Email"
+msgstr ""
+
+#: tpl-dashboard.php:86
+msgid "My Profile"
+msgstr ""
+
+#: tpl-dashboard.php:91
+msgid "Dashboard for"
+msgstr ""
+
+#: tpl-dashboard.php:99
+msgid "Below you will find all of your classified ads. You currently have"
+msgstr ""
+
+#: tpl-dashboard.php:99
+msgid "live ads. Edit or pause your ads by clicking on the option icons."
+msgstr ""
+
+#: tpl-dashboard.php:105
+msgid "Ad ID"
+msgstr ""
+
+#: tpl-dashboard.php:108
+msgid "Submitted"
+msgstr ""
+
+#: tpl-dashboard.php:109
+msgid "Status"
+msgstr ""
+
+#: tpl-dashboard.php:110
+msgid "Options"
+msgstr ""
+
+#: tpl-dashboard.php:127
+msgid "ended"
+msgstr ""
+
+#: tpl-dashboard.php:136
+msgid "live"
+msgstr ""
+
+#: tpl-dashboard.php:139
+msgid "pause ad"
+msgstr ""
+
+#: tpl-dashboard.php:142
+msgid "awaiting payment"
+msgstr ""
+
+#: tpl-dashboard.php:142
+msgid "awaiting approval"
+msgstr ""
+
+#: tpl-dashboard.php:148
+msgid "offline"
+msgstr ""
+
+#: tpl-dashboard.php:151
+msgid "restart ad"
+msgstr ""
+
+#: tpl-dashboard.php:260
+msgid "Legend"
+msgstr ""
+
+#: tpl-dashboard.php:264
+msgid "Edit Ad - Allows you to edit your existing ad details."
+msgstr ""
+
+#: tpl-dashboard.php:268
+msgid "Pause Ad - Instantly take your ad offline (i.e. if you sold or are negotiating a sale)."
+msgstr ""
+
+#: tpl-dashboard.php:272
+msgid "Restart Ad - Makes your ad live again if you paused it previously."
+msgstr ""
+
+#: tpl-dashboard.php:281
+msgid "You currently have no classified ads. Your dashboard will automatically be setup once you submit your first ad."
+msgstr ""
+
+#: tpl-edit-ad.php:31
+msgid "Ad title cannot be blank"
+msgstr ""
+
+#: tpl-edit-ad.php:36
+msgid "Price cannot be blank"
+msgstr ""
+
+#: tpl-edit-ad.php:41
+msgid "Location cannot be blank"
+msgstr ""
+
+#: tpl-edit-ad.php:46
+msgid "Email address cannot be blank"
+msgstr ""
+
+#: tpl-edit-ad.php:50
+msgid "Email address is not valid"
+msgstr ""
+
+#: tpl-edit-ad.php:55
+msgid "Name cannot be blank"
+msgstr ""
+
+#: tpl-edit-ad.php:60
+msgid "The description cannot be blank"
+msgstr ""
+
+#: tpl-edit-ad.php:94
+msgid "Your ad has been updated!"
+msgstr ""
+
+#: tpl-edit-ad.php:94
+#: tpl-profile.php:152
+msgid "My Dashboard &rsaquo;&rsaquo;"
+msgstr ""
+
+#: tpl-edit-ad.php:153
+msgid "Edit Your Ad"
+msgstr ""
+
+#: tpl-edit-ad.php:154
+msgid "Edit the fields below and click save to update your ad. Your changes will be updated instantly on the site."
+msgstr ""
+
+#: tpl-edit-ad.php:156
+msgid "Ad ID:"
+msgstr ""
+
+#: tpl-edit-ad.php:191
+msgid "Update Ad &raquo;"
+msgstr ""
+
+#: tpl-edit-ad.php:198
+msgid "Ad Not Found"
+msgstr ""
+
+#: tpl-edit-ad.php:199
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: tpl-edit-ad.php:199
+#: tpl-edit-ad.php:206
+msgid "Go to"
+msgstr ""
+
+#: tpl-edit-ad.php:205
+msgid "Ad Editing is Disabled"
+msgstr ""
+
+#: tpl-edit-ad.php:206
+msgid "Your site administrator has disabled ad editing. Please contact them for further instructions."
+msgstr ""
+
+#: tpl-profile.php:130
+msgid "'s Profile"
+msgstr ""
+
+#: tpl-profile.php:152
+msgid "Your profile has been updated."
+msgstr ""
+
+#: tpl-profile.php:171
+msgid "Username"
+msgstr ""
+
+#: tpl-profile.php:175
+msgid "First Name"
+msgstr ""
+
+#: tpl-profile.php:179
+msgid "Last Name"
+msgstr ""
+
+#: tpl-profile.php:183
+msgid "Nickname"
+msgstr ""
+
+#: tpl-profile.php:187
+msgid "Display Name"
+msgstr ""
+
+#: tpl-profile.php:221
+msgid "About Me"
+msgstr ""
+
+#: tpl-profile.php:230
+msgid "New Password"
+msgstr ""
+
+#: tpl-profile.php:232
+msgid "Leave this field blank unless you'd like to change your password."
+msgstr ""
+
+#: tpl-profile.php:236
+msgid "Password Again"
+msgstr ""
+
+#: tpl-profile.php:238
+msgid "Type your new password again."
+msgstr ""
+
+#: tpl-profile.php:243
+msgid "Strength indicator"
+msgstr ""
+
+#: tpl-profile.php:244
+msgid "Your password should be at least seven characters long."
+msgstr ""
+
+#: tpl-profile.php:262
+msgid "Delete existing photo?"
+msgstr ""
+
+#: tpl-profile.php:272
+msgid "Update Profile &raquo;"
+msgstr ""
+
+#: functions/admin-options.php:9
+msgid "Need help with these options?"
+msgstr ""
+
+#: functions/admin-options.php:9
+msgid "Visit our online documentation"
+msgstr ""
+
+#: functions/admin-options.php:9
+msgid "Ask a question in our Support Forum"
+msgstr ""
+
+#: functions/admin-options.php:10
+msgid "** You are currently running in PayPal Sandbox mode. Uncheck the box when you are ready to start selling ads again. **"
+msgstr ""
+
+#: functions/admin-options.php:12
+#: functions/admin-options.php:270
+#: functions/admin-options.php:497
+#: functions/admin-options.php:556
+#: functions/admin-options.php:670
+msgid "Save changes"
+msgstr ""
+
+#: functions/admin-options.php:52
+msgid "Color Scheme"
+msgstr ""
+
+#: functions/admin-options.php:65
+msgid "Website Logo"
+msgstr ""
+
+#: functions/admin-options.php:68
+msgid "Paste the URL of your website logo image here. It will replace the default ClassiPress header logo. <br /> (i.e. http://www.yoursite.com/logo.jpg)"
+msgstr ""
+
+#: functions/admin-options.php:73
+msgid "Ad Posting Permissions"
+msgstr ""
+
+#: functions/admin-options.php:76
+#: functions/admin-options.php:95
+#: functions/admin-options.php:120
+#: functions/admin-options.php:175
+#: functions/admin-options.php:333
+#: functions/admin-options.php:362
+#: functions/admin-options.php:444
+#: functions/admin-options.php:596
+#: functions/admin-options.php:608
+#: functions/admin-options.php:618
+#: functions/admin-options.php:630
+#: functions/admin-options.php:640
+#: functions/admin-options.php:650
+#: functions/admin-options.php:661
+msgid "No"
+msgstr ""
+
+#: functions/admin-options.php:77
+#: functions/admin-options.php:94
+#: functions/admin-options.php:121
+#: functions/admin-options.php:174
+#: functions/admin-options.php:332
+#: functions/admin-options.php:361
+#: functions/admin-options.php:445
+#: functions/admin-options.php:595
+#: functions/admin-options.php:607
+#: functions/admin-options.php:619
+#: functions/admin-options.php:629
+#: functions/admin-options.php:639
+#: functions/admin-options.php:649
+#: functions/admin-options.php:660
+msgid "Yes"
+msgstr ""
+
+#: functions/admin-options.php:79
+msgid "Can unregistered visitors post ads? If \"no\" then visitors must register before being able to post ads."
+msgstr ""
+
+#: functions/admin-options.php:81
+msgid "You have to be logged in to post a classified ad."
+msgstr ""
+
+#: functions/admin-options.php:82
+msgid "Enter a message unregistered visitors see when they try to post an ad."
+msgstr ""
+
+#: functions/admin-options.php:85
+msgid "User registration is not activated."
+msgstr ""
+
+#: functions/admin-options.php:85
+msgid "Go and activate it."
+msgstr ""
+
+#: functions/admin-options.php:91
+msgid "Allow Ad Editing"
+msgstr ""
+
+#: functions/admin-options.php:97
+msgid "This enables registered visitors to make edits and republish their existing ads."
+msgstr ""
+
+#: functions/admin-options.php:103
+msgid "Default New Ad Status"
+msgstr ""
+
+#: functions/admin-options.php:106
+#: functions/admin-options.php:131
+msgid "Draft"
+msgstr ""
+
+#: functions/admin-options.php:107
+msgid "Published"
+msgstr ""
+
+#: functions/admin-options.php:109
+msgid "<i>Draft</i> - You have to manually approve and publish each ad"
+msgstr ""
+
+#: functions/admin-options.php:110
+msgid "<i>Published</i> - Ad goes live immediately without any approvals"
+msgstr ""
+
+#: functions/admin-options.php:111
+msgid "Note: If you have the \"Activate Paypal?\" option set to \"Yes\" then each ad will automatically be a draft until payment is made (regardless of the option above)."
+msgstr ""
+
+#: functions/admin-options.php:117
+msgid "Ad Pruning"
+msgstr ""
+
+#: functions/admin-options.php:123
+msgid "Removes the classified ads from your site after a certain number of days."
+msgstr ""
+
+#: functions/admin-options.php:124
+msgid "Days"
+msgstr ""
+
+#: functions/admin-options.php:124
+msgid "Number of days until ads are purged and taken down from your site."
+msgstr ""
+
+#: functions/admin-options.php:128
+msgid "Prune Status"
+msgstr ""
+
+#: functions/admin-options.php:132
+msgid "Delete"
+msgstr ""
+
+#: functions/admin-options.php:135
+msgid "<i>Draft</i> - Changes the ad status back to draft. Good option if you want to keep a history of all your ads (recommended)."
+msgstr ""
+
+#: functions/admin-options.php:136
+msgid "<i>Delete</i> - Completely erases all expired ads."
+msgstr ""
+
+#: functions/admin-options.php:141
+msgid "Exclude Pages from Nav"
+msgstr ""
+
+#: functions/admin-options.php:144
+msgid "Enter a comma-separated list of your user \"dashboard\" and \"edit-ad\" page IDs so they are excluded from the navigation (i.e. 44,45). To find the Page ID, go to Pages->Edit and hover over the title of the page. The status bar of your browser will display a URL with a numeric ID at the end. This is the page ID."
+msgstr ""
+
+#: functions/admin-options.php:150
+msgid "Ads Form Message"
+msgstr ""
+
+#: functions/admin-options.php:153
+msgid "When someone clicks the \"Post a Classified!\" button this message will appear on that form page. HTML is allowed."
+msgstr ""
+
+#: functions/admin-options.php:158
+msgid "Feedburner RSS URL"
+msgstr ""
+
+#: functions/admin-options.php:161
+msgid "Redirects your default rss feed url to Feedburner. You must have a"
+msgstr ""
+
+#: functions/admin-options.php:161
+msgid "Feedburner"
+msgstr ""
+
+#: functions/admin-options.php:161
+msgid "account setup first."
+msgstr ""
+
+#: functions/admin-options.php:166
+msgid "Google Options"
+msgstr ""
+
+#: functions/admin-options.php:171
+msgid "Google Maps"
+msgstr ""
+
+#: functions/admin-options.php:177
+msgid "Enables an interactive Google map on your classified ads page. (Requires a Google Maps API key.)"
+msgstr ""
+
+#: functions/admin-options.php:179
+msgid "Generate a free"
+msgstr ""
+
+#: functions/admin-options.php:179
+msgid "Google Maps API key"
+msgstr ""
+
+#: functions/admin-options.php:179
+msgid " and then paste it above."
+msgstr ""
+
+#: functions/admin-options.php:184
+#: functions/admin-options.php:187
+msgid "Google Analytics"
+msgstr ""
+
+#: functions/admin-options.php:187
+msgid "Start tracking your site visitors with ease. You must have a"
+msgstr ""
+
+#: functions/admin-options.php:187
+msgid "account setup first <br /> This text box supports multiple analytic providers."
+msgstr ""
+
+#: functions/admin-options.php:194
+msgid "Header Ad Spot (468x60)"
+msgstr ""
+
+#: functions/admin-options.php:199
+#: functions/admin-options.php:237
+msgid "Disable Ad Spot"
+msgstr ""
+
+#: functions/admin-options.php:206
+#: functions/admin-options.php:244
+msgid "Ad Code"
+msgstr ""
+
+#: functions/admin-options.php:209
+#: functions/admin-options.php:247
+msgid "Paste in your"
+msgstr ""
+
+#: functions/admin-options.php:209
+#: functions/admin-options.php:247
+msgid "Google AdSense"
+msgstr ""
+
+#: functions/admin-options.php:209
+msgid "code here. This will show up in the header of your site."
+msgstr ""
+
+#: functions/admin-options.php:214
+#: functions/admin-options.php:252
+msgid "Ad Image URL"
+msgstr ""
+
+#: functions/admin-options.php:217
+#: functions/admin-options.php:225
+#: functions/admin-options.php:255
+#: functions/admin-options.php:263
+msgid "Paste the URL of your custom logo image here. It will replace the default ClassiPress header logo. <br /> (i.e. http://www.yoursite.com/logo.jpg)"
+msgstr ""
+
+#: functions/admin-options.php:222
+#: functions/admin-options.php:260
+msgid "Ad Destination"
+msgstr ""
+
+#: functions/admin-options.php:232
+msgid "Single Post Ad Spot (336x280)"
+msgstr ""
+
+#: functions/admin-options.php:247
+msgid "code here. This will show up at the bottom of each classified ad."
+msgstr ""
+
+#: functions/admin-options.php:296
+#: functions/admin-options.php:526
+#: functions/admin-options.php:574
+msgid "Your settings have been saved."
+msgstr ""
+
+#: functions/admin-options.php:329
+msgid "Activate Paypal"
+msgstr ""
+
+#: functions/admin-options.php:335
+msgid "Turn this on if you want to start selling classified ads on your site. <br />You must have a"
+msgstr ""
+
+#: functions/admin-options.php:335
+msgid "PayPal"
+msgstr ""
+
+#: functions/admin-options.php:335
+msgid "account setup before using this feature."
+msgstr ""
+
+#: functions/admin-options.php:339
+msgid "PayPal Email"
+msgstr ""
+
+#: functions/admin-options.php:342
+msgid "Enter your PayPal account email address. This is where your money gets sent."
+msgstr ""
+
+#: functions/admin-options.php:344
+msgid "You must enter a PayPal email address before you can accept payments."
+msgstr ""
+
+#: functions/admin-options.php:350
+msgid "PayPal Sandbox Mode"
+msgstr ""
+
+#: functions/admin-options.php:353
+msgid "By default PayPal is set to live mode. If you would like to test and see if payments are being processed, check this box to switch to sandbox mode. To use this option, you must have a"
+msgstr ""
+
+#: functions/admin-options.php:353
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: functions/admin-options.php:353
+msgid "and test account setup first."
+msgstr ""
+
+#: functions/admin-options.php:358
+msgid "Email Notification"
+msgstr ""
+
+#: functions/admin-options.php:364
+msgid "Send an email when payment has been made. You should also get an email from PayPal to confirm."
+msgstr ""
+
+#: functions/admin-options.php:370
+msgid "** PayPal must be activated above in order for pricing options to work. **"
+msgstr ""
+
+#: functions/admin-options.php:371
+msgid "Pricing Options"
+msgstr ""
+
+#: functions/admin-options.php:376
+msgid "Currency Symbol"
+msgstr ""
+
+#: functions/admin-options.php:379
+msgid "Enter the currency symbol you want to appear next to prices on your classified ads (i.e. $, &euro;, &pound;, &yen;)."
+msgstr ""
+
+#: functions/admin-options.php:385
+msgid "Currency"
+msgstr ""
+
+#: functions/admin-options.php:389
+msgid "US Dollars"
+msgstr ""
+
+#: functions/admin-options.php:390
+msgid "Euros"
+msgstr ""
+
+#: functions/admin-options.php:391
+msgid "Pounds Sterling"
+msgstr ""
+
+#: functions/admin-options.php:392
+msgid "Australian Dollars"
+msgstr ""
+
+#: functions/admin-options.php:393
+msgid "Canadian Dollars"
+msgstr ""
+
+#: functions/admin-options.php:394
+msgid "Czech Koruna"
+msgstr ""
+
+#: functions/admin-options.php:395
+msgid "Danish Krone"
+msgstr ""
+
+#: functions/admin-options.php:396
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: functions/admin-options.php:397
+msgid "Hungarian Forint"
+msgstr ""
+
+#: functions/admin-options.php:398
+msgid "Israeli Shekel"
+msgstr ""
+
+#: functions/admin-options.php:399
+msgid "Japanese Yen"
+msgstr ""
+
+#: functions/admin-options.php:400
+msgid "Mexican Peso"
+msgstr ""
+
+#: functions/admin-options.php:401
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: functions/admin-options.php:402
+msgid "Norwegian Krone"
+msgstr ""
+
+#: functions/admin-options.php:403
+msgid "Polish Zloty"
+msgstr ""
+
+#: functions/admin-options.php:404
+msgid "Singapore Dollar"
+msgstr ""
+
+#: functions/admin-options.php:405
+msgid "Swedish Krona"
+msgstr ""
+
+#: functions/admin-options.php:406
+msgid "Swiss Franc"
+msgstr ""
+
+#: functions/admin-options.php:415
+msgid "Featured Ad Price"
+msgstr ""
+
+#: functions/admin-options.php:419
+msgid "This is the additional amount you will charge visitors to post a featured ad on your site. A featured ad appears at the top of the category."
+msgstr ""
+
+#: functions/admin-options.php:425
+msgid "Pricing Structure"
+msgstr ""
+
+#: functions/admin-options.php:429
+msgid "Select One"
+msgstr ""
+
+#: functions/admin-options.php:430
+msgid "Fixed Price Per Ad"
+msgstr ""
+
+#: functions/admin-options.php:431
+#, php-format
+msgid "% of Sellers Ad Price"
+msgstr ""
+
+#: functions/admin-options.php:432
+msgid "Price Per Category"
+msgstr ""
+
+#: functions/admin-options.php:435
+msgid "Select the way you want to charge people to place ads."
+msgstr ""
+
+#: functions/admin-options.php:441
+msgid "Per Category Price"
+msgstr ""
+
+#: functions/admin-options.php:447
+msgid "Turn this on if you want to charge different prices for each category."
+msgstr ""
+
+#: functions/admin-options.php:456
+msgid "Set Fixed Price Per Ad"
+msgstr ""
+
+#: functions/admin-options.php:459
+msgid "Price Per Ad"
+msgstr ""
+
+#: functions/admin-options.php:463
+#: functions/admin-options.php:477
+msgid "This is the amount you will charge visitors to post an ad on your site."
+msgstr ""
+
+#: functions/admin-options.php:470
+#, php-format
+msgid "Set % of Sellers Ad Price"
+msgstr ""
+
+#: functions/admin-options.php:473
+msgid "Percentage"
+msgstr ""
+
+#: functions/admin-options.php:485
+msgid "Set Category Prices"
+msgstr ""
+
+#: functions/admin-options.php:488
+msgid "Individual Categories"
+msgstr ""
+
+#: functions/admin-options.php:490
+msgid "Enter the price you want to charge for each category listing. Setting it to \"0\" makes the category FREE. (use numeric values only)"
+msgstr ""
+
+#: functions/admin-options.php:544
+msgid "Below you can assign icons to each category. These only show up if you selected \"No\" for the"
+msgstr ""
+
+#: functions/admin-options.php:544
+#: functions/admin-options.php:604
+msgid "Show Picture on Front Page"
+msgstr ""
+
+#: functions/admin-options.php:544
+msgid "option. Make sure to click the \"Save changes\" button after your changes have been made."
+msgstr ""
+
+#: functions/admin-options.php:591
+msgid "Email Notifications"
+msgstr ""
+
+#: functions/admin-options.php:598
+msgid "Send an email once a new ad is posted"
+msgstr ""
+
+#: functions/admin-options.php:610
+msgid "This will show the first uploaded picture from an ad on the front page instead of the category icon."
+msgstr ""
+
+#: functions/admin-options.php:615
+msgid "Allow HTML Code"
+msgstr ""
+
+#: functions/admin-options.php:621
+msgid "Gives visitors the ability to use html code in their ads (not recommended)."
+msgstr ""
+
+#: functions/admin-options.php:626
+msgid "Login Form in Header"
+msgstr ""
+
+#: functions/admin-options.php:632
+msgid "Shows a convenient login box in the header of your site"
+msgstr ""
+
+#: functions/admin-options.php:636
+msgid "Show Report Button"
+msgstr ""
+
+#: functions/admin-options.php:642
+msgid "Makes the red flag \"Report\" button visible in the sidebar on individual ads. Allows visitors to report inappropriate listings."
+msgstr ""
+
+#: functions/admin-options.php:646
+msgid "Allow Send Inquiry"
+msgstr ""
+
+#: functions/admin-options.php:652
+msgid "This allows visitors to email the author of an ad via a simple sidebar email form."
+msgstr ""
+
+#: functions/admin-options.php:657
+msgid "Expand Inquiry Form"
+msgstr ""
+
+#: functions/admin-options.php:663
+msgid "This option lets you change the default state of the simple sidebar email form (only applies if \"Allow Send Inquiry\" is enabled). Setting to \"No\" will then require visitors to first click a link before seeing the form."
+msgstr ""
+
+#: functions/admin-options.php:684
+msgid "Below you can view and delete the images users have uploaded."
+msgstr ""
+
+#: functions/admin-options.php:693
+msgid "The image has been deleted"
+msgstr ""
+
+#: functions/admin-options.php:714
+msgid "Delete Image"
+msgstr ""
+
+#: functions/admin-options.php:716
+msgid "View Image"
+msgstr ""
+
+#: functions/custom-options.php:46
+msgid "Register at "
+msgstr ""
+
+#: functions/custom-options.php:49
+msgid "Retrieve your lost password for "
+msgstr ""
+
+#: functions/custom-options.php:53
+msgid "Login at "
+msgstr ""
+
+#: functions/custom-options.php:57
+msgid "Your Profile at "
+msgstr ""
+
+#: functions/custom-options.php:96
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a>."
+msgstr ""
+
+#: functions/custom-options.php:97
+msgid "You are now logged out."
+msgstr ""
+
+#: functions/custom-options.php:98
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: functions/custom-options.php:99
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: functions/custom-options.php:100
+msgid "Check your e-mail for your new password."
+msgstr ""
+
+#: functions/custom-options.php:101
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: functions/custom-options.php:113
+msgid "Username:"
+msgstr ""
+
+#: functions/custom-options.php:116
+msgid "Password:"
+msgstr ""
+
+#: functions/custom-options.php:123
+msgid "Remember me"
+msgstr ""
+
+#: functions/custom-options.php:173
+msgid "Log in"
+msgstr ""
+
+#: functions/custom-options.php:177
+msgid "Password Lost and Found"
+msgstr ""
+
+#: functions/custom-options.php:177
+msgid "Lost your password?"
+msgstr ""
+
+#: functions/custom-options.php:250
+msgid "<strong>ERROR</strong>: You didn't correctly enter the captcha, please try again."
+msgstr ""
+
+#: functions/custom-options.php:268
+msgid "E-mail"
+msgstr ""
+
+#: functions/custom-options.php:273
+msgid "Type the code above:"
+msgstr ""
+
+#: functions/custom-options.php:279
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: functions/custom-options.php:299
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: functions/custom-options.php:301
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr ""
+
+#: functions/custom-options.php:317
+msgid "Username or Email:"
+msgstr ""
+
+#: functions/custom-options.php:323
+msgid "Get New Password"
+msgstr ""
+
+#: functions/custom-options.php:455
+msgid "ClassiPress setup is incomplete."
+msgstr ""
+
+#: functions/custom-options.php:455
+#, php-format
+msgid "You must save the <a href=\"%1$s\">configure</a> and <a href=\"%2$s\">settings</a> option pages before ClassiPress will work properly. Read the <a href=\"%3$s\" target=\"_blank\">online documentation</a> before getting started."
+msgstr ""
+

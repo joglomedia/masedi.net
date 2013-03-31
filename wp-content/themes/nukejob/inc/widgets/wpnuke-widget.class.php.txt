@@ -1,0 +1,678 @@
+<?php if ( ! defined('ABSPATH')) exit('No direct script access allowed'); // add a little bit security, restrict direct access from browser
+/**
+ * This file holds several default widgets exclusive to the WPNuke framework
+ *
+ * File Name	: wpnuke-widget.class.php
+ * Author		: 
+ * Author URI	: http://wpnuke.com/
+ * Contributor	: 
+ * Version		: 1.0
+ * Last Update	: 31/01/2013
+ * License		: Copyright (c) WPNuke
+ * Package		: WPNuke_Framework
+ **/
+
+/**
+ * WPNuke Social Widget
+ * Widget that displays a customizable social media links
+ *  
+ * @package WPNuke_Framework
+ * @todo replace the widget system with a dynamic one, based on config files for easier widget creation
+ */
+class wpnuke_social_widget extends WP_Widget {
+
+	// PHP 4 Constructor (for backward compatibility)
+	function social_widget() {
+		wpnuke_social_widget::__construct();
+		//return;
+	}
+	
+	// PHP 5 Constructor
+	function __construct() {	
+		/* Widget settings */
+		$widget_ops = array( 'classname' => 'wpnuke_social_widget', 'description' =>__('A widget that display list of social media.', 'wpnuke') );
+		/* Widget control settings. */
+		$control_ops = array( 'width' => 100, 'height' => 200, 'id_base' => 'wpnuke_social_widget' );
+		/* Create the widget */
+		$this->WP_Widget( 'wpnuke_social_widget',__('WPNuke - Social Media', 'wpnuke'), $widget_ops, $control_ops );
+	}
+
+	// Display the Widget
+	function widget( $args, $instance ) {
+		extract( $args );
+
+		/* Our variables from the widget settings. */
+		$title = apply_filters('widget_title', $instance['title'] );
+		$rsslink = $instance['rsslink'];
+		$rsstext = $instance['rsstext'];
+		$emaillink = $instance['emaillink'];
+		$emailtext = $instance['emailtext'];
+		$fblink = $instance['fblink'];
+		$fbtext = $instance['fbtext'];
+		$twitterlink = $instance['twitterlink'];
+		$twittertext = $instance['twittertext'];
+		$youtubelink = $instance['youtubelink'];
+		$youtubetext = $instance['youtubetext'];
+		$flickrlink = $instance['flickrlink'];
+		$flickrtext = $instance['flickrtext'];
+		$linkedinlink = $instance['linkedinlink'];
+		$linkedintext = $instance['linkedintext'];
+
+		/* Before widget (defined by themes). */
+		echo $before_widget;
+
+		/* Display the widget title if one was input (before and after defined by themes). */
+		if ( $title )
+			echo $before_title . $title . $after_title;
+
+		/* Display social media list. */
+		?>
+		<ul class="social-media-widget">
+		    <?php if ($rsstext) : ?><li class="rss-url"><a href="<?php echo $rsslink ?>" title="RSS Feed"><?php echo $rsstext ?></a></li><?php endif; ?>
+			<?php if ($emailtext) : ?><li class="email-url"><a href="<?php echo $emaillink ?>" title="Email"><?php echo $emailtext ?></a></li><?php endif; ?>
+			<?php if ($fbtext) : ?><li class="facebook-url"><a href="<?php echo $fblink ?>" title="Facebook"><?php echo $fbtext ?></a></li><?php endif; ?>
+			<?php if ($twittertext) : ?><li class="twitter-url"><a href="<?php echo $twitterlink ?>" title="Twitter"><?php echo $twittertext ?></a></li><?php endif; ?>
+			<?php if ($youtubetext) : ?><li class="youtube-url"><a href="<?php echo $youtubelink ?>" title="Youtube"><?php echo $youtubetext ?></a></li><?php endif; ?>
+			<?php if ($flickrtext) : ?><li class="flickr-url"><a href="<?php echo $flickrlink ?>" title="Flickr"><?php echo $flickrtext ?></a></li><?php endif; ?>
+			<?php if ($linkedintext) : ?><li class="linkedin-url"><a href="<?php echo $linkedinlink ?>" title="LinkedIn"><?php echo $linkedintext ?></a></li><?php endif; ?>
+		</ul>
+		<?php
+
+		/* After widget (defined by themes). */
+		echo $after_widget;
+	}
+
+	// Update and save widget
+	function update( $new_instance, $old_instance ) {
+		$instance = $old_instance;
+
+		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['rsslink'] = $new_instance['rsslink'];
+		$instance['rsstext'] = $new_instance['rsstext'];
+		$instance['emaillink'] = $new_instance['emaillink'];
+		$instance['emailtext'] = $new_instance['emailtext'];
+		$instance['fblink'] = $new_instance['fblink'];
+		$instance['fbtext'] = $new_instance['fbtext'];
+		$instance['twitterlink'] = $new_instance['twitterlink'];
+		$instance['twittertext'] = $new_instance['twittertext'];
+		$instance['youtubelink'] = $new_instance['youtubelink'];
+		$instance['youtubetext'] = $new_instance['youtubetext'];
+		$instance['flickrlink'] = $new_instance['flickrlink'];
+		$instance['flickrtext'] = $new_instance['flickrtext'];
+		$instance['linkedinlink'] = $new_instance['linkedinlink'];
+		$instance['linkedintext'] = $new_instance['linkedintext'];
+		
+		return $instance;
+	}
+	
+	// Widget settings
+	function form( $instance ) {
+	
+		/* Set up some default widget settings. */
+		$defaults = array(
+			'title' => 'Social Media',
+			'rsslink' => 'http://feeds.feedburner.com/wpnuke',
+			'rsstext' => 'Subscribe RSS Feed',
+			'emaillink' => '#',
+			'emailtext' => 'Subscribe Via Email',
+			'fblink' => 'http://www.facebook.com/WpNukeThemes',
+			'fbtext' => 'Find Us on Facebook',
+			'twitterlink' => 'http://twitter.com/WPNuke',
+			'twittertext' => 'Follow Us on Twitter',
+			'youtubelink' => '#',
+			'youtubetext' => 'Our Videos on YouTube',
+			'flickrlink' => 'http://www.flickr.com/groups/grafisia/',
+			'flickrtext' => 'Our Gallery on Flickr',
+			'linkedinlink' => '#',
+			'linkedintext' => 'Find Us on LinkedIn',
+		);
+		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
+
+		<!-- Text Input -->
+		<p>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e('Title:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'rsslink' ); ?>"><?php _e('RSS link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'rsslink' ); ?>" name="<?php echo $this->get_field_name( 'rsslink' ); ?>" value="<?php echo $instance['rsslink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'rsstext' ); ?>"><?php _e('RSS Text:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'rsstext' ); ?>" name="<?php echo $this->get_field_name( 'rsstext' ); ?>" value="<?php echo $instance['rsstext']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'emaillink' ); ?>"><?php _e('Email subscribe link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'emaillink' ); ?>" name="<?php echo $this->get_field_name( 'emaillink' ); ?>" value="<?php echo $instance['emaillink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'emailtext' ); ?>"><?php _e('Email subscribe text:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'emailtext' ); ?>" name="<?php echo $this->get_field_name( 'emailtext' ); ?>" value="<?php echo $instance['emailtext']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'fblink' ); ?>"><?php _e('Facebook link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'fblink' ); ?>" name="<?php echo $this->get_field_name( 'fblink' ); ?>" value="<?php echo $instance['fblink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'fbtext' ); ?>"><?php _e('Facebook text:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'fbtext' ); ?>" name="<?php echo $this->get_field_name( 'fbtext' ); ?>" value="<?php echo $instance['fbtext']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'twitterlink' ); ?>"><?php _e('Twitter link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'twitterlink' ); ?>" name="<?php echo $this->get_field_name( 'twitterlink' ); ?>" value="<?php echo $instance['twitterlink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'twittertext' ); ?>"><?php _e('Twitter text:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'twittertext' ); ?>" name="<?php echo $this->get_field_name( 'twittertext' ); ?>" value="<?php echo $instance['twittertext']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'youtubelink' ); ?>"><?php _e('YouTube link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'youtubelink' ); ?>" name="<?php echo $this->get_field_name( 'youtubelink' ); ?>" value="<?php echo $instance['youtubelink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'youtubetext' ); ?>"><?php _e('YouTube text:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'youtubetext' ); ?>" name="<?php echo $this->get_field_name( 'youtubetext' ); ?>" value="<?php echo $instance['youtubetext']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'flickrlink' ); ?>"><?php _e('Flickr link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'flickrlink' ); ?>" name="<?php echo $this->get_field_name( 'flickrlink' ); ?>" value="<?php echo $instance['flickrlink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'flickrtext' ); ?>"><?php _e('Flickr text:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'flickrtext' ); ?>" name="<?php echo $this->get_field_name( 'flickrtext' ); ?>" value="<?php echo $instance['flickrtext']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'linkedinlink' ); ?>"><?php _e('LinkedIn link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'linkedinlink' ); ?>" name="<?php echo $this->get_field_name( 'linkedinlink' ); ?>" value="<?php echo $instance['linkedinlink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'linkedintext' ); ?>"><?php _e('LinkedIn text:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'linkedintext' ); ?>" name="<?php echo $this->get_field_name( 'linkedintext' ); ?>" value="<?php echo $instance['linkedintext']; ?>" />
+		</p>
+	
+	<?php
+	}
+}
+
+/**
+ * WPNuke Social Badge Widget
+ * Widget that displays a social badge for twitter, facebook, google plus
+ *  
+ * @package WPNuke_Framework
+ * @todo replace the widget system with a dynamic one, based on config files for easier widget creation
+ */
+class wpnuke_socialbadge_widget extends WP_Widget {
+
+	// PHP 4 Constructor (for backward compatibility)
+	function wpnuke_socialbadge_widget() {
+		wpnuke_socialbadge_widget::__constructor();
+	}
+	
+	// PHP 5 Constructor
+	function __constructor() {	
+		/* Widget settings. */
+		$widget_ops = array( 'classname' => 'wpnuke_socialbadge_widget', 'description' => __('A widget that displays your social badge.', 'wpnuke') );
+		/* Widget control settings. */
+		$control_ops = array( 'width' => 100, 'height' => 200, 'id_base' => 'wpnuke_socialbadge_widget' );
+		/* Create the widget. */
+		$this->WP_Widget( 'wpnuke_socialbadge_widget', __('WPNuke - Social Media Badge', 'wpnuke'), $widget_ops, $control_ops );
+	}
+
+	// Display the Widget
+	function widget( $args, $instance ) {
+		extract( $args );
+
+		/* User settings. */
+		$title = apply_filters('widget_title', $instance['title'] );
+		$fblink = $instance['fblink'];
+		$gpluslink = $instance['gpluslink'];
+		$gplusonelink = $instance['gplusonelink'];
+		$gplustext = $instance['gplustext'];
+		$twitteraccount = $instance['twitteraccount'];
+
+		/* Before widget (defined by themes). */
+		echo $before_widget;
+
+		/* Title of widget (before and after defined by themes). */
+		if ( $title )
+			echo $before_title . $title . $after_title;
+
+		/* Display Social Badge */
+		?>
+			<div class="fb-like" data-href="<?php echo $fblink ?>" data-send="false" data-width="268" data-show-faces="true"></div>
+			<div class="follow-btn"><a href="https://twitter.com/<?php echo $twitteraccount ?>" class="twitter-follow-button">Follow @<?php echo $twitteraccount ?></a></div>
+			<div class="gplus-btn"><div class="g-plusone" data-size="medium" data-href="<?php echo $gplusonelink ?>"></div><span><?php echo $gplustext ?></span></div>
+			<div class="gplus-badge"><div class="g-plus" data-href="<?php echo $gpluslink ?>" data-size="smallbadge"></div></div>	
+		<?php 
+
+		/* After widget (defined by themes). */
+		echo $after_widget;
+	}
+
+	// Update and save widget
+	function update( $new_instance, $old_instance ) {
+		$instance = $old_instance;
+
+		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['fblink'] = strip_tags( $new_instance['fblink'] );
+		$instance['gpluslink'] = strip_tags( $new_instance['gpluslink'] );
+		$instance['gplusonelink'] = strip_tags( $new_instance['gplusonelink'] );
+		$instance['gplustext'] = strip_tags( $new_instance['gplustext'] );
+		$instance['twitteraccount'] = strip_tags( $new_instance['twitteraccount'] );
+
+		return $instance;
+	}
+	
+	// Widget settings
+	function form( $instance ) {
+
+		/* Set up some default widget settings. */
+		$defaults = array(
+		'title' => '',
+		'fblink' => 'http://www.facebook.com/WpNukeThemes',
+		'gpluslink' => 'https://plus.google.com/106973446615020369204',
+		'gplusonelink' => 'http://wpnuke.com',
+		'gplustext' => 'Recommend on Google',
+		'twitteraccount' => 'WPNuke'
+		);
+		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
+
+		<!-- Text Input -->
+		<p>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e('Title:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'fblink' ); ?>"><?php _e('Facebook page link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'fblink' ); ?>" name="<?php echo $this->get_field_name( 'fblink' ); ?>" value="<?php echo $instance['fblink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'gpluslink' ); ?>"><?php _e('Google+ page link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'gpluslink' ); ?>" name="<?php echo $this->get_field_name( 'gpluslink' ); ?>" value="<?php echo $instance['gpluslink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'gplusonelink' ); ?>"><?php _e('Google plusone link:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'gplusonelink' ); ?>" name="<?php echo $this->get_field_name( 'gplusonelink' ); ?>" value="<?php echo $instance['gplusonelink']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'gplustext' ); ?>"><?php _e('Text next to Google plusone button:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'gplustext' ); ?>" name="<?php echo $this->get_field_name( 'gplustext' ); ?>" value="<?php echo $instance['gplustext']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'twitteraccount' ); ?>"><?php _e('Twitter account:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'twitteraccount' ); ?>" name="<?php echo $this->get_field_name( 'twitteraccount' ); ?>" value="<?php echo $instance['twitteraccount']; ?>" />
+		</p>
+		
+	<?php
+	}
+}
+
+/**
+ * WPNuke Tweets Widget
+ * Widget that displays a list of latest tweets
+ *  
+ * @package WPNuke_Framework
+ * @todo replace the widget system with a dynamic one, based on config files for easier widget creation
+ */
+class wpnuke_tweets_widget extends WP_Widget {
+
+	// PHP 4 Constructor (for backward compatibility)
+	function wpnuke_tweets_widget() {
+		wpnuke_tweets_widget::__construct();
+	}
+	
+	// PHP 5 Constructor
+	function __construct() {
+		/* Widget settings. */
+		$widget_ops = array( 'classname' => 'wpnuke_tweets_widget', 'description' => __('A widget that displays your latest tweets.', 'wpnuke') );
+		/* Widget control settings. */
+		$control_ops = array( 'width' => 100, 'height' => 200, 'id_base' => 'wpnuke_tweets_widget' );
+		/* Create the widget. */
+		$this->WP_Widget( 'wpnuke_tweets_widget', __('WPNuke - Latest Tweets', 'wpnuke'), $widget_ops, $control_ops );
+	}
+
+	// Display the Widget
+	function widget( $args, $instance ) {
+	
+		extract( $args );
+
+		/* User settings. */
+		$title = apply_filters('widget_title', $instance['title'] );
+		$username = $instance['username'];
+		$tweetscount = $instance['tweetscount'];
+		$followtext = $instance['followtext'];
+
+		/* Before widget (defined by themes). */
+		echo $before_widget;
+
+		/* Title of widget (before and after defined by themes). */
+		if ( $title )
+			echo $before_title . $title . $after_title;
+
+		/* Display Latest Tweets */
+		?>
+
+            <ul id="twitter_update_list">
+                <li></li>
+            </ul>
+            <a href="http://twitter.com/<?php echo $username ?>" class="twitter-link"><?php echo $followtext ?></a>
+			<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+			<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/<?php echo $username ?>.json?callback=twitterCallback2&amp;count=<?php echo $tweetscount ?>"></script>
+		
+		<?php 
+
+		/* After widget (defined by themes). */
+		echo $after_widget;
+	}
+
+	// Update and save widget
+	function update( $new_instance, $old_instance ) {
+		$instance = $old_instance;
+
+		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['username'] = strip_tags( $new_instance['username'] );
+		$instance['tweetscount'] = strip_tags( $new_instance['tweetscount'] );
+		$instance['followtext'] = strip_tags( $new_instance['followtext'] );
+
+		return $instance;
+	}
+	
+	// Widget settings
+	function form( $instance ) {
+
+		/* Set up some default widget settings. */
+		$defaults = array(
+			'title' => 'Latest Tweets',
+			'username' => 'WPNuke',
+			'tweetscount' => '5',
+			'followtext' => 'WPNuke on Twitter',
+		);
+		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
+
+		<!-- Text Input -->
+		<p>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e('Title:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'username' ); ?>"><?php _e('Twitter Username e.g. wpnuke', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'username' ); ?>" name="<?php echo $this->get_field_name( 'username' ); ?>" value="<?php echo $instance['username']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'tweetscount' ); ?>"><?php _e('Number of tweets', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'tweetscount' ); ?>" name="<?php echo $this->get_field_name( 'tweetscount' ); ?>" value="<?php echo $instance['tweetscount']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'followtext' ); ?>"><?php _e('Text e.g. WpNuke on Twitter', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'followtext' ); ?>" name="<?php echo $this->get_field_name( 'followtext' ); ?>" value="<?php echo $instance['followtext']; ?>" />
+		</p>
+		
+	<?php
+	}
+}
+
+/**
+ * WPNuke Flickr Widget
+ * Widget that displays a list photo of flickr album
+ *  
+ * @package WPNuke_Framework
+ * @todo replace the widget system with a dynamic one, based on config files for easier widget creation
+ */
+class wpnuke_flickr_widget extends WP_Widget {
+
+	// PHP 4 Constructor (for backward compatibility)
+	function wpnuke_tweets_widget() {
+		wpnuke_tweets_widget::__construct();
+	}
+	
+	// PHP 5 Constructor
+	function __constructor() {
+		/* Widget settings. */
+		$widget_ops = array( 'classname' => 'wpnuke_flickr_widget', 'description' => __('A widget that displays your Flickr photos.', 'wpnuke') );
+		/* Widget control settings. */
+		$control_ops = array( 'width' => 100, 'height' => 200, 'id_base' => 'wpnuke_flickr_widget' );
+		/* Create the widget. */
+		$this->WP_Widget( 'wpnuke_flickr_widget', __('WPNuke - Flickr', 'wpnuke'), $widget_ops, $control_ops );
+	}
+
+	// Display the Widget
+	function widget( $args, $instance ) {
+		extract( $args );
+
+		/* User settings. */
+		$title = apply_filters('widget_title', $instance['title'] );
+		$flickrID = $instance['flickrID'];
+		$postcount = $instance['postcount'];
+		$type = $instance['type'];
+		$display = $instance['display'];
+
+		/* Before widget (defined by themes). */
+		echo $before_widget;
+
+		/* Title of widget (before and after defined by themes). */
+		if ( $title )
+			echo $before_title . $title . $after_title;
+
+		/* Display Flickr Photos */
+		 ?>
+			
+			<div class="flickr-widget-wrapper">
+				<div class="flickr-widget">
+					<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=<?php echo $postcount ?>&amp;display=<?php echo $display ?>&amp;size=s&amp;layout=x&amp;source=<?php echo $type ?>&amp;<?php echo $type ?>=<?php echo $flickrID ?>"></script>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		
+		<?php
+
+		/* After widget (defined by themes). */
+		echo $after_widget;
+	}
+
+	// Update and save widget
+	function update( $new_instance, $old_instance ) {
+		$instance = $old_instance;
+
+		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['flickrID'] = strip_tags( $new_instance['flickrID'] );
+		$instance['postcount'] = $new_instance['postcount'];
+		$instance['type'] = $new_instance['type'];
+		$instance['display'] = $new_instance['display'];
+
+		return $instance;
+	}
+	
+	// Widget settings
+	function form( $instance ) {
+
+		/* Set up some default widget settings. */
+		$defaults = array(
+		'title' => 'Flickr Gallery',
+		'flickrID' => '1438980@N21',
+		'postcount' => '6',
+		'type' => 'group',
+		'display' => 'random',
+		);
+		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
+
+		<!-- Text Input -->
+		<p>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e('Title:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'flickrID' ); ?>"><?php _e('Flickr ID:', 'wpnuke') ?> (<a href="http://idgettr.com/">idGettr</a>)</label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'flickrID' ); ?>" name="<?php echo $this->get_field_name( 'flickrID' ); ?>" value="<?php echo $instance['flickrID']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'postcount' ); ?>"><?php _e('Number of Photos:', 'wpnuke') ?></label>
+			<select id="<?php echo $this->get_field_id( 'postcount' ); ?>" name="<?php echo $this->get_field_name( 'postcount' ); ?>" class="widefat">
+			    <option <?php if ( '3' == $instance['postcount'] ) echo 'selected="selected"'; ?>>3</option>
+				<option <?php if ( '6' == $instance['postcount'] ) echo 'selected="selected"'; ?>>6</option>
+				<option <?php if ( '9' == $instance['postcount'] ) echo 'selected="selected"'; ?>>9</option>
+			</select>
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'type' ); ?>"><?php _e('Type (user or group):', 'wpnuke') ?></label>
+			<select id="<?php echo $this->get_field_id( 'type' ); ?>" name="<?php echo $this->get_field_name( 'type' ); ?>" class="widefat">
+				<option <?php if ( 'user' == $instance['type'] ) echo 'selected="selected"'; ?>>user</option>
+				<option <?php if ( 'group' == $instance['type'] ) echo 'selected="selected"'; ?>>group</option>
+			</select>
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'display' ); ?>"><?php _e('Display (random or latest):', 'wpnuke') ?></label>
+			<select id="<?php echo $this->get_field_id( 'display' ); ?>" name="<?php echo $this->get_field_name( 'display' ); ?>" class="widefat">
+				<option <?php if ( 'random' == $instance['display'] ) echo 'selected="selected"'; ?>>random</option>
+				<option <?php if ( 'latest' == $instance['display'] ) echo 'selected="selected"'; ?>>latest</option>
+			</select>
+		</p>
+		
+	<?php
+	}
+}
+
+/**
+ * WPNuke Ad Widget
+ * Widget that displays a customizable advertisement
+ *  
+ * @package WPNuke_Framework
+ * @todo replace the widget system with a dynamic one, based on config files for easier widget creation
+ */
+class wpnuke_ad_widget extends WP_Widget {
+
+	// PHP 4 Constructor (for backward compatibility)
+	function wpnuke_ad_widget() {
+		wpnuke_ad_widget::__construct();
+	}
+	
+	// PHP 5 Constructor
+	function __construct() {
+		/* Widget settings */
+		$widget_ops = array( 'classname' => 'wpnuke_ad_widget', 'description' =>__('A widget that display any type of Ad as a widget.', 'wpnuke') );
+		/* Widget control settings. */
+		$control_ops = array( 'width' => 100, 'height' => 200, 'id_base' => 'wpnuke_ad_widget' );
+		/* Create the widget */
+		$this->WP_Widget( 'wpnuke_ad_widget',__('WPNuke - Ad Widget', 'wpnuke'), $widget_ops, $control_ops );
+	}
+
+	// Display the Widget
+	function widget( $args, $instance ) {
+		global $wpdb;
+		
+		extract( $args );
+
+		/* User settings. */
+		$title = empty($instance['title']) ? '' : apply_filters('widget_title', $instance['title']);
+		$adcode = $instance['adcode'];
+		$adimgurl = $instance['adimgurl'];
+		$addesturl = $instance['addesturl'];
+		$adalt = $instance['adalt'];
+		
+		$adrel = $instance['adrel'];
+
+		/* Before widget (defined by themes). */
+		echo $before_widget;
+
+		/* Display the widget title if one was input (before_title and after_title defined by themes). */
+		if ( $title ) { echo $before_title . $title . $after_title; }
+		
+		/* Display ad */
+		if ( !empty( $adcode ) ) {
+			echo $adcode;
+		} else { ?>
+			<a href="<?php echo $addesturl; ?>"<?php if ($adrel == 'nofollow') echo ' rel="nofollow"'; ?>><img src="<?php echo $adimgurl; ?>" alt="<?php echo $adalt; ?>" /></a>
+		<?php
+		}
+
+		/* After widget (defined by themes). */
+		echo $after_widget;
+	}
+
+	// Update and save widget
+	function update( $new_instance, $old_instance ) {
+		$instance = $old_instance;
+
+		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['adcode'] = $new_instance['adcode'];
+		$instance['adimgurl'] = $new_instance['adimgurl'];
+		$instance['addesturl'] = $new_instance['addesturl'];
+		$instance['adalt'] = $new_instance['adalt'];
+		
+		$instance['adrel'] = $new_instance['adrel'];
+		
+		return $instance;
+	}
+	
+	// Widget settings
+	function form( $instance ) {
+	
+		/* Set up some default widget settings. */
+		$defaults = array(
+			'title' => '',
+			'adcode' => '',
+			'adimgurl' => '',
+			'addesturl' => '',
+			'adalt' => '',
+			'adrel' => ''
+		);
+		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
+
+		<!-- Text Input -->
+		<p>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e('Title:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'adcode' ); ?>"><?php _e('Insert ad code here:', 'wpnuke') ?></label>
+			<textarea class="widefat" id="<?php echo $this->get_field_id('adcode'); ?>" name="<?php echo $this->get_field_name('adcode'); ?>"><?php echo $instance['adcode']; ?></textarea>
+		</p>
+		<p><strong>or</strong></p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'adimgurl' ); ?>"><?php _e('Ad image URL:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'adimgurl' ); ?>" name="<?php echo $this->get_field_name( 'adimgurl' ); ?>" value="<?php echo $instance['adimgurl']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'addesturl' ); ?>"><?php _e('Ad destination URL:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'addesturl' ); ?>" name="<?php echo $this->get_field_name( 'addesturl' ); ?>" value="<?php echo $instance['addesturl']; ?>" />
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'adalt' ); ?>"><?php _e('Ad alt text:', 'wpnuke') ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'adalt' ); ?>" name="<?php echo $this->get_field_name( 'adalt' ); ?>" value="<?php echo $instance['adalt']; ?>" />
+		</p>
+		
+		<p>
+			<label for="<?php echo $this->get_field_id( 'adrel' ); ?>"><?php _e('Ad rel (nofollow/dofollow):', 'wpnuke') ?></label>
+			<select class="widefat" id="<?php echo $this->get_field_id( 'adrel' ); ?>" name="<?php echo $this->get_field_name( 'adrel' ); ?>">
+			<?php
+				$list = '';
+				$adrelopts = array('nofollow','dofollow');
+				foreach ( $adrelopts as $adrelopt ) {
+					if( $adrelopt == $instance['adrel'] ) {
+						$selected = 'selected="selected"';
+					} else { $selected = ''; }
+					$list .= '<option ' . $selected . ' value="' . $adrelopt. '">' . $adrelopt . '</option>';
+				}
+				echo $list;
+			?>
+			</select>
+		</p>
+		
+	<?php
+	}
+}
+
+
+// Register all available default widgets
+function wpnuke_register_widget() {
+	register_widget( 'wpnuke_social_widget' );
+	register_widget( 'wpnuke_socialbadge_widget' );
+	register_widget( 'wpnuke_tweets_widget' );
+	register_widget( 'wpnuke_flickr_widget' );
+	register_widget( 'wpnuke_ad_widget' );
+}
+
+// Add all default widgets to the widgets_init hook
+add_action( 'widgets_init', 'wpnuke_register_widget' );
+?>

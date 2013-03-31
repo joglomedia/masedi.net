@@ -1,0 +1,54 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background-color:#f2f4f9;
+}
+
+#opl-header-bg {
+	background:#e2e6f0 url(../images/header-blue.png) repeat-x left bottom;
+	border-top:2px solid #a3abc0;
+	border-bottom:2px solid #a3abc0;
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#a3abc0;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	border-top:2px solid #a3abc0;
+	background:#e6e6e6 url(../images/header-blue.png) repeat-x left bottom;
+}
+
+
+/* =OPTIN
+-----------------------------------------*/
+#optin .optin_header {
+	background:#e2e6ef url(../images/arrow-blue.png) no-repeat center top;
+}
+
+.optin_footer {
+	background:transparent url(../images/opt-blue.png) repeat-x left bottom;
+}
+
+#optin .optin_body {
+	background:#e2e6ef;
+}
+
+.opl-optin-only {
+	border:1px solid #a3abc0;
+	background:#e2e6ef;
+}
+
+#optin .optin_content {
+	background:#e2e6ef url(../images/arrow2-blue.png) no-repeat center bottom;
+}
+
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #b7cbd4;
+}

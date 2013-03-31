@@ -1,0 +1,32 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:#FFF url(../images/bg-grey.jpg) center top scroll no-repeat;
+	
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#737373;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	background-color:transparent;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#opl_nav a:hover {
+	border-bottom:2px solid #737373;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #b7cbd4;
+}

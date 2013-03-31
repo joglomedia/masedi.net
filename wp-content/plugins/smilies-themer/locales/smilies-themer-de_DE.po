@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smilies Themer\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-10-19 14:46+0100\n"
+"Last-Translator: Christoph Voigt <spucktier@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options-page.inc.php:4
+msgid "Smilies Themer Options: "
+msgstr "Smilies Themer Einstellungen: "
+
+#: ../options-page.inc.php:9
+#: ../options-page.inc.php:69
+msgid "Update Options"
+msgstr "Einstellungen übernehmen: "
+
+#: ../options-page.inc.php:13
+msgid "Formating: "
+msgstr "Formatierung: "
+
+#: ../options-page.inc.php:17
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
+msgstr "Automatisches Umwandeln von Textsmilies wie <code>:-)</code> oder <code>:-P</code> in grafische Smilies"
+
+#: ../options-page.inc.php:25
+msgid "Choose the default smilies theme"
+msgstr "Standard smiley theme auswählen"
+
+#: ../options-page.inc.php:29
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: ../options-page.inc.php:30
+msgid "Theme"
+msgstr "Theme"
+
+#: ../options-page.inc.php:31
+msgid "Author"
+msgstr "Autor"
+
+#: ../options-page.inc.php:32
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../options-page.inc.php:33
+#: ../options-page.inc.php:60
+msgid "Preview"
+msgstr "Vorschau"
+
+#: ../preview-popup.php:48
+msgid "Text"
+msgstr "Text"
+
+#: ../preview-popup.php:49
+msgid "Smiley"
+msgstr "Smiley"
+
+#: ../preview-popup.php:63
+msgid "Close"
+msgstr "Schließen"
+
+#: ../smilies-themer.php:173
+msgid "Options saved."
+msgstr "Einstellungen gespeichert"
+
+#: ../smilies-themer.php:200
+msgid "You need to check \"convert emoticons\" for this to work."
+msgstr "Sie müssen \"automatisches Umwandeln\" aktivieren, um diese Funktion verwenden zu können."
+
+#: ../smilies-themer.php:206
+#, php-format
+msgid "New version avaliable! <a href=\"%s\">Get %s release!</a>"
+msgstr "Neue Version gefunden! <a href=\"%s\">Release %s herunterladen!</a>"
+

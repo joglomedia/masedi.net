@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://masedi.net/wp-content/plugins/google-xml-sitemaps-with-multisite-support/sitemap.xsl"?><!-- generator="wordpress/3.5.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.2" -->
+<!-- generated-on="March 19, 2013 00:03" -->
+<!-- Debug: Total comment count: 2622 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://masedi.net/</loc>
+		<lastmod>2013-03-19T00:03:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 2342: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/ipaymu-payment-gateway-untuk-woocommerce_2342.html</loc>
+		<lastmod>2013-03-19T00:03:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2320: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/panduan-mendaftar-rekening-ipaymu_2320.html</loc>
+		<lastmod>2013-03-16T20:32:45+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2306: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-mudah-membuat-feed-news-aggregator-di-wordpress_2306.html</loc>
+		<lastmod>2013-03-02T08:34:02+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2278: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/mega-co-nz-free-cloud-storage-hingga-50gb_2278.html</loc>
+		<lastmod>2013-01-22T16:31:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2246: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/10-tips-mencegah-blog-wordpress-dari-serangan-malware-dan-peretas-hacker_2246.html</loc>
+		<lastmod>2013-01-04T18:34:38+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 764: Comments: 22 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/wordcampid-2010-8-keunggulan-wordpress-sebagai-cms_764.html</loc>
+		<lastmod>2013-01-04T18:16:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 977: Comments: 48 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-mudah-mengaktifkan-fitur-multi-site-wordpress-3-0_977.html</loc>
+		<lastmod>2013-01-04T15:27:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2240: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/youtube-rewind-2012-10-top-trending-video-dengan-view-terbanyak_2240.html</loc>
+		<lastmod>2012-12-21T21:46:27+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2220: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/download-plugin-popup-domination-3-0-untuk-wordpress_2220.html</loc>
+		<lastmod>2012-11-06T22:35:21+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 687: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/panduan-lengkap-cara-mendaftar-paypal-tanpa-kartu-kredit_687.html</loc>
+		<lastmod>2012-11-06T08:25:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2196: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/kamus-gaul-ciyus-miapah_2196.html</loc>
+		<lastmod>2012-10-22T18:17:05+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2188: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-menghemat-baterai-untuk-ponsel-pintar-smartphone_2188.html</loc>
+		<lastmod>2012-10-22T15:19:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2180: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/restatus-facebook-status-unik-dan-menggelitik-tentang-pacaran-islami_2180.html</loc>
+		<lastmod>2012-10-14T15:56:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2172: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/daftar-smartphone-samsung-yang-bisa-upgrade-ke-android-jelly-bean-4-1_2172.html</loc>
+		<lastmod>2012-10-08T19:09:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2084: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-mudah-menambahkan-related-post-di-dalam-artikel-tanpa-plugin_2084.html</loc>
+		<lastmod>2012-09-08T10:07:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2161: Comments: 1 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-memperbaiki-custom-field-error-bug-pada-wordpress-3-4-2_2161.html</loc>
+		<lastmod>2012-09-08T09:30:02+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2130: Comments: 1 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-install-kloxo-lxadmin-panel-di-server-centos-5-x-dan-6-x_2130.html</loc>
+		<lastmod>2012-08-23T16:53:46+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2132: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/jadwal-imsakiyah-dan-ibadah-puasa-ramadhan-1433h-2012_2132.html</loc>
+		<lastmod>2012-07-24T20:11:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1222: Comments: 10 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/sedekah-rahasia-sukses-menjadi-kaya_1222.html</loc>
+		<lastmod>2012-07-13T18:20:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2117: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/bola-kaca-bola-karet-sebuah-motivasi-dari-bryan-dyson-mantan-ceo-coca-cola_2117.html</loc>
+		<lastmod>2012-07-03T14:52:08+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2077: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/google-drive-alternatif-penyimpanan-online-gratis-dengan-kapasitas-5gb_2077.html</loc>
+		<lastmod>2012-07-02T14:05:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2031: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/jadwal-kereta-api-prambanan-ekpres-prameks-2012-trayek-solo-jogja-kutoarjo_2031.html</loc>
+		<lastmod>2012-04-29T14:42:52+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 407: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/mengenal-hivaids_407.html</loc>
+		<lastmod>2012-03-25T20:11:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2045: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/yuk-kenali-serangga-tomcat-dan-cara-mengatasi-racunnya_2045.html</loc>
+		<lastmod>2012-03-25T20:09:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1549: Comments: 12 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/fenomena-sleep-paralysis-ketindihan_1549.html</loc>
+		<lastmod>2012-03-25T20:05:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 740: Comments: 47 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-mengaktifkan-feedburner-email-subscriptions_740.html</loc>
+		<lastmod>2012-03-22T23:36:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1976: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/gerakan-indonesia-tanpa-jil-indonesiatanpajil_1976.html</loc>
+		<lastmod>2012-03-21T08:07:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2023: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/download-soundtrack-film-the-raid-redemption-mike-shinoda_2023.html</loc>
+		<lastmod>2012-03-20T20:24:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2003: Comments: 1 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/video-trailer-dan-jadwal-rilis-resmi-the-raid-redemption_2003.html</loc>
+		<lastmod>2012-03-18T21:12:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://masedi.net/partner-links</loc>
+		<lastmod>2012-02-28T16:03:10+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://masedi.net/link-exchange</loc>
+		<lastmod>2012-02-28T16:00:55+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 1911: Comments: 10 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/azonprofitmaster-tool-otomatis-untuk-membangun-blog-amazon_1911.html</loc>
+		<lastmod>2012-02-25T18:58:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1943: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/nelpon-gratis-sesama-pengguna-skype-dengan-telkomsel_1943.html</loc>
+		<lastmod>2012-02-20T14:37:22+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1606: Comments: 8 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-mendaftar-akun-dan-token-mandiri-internet-banking_1606.html</loc>
+		<lastmod>2012-02-19T19:22:24+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1790: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-menghemat-baterai-notebook-laptop-netbook_1790.html</loc>
+		<lastmod>2012-02-11T17:11:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1856: Comments: 2 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-mudah-membersihkan-ram_1856.html</loc>
+		<lastmod>2012-02-10T20:08:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1633: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/angry-birds-tak-mempermasalahkan-pembajakan_1633.html</loc>
+		<lastmod>2012-02-10T20:04:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1694: Comments: 1 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/semua-data-megaupload-akan-dihapus-dalam-2-minggu_1694.html</loc>
+		<lastmod>2012-02-10T19:39:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1858: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/battlefield-3-aftershock-kini-tersedia-untuk-pengguna-iphone-dan-ipad_1858.html</loc>
+		<lastmod>2012-02-09T16:10:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1818: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/lotus-glass-dan-oled-besutan-corning-dan-samsung_1818.html</loc>
+		<lastmod>2012-02-07T08:43:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1776: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/skype-versi-5-8-support-video-calling-full-hd_1776.html</loc>
+		<lastmod>2012-02-03T19:31:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1746: Comments: 1 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/grafik-positif-penjualan-ps-vita-di-jepang_1746.html</loc>
+		<lastmod>2012-02-02T15:59:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1672: Comments: 5 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/game-baru-di-bulan-februari-1_1672.html</loc>
+		<lastmod>2012-02-02T15:58:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 688: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/daftar-lengkap-kode-7-digit-paypal-untuk-bank-di-indonesia_688.html</loc>
+		<lastmod>2012-02-02T10:59:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 105: Comments: 5 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/sekilas-tentang-twitter_105.html</loc>
+		<lastmod>2012-02-02T07:34:27+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1589: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/spesifikasi-dan-daftar-harga-iphone-4s-di-indonesia_1589.html</loc>
+		<lastmod>2012-01-27T15:18:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 129: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/facebook_129.html</loc>
+		<lastmod>2012-01-21T18:31:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1300: Comments: 46 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/software-akuntansi-laporan-keuangan-terbaik_1300.html</loc>
+		<lastmod>2012-01-21T03:38:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1525: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/dukungan-stop-sopa-and-pipa_1525.html</loc>
+		<lastmod>2012-01-20T16:49:43+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1417: Comments: 4 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/software-akuntansi-laporan-keuangan-terbaik-untuk-usaha-dagang_1417.html</loc>
+		<lastmod>2012-01-15T17:42:08+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1487: Comments: 9 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/pulsa-gratis-senilai-5000-dari-unik_1487.html</loc>
+		<lastmod>2012-01-14T20:46:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1444: Comments: 1 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/kapan-saya-harus-kaya-dan-sukses_1444.html</loc>
+		<lastmod>2012-01-12T21:44:38+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 418: Comments: 32 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-mudah-mendaftarkan-webblog-di-alexa_418.html</loc>
+		<lastmod>2012-01-10T08:14:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 411: Comments: 37 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/alexa-traffic-rank-pentingkah_411.html</loc>
+		<lastmod>2012-01-10T08:11:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1377: Comments: 11 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/free-unlimited-web-hosting-domain-1-tahun-dari-justhost_1377.html</loc>
+		<lastmod>2012-01-08T22:26:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1328: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-upgrade-akun-paypal-dari-premier-ke-business_1328.html</loc>
+		<lastmod>2011-12-31T08:00:08+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1293: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/trik-rahasia-menampilkan-google-let-it-snow_1293.html</loc>
+		<lastmod>2011-12-20T11:04:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1003: Comments: 22 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-seting-wildcard-dns-record_1003.html</loc>
+		<lastmod>2011-11-25T17:18:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1278: Comments: 30 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-menulis-artikel-berbahasa-inggris-untuk-konten-blog-adsense_1278.html</loc>
+		<lastmod>2011-11-25T17:01:46+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1262: Comments: 9 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/dibalik-musibah-banned-masalngasal-google-adsense_1262.html</loc>
+		<lastmod>2011-11-19T16:20:22+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1247: Comments: 4 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/baca-dan-pelajari-google-rating-guidelines_1247.html</loc>
+		<lastmod>2011-10-23T07:22:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 179: Comments: 50 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-mudah-ngecek-nofollow-dofollow-blog-melalui-firefox_179.html</loc>
+		<lastmod>2011-08-18T19:14:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 856: Comments: 42 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/spesifikasi-dan-harga-samsung-i9000-galaxy-s_856.html</loc>
+		<lastmod>2011-08-07T08:03:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1195: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/marhaban-ya-ramadhan-1432-h-2011_1195.html</loc>
+		<lastmod>2011-08-01T18:39:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1205: Comments: 9 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/jadwal-imsakiyah-ramadhan-1432-h-2011-m-by-pkpu_1205.html</loc>
+		<lastmod>2011-08-01T18:37:24+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1150: Comments: 2 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/secret-seo-strategies-for-generating-maximum-revenue_1150.html</loc>
+		<lastmod>2011-08-01T15:23:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1182: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/10-best-search-engine-optimization-tips_1182.html</loc>
+		<lastmod>2011-05-22T06:25:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1058: Comments: 58 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/review-modem-aha-evdo-dari-bakrie-connectivity_1058.html</loc>
+		<lastmod>2011-05-20T17:08:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1172: Comments: 10 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/increase-your-adsense-earning-just-in-5-easy-way_1172.html</loc>
+		<lastmod>2011-04-03T17:45:36+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1166: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/best-10-easy-ways-to-get-good-backlinks_1166.html</loc>
+		<lastmod>2011-03-29T11:47:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1156: Comments: 2 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/free-wordpress-blog-registration-masedi-networked-blogs_1156.html</loc>
+		<lastmod>2011-03-22T14:28:21+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1142: Comments: 1 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/mybloglog-officially-deactivated-from-24-may-2011_1142.html</loc>
+		<lastmod>2011-02-28T16:45:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1135: Comments: 11 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/why-blogging_1135.html</loc>
+		<lastmod>2011-02-21T04:59:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://masedi.net/free-downloads</loc>
+		<lastmod>2011-02-09T18:09:29+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 1128: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/15-march-2011-facebook-ending-is-it-true_1128.html</loc>
+		<lastmod>2011-01-09T09:04:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1113: Comments: 8 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/free-trial-web-hosting_1113.html</loc>
+		<lastmod>2010-10-22T20:12:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 70: Comments: 15 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/free-download-sms-ucapan-lebaran-2-0_70.html</loc>
+		<lastmod>2010-09-08T15:58:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1100: Comments: 10 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/marhaban-yaa-ramadhan-1431-h-2010-m_1100.html</loc>
+		<lastmod>2010-08-09T20:26:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1022: Comments: 29 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/antara-suspend-spam-dan-update_1022.html</loc>
+		<lastmod>2010-07-12T14:23:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1031: Comments: 41 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/wordpress-3-0-thelonious-resmi-dirilis_1031.html</loc>
+		<lastmod>2010-06-19T07:11:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1014: Comments: 22 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/daftar-top-1000-most-visited-websites-on-the-web_1014.html</loc>
+		<lastmod>2010-06-06T17:37:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 986: Comments: 18 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-menampilkan-daftar-halaman-page-list-wordpress-dengan-urutan-tertentu_986.html</loc>
+		<lastmod>2010-05-13T20:57:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://masedi.net/search</loc>
+		<lastmod>2010-05-13T20:15:11+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://masedi.net/sitemap</loc>
+		<lastmod>2010-05-13T15:40:33+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://masedi.net/free-blog-tools</loc>
+		<lastmod>2010-05-13T15:40:15+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://masedi.net/contact-me</loc>
+		<lastmod>2010-05-13T15:39:23+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 380: Comments: 29 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-ampuh-meningkatkan-trafik-webblog_380.html</loc>
+		<lastmod>2010-05-09T19:41:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 958: Comments: 7 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/wajah-baru-google-search_958.html</loc>
+		<lastmod>2010-05-06T20:41:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 894: Comments: 26 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/optimisasi-javascript-dan-css-untuk-meningkatkan-kecepatan-load-website_894.html</loc>
+		<lastmod>2010-05-03T09:36:06+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 939: Comments: 26 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/humor-gaje-gak-lucu-monyet-loch_939.html</loc>
+		<lastmod>2010-05-02T07:04:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 899: Comments: 21 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/http-gzip-compression-untuk-mengoptimalkan-kecapatan-load-halaman-blog_899.html</loc>
+		<lastmod>2010-05-02T07:04:06+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 868: Comments: 2 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-secure-web-retailer-for-selling-and-buying-wow-accounts_868.html</loc>
+		<lastmod>2010-04-29T15:09:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 880: Comments: 9 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/image-optimization-teknik-optimisasi-kecepatan-load-halaman-website_880.html</loc>
+		<lastmod>2010-04-28T19:40:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 888: Comments: 21 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/adsbanner-optimization-teknik-optimisasi-kecepatan-load-websiteblog_888.html</loc>
+		<lastmod>2010-04-28T08:49:24+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 283: Comments: 15 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/kalkulator-diet-cara-mudah-mengontrol-berat-badan_283.html</loc>
+		<lastmod>2010-04-18T07:29:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 816: Comments: 40 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/berburu-genk-ovi-daftar-email-berhadiah-netbook_816.html</loc>
+		<lastmod>2010-04-17T10:12:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 853: Comments: 30 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/kecepatan-load-website-parameter-baru-serp-google_853.html</loc>
+		<lastmod>2010-04-13T15:29:06+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 849: Comments: 24 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/oleh-oleh-hiatus-2-ngerjain-pr_849.html</loc>
+		<lastmod>2010-04-07T15:46:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 841: Comments: 23 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/oleh-oleh-hiatus-1-google-update-pagerank-periode-april-2010_841.html</loc>
+		<lastmod>2010-04-04T08:11:27+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 835: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/mendadak-hiatus_835.html</loc>
+		<lastmod>2010-04-02T19:46:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 809: Comments: 16 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/promo-menarik-kartu-as-serba-1000-scam-bukan-yach_809.html</loc>
+		<lastmod>2010-03-03T16:49:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 794: Comments: 53 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/benarkah-google-mempedulikan-relevansi-antara-backlinks-dan-konten-blog_794.html</loc>
+		<lastmod>2010-02-18T18:36:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 790: Comments: 12 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/wordpress-update-versi-2-9-2_790.html</loc>
+		<lastmod>2010-02-16T16:35:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 782: Comments: 28 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/benarkah-facebook-harus-bayar-cuma-hoax_782.html</loc>
+		<lastmod>2010-02-08T19:04:52+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 778: Comments: 22 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/hot-news-polling-masedi-net-cuma-scam-gak-ada-hadiahnya-percaya_778.html</loc>
+		<lastmod>2010-02-03T17:31:38+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 774: Comments: 11 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/maret-2010-google-apps-resmi-ceraikan-ie-6_774.html</loc>
+		<lastmod>2010-02-02T20:49:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 719: Comments: 12 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/free-wordpress-themes-comicpress-theme-untuk-komik-online_719.html</loc>
+		<lastmod>2010-02-02T17:06:06+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 758: Comments: 33 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/update-polling-berhadiah-paket-bloghosting-domain-1-tahun-free_758.html</loc>
+		<lastmod>2010-01-27T11:03:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 236: Comments: 15 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-mempercepat-koneksi-modem-im2-dengan-opendns_236.html</loc>
+		<lastmod>2010-01-22T09:20:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 249: Comments: 23 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-mudah-partisi-hardisk-windows-vista_249.html</loc>
+		<lastmod>2010-01-22T08:58:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 197: Comments: 20 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-mempercepat-koneksi-modem-im2-prolink-phs-100_197.html</loc>
+		<lastmod>2010-01-22T08:06:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 712: Comments: 34 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tahun-2010-aku-punya-nama-domain-pribadi_712.html</loc>
+		<lastmod>2010-01-20T18:15:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 657: Comments: 25 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/spesifikasi-dan-harga-android-phone-google-nexus-one_657.html</loc>
+		<lastmod>2010-01-20T10:46:04+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 483: Comments: 27 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-memasang-linkbox-sebagai-alternatif-pengganti-blogroll_483.html</loc>
+		<lastmod>2010-01-20T10:05:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 700: Comments: 13 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/bukti-pembayaran-paypal-wishlist_700.html</loc>
+		<lastmod>2010-01-20T09:54:38+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/hello-blogge_1.html</loc>
+		<lastmod>2010-01-18T15:21:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 7: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/technorati-claim-code_7.html</loc>
+		<lastmod>2010-01-18T15:20:45+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 10: Comments: 2 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/wordpress-2-8-4-security-realease_10.html</loc>
+		<lastmod>2010-01-18T15:18:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 679: Comments: 42 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/sejuta-hadiah-mengejutkan-di-awal-tahun-2010_679.html</loc>
+		<lastmod>2010-01-16T18:03:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 66: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/blogtimize-optimize-the-ads-on-your-blog_66.html</loc>
+		<lastmod>2010-01-15T17:18:31+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 98: Comments: 109 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/kerja-keras-adalah-energi-kita-semoga-tidak-hanya-slogan-semata_98.html</loc>
+		<lastmod>2010-01-12T09:50:42+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 456: Comments: 31 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/goo-gl-layanan-url-shortener-versi-google-toolbar-dan-feedburner_456.html</loc>
+		<lastmod>2010-01-09T13:57:36+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 559: Comments: 24 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/wp-me-wordpress-self-url-shortener_559.html</loc>
+		<lastmod>2010-01-09T13:45:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 632: Comments: 20 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/update-wordpress-2-9-1-patch-scheduled-post-and-trackbacks-issue_632.html</loc>
+		<lastmod>2010-01-09T13:05:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 222: Comments: 33 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-memasang-dan-manfaat-commentluv_222.html</loc>
+		<lastmod>2010-01-05T17:35:45+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 533: Comments: 3 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/best-host-rating-website_533.html</loc>
+		<lastmod>2010-01-03T16:12:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 508: Comments: 29 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/50-best-websites-2009-versi-majalah-times_508.html</loc>
+		<lastmod>2010-01-03T15:32:48+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 616: Comments: 6 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/missupload-com-free-file-upload-share-and-earn-money_616.html</loc>
+		<lastmod>2010-01-03T10:23:48+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 600: Comments: 29 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/update-2010_600.html</loc>
+		<lastmod>2010-01-01T20:57:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 567: Comments: 15 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/download-draft-ruu-tipiti-dan-buku-membongkar-gurita-cikeas_567.html</loc>
+		<lastmod>2009-12-31T08:57:01+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 494: Comments: 34 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-membangun-website-blog-yang-baik-ala-depkeu_494.html</loc>
+		<lastmod>2009-12-29T06:39:36+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://masedi.net/about</loc>
+		<lastmod>2009-12-28T16:25:05+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 489: Comments: 16 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/harapan-baru-resolusi-baru-di-tahun-baru_489.html</loc>
+		<lastmod>2009-12-25T17:41:49+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 472: Comments: 46 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/wordpress-2-9-codename-carmen-is-coming_472.html</loc>
+		<lastmod>2009-12-21T10:34:04+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 413: Comments: 31 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-ampuh-program-diet-melangsingkan-alexa-traffic-rank_413.html</loc>
+		<lastmod>2009-12-15T10:22:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 416: Comments: 22 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-memasang-alexa-toolbar-dan-alexa-widget_416.html</loc>
+		<lastmod>2009-12-10T10:39:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 403: Comments: 18 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/seputar-peringatan-hari-hivaids-sedunia_403.html</loc>
+		<lastmod>2009-12-06T06:52:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 396: Comments: 17 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/met-qurban_396.html</loc>
+		<lastmod>2009-11-26T17:13:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 342: Comments: 17 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/setelah-geocities-giliran-yahoo-go-ditutup_342.html</loc>
+		<lastmod>2009-11-26T17:11:22+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 328: Comments: 38 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/dns-nawala-dukung-penyaringan-konten-porno-melalui-dns-filtering_328.html</loc>
+		<lastmod>2009-11-24T07:22:22+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 373: Comments: 27 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/join-paypal-wishlist-promo-and-win-100-upto-17000-usd_373.html</loc>
+		<lastmod>2009-11-21T17:31:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 90: Comments: 16 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/internetan-pakai-modem-prolink-phs-100-im2_90.html</loc>
+		<lastmod>2009-11-21T13:48:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 351: Comments: 45 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/award-persahabatan_351.html</loc>
+		<lastmod>2009-11-20T16:40:31+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 329: Comments: 31 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-cara-mudah-meblokir-konten-porno-dengan-dns-server_329.html</loc>
+		<lastmod>2009-11-19T14:49:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 316: Comments: 12 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/deskripsi-tugas-akhir_316.html</loc>
+		<lastmod>2009-11-18T14:33:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 302: Comments: 19 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/cara-mudah-ngecek-status-yahoo-messenger-ym_302.html</loc>
+		<lastmod>2009-11-16T17:40:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 101: Comments: 22 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/pertamax-dan-contest-kerja-keras-adalah-energi-kita_101.html</loc>
+		<lastmod>2009-11-16T07:30:45+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 273: Comments: 24 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/foto-foto-keren-hadiah-dari-teleskop-hubble_273.html</loc>
+		<lastmod>2009-11-15T14:20:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 266: Comments: 32 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/update-wordpress-2-8-6-security-release_266.html</loc>
+		<lastmod>2009-11-14T15:29:39+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 153: Comments: 9 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/upgrade-ke-wordpress-2-8-5_153.html</loc>
+		<lastmod>2009-11-13T01:29:18+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 254: Comments: 26 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/ini-dia-seger-segeran-yang-seger-itu_254.html</loc>
+		<lastmod>2009-11-12T13:13:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 231: Comments: 20 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/download-ringtone-rekaman-percakapan-anggodo-cs_231.html</loc>
+		<lastmod>2009-11-06T17:31:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 86: Comments: 7 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/pendaftaran-lowongan-cpns-depkes-2009_86.html</loc>
+		<lastmod>2009-11-05T02:25:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 186: Comments: 35 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/update-google-pagerank-akhirnya-telurku-pecah-juga_186.html</loc>
+		<lastmod>2009-11-03T04:02:23+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 163: Comments: 23 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/sumpah-pemuda-generasi-muda-dan-kampanye-aku-ngeblog-kamu_163.html</loc>
+		<lastmod>2009-11-01T08:17:18+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 171: Comments: 14 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/terangi-duniamu-dengan-firefox_171.html</loc>
+		<lastmod>2009-10-31T00:54:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 148: Comments: 4 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/wordpress-2-9-beta-testing_148.html</loc>
+		<lastmod>2009-10-26T00:53:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 95: Comments: 13 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/kerja-keras-adalah-energi-kita-pertamina-blog-contest-2009_95.html</loc>
+		<lastmod>2009-10-18T00:13:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 82: Comments: 12 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/win-iphone-3gs-nimbuzz-survey_82.html</loc>
+		<lastmod>2009-09-29T19:49:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 44: Comments: 15 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/10-alasan-mengapa-blogger-menjadi-depresi-dan-stress_44.html</loc>
+		<lastmod>2009-09-13T06:04:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 33: Comments: 19 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/tips-mengamankan-wordpress-blog_33.html</loc>
+		<lastmod>2009-09-09T04:54:23+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 28: Comments: 19 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/waspadai-belasan-tayangan-ramadhan-tidak-mendidik_28.html</loc>
+		<lastmod>2009-09-07T03:34:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 24: Comments: 14 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/plig-cms-template-design-c_24.html</loc>
+		<lastmod>2009-09-05T17:37:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 17: Comments: 8 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/99designs-contest-win-a-macbook-pro_17.html</loc>
+		<lastmod>2009-09-04T03:52:04+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 13: Comments: 25 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/penghasilan-pertamaku-dari-internet-ads-network_13.html</loc>
+		<lastmod>2009-08-29T05:58:21+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 69: Comments: 2 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/blogger-mobile-blogging_69.html</loc>
+		<lastmod>2007-12-07T16:29:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 67: Comments: 0 of 2622 = 0 points -->
+	<url>
+		<loc>http://masedi.net/google-pagerate-or-google-pagerank_67.html</loc>
+		<lastmod>2007-11-11T04:19:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

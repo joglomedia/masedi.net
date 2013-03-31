@@ -1,0 +1,29 @@
+.setting_lbl{
+font-weight:bold;
+font-size:11px;
+}
+.desc_lbl{
+font-size:11px;
+color:#666666;
+}
+.input {
+width:100px;
+}
+.divright{
+text-align:right; margin-top:-40px; margin-bottom:15px;
+}
+.btn_divright{
+text-align:right; margin-top:-50px; margin-bottom:15px;
+}
+h4.legend{
+padding-bottom:5px;
+border-bottom:1px solid #cccccc;
+}
+.imglabel{
+float:left;
+width:25px;
+}
+div.legend{
+margin:10px;
+line-height:20px;
+}

@@ -1,0 +1,12 @@
+[29-Apr-2010 09:01:17] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'An unknown error occurred' in /home/masedi/public_html/work/fbstatus/OperaMini/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/OperaMini/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/OperaMini/index.php(27): FacebookRestClient->stream_publish('\'alaihi wa sal...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/OperaMini/facebookapi_php5_restlib.php on line 3003
+[29-Apr-2010 09:01:47] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'An unknown error occurred' in /home/masedi/public_html/work/fbstatus/OperaMini/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/OperaMini/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/OperaMini/index.php(27): FacebookRestClient->stream_publish('\'alaihi wa sal...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/OperaMini/facebookapi_php5_restlib.php on line 3003

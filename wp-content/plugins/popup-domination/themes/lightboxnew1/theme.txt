@@ -1,0 +1,8 @@
+Template Name: New Template # 1
+Colors: Default[default:#000]
+Preview Size: 290x336
+Preview Ext: jpg
+Fields: Title[id:title,max:50]|Footer Security Note[id:footer_note,max:60]|Name Default Value[id:name_default,default_val:Your First Name...]|Email Default Value[id:email_default,default_val:Your Email Address...]|Submit Button[id:submit_button,max:26,default_val:FREE INSTANT ACCESS]
+List Items: 4
+Button Colors: Orange[orange]
+Center: Y

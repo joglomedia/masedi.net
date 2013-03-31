@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Mail Subscription</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+
+</head>
+<body id="main_body" >
+	
+	<div id="form_container">
+	
+		<h1><a>Mail Subscription</a></h1>
+		<form id="form_242210" class="appnitro"  method="post" action="insert.php">
+					<div class="form_description">
+			<h2>Mail Subscription</h2>
+			<p>Please entered the required fields
+</p>
+		</div>						
+			<ul>
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">Full Name </label>
+		<div>
+			<input id="element_1" name="full_name" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div><p class="guidelines" id="guide_1"><small>Please enter your full name
+</small></p> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Email Address </label>
+		<div>
+			<input id="element_2" name="email" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div><p class="guidelines" id="guide_2"><small>Please enter your Email Address</small></p> 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="242210" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+	</div>
+	<img id="bottom" src="images/bottom.png" alt="">
+	</body>
+</html>

@@ -1,0 +1,1614 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Job Board v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-08-09 08:57+0000\n"
+"Last-Translator: Johan11  3223 <miteshru@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:7
+#: advance_search.php:135
+#: jobs.php:126
+#: jobs_listing.php:124
+#: search.php:52
+#: single.php:205
+#: tags.php:78
+#@ Sorry
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: 404.php:8
+#: blog_listing.php:46
+#: jobs.php:127
+#: jobs_listing.php:125
+#: search.php:53
+#: tags.php:79
+#@ Sorry
+msgid "Please try searching again here..."
+msgstr ""
+
+#: 404.php:12
+#: blog_listing.php:47
+#: jobs.php:128
+#: jobs_listing.php:127
+#: search.php:54
+#: tags.php:81
+#@ Sorry
+msgid "Or, take a look at Archives and Categories"
+msgstr ""
+
+#: 404.php:15
+#: advance_search.php:77
+#: blog_listing.php:50
+#: jobs.php:11
+#: jobs.php:131
+#: jobs_listing.php:130
+#: search.php:6
+#: search.php:57
+#: tpl_createjob.php:268
+#@ Sorry
+msgid "Category"
+msgstr ""
+
+#: 404.php:23
+#: blog_listing.php:58
+#: jobs.php:139
+#: jobs_listing.php:138
+#: search.php:65
+#@ Sorry
+msgid "Archives"
+msgstr ""
+
+#: admin_coupon.php:94
+#@ Sorry
+msgid "Edit Coupon"
+msgstr ""
+
+#: admin_coupon.php:97
+#: admin_manage_coupon.php:53
+#@ Sorry
+msgid "Add Coupon"
+msgstr ""
+
+#: admin_coupon.php:103
+#@ Sorry
+msgid "Coupon code already exists, Please user different one."
+msgstr ""
+
+#: admin_coupon.php:108
+#: admin_manage_coupon.php:57
+#: tpl_createjob.php:315
+#@ Sorry
+msgid "Coupon Code"
+msgstr ""
+
+#: admin_coupon.php:113
+#: admin_manage_coupon.php:58
+#@ Sorry
+msgid "Discount Type"
+msgstr ""
+
+#: admin_coupon.php:116
+#@ Sorry
+msgid "Percentage"
+msgstr ""
+
+#: admin_coupon.php:124
+#@ Sorry
+msgid "Amount"
+msgstr ""
+
+#: admin_coupon.php:133
+#: admin_price.php:88
+#: advance_search.php:95
+#: comments.php:101
+#: tpl_createjob.php:164
+#@ Sorry
+msgid "Submit"
+msgstr ""
+
+#: admin_coupon.php:135
+#: admin_price.php:90
+#: advance_search.php:96
+#@ Sorry
+msgid "Cancel"
+msgstr ""
+
+#: admin_coupon.php:146
+#@ Sorry
+msgid "Percentage should be less than or equal to 100"
+msgstr ""
+
+#: admin_manage_coupon.php:42
+#@ Sorry
+msgid "Manage Coupons"
+msgstr ""
+
+#: admin_manage_coupon.php:45
+#@ Sorry
+msgid "Coupon updated successfully."
+msgstr ""
+
+#: admin_manage_coupon.php:50
+#@ Sorry
+msgid "Coupon deleted successfully."
+msgstr ""
+
+#: admin_manage_coupon.php:59
+#@ Sorry
+msgid "Discount Amount"
+msgstr ""
+
+#: admin_manage_coupon.php:60
+#: admin_manage_coupon.php:79
+#: admin_manage_price.php:49
+#: admin_manage_price.php:66
+#@ Sorry
+msgid "Edit"
+msgstr ""
+
+#: admin_manage_coupon.php:61
+#: admin_manage_coupon.php:80
+#: admin_manage_price.php:50
+#: admin_manage_price.php:67
+#@ Sorry
+msgid "Delete"
+msgstr ""
+
+#: admin_manage_price.php:30
+#: admin_menu.php:15
+#@ Sorry
+msgid "Manage Price"
+msgstr ""
+
+#: admin_manage_price.php:33
+#@ Sorry
+msgid "Price updated successfully."
+msgstr ""
+
+#: admin_manage_price.php:38
+#@ Sorry
+msgid "Price deleted successfully."
+msgstr ""
+
+#: admin_manage_price.php:41
+#: admin_price.php:55
+#@ Sorry
+msgid "Add Price"
+msgstr ""
+
+#: admin_manage_price.php:45
+#@ Sorry
+msgid "Title"
+msgstr ""
+
+#: admin_manage_price.php:46
+#@ Sorry
+msgid "Price"
+msgstr ""
+
+#: admin_manage_price.php:47
+#@ Sorry
+msgid "Number Of Days"
+msgstr ""
+
+#: admin_manage_price.php:48
+#: admin_price.php:78
+#@ Sorry
+msgid "Status"
+msgstr ""
+
+#: admin_manage_price.php:65
+#: admin_price.php:81
+#: language.php:52
+#@ Sorry
+msgid "Active"
+msgstr ""
+
+#: admin_manage_price.php:65
+#: admin_price.php:82
+#@ Sorry
+msgid "Inactive"
+msgstr ""
+
+#: admin_manage_price.php:79
+#@ Sorry
+msgid "Are you sure want to delet price?"
+msgstr ""
+
+#: admin_menu.php:6
+#: admin_menu.php:10
+#@ Sorry
+msgid "Job Board"
+msgstr ""
+
+#: admin_menu.php:13
+#@ Sorry
+msgid "Design Settings"
+msgstr ""
+
+#: admin_menu.php:14
+#@ Sorry
+msgid "Manage Coupon"
+msgstr ""
+
+#: admin_price.php:52
+#@ Sorry
+msgid "Edit Price"
+msgstr ""
+
+#: admin_price.php:61
+#@ Sorry
+msgid "Price Title"
+msgstr ""
+
+#: admin_price.php:66
+#@ Sorry
+msgid "Price Amount"
+msgstr ""
+
+#: admin_price.php:72
+#@ Sorry
+msgid "Number of Days"
+msgstr ""
+
+#: admin_price.php:99
+#@ Sorry
+msgid "Please enter Title"
+msgstr ""
+
+#: advance_search.php:67
+#: searchform.php:15
+#@ Sorry
+msgid "Advanced Search"
+msgstr ""
+
+#: advance_search.php:72
+#@ Sorry
+msgid "Keyword"
+msgstr ""
+
+#: advance_search.php:74
+#@ Sorry
+msgid "Search for Job Title, Descritpion and How to apply content."
+msgstr ""
+
+#: advance_search.php:81
+#: tpl_createjob.php:209
+#@ Sorry
+msgid "Company Name"
+msgstr ""
+
+#: advance_search.php:85
+#: tpl_createjob.php:257
+#@ Sorry
+msgid "Location"
+msgstr ""
+
+#: advance_search.php:88
+#: tpl_createjob.php:261
+#@ Sorry
+msgid "Select Location"
+msgstr ""
+
+#: advance_search.php:102
+#: jobs.php:37
+#: jobs_listing.php:15
+#: search.php:25
+#@ Sorry
+msgid "Search Results"
+msgstr ""
+
+#: advance_search.php:136
+#@ Sorry
+msgid "Please try searching again ..."
+msgstr ""
+
+#: apply_online.php:4
+#@ Sorry
+msgid "<span class=\"text_success_msg\">Your Information send Successfully. We will rever you soon.</span>"
+msgstr ""
+
+#: apply_online.php:10
+#@ Sorry
+msgid "Submit Your Resume"
+msgstr ""
+
+#: apply_online.php:17
+#@ Sorry
+msgid "Apply Online"
+msgstr ""
+
+#: apply_online.php:20
+#: email_a_job.php:18
+#@ Sorry
+msgid "Your Name"
+msgstr ""
+
+#: apply_online.php:25
+#: header.php:47
+#: page_contact.php:86
+#: tpl_createjob.php:190
+#@ Sorry
+msgid "Email"
+msgstr ""
+
+#: apply_online.php:30
+#: email_a_job.php:28
+#@ Sorry
+msgid "Comments"
+msgstr ""
+
+#: apply_online.php:35
+#@ Sorry
+msgid "Upload Resume"
+msgstr ""
+
+#: apply_online.php:37
+#@ Sorry
+msgid " file types only."
+msgstr ""
+
+#: apply_online.php:49
+#: email_a_job.php:58
+#@ Sorry
+msgid "Please enter Your Name"
+msgstr ""
+
+#: apply_online.php:55
+#: email_a_job.php:64
+#@ Sorry
+msgid "Please enter Your Email"
+msgstr ""
+
+#: apply_online.php:65
+#: email_a_job.php:74
+#@ Sorry
+msgid "Please enter Comments"
+msgstr ""
+
+#: blog_detail.php:49
+#: blog_listing.php:119
+#: single.php:163
+#: tags.php:65
+#@ Sorry
+msgid "Tags : "
+msgstr ""
+
+#: blog_detail.php:50
+#@ Sorry
+msgid "Print This Post"
+msgstr ""
+
+#: blog_listing.php:30
+#: tags.php:30
+#@ Sorry
+msgid "Blog"
+msgstr ""
+
+#: blog_listing.php:45
+#@ Sorry
+msgid "Sorry! Blog Category is not selected."
+msgstr ""
+
+#: cancel.php:1
+#@ Sorry
+msgid "Payment Cancellation"
+msgstr ""
+
+#: cancel.php:2
+#@ Sorry
+msgid "We are sorry, You cancel your payment for the job, Your job post is not publish right now."
+msgstr ""
+
+#: comments.php:36
+#@ Sorry
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:37
+#@ Sorry
+msgid "Check out what others are saying about this post..."
+msgstr ""
+
+#: comments.php:50
+#@ Sorry
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:67
+#@ Sorry
+msgid "logged in"
+msgstr ""
+
+#: comments.php:67
+#@ Sorry
+msgid "to post a comment"
+msgstr ""
+
+#: comments.php:75
+#: page_contact.php:81
+#@ Sorry
+msgid "Name"
+msgstr ""
+
+#: comments.php:82
+#: language.php:12
+#@ Sorry
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:89
+#@ Sorry
+msgid "<acronym title=\"Uniform Resource Identifier\">URI</acronym>"
+msgstr ""
+
+#: dashboard.php:63
+#@ Sorry
+msgid "(edit)"
+msgstr ""
+
+#: dashboard.php:64
+#@ Sorry
+msgid "(delete)"
+msgstr ""
+
+#: dashboard.php:93
+#: functions.php:1223
+#: language.php:51
+#@ Sorry
+msgid "Expired"
+msgstr ""
+
+#: dashboard.php:98
+#: functions.php:1228
+#@ Sorry
+msgid "Pending Review"
+msgstr ""
+
+#: dashboard.php:98
+#: language.php:53
+#@ Sorry
+msgid "renew"
+msgstr ""
+
+#: email_a_job.php:5
+#@ Sorry
+msgid "Email to a Friend"
+msgstr ""
+
+#: email_a_job.php:8
+#@ Sorry
+msgid "Friend Name"
+msgstr ""
+
+#: email_a_job.php:13
+#@ Sorry
+msgid "Friend Email"
+msgstr ""
+
+#: email_a_job.php:23
+#@ Sorry
+msgid "Your Email"
+msgstr ""
+
+#: email_a_job.php:42
+#@ Sorry
+msgid "Please enter Friend Name"
+msgstr ""
+
+#: email_a_job.php:48
+#@ Sorry
+msgid "Please enter Friend Email"
+msgstr ""
+
+#: functions.php:23
+#@ Sorry
+msgid "Full Time"
+msgstr ""
+
+#: functions.php:24
+#@ Sorry
+msgid "Part Time"
+msgstr ""
+
+#: functions.php:25
+#@ Sorry
+msgid "Freelance"
+msgstr ""
+
+#: functions.php:42
+#: functions_new.php:31
+#@ Sorry
+msgid "General Settings"
+msgstr ""
+
+#: functions.php:45
+#: functions.php:51
+#: functions_new.php:34
+#@ Sorry
+msgid "Your Feedburner ID"
+msgstr ""
+
+#: functions.php:46
+#@ Sorry
+msgid "Specify Your Feedburner ID here. To find out what your Feedburner ID is, check ThemeGuide PDF shipped with the theme"
+msgstr ""
+
+#: functions.php:52
+#@ Sorry
+msgid "Specify Your Feedburner URL here."
+msgstr ""
+
+#: functions.php:57
+#: functions_new.php:40
+#@ Sorry
+msgid "Your Twitter ID"
+msgstr ""
+
+#: functions.php:58
+#: functions_new.php:41
+#@ Sorry
+msgid "Specify Your Twitter ID here."
+msgstr ""
+
+#: functions.php:63
+#: functions_new.php:46
+#@ Sorry
+msgid "Site Email ID"
+msgstr ""
+
+#: functions.php:64
+#: functions_new.php:47
+#@ Sorry
+msgid "Please enter the site email id to where the email will be received"
+msgstr ""
+
+#: functions.php:69
+#: functions_new.php:52
+#@ Sorry
+msgid "Paypal Merchant ID"
+msgstr ""
+
+#: functions.php:70
+#: functions_new.php:53
+#@ Sorry
+msgid "Specify Your Paypal Merchant/Bussiness ID"
+msgstr ""
+
+#: functions.php:75
+#: functions_new.php:58
+#@ Sorry
+msgid "Paypal Currency Code"
+msgstr ""
+
+#: functions.php:76
+#: functions_new.php:59
+#@ Sorry
+msgid "Specify Your Paypal Currency Code Example:USD"
+msgstr ""
+
+#: functions.php:89
+#: functions_new.php:70
+#@ Sorry
+msgid "Job Post Expiry Days"
+msgstr ""
+
+#: functions.php:90
+#@ Sorry
+msgid "Specify the job Expiry Days. Keep blank for unlimited, It is default setting in case of no price package is define/selected."
+msgstr ""
+
+#: functions.php:95
+#: functions_new.php:76
+#@ Sorry
+msgid "Default Status of Post"
+msgstr ""
+
+#: functions.php:96
+#: functions_new.php:77
+#@ Sorry
+msgid "Job Post Default Status"
+msgstr ""
+
+#: functions.php:102
+#: functions_new.php:83
+#@ Sorry
+msgid "Paid Job Description Message"
+msgstr ""
+
+#: functions.php:103
+#@ Sorry
+msgid "Specify Your message for paid job while Job Post Fees Amount is set. <br>you can set message for the job status after successful payment.<br>This message will display on <b>Post a Job</b> and <b>Job Preview</b> pages."
+msgstr ""
+
+#: functions.php:108
+#: functions_new.php:89
+#@ Sorry
+msgid "Status of Post after Expiry"
+msgstr ""
+
+#: functions.php:109
+#: functions_new.php:90
+#@ Sorry
+msgid "Job Post Status after Expiry"
+msgstr ""
+
+#: functions.php:115
+#@ Sorry
+msgid "Display 'Post a Job' Button"
+msgstr ""
+
+#: functions.php:116
+#@ Sorry
+msgid "Do you wish to display 'Post a Job' Button?"
+msgstr ""
+
+#: functions.php:122
+#@ Sorry
+msgid "Display Comment Section on Post Details"
+msgstr ""
+
+#: functions.php:123
+#@ Sorry
+msgid "Do you wish to display a comment section on post details?"
+msgstr ""
+
+#: functions.php:130
+#: functions_new.php:110
+#@ Sorry
+msgid "Top Page Links"
+msgstr ""
+
+#: functions.php:131
+#: functions_new.php:111
+#@ Sorry
+msgid "Specify from which pages in Custom top navigation should be displayed"
+msgstr ""
+
+#: functions.php:136
+#: functions.php:137
+#: functions_new.php:116
+#: functions_new.php:117
+#@ Sorry
+msgid "Select Blog Category"
+msgstr ""
+
+#: functions.php:143
+#: functions_new.php:130
+#@ Sorry
+msgid "Bottom Page Links"
+msgstr ""
+
+#: functions.php:144
+#: functions_new.php:131
+#@ Sorry
+msgid "Specify from which pages in Custom bottom navigation should be displayed"
+msgstr ""
+
+#: functions.php:149
+#@ Sorry
+msgid "Job Locations Setting"
+msgstr ""
+
+#: functions.php:150
+#@ Sorry
+msgid "Specify job locations, selecting while submit Job Post. ex: Alaska,Alabama,Arkansas,American Samoa,Arizona,California,Colorado,Connecticut"
+msgstr ""
+
+#: functions.php:157
+#: functions_new.php:136
+#@ Sorry
+msgid "Theme Appearance Settings"
+msgstr ""
+
+#: functions.php:160
+#: functions_new.php:139
+#@ Sorry
+msgid "Title Logo as Image or Text?"
+msgstr ""
+
+#: functions.php:161
+#: functions_new.php:140
+#@ Sorry
+msgid "The Site title should be displayed an Image or Text?"
+msgstr ""
+
+#: functions.php:167
+#: functions_new.php:146
+#@ Sorry
+msgid "Theme Color Change"
+msgstr ""
+
+#: functions.php:168
+#: functions_new.php:147
+#@ Sorry
+msgid "Specify primary color that will be used for normal text"
+msgstr ""
+
+#: functions.php:175
+#: functions_new.php:154
+#@ Sorry
+msgid "Advertise Management"
+msgstr ""
+
+#: functions.php:178
+#: functions_new.php:157
+#@ Sorry
+msgid "Advertise 1 Image Source"
+msgstr ""
+
+#: functions.php:179
+#: functions_new.php:158
+#@ Sorry
+msgid "Path of the image to be displayed in sidebar section"
+msgstr ""
+
+#: functions.php:184
+#: functions_new.php:163
+#@ Sorry
+msgid "Advertise 1 Link"
+msgstr ""
+
+#: functions.php:185
+#: functions_new.php:164
+#@ Sorry
+msgid "Where the advertise 1 should be linked?"
+msgstr ""
+
+#: functions.php:302
+#: functions_new.php:267
+#@ Sorry
+msgid "Save changes"
+msgstr ""
+
+#: functions.php:308
+#: functions_new.php:273
+#@ Sorry
+msgid "Reset"
+msgstr ""
+
+#: functions.php:333
+#: functions_new.php:298
+#@ Sorry
+msgid "Job Post Title"
+msgstr ""
+
+#: functions.php:334
+#: functions_new.php:299
+#@ Sorry
+msgid "Date"
+msgstr ""
+
+#: functions.php:357
+#: functions_new.php:322
+#@ Sorry
+msgid "Latest Job Posts"
+msgstr ""
+
+#: functions.php:464
+#: functions_new.php:429
+#@ Sorry
+msgid "An Featured Companies widget that displays Featured Companies."
+msgstr ""
+
+#: functions.php:470
+#: functions.php:559
+#: functions_new.php:435
+#: functions_new.php:524
+#@ Sorry
+msgid "Featured Companies"
+msgstr ""
+
+#: functions.php:564
+#: functions_new.php:529
+#@ Sorry
+msgid "Title:"
+msgstr ""
+
+#: functions.php:569
+#: functions_new.php:534
+#@ Sorry
+msgid "Logo1:"
+msgstr ""
+
+#: functions.php:574
+#: functions_new.php:539
+#@ Sorry
+msgid "Logo1 URL:"
+msgstr ""
+
+#: functions.php:579
+#: functions_new.php:544
+#@ Sorry
+msgid "Logo2:"
+msgstr ""
+
+#: functions.php:584
+#: functions_new.php:549
+#@ Sorry
+msgid "Logo2 URL:"
+msgstr ""
+
+#: functions.php:588
+#: functions_new.php:553
+#@ Sorry
+msgid "Logo3:"
+msgstr ""
+
+#: functions.php:593
+#: functions_new.php:558
+#@ Sorry
+msgid "Logo3 URL:"
+msgstr ""
+
+#: functions.php:597
+#: functions_new.php:562
+#@ Sorry
+msgid "logo4:"
+msgstr ""
+
+#: functions.php:602
+#: functions_new.php:567
+#@ Sorry
+msgid "Logo4 URL:"
+msgstr ""
+
+#: functions.php:726
+#: functions_new.php:708
+#@ Sorry
+msgid "Categories"
+msgstr ""
+
+#: functions.php:755
+#: functions.php:757
+#: functions_new.php:737
+#: functions_new.php:739
+#@ Sorry
+msgid "No categories"
+msgstr ""
+
+#: functions.php:962
+#: functions.php:997
+#: functions_new.php:944
+#: functions_new.php:979
+#: tpl_register.php:113
+#@ Sorry
+msgid "ERROR: Please enter a username."
+msgstr ""
+
+#: functions.php:964
+#: functions.php:999
+#: functions_new.php:946
+#: functions_new.php:981
+#: tpl_register.php:115
+#@ Sorry
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr ""
+
+#: functions.php:967
+#: functions.php:1002
+#: functions_new.php:949
+#: functions_new.php:984
+#: tpl_register.php:118
+#@ Sorry
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#: functions.php:971
+#: functions.php:1006
+#: functions_new.php:953
+#: functions_new.php:988
+#: tpl_register.php:122
+#@ Sorry
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: functions.php:973
+#: functions.php:1008
+#: functions_new.php:955
+#: functions_new.php:990
+#: tpl_register.php:124
+#@ Sorry
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: functions.php:976
+#: functions.php:1011
+#: functions_new.php:958
+#: functions_new.php:993
+#: tpl_register.php:127
+#@ Sorry
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#: functions.php:1028
+#: functions_new.php:1010
+#: tpl_register.php:144
+#, php-format
+#@ Sorry
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: functions.php:1199
+#@ Sorry
+msgid "Job Status"
+msgstr ""
+
+#: functions_new.php:35
+#@ Sorry
+msgid "Specify Your Feedburner ID here. To find out what your Feedburner ID is, check ThemeGuide PDF shipped with the theme "
+msgstr ""
+
+#: functions_new.php:64
+#@ Sorry
+msgid "Job Post Fees Amount"
+msgstr ""
+
+#: functions_new.php:65
+#@ Sorry
+msgid "Specify the job post fees. Keep blank or 0 for free job post"
+msgstr ""
+
+#: functions_new.php:71
+#@ Sorry
+msgid "Specify the job Expiry Days. Keep blank for unlimited"
+msgstr ""
+
+#: functions_new.php:84
+#@ Sorry
+msgid "Specify Your message for paid job while Job Post Fees Amount is set. <br>you can set message for the job status after successful payment.<br>This message will display on <b>Post a Job</b> and <b>Job Preview</b> pages.<br><b>Note:</b> Please do not change fees amount variable <u>[JOB_POST_FEES_AMOUNT]</u>"
+msgstr ""
+
+#: functions_new.php:96
+#@ Sorry
+msgid "Show Post a Job Button"
+msgstr ""
+
+#: functions_new.php:97
+#@ Sorry
+msgid "Do you want to display Post a Job Button or not?"
+msgstr ""
+
+#: functions_new.php:103
+#@ Sorry
+msgid "Show Post Details Page a Comment Section"
+msgstr ""
+
+#: functions_new.php:104
+#@ Sorry
+msgid "Do you want to display post details page a comment section or not?"
+msgstr ""
+
+#: functions_new.php:123
+#@ Sorry
+msgid "Select Job Type Category"
+msgstr ""
+
+#: functions_new.php:124
+#@ Sorry
+msgid "Select Job Type Category (Create categories like 'Full Time','Part Time','Freelance' under the parent category 'Job Type' and select parent category here.)"
+msgstr ""
+
+#: header.php:46
+#@ Sorry
+msgid "Rss"
+msgstr ""
+
+#: header.php:48
+#@ Sorry
+msgid "Twitter"
+msgstr ""
+
+#: header.php:91
+#@ Sorry
+msgid "All"
+msgstr ""
+
+#: header.php:108
+#: tpl_createjob.php:108
+#@ Sorry
+msgid "Post a Job"
+msgstr ""
+
+#: jobs.php:31
+#: jobs.php:34
+#: jobs_listing.php:6
+#: jobs_listing.php:9
+#: jobs_listing.php:12
+#@ Sorry
+msgid "Archive for"
+msgstr ""
+
+#: jobs.php:39
+#@ Sorry
+msgid "Author Archive"
+msgstr ""
+
+#: jobs.php:41
+#@ Sorry
+msgid "Blog Archives"
+msgstr ""
+
+#: jobs.php:45
+#@ Sorry
+msgid "Tagged"
+msgstr ""
+
+#: jobs.php:48
+#: jobs_listing.php:34
+#@ Sorry
+msgid "RSS FEED"
+msgstr ""
+
+#: language.php:3
+#@ Sorry
+msgid "Forgot Password?"
+msgstr ""
+
+#: language.php:4
+#@ Sorry
+msgid "Username or E-mail"
+msgstr ""
+
+#: language.php:5
+#: tpl_createjob.php:183
+#@ Sorry
+msgid "Username"
+msgstr ""
+
+#: language.php:6
+#: tpl_createjob.php:159
+#: tpl_createjob.php:197
+#@ Sorry
+msgid "Password"
+msgstr ""
+
+#: language.php:7
+#@ Sorry
+msgid "Remember me on this computer"
+msgstr ""
+
+#: language.php:8
+#@ Sorry
+msgid "Get New Password"
+msgstr ""
+
+#: language.php:9
+#@ Sorry
+msgid "Indicates mandatory fields"
+msgstr ""
+
+#: language.php:10
+#: language.php:25
+#@ Sorry
+msgid "Register Now"
+msgstr ""
+
+#: language.php:11
+#@ Sorry
+msgid "Personal Information"
+msgstr ""
+
+#: language.php:13
+#@ Sorry
+msgid "First Name"
+msgstr ""
+
+#: language.php:14
+#@ Sorry
+msgid "Last Name"
+msgstr ""
+
+#: language.php:15
+#@ Sorry
+msgid "Address Information"
+msgstr ""
+
+#: language.php:16
+#@ Sorry
+msgid "Address1"
+msgstr ""
+
+#: language.php:17
+#@ Sorry
+msgid "Address2"
+msgstr ""
+
+#: language.php:18
+#@ Sorry
+msgid "City"
+msgstr ""
+
+#: language.php:19
+#@ Sorry
+msgid "State"
+msgstr ""
+
+#: language.php:20
+#@ Sorry
+msgid "Country"
+msgstr ""
+
+#: language.php:21
+#@ Sorry
+msgid "Postal Code"
+msgstr ""
+
+#: language.php:22
+#@ Sorry
+msgid "A password will be e-mailed to you for future usage."
+msgstr ""
+
+#: language.php:23
+#@ Sorry
+msgid "Your Web Site"
+msgstr ""
+
+#: language.php:24
+#@ Sorry
+msgid "Phone Number"
+msgstr ""
+
+#: language.php:26
+#: language.php:28
+#: language.php:30
+#@ Sorry
+msgid "Sign In"
+msgstr ""
+
+#: language.php:27
+#@ Sorry
+msgid "Register"
+msgstr ""
+
+#: language.php:31
+#@ Sorry
+msgid "Invalid Username/Password."
+msgstr ""
+
+#: language.php:32
+#@ Sorry
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: language.php:33
+#@ Sorry
+msgid "Check your e-mail for your new password."
+msgstr ""
+
+#: language.php:34
+#@ Sorry
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: language.php:35
+#@ Sorry
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: language.php:36
+#@ Sorry
+msgid "You are now logged out."
+msgstr ""
+
+#: language.php:37
+#@ Sorry
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr ""
+
+#: language.php:41
+#: language.php:46
+#@ Sorry
+msgid "My Dashboard"
+msgstr ""
+
+#: language.php:42
+#@ Sorry
+msgid "Sorry, no job posted."
+msgstr ""
+
+#: language.php:43
+#@ Sorry
+msgid "Post A New Job"
+msgstr ""
+
+#: language.php:44
+#: tpl_createjob.php:150
+#@ Sorry
+msgid "Login"
+msgstr ""
+
+#: language.php:45
+#@ Sorry
+msgid "Registration"
+msgstr ""
+
+#: language.php:47
+#: language.php:57
+#@ Sorry
+msgid "Edit Profile"
+msgstr ""
+
+#: language.php:48
+#@ Sorry
+msgid "Logout"
+msgstr ""
+
+#: language.php:49
+#@ Sorry
+msgid "Welcome Guest"
+msgstr ""
+
+#: language.php:50
+#@ Sorry
+msgid "Welcome"
+msgstr ""
+
+#: language.php:54
+#@ Sorry
+msgid "Job Post edited Successfully"
+msgstr ""
+
+#: language.php:58
+#: language.php:65
+#@ Sorry
+msgid "Password Changed successfully."
+msgstr ""
+
+#: language.php:59
+#@ Sorry
+msgid "Your information updated successfully."
+msgstr ""
+
+#: language.php:60
+#@ Sorry
+msgid "Other Information"
+msgstr ""
+
+#: language.php:61
+#@ Sorry
+msgid "Change Password"
+msgstr ""
+
+#: language.php:62
+#@ Sorry
+msgid "New Password"
+msgstr ""
+
+#: language.php:63
+#@ Sorry
+msgid "Confirm New Password"
+msgstr ""
+
+#: language.php:64
+#@ Sorry
+msgid "Update"
+msgstr ""
+
+#: language.php:67
+#@ Sorry
+msgid "The job post is deleted successfully."
+msgstr ""
+
+#: language.php:68
+#@ Sorry
+msgid "Are you really sure want to delete this job post? Deleted job posts can not be recovered later"
+msgstr ""
+
+#: language.php:69
+#@ Sorry
+msgid "Yes, delete please"
+msgstr ""
+
+#: language.php:71
+#@ Sorry
+msgid "Find a Job"
+msgstr ""
+
+#: page_contact.php:73
+#@ Sorry
+msgid "Thank you, your Information send successfully."
+msgstr ""
+
+#: page_contact.php:91
+#@ Sorry
+msgid "Subject"
+msgstr ""
+
+#: page_contact.php:97
+#@ Sorry
+msgid "Message"
+msgstr ""
+
+#: page_contact.php:101
+#@ Sorry
+msgid "Send"
+msgstr ""
+
+#: preview_jobs.php:328
+#@ Sorry
+msgid "<p class=\"sucess_msg\">Invalid Coupon Code!</p>"
+msgstr ""
+
+#: preview_jobs.php:339
+#: single.php:146
+#: tpl_createjob.php:291
+#@ Sorry
+msgid "How to apply"
+msgstr ""
+
+#: preview_jobs.php:354
+#: preview_jobs.php:384
+#: preview_jobs_new.php:339
+#: preview_jobs_new.php:370
+#@ Sorry
+msgid "Publish Now"
+msgstr ""
+
+#: preview_jobs.php:354
+#: preview_jobs.php:378
+#: preview_jobs_new.php:339
+#: preview_jobs_new.php:364
+#@ Sorry
+msgid "Back"
+msgstr ""
+
+#: preview_jobs.php:378
+#: preview_jobs_new.php:364
+#: tpl_createjob.php:327
+#@ Sorry
+msgid "Pay & Publish"
+msgstr ""
+
+#: return.php:1
+#@ Sorry
+msgid "Job Publish Successully"
+msgstr ""
+
+#: return.php:2
+#@ Sorry
+msgid "Thank you, Your job posted successfully<Br />You can see your Job in the job listing page."
+msgstr ""
+
+#: single.php:31
+#@ Sorry
+msgid "Mr/Mrs/Miss"
+msgstr ""
+
+#: single.php:31
+#@ Sorry
+msgid " applied Online for the job post - "
+msgstr ""
+
+#: single.php:58
+#@ Sorry
+msgid "You are uploading invalid file type. Allowed file types are : "
+msgstr ""
+
+#: single.php:70
+#@ Sorry
+msgid "Your friend "
+msgstr ""
+
+#: single.php:70
+#@ Sorry
+msgid " send you a job request"
+msgstr ""
+
+#: single.php:178
+#@ Sorry
+msgid "Print"
+msgstr ""
+
+#: single.php:180
+#@ Sorry
+msgid "Share This"
+msgstr ""
+
+#: single.php:185
+#@ Sorry
+msgid "RSS"
+msgstr ""
+
+#: single.php:186
+#@ Sorry
+msgid "Email to Friend"
+msgstr ""
+
+#: single.php:186
+#@ Sorry
+msgid "Email to Friend send successfully"
+msgstr ""
+
+#: tpl_createjob.php:112
+#@ Sorry
+msgid "<p class=\"error_msg\">Invalid User Name</p>"
+msgstr ""
+
+#: tpl_createjob.php:115
+#@ Sorry
+msgid "<p class=\"error_msg\">Invalid Password</p>"
+msgstr ""
+
+#: tpl_createjob.php:118
+#@ Sorry
+msgid "<p class=\"error_msg\">Please insert Password</p>"
+msgstr ""
+
+#: tpl_createjob.php:121
+#@ Sorry
+msgid "<p class=\"error_msg\">Please insert User Name</p>"
+msgstr ""
+
+#: tpl_createjob.php:124
+#@ Sorry
+msgid "<p class=\"success_msg\">Login success, Please Post A Job</p>"
+msgstr ""
+
+#: tpl_createjob.php:137
+#@ Sorry
+msgid "I'm "
+msgstr ""
+
+#: tpl_createjob.php:140
+#@ Sorry
+msgid "Existing User"
+msgstr ""
+
+#: tpl_createjob.php:142
+#@ Sorry
+msgid "New User? Register Now"
+msgstr ""
+
+#: tpl_createjob.php:193
+#@ Sorry
+msgid "Your password will be send to this email. It should be unique"
+msgstr ""
+
+#: tpl_createjob.php:206
+#@ Sorry
+msgid "Company Information"
+msgstr ""
+
+#: tpl_createjob.php:214
+#@ Sorry
+msgid "Company Website"
+msgstr ""
+
+#: tpl_createjob.php:220
+#@ Sorry
+msgid "Company Email"
+msgstr ""
+
+#: tpl_createjob.php:226
+#@ Sorry
+msgid "Company Logo"
+msgstr ""
+
+#: tpl_createjob.php:229
+#@ Sorry
+msgid "Company logo image 90x90 pixel"
+msgstr ""
+
+#: tpl_createjob.php:237
+#@ Sorry
+msgid "Job Information"
+msgstr ""
+
+#: tpl_createjob.php:240
+#@ Sorry
+msgid "Job Type"
+msgstr ""
+
+#: tpl_createjob.php:276
+#@ Sorry
+msgid "Position Title"
+msgstr ""
+
+#: tpl_createjob.php:282
+#@ Sorry
+msgid "Description"
+msgstr ""
+
+#: tpl_createjob.php:298
+#@ Sorry
+msgid "Allow resume Submission?"
+msgstr ""
+
+#: tpl_createjob.php:304
+#@ Sorry
+msgid "Yes"
+msgstr ""
+
+#: tpl_createjob.php:305
+#@ Sorry
+msgid "No"
+msgstr ""
+
+#: tpl_createjob.php:306
+#@ Sorry
+msgid "Resume will email to \"Company Email ID\"."
+msgstr ""
+
+#: tpl_createjob.php:340
+#@ Sorry
+msgid " Select Package : "
+msgstr ""
+
+#: tpl_createjob.php:353
+#@ Sorry
+msgid "I understand that my listing may be removed if is for  position that involves adult content or an illegitimate work opportunity."
+msgstr ""
+
+#: tpl_createjob.php:358
+#@ Sorry
+msgid "Preview This Job Post"
+msgstr ""
+
+#: tpl_register.php:32
+#@ Sorry
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: tpl_register.php:37
+#@ Sorry
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: tpl_register.php:49
+#@ Sorry
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: tpl_register.php:67
+#@ Sorry
+msgid "Invalid key"
+msgstr ""
+
+#: tpl_register.php:76
+#, php-format
+#@ Sorry
+msgid "Username: %s"
+msgstr ""
+
+#: tpl_register.php:77
+#, php-format
+#@ Sorry
+msgid "Password: %s"
+msgstr ""
+
+#: tpl_register.php:81
+#, php-format
+#@ Sorry
+msgid "[%s] Your new password"
+msgstr ""
+
+#: tpl_register.php:244
+#@ Sorry
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: tpl_register.php:361
+#@ Sorry
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr ""
+
+#: tpl_register.php:468
+#@ Sorry
+msgid "Your new password has been sent to your E-mail address"
+msgstr ""
+

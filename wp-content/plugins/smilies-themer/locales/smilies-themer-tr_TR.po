@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smilies Themer\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-09-25 23:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options-page.inc.php:4
+msgid "Smilies Themer Options: "
+msgstr "Smilies Themer Seçenekleri:"
+
+#: ../options-page.inc.php:9
+#: ../options-page.inc.php:69
+msgid "Update Options"
+msgstr "Seçenekleri Güncelle"
+
+#: ../options-page.inc.php:13
+msgid "Formating: "
+msgstr "Biçimlendirme:"
+
+#: ../options-page.inc.php:17
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
+msgstr "<code>:-)</code> ve <code>:-P</code> gibi ifadeleri gülücüklere çevir"
+
+#: ../options-page.inc.php:25
+msgid "Choose the default smilies theme"
+msgstr "Varsayılan gülücük temasını seç"
+
+#: ../options-page.inc.php:29
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#: ../options-page.inc.php:30
+msgid "Theme"
+msgstr "Tema"
+
+#: ../options-page.inc.php:31
+msgid "Author"
+msgstr "Yazarı"
+
+#: ../options-page.inc.php:32
+msgid "Description"
+msgstr "Açıklama"
+
+#: ../options-page.inc.php:33
+#: ../options-page.inc.php:60
+msgid "Preview"
+msgstr "Önizleme"
+
+#: ../preview-popup.php:48
+msgid "Text"
+msgstr "İfade"
+
+#: ../preview-popup.php:49
+msgid "Smiley"
+msgstr "Gülücük"
+
+#: ../preview-popup.php:63
+msgid "Close"
+msgstr "Kapat"
+
+#: ../smilies-themer.php:173
+msgid "Options saved."
+msgstr "Seçenekler kaydedildi."
+
+#: ../smilies-themer.php:200
+msgid "You need to check \"convert emoticons\" for this to work."
+msgstr "İşlemi tamamlamak için \"gülücükleri çevir\"e tıklamanız gerekiyor."
+
+#: ../smilies-themer.php:206
+#, php-format
+msgid "New version avaliable! <a href=\"%s\">Get %s release!</a>"
+msgstr "Yeni sürüm var! <a href=\"%s\">%s sürümünü indir!</a>"
+

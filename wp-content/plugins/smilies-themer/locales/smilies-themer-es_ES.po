@@ -1,0 +1,90 @@
+# More Smilies POT.
+# Copyright (C) 2006 Matt Read
+# This file is distributed under the same license as the More Smilies package.
+# Matt Read <mattread@mattread.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-15 21:02+0000\n"
+"PO-Revision-Date: 2007-09-06 13:09+0100\n"
+"Last-Translator: Ricardo González Castro <rick@jinlabs.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options-page.inc.php:4
+msgid "Smilies Themer Options: "
+msgstr "Opciones Smilies Themer:"
+
+#: ../options-page.inc.php:9
+#: ../options-page.inc.php:69
+msgid "Update Options"
+msgstr "Actualizar opciones"
+
+#: ../options-page.inc.php:13
+msgid "Formating: "
+msgstr "Formato:"
+
+#: ../options-page.inc.php:17
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
+msgstr "Convertir emoticonos como <code>:-)</code> y <code>:-P</code> a gráficos en pantalla"
+
+#: ../options-page.inc.php:25
+msgid "Choose the default smilies theme"
+msgstr "Seleccione el tema de emoticonos por defecto"
+
+#: ../options-page.inc.php:29
+msgid "Enable"
+msgstr "Activar"
+
+#: ../options-page.inc.php:30
+msgid "Theme"
+msgstr "Tema"
+
+#: ../options-page.inc.php:31
+msgid "Author"
+msgstr "Autor"
+
+#: ../options-page.inc.php:32
+msgid "Description"
+msgstr "Descripcion"
+
+#: ../options-page.inc.php:33
+#: ../options-page.inc.php:60
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: ../preview-popup.php:48
+msgid "Text"
+msgstr "Texto"
+
+#: ../preview-popup.php:49
+msgid "Smiley"
+msgstr "Smiley"
+
+#: ../preview-popup.php:63
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../smilies-themer.php:173
+msgid "Options saved."
+msgstr "Opciones guardadas."
+
+#: ../smilies-themer.php:200
+msgid "You need to check \"convert emoticons\" for this to work."
+msgstr "Necesita activar \"Convertir emoticonos\" para que el plugin funcione."
+
+#: ../smilies-themer.php:206
+#, php-format
+msgid "New version avaliable! <a href=\"%s\">Get %s release!</a>"
+msgstr "¡Nueva versión disponible! <a href=\"%s\">¡Descargue la versión %s!</a>"
+

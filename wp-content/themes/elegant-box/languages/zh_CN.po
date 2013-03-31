@@ -1,0 +1,534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant Box 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-18 01:01+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mg12 <wuzhao.mail@gmail.com>\n"
+"Language-Team:  <wuzhao.mail@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Error 404 - Not Found"
+msgstr "HTTP 404 - 无法找到文件"
+
+#: archive.php:16
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: archive.php:20
+#, php-format
+msgid "Archive for the &#8216;%1$s&#8217; Category"
+msgstr "&#8216;%1$s&#8217; 分类的存档"
+
+#: archive.php:23
+#, php-format
+msgid "Posts Tagged &#8216;%1$s&#8217;"
+msgstr "文章标签 &#8216;%1$s&#8217;"
+
+#: archive.php:26
+#: archive.php:29
+#: archive.php:32
+#, php-format
+msgid "Archive for %1$s"
+msgstr "%1$s 的存档"
+
+#: archive.php:26
+#: archives.php:17
+#: functions.php:531
+#: index.php:32
+#: links.php:25
+#: page.php:11
+#: single.php:15
+msgid "F jS, Y"
+msgstr "Y年n月j日"
+
+#: archive.php:29
+msgid "F, Y"
+msgstr "Y年n月"
+
+#: archive.php:32
+msgid "Y"
+msgstr "Y年"
+
+#: archive.php:35
+msgid "Author Archive"
+msgstr "作者存档"
+
+#: archive.php:38
+msgid "Blog Archives"
+msgstr "博客存档"
+
+#: archive.php:55
+#: functions.php:531
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s%2$s"
+
+#: archive.php:55
+msgid "l, F jS, Y"
+msgstr "Y年n月j日"
+
+#: archive.php:55
+#: functions.php:531
+msgid "H:i"
+msgstr ""
+
+#: archive.php:55
+#: index.php:49
+msgid "0 comments"
+msgstr "没有评论"
+
+#: archive.php:55
+#: index.php:49
+msgid "1 comment"
+msgstr "1 条评论"
+
+#: archive.php:55
+#: index.php:49
+#, php-format
+msgid "% comments"
+msgstr "% 条评论"
+
+#: archive.php:55
+#: archives.php:16
+#: comments.php:82
+#: functions.php:540
+#: index.php:30
+#: links.php:20
+#: page.php:10
+#: single.php:13
+msgid "Edit"
+msgstr "编辑"
+
+#: archive.php:56
+msgid "Categories: "
+msgstr "分类: "
+
+#: archive.php:57
+msgid "Tags: "
+msgstr "标签: "
+
+#: archive.php:63
+#: archives.php:45
+#: index.php:59
+#: links.php:62
+#: page.php:32
+#: single.php:61
+msgid "Sorry, no posts matched your criteria."
+msgstr "对不起, 不存在相应的文章."
+
+#: archive.php:84
+#: index.php:76
+msgid "&laquo; Newer Entries"
+msgstr "&laquo; 上一页"
+
+#: archive.php:85
+#: index.php:77
+msgid "Older Entries &raquo;"
+msgstr "下一页 &raquo;"
+
+#: archives.php:17
+#: links.php:25
+#: page.php:11
+msgid "Update: "
+msgstr "更新时间: "
+
+#: comments.php:10
+msgid "Enter your password to view comments."
+msgstr "请输入密码再查看评论内容."
+
+#: comments.php:51
+msgid "Comment pages"
+msgstr "评论分页"
+
+#: comments.php:68
+msgid " trackbacks"
+msgstr ""
+
+#: comments.php:70
+msgid "Show"
+msgstr "显示"
+
+#: comments.php:71
+msgid "Hide"
+msgstr "隐藏"
+
+#: comments.php:96
+msgid "No comments yet."
+msgstr "目前还没有任何评论."
+
+#: comments.php:105
+msgid "Comments are closed."
+msgstr "本文的评论功能被关闭了."
+
+#: comments.php:119
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "您必须在 <a href=\"%s\">登录</a> 后才能发布评论."
+
+#: comments.php:139
+msgid "Logged in as"
+msgstr "登录帐号:"
+
+#: comments.php:140
+msgid "Log out of this account"
+msgstr "退出登录"
+
+#: comments.php:140
+msgid "Logout &raquo;"
+msgstr "登出 &raquo;"
+
+#: comments.php:147
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "欢迎回来, <strong>%s</strong>"
+
+#: comments.php:148
+msgid "Change &raquo;"
+msgstr "更改 &raquo;"
+
+#: comments.php:149
+msgid "Close &raquo;"
+msgstr "隐藏 &raquo;"
+
+#: comments.php:156
+msgid "Name"
+msgstr "昵称"
+
+#: comments.php:156
+#: comments.php:160
+msgid "(required)"
+msgstr "(必填)"
+
+#: comments.php:160
+msgid "E-Mail (will not be published)"
+msgstr "电子邮箱 (我们会为您保密)"
+
+#: comments.php:164
+msgid "Website"
+msgstr "网址"
+
+#: comments.php:183
+msgid "Subscribe to comments feed"
+msgstr "订阅评论"
+
+#: comments.php:189
+msgid "Cancel"
+msgstr "取消"
+
+#: comments.php:191
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: footer.php:2
+msgid "TOP"
+msgstr "置顶"
+
+#: footer.php:22
+msgid "Copyright &copy; "
+msgstr "版权所有 &copy; "
+
+#: footer.php:31
+#, php-format
+msgid " | Powered by <a href=\"%1$s\">WordPress</a>"
+msgstr " | 基于 <a href=\"%1$s\">WordPress</a>"
+
+#: footer.php:32
+#, php-format
+msgid " | Theme by <a href=\"%1$s\">NeoEase</a>"
+msgstr " | 主题由 <a href=\"%1$s\">NeoEase</a> 提供"
+
+#: functions.php:163
+#: functions.php:183
+msgid "Current Theme Options"
+msgstr "当前主题选项"
+
+#: functions.php:188
+msgid "Style"
+msgstr "主题风格"
+
+#: functions.php:192
+msgid "Allow visitors to change the style."
+msgstr "允许访客更换主题风格."
+
+#: functions.php:195
+msgid "Default style:"
+msgstr "默认风格: "
+
+#: functions.php:208
+msgid "Please install a valid style in the /styles/ folder."
+msgstr "请在 /styles/ 文件夾內放置适当的风格文件."
+
+#: functions.php:220
+msgid "Search"
+msgstr "搜索"
+
+#: functions.php:224
+msgid "Using google custom search engine."
+msgstr "使用 Google 自定义搜索引擎"
+
+#: functions.php:227
+msgid "CX:"
+msgstr ""
+
+#: functions.php:230
+msgid "Find <code>name=\"cx\"</code> in the <strong>Search box code</strong> of <a href=\"http://www.google.com/coop/cse/\">Google Custom Search Engine</a>, and type the <code>value</code> here.<br/>For example: <code>014782006753236413342:1ltfrybsbz4</code>"
+msgstr "在<a href=\"http://www.google.com/coop/cse/\">Google 自定义搜索引擎</a>的<strong>搜索框代码</strong>中找到 <code>name=\"cx\"</code> , 并将同行中 <code>value</code> 的值填写在输入框内.<br/>例如: <code>014782006753236413342:1ltfrybsbz4</code>"
+
+#: functions.php:239
+msgid "Menubar"
+msgstr "菜单栏"
+
+#: functions.php:243
+msgid "Show pages as menu."
+msgstr "将页面列表作为菜单"
+
+#: functions.php:247
+msgid "Show categories as menu."
+msgstr "将分类列表作为菜单"
+
+#: functions.php:258
+msgid "Notice"
+msgstr "公告栏"
+
+#: functions.php:260
+#: functions.php:286
+#: functions.php:420
+msgid "HTML enabled"
+msgstr "HTML 可用"
+
+#: functions.php:265
+msgid "Show notice."
+msgstr "显示公告."
+
+#: functions.php:269
+msgid "Display an icon in the notice bar."
+msgstr "在公告栏中显示一个 \"小喇叭\" 图标."
+
+#: functions.php:284
+msgid "Showcase"
+msgstr "橱窗"
+
+#: functions.php:291
+msgid "This showcase will display at the top of sidebar."
+msgstr "这个橱窗将会显示在侧边栏顶部."
+
+#: functions.php:293
+#: functions.php:317
+msgid "Who can see?"
+msgstr "谁可以看到?"
+
+#: functions.php:296
+#: functions.php:320
+msgid "Registered Users"
+msgstr "注册用户"
+
+#: functions.php:300
+#: functions.php:324
+msgid "Commentators"
+msgstr "评论者"
+
+#: functions.php:304
+#: functions.php:328
+msgid "Visitors"
+msgstr "游客"
+
+#: functions.php:315
+msgid "This showcase will display at the bottom of sidebar."
+msgstr "这个橱窗将会显示在侧边栏底部."
+
+#: functions.php:344
+msgid "Posts"
+msgstr "文章"
+
+#: functions.php:348
+msgid "Show categories on posts."
+msgstr "在文章中显示分类信息."
+
+#: functions.php:352
+msgid "Show tags on posts."
+msgstr "在文章中显示标签信息."
+
+#: functions.php:362
+msgid "Comments"
+msgstr "评论"
+
+#: functions.php:366
+msgid "Submit comments with Ctrl+Enter."
+msgstr "可通过快捷键 \"Ctrl+Enter\" 提交评论."
+
+#: functions.php:376
+msgid "Feed"
+msgstr "订阅"
+
+#: functions.php:380
+msgid "Using custom feed."
+msgstr "使用自定义的订阅地址."
+
+#: functions.php:382
+msgid "Feed URL:"
+msgstr "订阅地址:"
+
+#: functions.php:387
+msgid "Show the feed reader list when mouse over on feed button."
+msgstr "当鼠标在订阅按钮上方, 显示推荐订阅器列表."
+
+#: functions.php:397
+#: header.php:154
+msgid "Twitter"
+msgstr ""
+
+#: functions.php:401
+msgid "Add Twitter button."
+msgstr "添加 Twitter 按钮."
+
+#: functions.php:404
+msgid "Twitter username:"
+msgstr "Twitter 用户名:"
+
+#: functions.php:418
+msgid "Web Analytics"
+msgstr "网站分析"
+
+#: functions.php:425
+msgid "Add web analytics code to your site. (e.g. Google Analytics, Yahoo! Web Analytics, ...)"
+msgstr "将分析代码添加到网站中. (请在此填入 Google Analytics, Yahoo! Web Analytics 等网站分析工具提供的代码)"
+
+#: functions.php:436
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: functions.php:535
+#: functions.php:537
+msgid "Reply"
+msgstr "回复"
+
+#: functions.php:539
+msgid "Quote"
+msgstr "引用"
+
+#: functions.php:547
+msgid "Your comment is awaiting moderation."
+msgstr "您发表的评论正在等待管理员验证."
+
+#: header.php:26
+msgid "RSS 2.0 - all posts"
+msgstr "RSS 2.0 - 所有文章"
+
+#: header.php:27
+msgid "RSS 2.0 - all comments"
+msgstr "RSS 2.0 - 所有评论"
+
+#: header.php:122
+msgid "Type text to search here..."
+msgstr "请输入关键字..."
+
+#: header.php:145
+msgid "Home"
+msgstr "首页"
+
+#: header.php:154
+msgid "Follow me!"
+msgstr ""
+
+#: header.php:158
+msgid "Subscribe to this blog..."
+msgstr "订阅这个博客的文章"
+
+#: header.php:158
+msgid "RSS feed"
+msgstr "RSS 订阅"
+
+#: header.php:161
+#: header.php:162
+#: header.php:163
+#: header.php:164
+#: header.php:165
+#: header.php:166
+#: header.php:167
+#: header.php:168
+msgid "Subscribe with "
+msgstr "订阅到"
+
+#: header.php:161
+msgid "Youdao"
+msgstr "有道"
+
+#: header.php:162
+msgid "Xian Guo"
+msgstr "鲜果"
+
+#: header.php:163
+msgid "Zhua Xia"
+msgstr "抓虾"
+
+#: header.php:164
+msgid "Google"
+msgstr " Google"
+
+#: header.php:165
+msgid "My Yahoo!"
+msgstr " My Yahoo!"
+
+#: header.php:166
+msgid "newsgator"
+msgstr " newsgator"
+
+#: header.php:167
+msgid "Bloglines"
+msgstr " Bloglines"
+
+#: header.php:168
+msgid "iNezha"
+msgstr " 哪吒"
+
+#: index.php:34
+#: single.php:17
+msgid " | Categories: "
+msgstr " | 分类: "
+
+#: index.php:37
+#: single.php:20
+msgid " | Tags: "
+msgstr " | 标签: "
+
+#: index.php:44
+msgid "Read more..."
+msgstr "阅读全文..."
+
+#: links.php:22
+msgid "Edit links"
+msgstr "标记链接"
+
+#: links.php:23
+msgid "Add link"
+msgstr "添加链接"
+
+#: sidebar.php:28
+msgid "Theme Styles : "
+msgstr "主题风格: "
+
+#: sidebar.php:34
+msgid "Switch to "
+msgstr "将主题风格更换为"
+
+#: single.php:32
+msgid "Leave a comment"
+msgstr "发表评论"
+
+#: single.php:34
+msgid "Trackback"
+msgstr ""
+
+#~ msgid "Blogroll"
+#~ msgstr "友情链接"
+

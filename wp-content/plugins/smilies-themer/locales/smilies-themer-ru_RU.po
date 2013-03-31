@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smilies\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../options-page.inc.php:4
+msgid "Smilies Themer Options: "
+msgstr "Настройки Smilies Themer:"
+
+#: ../options-page.inc.php:9
+#: ../options-page.inc.php:69
+msgid "Update Options"
+msgstr "Обновить настройки"
+
+#: ../options-page.inc.php:13
+msgid "Formating: "
+msgstr "Форматирование:"
+
+#: ../options-page.inc.php:17
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
+msgstr "Конвертировать смайлы вроде <code>:-)</code> и <code>:-P</code> в графические аналоги"
+
+#: ../options-page.inc.php:25
+msgid "Choose the default smilies theme"
+msgstr "Выбрать стандартную тему смайлов"
+
+#: ../options-page.inc.php:29
+msgid "Enable"
+msgstr "Включить"
+
+#: ../options-page.inc.php:30
+msgid "Theme"
+msgstr "Тема"
+
+#: ../options-page.inc.php:31
+msgid "Author"
+msgstr "Автор"
+
+#: ../options-page.inc.php:32
+msgid "Description"
+msgstr "Описание"
+
+#: ../options-page.inc.php:33
+#: ../options-page.inc.php:60
+msgid "Preview"
+msgstr "Превью"
+
+#: ../preview-popup.php:48
+msgid "Text"
+msgstr "Текст"
+
+#: ../preview-popup.php:49
+msgid "Smiley"
+msgstr "Смайл"
+
+#: ../preview-popup.php:63
+msgid "Close"
+msgstr "Закрыть"
+
+#: ../smilies-themer.php:171
+msgid "Options saved."
+msgstr "Опции сохранены."
+
+#: ../smilies-themer.php:181
+msgid "You need to check \"convert emoticons\" for this to work."
+msgstr "Вы должны отметить \"конвертировать эмоиконки\" для работы"
+

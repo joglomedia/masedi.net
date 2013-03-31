@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Ipaymu Gateway\n"
+"POT-Creation-Date: 2013-03-16 23:55+0700\n"
+"PO-Revision-Date: 2013-03-17 00:19+0700\n"
+"Last-Translator: Edi Septriyanto <me@masedi.net>\n"
+"Language-Team: Edi Septr <me@masedi.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _(;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wp3\\wp-content\\plugins"
+"\\woocommerce-ipaymu\n"
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:28
+msgid ""
+"<strong><a href=\"https://my.ipaymu.com?rid=masedi\">WooCommerce Ipaymu "
+"Gateway</a></strong> plugin depends on the last version of <a href=\"http://"
+"wordpress.org/extend/plugins/woocommerce/\">WooCommerce</a> to work!"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:61
+msgid "Ipaymu Checkout"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:162
+#, php-format
+msgid ""
+"WooCommerce Ipaymu Gateway does not support your store currency. Current "
+"supported currencies: Indonesia Rupiah (IDR) and US Dollar (USD). <a href="
+"\"%s\">Click here to configure your currency!</a>"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:181
+msgid "Enable/Disable"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:183
+msgid "Enable Ipaymu payment gateway."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:187
+msgid "Gateway Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:189
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:190
+msgid "Ipaymu"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:194
+msgid "Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:196
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:197
+msgid ""
+"Pay via Ipaymu. Alternatively you can pay with your PayPal account instead "
+"of Ipaymu, you can also pay with credit card if you don't have Ipaymu or "
+"PayPal account"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:200
+msgid "Ipaymu Username"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:202
+msgid "Please enter your Ipaymu Login ID (username)."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:202
+#, php-format
+msgid ""
+"If you don't have Ipaymu account you can get one for free. <a href=\"%s\" "
+"target=\"_blank\">Register Ipaymu account here</a>!"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:206
+msgid "Ipaymu API Key"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:208
+msgid "Please enter your Ipaymu API Key."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:208
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:219
+#, php-format
+msgid ""
+"You can to get this information in: <a href=\"%s\" target=\"_blank\">Ipaymu "
+"Account</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:212
+msgid "PayPal Payment"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:214
+msgid "PayPal is official Ipaymu alternative payment."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:217
+msgid "Enable/Disable PayPal Module"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:219
+msgid ""
+"If you select to enable PayPal, you must also enable PayPal module in your "
+"Ipaymu account."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:223
+msgid "PayPal Email"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:225
+msgid ""
+"If you select to enable PayPal; Please enter your PayPal email address; this "
+"is needed if you enable PayPal Module."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:231
+msgid "PayPal Invoice Prefix"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:233
+msgid ""
+"If you select to enable PayPal; Please enter a prefix for your Paypal "
+"invoice numbers. If you use your PayPal account for multiple stores ensure "
+"this prefix is unqiue as PayPal will not allow orders with the same invoice "
+"number."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:238
+msgid "USD Currency Rate"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:240
+msgid ""
+"If you select to enable PayPal; Please enter an Exchange Rate for 1 US "
+"Dollar (USD) in your default currency (ex: 9500). Due to Paypal has no "
+"support for Indonesia Rupiah (IDR) and Ipaymu can not automatically convert "
+"currency from IDR to USD for Paypal payment, you should set a default "
+"currency rate to avoid the wrong price. If not set, Ipaymu for Woocommerce "
+"will use live rate provided by KlikBCA."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:245
+msgid "Gateway Testing"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:250
+msgid "Debug Log"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:252
+msgid "Enable logging"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:254
+msgid ""
+"Log Ipaymu events, such as API requests, inside <code>woocommerce/logs/"
+"ipaymu.txt</code>"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:257
+msgid "Credit Link"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:262
+msgid "Enable/Disable Credit Link"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:264
+msgid "Enable credit link"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:305
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:346
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:311
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:351
+msgid "Shipping via"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:364
+#, php-format
+msgid "Process payment for Order ID %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:498
+msgid ""
+"Sorry, an error has occurred while processing your payment, please try "
+"again. Or contact us for further assistance."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:499
+msgid "Click to try again"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:526
+msgid ""
+"Thank you for your order, please click the button below to pay with Ipaymu."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:814
+#, php-format
+msgid ""
+"Payment validation error: Ipaymu amounts do not match (gross %s) and (fee "
+"%s). Order total %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:835
+msgid "Payment completed using Ipaymu"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:841
+msgid "Order received and processed"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:842
+#, php-format
+msgid ""
+"Payment for order %s has been received via Ipaymu on: %s and we're now "
+"processing your order."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:844
+#, php-format
+msgid "Your order %s has been received."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:867
+#, php-format
+msgid "Payment %s via Ipaymu."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:872
+msgid "Order refunded/reversed"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:873
+#, php-format
+msgid "Order %s has been marked as refunded via Ipaymu on: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:875
+#, php-format
+msgid "Payment for order %s refunded/reversed"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:943
+msgid "Ipaymu Debug"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:953
+#, php-format
+msgid ""
+"<strong>WooCommerce Ipaymu Gateway</strong> is almost ready. Please enter <a "
+"href=\"%s\">your Ipaymu API Key</a> for it to work."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:964
+#, php-format
+msgid ""
+"<strong>WooCommerce Ipaymu Gateway</strong> is enabled and the <em><a href="
+"\"%s\">force SSL option</a></em> is disabled; your checkout is not secure! "
+"Please enable SSL and ensure your server has a valid SSL certificate."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:1049
+#: C:\xampp\htdocs\wp3\wp-content\plugins\woocommerce-ipaymu/wc-gateway-ipaymu.php:1069
+msgid "Indonesia Rupiah"
+msgstr ""

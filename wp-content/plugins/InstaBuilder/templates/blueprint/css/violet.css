@@ -1,0 +1,46 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:#FFF url(../images/bg-violet.jpg) center top scroll no-repeat;
+	
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#72447d;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	background-color:transparent;
+}
+
+ul#opl-launch-items li.opl-launch-top {
+	border-bottom:none !important;
+}
+
+.opl-launch-top {
+	color:#72447d;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:14px;
+}
+
+.opl-launch-item-image img {
+	border:2px solid #72447d;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#opl_nav a:hover {
+	border-bottom:2px solid #72447d;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #b7cbd4;
+}

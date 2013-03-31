@@ -1,0 +1,41 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:#9c410f url(../images/bg-orange.png) top left repeat-x;
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#ba6535;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	background:transparent;
+}
+
+/* =TOP NAV
+------------------------------------------*/
+#opl-top-nav {
+	background:#9c410f;
+	-webkit-box-shadow: inset 0px 0px 4px 1px #7c340c;
+	box-shadow: inset 0px 0px 4px 1px #7c340c;
+}
+
+#opl_nav a:hover{
+	background:#c06735;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#optin .optin_body {
+	background-color:transparent;
+}
+
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #b7cbd4;
+}

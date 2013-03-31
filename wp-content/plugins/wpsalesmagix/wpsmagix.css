@@ -1,0 +1,110 @@
+.wpsmagix {
+	font:			Helvetica, Arial, sans-serif;
+	font-weight:	300;
+	border:			1px solid #DDD;
+	width:			550px;
+	padding:		5px;
+	-moz-border-radius:	5px; 
+	border-radius:	5px;
+	background:		#FEFEFE;
+	margin:			1em 0;
+	padding:		1em;	
+	box-shadow:		0 1px 8px	rgba(0, 0, 0, 0.3),
+					0 0 4px 	rgba(0, 0, 0, 0.1) inset;
+}
+.wpsmagix a{
+	color:#666 !important;
+	text-decoration:none !important;
+}
+.wpsmagix a:hover{
+	color:#000 !important;
+}
+.wpsmagix label, .wpsmagix input, .wpsmagix .button {
+	cursor:			pointer;
+}
+.wpsmagix ul,.wpsmagix li {
+	list-style:		none;
+	margin:			0;
+	padding:		0;
+}
+.wpsmagix li {
+	clear:			both;
+	display:		block;
+	margin:			1em 0;
+	padding: 10px 0;
+}
+.wpsmagix ul input {
+	float:			left;
+	margin:			0.5em 1em 0 0;
+}	
+.wpsmagix ul label {
+	display:	inline-block;
+	width:		270px;
+	float:left;
+	margin-right:30px;
+}	
+.wpsmagix dl {
+	line-height:	1.5em;	
+	margin:			0.5em 0;
+	font-size:		0.9em;
+}
+.wpsmagix dt {
+	font-weight:	300;	
+	margin:			1em 0 0 ;
+}
+.wpsmagix dd {
+	margin:			0 0 0.5em;
+	border-top:		2px solid #C09;
+	display:		block;
+}	
+.wpsmagix p {
+	margin:			0;
+	text-align:		center;
+}	
+.wpsmagix .question {
+	font-weight:	700;
+	font-size:		1.1em;
+	margin:			0 0 3px;
+	border-bottom:	1px solid #DDD;
+	text-align:		left;
+}	
+.wpsmagix .button {
+	cursor:			pointer;	
+	font-size:		16px;
+	color:			#333;
+	width:			100%;
+	border:			1px solid #FEFEFE;	
+	background:		#EFEFEF;
+	-moz-border-radius:	5px; 
+	border-radius:	5px;
+	box-shadow:		0 0 3px	rgba(0, 0, 0, 0.6);
+}
+.wpsmagix .button:hover{
+	background:		#DDD;
+	box-shadow:		0 0 5px	rgba(0, 0, 0, 0.6);
+}
+.wpsmagix .button:active{
+	background:		#EFEFEF;
+	box-shadow:		0 0 5px	rgba(0, 0, 0, 0.3) inset;
+}
+.wpsmagix .button{
+	width:100px;
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+}
+.baseCss{
+	 height:30px; width:150px;
+}
+.ratedCss{
+	position: absolute;  
+	height: 30px; 
+	display: block; 
+	text-indent: -9000px; 
+	z-index: 1; 
+	border: none !important; 
+	margin: 0 !important; 
+	padding: 0 !important; 
+	list-style: none !important; 
+	border-image: initial;
+}

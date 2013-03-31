@@ -1,0 +1,100 @@
+version 3.3.5.1
+- minor Aweber URL bug fixed
+
+version 3.3.4.4.6.5
+- Save error resolved
+
+version 3.3.4.4.6
+- Save button error resolved
+
+version 3.3.4.4.5
+- Changes made to structure
+- Changes made to Mailing Manager
+- Mobiles devices added
+- Scripts not imported on 404's
+- A/B allows campaign's with apostrophies
+- Authentication procedure modified
+
+version 3.3.4.4.3
+- Stopped division by 0 in analytics panel
+- Backward Placeholder and IE support created
+- Change to directory structure
+- logout issues during installation sorted
+
+version 3.3.4.4.2
+- Revisions made to redirect support
+
+version 3.3.4.4.1
+- Redirect pop up support added
+
+version 3.3.4.4
+- Dashboard widget added
+- All API's updated to allow multiple connections
+- A/B analytics sorted for Aweber, HTML and Email
+
+version 3.3.4.3
+- preview function sorted
+- pop ups now stay in middle of screen
+- check name bug on html form fixed
+- Log out issues are now resolved
+- Custom fields are fully implemented
+- Currently connected to feature corrected
+- Multi-lingual support added
+- New feature added - disable user exit
+- Stop video code added to handle other video players
+
+version 3.3.4.2.5
+- removed permissions error
+
+version 3.3.4.2
+- required security updates
+- Disable name bug fixed
+- Analytics for campaigns now resolved
+- Analytics for A/B testing now resolved
+- Check name problems resolved
+
+version 3.3.4.1
+- fixes 6XX line error on front end.
+- cleans up analytics database for deleting and re-creating campaigns.
+
+version 3.3.3.5
+- Small bug fixed that stopped themes from being transfer over after backup.
+
+version 3.3.3
+- Multi Fields now fully configurable.
+- Check Name filter updated.
+- Facebook API and Video video framework embedded into plugin. 
+
+version 3.3.2
+- Theme Back-up fully working (stops updater overwriting themes)
+- Theme uploader updated to reduce failed upload.
+
+version 3.3.1
+- Theme Back-up Prototype launched
+
+version 3.3
+- All IE 8 & & Bugs fixed
+
+version 3.2.8
+- Posts/Page Bug - Now will appear when selected both pages and posts
+
+version 3.2.5
+- A/B Split problems
+
+version 3.2.2
+- Aweber api reconfigured (url re-direct instead of lightbox connection to aweber)
+
+version 3.2
+- Plugin updated to run with Wordpress 3.3
+
+version 3.1.7
+- Aweber Api - Changed and bugs fixed (no more ajax for form loading)
+- IE 9 All bugs fixed (check your browsers not running in Compatibility Mode)
+- Categories & Post - All bugs fixed
+
+version 3.1
+- Install Bug fixed
+- Permissions when creating a campaign fixed
+
+version 3.0
+- Original version.

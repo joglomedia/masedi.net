@@ -1,0 +1,10 @@
+/* 
+Theme Name: Decker Theme 
+Description: A clean, two-column WordPress theme.
+Author: Daily Blog Tips
+Author URI: http://www.dailyblogtips.com/wordpress-themes/
+Tags: theme, fixed, widgets, premium, valid
+*/
+
+@import url("reset.css");
+@import url("decker.css");

@@ -1,0 +1,2 @@
+[10-Jan-2012 02:22:14] PHP Fatal error:  Call to undefined function get_header() in /home/masedi/public_html/wp-content/themes/default/index.php on line 1
+[11-Feb-2012 18:13:37 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/masedi/public_html/wp-content/themes/default/index.php on line 1

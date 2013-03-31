@@ -1,0 +1,1168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LoginRadius\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-08 10:08-0800\n"
+"PO-Revision-Date: 2013-02-08 10:09-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../LoginRadius.php:669
+#, fuzzy
+msgid "Disable Social Sharing on this "
+msgstr "社会份额"
+
+#: ../LoginRadius.php:675
+#, fuzzy
+msgid "Disable Social Counter on this "
+msgstr "启用社会计数器“"
+
+#: ../LoginRadius.php:779
+msgid "Settings"
+msgstr "设置"
+
+#: ../LoginRadius_admin.php:46
+#: ../LoginRadius_admin.php:67
+msgid "Please wait. This may take a few minutes"
+msgstr "請稍候。這可能需要幾分鐘"
+
+#: ../LoginRadius_admin.php:55
+msgid "Detected CURL. Please save changes"
+msgstr "檢測到的捲曲。請保存更改"
+
+#: ../LoginRadius_admin.php:58
+msgid "Detected FSOCKOPEN. Please save changes"
+msgstr "檢測到的fsockopen。請保存更改"
+
+#: ../LoginRadius_admin.php:61
+msgid "Please check your php.ini settings to enable CURL or FSOCKOPEN"
+msgstr "請檢查你的php.ini的設置來啟用CURL或fsockopen"
+
+#: ../LoginRadius_admin.php:78
+#, fuzzy
+msgid "Your API Key is invalid. Please paste the correct API Key from your LoginRadius Account."
+msgstr "粘贴计数器代码从您的LoginRadius帐户的"
+
+#: ../LoginRadius_admin.php:80
+msgid "Your API Secret is invalid. Please paste the correct API Secret from your LoginRadius Account"
+msgstr "您的API的秘密是無效的。從您的LoginRadius帳戶，請複製粘貼正確的API秘密的"
+
+#: ../LoginRadius_admin.php:82
+msgid "Your API Key and Secret are valid. Please save the changes."
+msgstr "您的API Key和Secret是有效的。請保存更改。"
+
+#: ../LoginRadius_admin.php:84
+msgid "Problem in communicating LoginRadius API. Please check if one of the API Connection method mentioned above is working."
+msgstr "問題的溝通LoginRadius API。請檢查如果的API連接上述方法之一是工作。"
+
+#: ../LoginRadius_admin.php:86
+msgid "Uh oh, looks like something went wrong. Try again in a sec!"
+msgstr "嗯哦，看起來就像是出了問題。在幾秒鐘之內再次嘗試！"
+
+#: ../LoginRadius_admin.php:104
+#, fuzzy
+msgid "Social Plugin Settings"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:106
+msgid "Please clear your browser cache, if you have trouble loading the plugin interface. For more information"
+msgstr "請清除瀏覽器緩存，如果你有麻煩加載的插件接口。欲了解更多信息"
+
+#: ../LoginRadius_admin.php:106
+msgid "click here"
+msgstr "請點擊這裡"
+
+#: ../LoginRadius_admin.php:109
+#, fuzzy
+msgid "Thank you for installing the LoginRadius Social Plugin!"
+msgstr "感谢您安装LoginRadius插件！"
+
+#: ../LoginRadius_admin.php:110
+#, fuzzy
+msgid "To activate the plugin, you will need to first configure it (manage your desired social networks, etc.) from your LoginRadius account. If you do not have an account, click"
+msgstr "要激活插件，請設定它的社會網絡，從你LoginRadius帳戶和管理。如果你沒有一個帳戶，請點擊"
+
+#: ../LoginRadius_admin.php:110
+msgid "here"
+msgstr "這裡"
+
+#: ../LoginRadius_admin.php:110
+msgid "and create one for FREE!"
+msgstr "創建一個免費的！"
+
+#: ../LoginRadius_admin.php:112
+#, fuzzy
+msgid "We also offer Social Plugins for "
+msgstr "这个文本是社会的登录按钮，上面显示的。"
+
+#: ../LoginRadius_admin.php:112
+msgid "and"
+msgstr "和"
+
+#: ../LoginRadius_admin.php:115
+#, fuzzy
+msgid "Set up my FREE account!"
+msgstr "现在创建您的免费帐户！"
+
+#: ../LoginRadius_admin.php:117
+msgid "How to set up an account"
+msgstr "如何建立一個帳戶"
+
+#: ../LoginRadius_admin.php:121
+#, fuzzy
+msgid "Get Updates"
+msgstr "獲取更新！"
+
+#: ../LoginRadius_admin.php:122
+#, fuzzy
+msgid "To receive updates on new features, future releases, etc, please connect with us via Facebook and Twitter"
+msgstr "接收更新的新功能，發布等，請連接到我們的社交媒體頁面"
+
+#: ../LoginRadius_admin.php:138
+#: ../LoginRadius_admin.php:1069
+#, fuzzy
+msgid "Help & Documentations"
+msgstr "文档"
+
+#: ../LoginRadius_admin.php:140
+#: ../LoginRadius_admin.php:1075
+msgid "Plugin Installation, Configuration and Troubleshooting"
+msgstr "插件的安裝，配置和故障排除"
+
+#: ../LoginRadius_admin.php:141
+#: ../LoginRadius_admin.php:1076
+#, fuzzy
+msgid "How to get LoginRadius API Key & Secret"
+msgstr "LoginRadius API密钥和秘密"
+
+#: ../LoginRadius_admin.php:142
+#: ../LoginRadius_admin.php:1077
+#, fuzzy
+msgid "WP Multisite Feature"
+msgstr "插件的网页"
+
+#: ../LoginRadius_admin.php:145
+#: ../LoginRadius_admin.php:1078
+#, fuzzy
+msgid "Support Documentations"
+msgstr "文档"
+
+#: ../LoginRadius_admin.php:146
+#: ../LoginRadius_admin.php:1079
+msgid "Discussion Forum"
+msgstr "討論會"
+
+#: ../LoginRadius_admin.php:147
+#: ../LoginRadius_admin.php:1082
+msgid "About LoginRadius"
+msgstr "关于LoginRadius"
+
+#: ../LoginRadius_admin.php:150
+#: ../LoginRadius_admin.php:1083
+#, fuzzy
+msgid "LoginRadius Products"
+msgstr "LoginRadius博客"
+
+#: ../LoginRadius_admin.php:151
+#: ../LoginRadius_admin.php:1084
+#, fuzzy
+msgid "Social Plugins"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:152
+#: ../LoginRadius_admin.php:1085
+#, fuzzy
+msgid "Social SDKs"
+msgstr "社会份额"
+
+#: ../LoginRadius_admin.php:157
+#, fuzzy
+msgid "Support Us"
+msgstr "技术支持"
+
+#: ../LoginRadius_admin.php:159
+msgid "If you liked our FREE open-source plugin, please send your feedback/testimonial to "
+msgstr "如果您喜歡我們的免費開放源代碼的插件，請發送您的意見/證明到"
+
+#: ../LoginRadius_admin.php:160
+msgid "Please help us to "
+msgstr "請大家幫忙"
+
+#: ../LoginRadius_admin.php:160
+msgid "translate"
+msgstr "翻譯"
+
+#: ../LoginRadius_admin.php:160
+msgid "the plugin content in your language."
+msgstr "以您的語言的插件內容。"
+
+#: ../LoginRadius_admin.php:170
+#, fuzzy
+msgid "API Settings"
+msgstr "设置"
+
+#: ../LoginRadius_admin.php:171
+#, fuzzy
+msgid "Social Login"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:172
+#, fuzzy
+msgid "Social Commenting"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:173
+#, fuzzy
+msgid "Social Sharing"
+msgstr "社会份额"
+
+#: ../LoginRadius_admin.php:174
+#, fuzzy
+msgid "Social Counter"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:175
+msgid "Help"
+msgstr "幫助"
+
+#: ../LoginRadius_admin.php:181
+#, fuzzy
+msgid "What API Connection Method do you prefer to use to enable API communication?"
+msgstr "你喜歡什麼API連接方法，使API通信嗎？"
+
+#: ../LoginRadius_admin.php:191
+msgid "Use CURL"
+msgstr "使用cURL"
+
+#: ../LoginRadius_admin.php:192
+#, fuzzy
+msgid "This is the recommended API connection method, but sometimes this is disabled on hosting server"
+msgstr "推薦的API連接的方法，但有時這是在託管服務器上禁用"
+
+#: ../LoginRadius_admin.php:196
+msgid "Use FSOCKOPEN"
+msgstr "使用的fsockopen"
+
+#: ../LoginRadius_admin.php:197
+#, fuzzy
+msgid "Choose this option if cURL is disabled on your hosting server"
+msgstr "選擇此選項，如果curl被禁止在您的託管服務器"
+
+#: ../LoginRadius_admin.php:198
+#, fuzzy
+msgid "Auto-detect Connection Method"
+msgstr "选择API凭证"
+
+#: ../LoginRadius_admin.php:206
+#, fuzzy
+msgid "To activate the plugin, insert the LoginRadius API Key & Secret"
+msgstr "LoginRadius API密钥和秘密"
+
+#: ../LoginRadius_admin.php:207
+msgid "(How to get it?)"
+msgstr "（如何獲得呢？）"
+
+#: ../LoginRadius_admin.php:212
+msgid "API Key"
+msgstr "API密鑰"
+
+#: ../LoginRadius_admin.php:217
+msgid "API Secret"
+msgstr "API的秘密"
+
+#: ../LoginRadius_admin.php:220
+#, fuzzy
+msgid "Verify API Settings"
+msgstr "设置"
+
+#: ../LoginRadius_admin.php:231
+#, fuzzy
+msgid "Social Login Interface Settings"
+msgstr "社会上的图标"
+
+#: ../LoginRadius_admin.php:235
+#, fuzzy
+msgid "What text should be displayed above the Social Login interface? Leave blank if you do not want any text to be displayed"
+msgstr "你想要什麼樣的文字上面顯示社會登錄界面（留空為沒有文字）？"
+
+#: ../LoginRadius_admin.php:236
+msgid "Login with Social ID"
+msgstr "社會ID登錄"
+
+#: ../LoginRadius_admin.php:242
+#, fuzzy
+msgid "Do you want to show the Social Login interface on your WordPress login page?"
+msgstr "显示社会图标"
+
+#: ../LoginRadius_admin.php:244
+#: ../LoginRadius_admin.php:258
+#: ../LoginRadius_admin.php:488
+#: ../LoginRadius_admin.php:533
+#: ../LoginRadius_admin.php:846
+msgid "Yes"
+msgstr "是"
+
+#: ../LoginRadius_admin.php:247
+#: ../LoginRadius_admin.php:260
+#: ../LoginRadius_admin.php:490
+#: ../LoginRadius_admin.php:535
+#: ../LoginRadius_admin.php:848
+msgid "No"
+msgstr "否"
+
+#: ../LoginRadius_admin.php:255
+#, fuzzy
+msgid "Do you want to show Social Login interface on your WordPress registration page?"
+msgstr "显示社会图标"
+
+#: ../LoginRadius_admin.php:268
+#, fuzzy
+msgid "If Yes, how do you want the Social Login interface to be shown on your wordpress registration page?"
+msgstr "如果是，你怎麼想社會登錄界面顯示在你的WordPress的註冊頁面呢？"
+
+#: ../LoginRadius_admin.php:270
+#, fuzzy
+msgid "Show it below the registration form"
+msgstr "登记表上显示"
+
+#: ../LoginRadius_admin.php:271
+#, fuzzy
+msgid "Show it beside the registration form"
+msgstr "登记表上显示"
+
+#: ../LoginRadius_admin.php:279
+msgid "User Email Settings"
+msgstr "用戶郵箱設置"
+
+#: ../LoginRadius_admin.php:285
+#, fuzzy
+msgid "Do you want to send emails to users with their username and password post-registration?"
+msgstr "你想註冊自己的用戶名和密碼的詳細信息後發送電子郵件給用戶？"
+
+#: ../LoginRadius_admin.php:294
+#, fuzzy
+msgid "YES, send an email to users after registration"
+msgstr "如果你会喜欢后，注册用户发送电子邮件，选择YES。"
+
+#: ../LoginRadius_admin.php:295
+#, fuzzy
+msgid "NO, do not send email to users after registration"
+msgstr "如果你会喜欢后，注册用户发送电子邮件，选择YES。"
+
+#: ../LoginRadius_admin.php:302
+#, fuzzy
+msgid "A few ID Providers do not supply users' e-mail IDs as part of the user profile data they provide. Do you want to prompt users to provide their email IDs before completing registration process if it is not provided by the ID Provider?"
+msgstr "有幾個ID供應商不提供用戶的電子郵件ID的用戶配置文件數據的一部分。你希望用戶提供他們的電子郵件ID之前完成註冊過程？"
+
+#: ../LoginRadius_admin.php:311
+#, fuzzy
+msgid "YES, ask users to enter their email address in a pop-up"
+msgstr "YES，真正從用戶的電子郵件ID（在彈出要求用戶輸入他們的電子郵件ID）"
+
+#: ../LoginRadius_admin.php:312
+#, fuzzy
+msgid "NO, just auto-generate random email IDs for users"
+msgstr "NO，只是自動生成隨機為用戶的電子郵件ID"
+
+#: ../LoginRadius_admin.php:320
+#, fuzzy
+msgid "Please enter the message to be displayed to the user in the pop-up asking for their email address"
+msgstr "請進入的消息顯示給用戶，在彈出的詢問電子郵件"
+
+#: ../LoginRadius_admin.php:322
+#, fuzzy
+msgid "Unfortunately, the ID Provider did not provided your email address. Please enter your email to proceed"
+msgstr "不幸的是，社會提供不提供您的電子郵件地址。請輸入您的電子郵件進行"
+
+#: ../LoginRadius_admin.php:329
+#, fuzzy
+msgid "Please enter the message to be shown to the user in case of an invalid or already registered email"
+msgstr "請進入的消息顯示給用戶的情況下無效或已註冊的電子郵件"
+
+#: ../LoginRadius_admin.php:331
+#, fuzzy
+msgid "The email you have entered is either already registered or invalid. Please enter a valid email address."
+msgstr "此电子邮件已注册或无效，请选择另一个。"
+
+#: ../LoginRadius_admin.php:339
+#, fuzzy
+msgid "Redirection Settings"
+msgstr "重定向设置"
+
+#: ../LoginRadius_admin.php:345
+msgid "Where do you want to redirect your users after successfully logging in?"
+msgstr "你想成功登錄後，將用戶重定向？"
+
+#: ../LoginRadius_admin.php:360
+#, fuzzy
+msgid "Redirect to the same page where the user logged in"
+msgstr "重定向到博客首页"
+
+#: ../LoginRadius_admin.php:360
+#: ../LoginRadius_admin.php:395
+msgid "Default"
+msgstr "默认"
+
+#: ../LoginRadius_admin.php:361
+#, fuzzy
+msgid "Redirect to homepage of your WP site"
+msgstr "重定向到博客首页"
+
+#: ../LoginRadius_admin.php:363
+msgid "Redirect to account dashboard"
+msgstr "重定向到帐户控制面板"
+
+#: ../LoginRadius_admin.php:368
+#, fuzzy
+msgid "Redirect to Buddypress profile page"
+msgstr "重定向到博客首页"
+
+#: ../LoginRadius_admin.php:373
+#: ../LoginRadius_admin.php:397
+#, fuzzy
+msgid "Redirect to Custom URL:"
+msgstr "重定向到以下URL："
+
+#: ../LoginRadius_admin.php:382
+msgid "Where do you want to redirect your users after successfully logging out?"
+msgstr "你想成功登錄後，將用戶重定向？"
+
+#: ../LoginRadius_admin.php:384
+#, fuzzy
+msgid "Note: Logout function works only when clicking 'logout' in the social login widget area. In all other cases, WordPress's default logout function will be applied."
+msgstr "注：只有當社會登錄小工具區域中單擊“註銷，註銷功能工程。在所有其他情況下，WordPress默認註銷功能將被應用。"
+
+#: ../LoginRadius_admin.php:395
+#, fuzzy
+msgid "Redirect to the homepage"
+msgstr "重定向到博客首页"
+
+#: ../LoginRadius_admin.php:407
+#, fuzzy
+msgid "User Settings"
+msgstr "设置"
+
+#: ../LoginRadius_admin.php:413
+msgid "Do you want to allow new users to register through Social Login?"
+msgstr "你要允許新用戶註冊，通過社會登錄？"
+
+#: ../LoginRadius_admin.php:415
+msgid "YES, allow new users to register through Social Login"
+msgstr "YES，允許通過社會登錄新用戶註冊"
+
+#: ../LoginRadius_admin.php:416
+msgid "NO, do not allow new users to register through Social Login"
+msgstr "NO，不允許通過社會登錄新用戶註冊"
+
+#: ../LoginRadius_admin.php:417
+msgid "New users will not be able to login through Social Login"
+msgstr "新用戶將無法登錄，通過社會登錄"
+
+#: ../LoginRadius_admin.php:424
+msgid "Do you want to display the social network that the user connected with, in the user list"
+msgstr "你要顯示的社交網絡連接的用戶，在用戶列表中"
+
+#: ../LoginRadius_admin.php:426
+msgid "YES, display the social network that the user connected with, in the user list"
+msgstr "YES鍵，顯示該用戶的連接的社交網絡，在用戶列表中"
+
+#: ../LoginRadius_admin.php:427
+msgid "NO, do not display the social network that the user connected with, in the user list"
+msgstr "NO，不顯示社交網絡用戶連接，在用戶列表中"
+
+#: ../LoginRadius_admin.php:434
+#, fuzzy
+msgid "Do you want to automatically link your existing users' accounts to their social accounts if their WP account email address matches the email address associated with their social account?"
+msgstr "你想你現有的的WP用戶帳戶自動鏈接到他們的社會帳戶的電子郵件ID匹配的情況下，他們的社會帳戶的電子郵件ID？"
+
+#: ../LoginRadius_admin.php:436
+msgid "YES, automatically link social accounts to WP accounts"
+msgstr "是社會賬戶，自動鏈接到WP帳戶"
+
+#: ../LoginRadius_admin.php:438
+msgid "NO, I want my existing users to continue using the native WP login"
+msgstr "不，我想我的現有用戶繼續使用本機WP登錄"
+
+#: ../LoginRadius_admin.php:448
+msgid "Do you want to apply the same changes when you update plugin settings in the main blog of multisite network?"
+msgstr "你想採用同樣的變化，當你更新插件的設置，在主博客的多站點網絡？"
+
+#: ../LoginRadius_admin.php:449
+msgid "YES, apply the same changes to plugin settings of each blog in the multisite network when I update plugin settings."
+msgstr "YES，採用同樣的變化，當我更新的多站點網絡中的每個博客的插件設置插件的設置。"
+
+#: ../LoginRadius_admin.php:450
+msgid "NO, do not apply the changes to other blogs when I update plugin settings."
+msgstr "NO，並不適用於其他博客的變化，當我更新插件的設置。"
+
+#: ../LoginRadius_admin.php:467
+#, fuzzy
+msgid "Do you want to let users use their social profile picture as an avatar on your website?"
+msgstr "你想使社會計數器為您的網站嗎？"
+
+#: ../LoginRadius_admin.php:468
+msgid "YES, let users use their social profile picture as an avatar"
+msgstr "是的，讓用戶使用他們的社會形象圖片作為頭像"
+
+#: ../LoginRadius_admin.php:469
+#, fuzzy
+msgid "NO, use default avatars"
+msgstr "使用默认头像"
+
+#: ../LoginRadius_admin.php:479
+#, fuzzy
+msgid "Social Commenting Settings"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:485
+msgid "Do you want to enable Social Commenting for your website"
+msgstr "你想為您的網站，使社會評論"
+
+#: ../LoginRadius_admin.php:497
+#, fuzzy
+msgid "Where do you want to the Social login interface on the commenting form?"
+msgstr "社会登录到你想怎么评论的形式出现在"
+
+#: ../LoginRadius_admin.php:500
+msgid "At the very top of the comment form"
+msgstr "在最頂端的回應"
+
+#: ../LoginRadius_admin.php:501
+msgid "After the 'Leave a Reply' caption"
+msgstr "後留下一個回复的標題"
+
+#: ../LoginRadius_admin.php:502
+msgid "Before the comment form input fields"
+msgstr "在評論表單輸入域"
+
+#: ../LoginRadius_admin.php:503
+#, fuzzy
+msgid "Before the comment box"
+msgstr "前Widget内容："
+
+#: ../LoginRadius_admin.php:511
+#, fuzzy
+msgid "Do you want to automatically approve comments posted via Social Login?"
+msgstr "自动批准由社会登录用户提出的意见"
+
+#: ../LoginRadius_admin.php:513
+msgid "YES"
+msgstr "是"
+
+#: ../LoginRadius_admin.php:514
+#, fuzzy
+msgid "NO, I want to approve the comments per my discretion"
+msgstr "按我的判斷，我想批准的意見"
+
+#: ../LoginRadius_admin.php:524
+#, fuzzy
+msgid "Basic Social Sharing Settings"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:530
+msgid "Do you want to enable Social Sharing for your website"
+msgstr "你想為您的網站，讓社會共享的"
+
+#: ../LoginRadius_admin.php:542
+#, fuzzy
+msgid "Enter the text that you wish to be displayed above the Social Sharing Interface. Leave the field blank if you don't want any text to be displayed."
+msgstr "这个文本是社会的登录按钮，上面显示的。"
+
+#: ../LoginRadius_admin.php:544
+#, fuzzy
+msgid "Share it now!"
+msgstr "现在共用"
+
+#: ../LoginRadius_admin.php:552
+#, fuzzy
+msgid "Social Sharing Theme Selection"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:558
+#, fuzzy
+msgid "What Social Sharing widget theme would you like to use across your website?"
+msgstr "你想要什麼樣的社會共享的部件主題使用在您的網站嗎？"
+
+#: ../LoginRadius_admin.php:571
+msgid "Select Social Sharing widget theme to be shown at the top of the content"
+msgstr "優先選擇社會共享的窗口小部件要顯示在上面的內容的主題"
+
+#: ../LoginRadius_admin.php:611
+msgid "Select Social Sharing widget theme to be shown at the bottom of the content"
+msgstr "要顯示在底部的內容，選擇社會共享的部件主題"
+
+#: ../LoginRadius_admin.php:663
+msgid "Choose a sharing theme"
+msgstr "選擇一個共享主題"
+
+#: ../LoginRadius_admin.php:689
+msgid "What Sharing Networks do you want to show in the sharing widget? (All other sharing networks  will be shown as part of LoginRadius sharing icon)"
+msgstr "你想要什麼樣的共享網絡顯示在共享小工具？ （所有其他的共享網絡將被顯示為部分的LoginRadius共享圖標）"
+
+#: ../LoginRadius_admin.php:751
+#, fuzzy
+msgid "In what order do you want your sharing networks listed?"
+msgstr "您的共享部件共享網絡秩序，你更喜歡？"
+
+#: ../LoginRadius_admin.php:773
+#, fuzzy
+msgid "Social Sharing Widget Position"
+msgstr "社会份额"
+
+#: ../LoginRadius_admin.php:779
+#, fuzzy
+msgid "Select the position of the Social Sharing widget"
+msgstr "選擇社會共享的部件的位置"
+
+#: ../LoginRadius_admin.php:799
+msgid "Specify distance of vertical sharing interface from top (Leave empty for default behaviour)"
+msgstr "指定共享界面頂部的垂直距離（留空默認行為）"
+
+#: ../LoginRadius_admin.php:809
+#, fuzzy
+msgid "Select the position of the Social sharing interface"
+msgstr "显示社会图标"
+
+#: ../LoginRadius_admin.php:811
+#: ../LoginRadius_admin.php:1042
+msgid "Show at the top of content"
+msgstr "顯示內容的頂部"
+
+#: ../LoginRadius_admin.php:812
+#: ../LoginRadius_admin.php:1043
+msgid "Show at the bottom of content"
+msgstr "顯示在底部的內容"
+
+#: ../LoginRadius_admin.php:818
+msgid "What area(s) do you want to show the social sharing widget?"
+msgstr "你要顯示哪些領域的社會共享小工具嗎？"
+
+#: ../LoginRadius_admin.php:820
+#: ../LoginRadius_admin.php:1052
+#, fuzzy
+msgid "Show on homepage"
+msgstr "意见表上显示"
+
+#: ../LoginRadius_admin.php:821
+#: ../LoginRadius_admin.php:1053
+#, fuzzy
+msgid "Show on posts"
+msgstr "意见表上显示"
+
+#: ../LoginRadius_admin.php:823
+#: ../LoginRadius_admin.php:1055
+#, fuzzy
+msgid "Show on pages"
+msgstr "网页上显示"
+
+#: ../LoginRadius_admin.php:824
+#: ../LoginRadius_admin.php:1056
+#, fuzzy
+msgid "Show on post excerpts "
+msgstr "登记表上显示"
+
+#: ../LoginRadius_admin.php:825
+#: ../LoginRadius_admin.php:1057
+#, fuzzy
+msgid "Show on archive pages"
+msgstr "档案页面上显示"
+
+#: ../LoginRadius_admin.php:827
+#: ../LoginRadius_admin.php:1059
+#, fuzzy
+msgid "Show on feed"
+msgstr "显示饲料"
+
+#: ../LoginRadius_admin.php:837
+#, fuzzy
+msgid "Basic Social Counter Settings"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:843
+msgid "Do you want to enable Social Counter for your website?"
+msgstr "你想使社會計數器為您的網站嗎？"
+
+#: ../LoginRadius_admin.php:855
+#, fuzzy
+msgid "Enter the text that you wish to be displayed above the Social Counter Interface. Leave the field blank if you don't want any text to be displayed"
+msgstr "这个文本是社会的登录按钮，上面显示的。"
+
+#: ../LoginRadius_admin.php:857
+#, fuzzy
+msgid "Be a fan"
+msgstr "成为一个风扇！"
+
+#: ../LoginRadius_admin.php:865
+#, fuzzy
+msgid "Social Counter Theme Selection"
+msgstr "社会共享位置"
+
+#: ../LoginRadius_admin.php:871
+#, fuzzy
+msgid "What Social Counter widget theme would you like to use across your website?"
+msgstr "你想要什麼樣的社會計數器部件主題使用在您的網站嗎？"
+
+#: ../LoginRadius_admin.php:884
+msgid "Select Social Counter widget theme to be shown at the top of the content"
+msgstr "要顯示在上面的內容，選擇社會計數器的窗口小部件的主題"
+
+#: ../LoginRadius_admin.php:906
+msgid "Select Social Counter widget theme to be shown at the bottom of the content"
+msgstr "選擇社會在底部的內容顯示的的計數器窗口小部件的主題"
+
+#: ../LoginRadius_admin.php:939
+msgid "Choose a counter theme"
+msgstr "選擇一個計數器的主題"
+
+#: ../LoginRadius_admin.php:965
+msgid "What Counter Networks do you want to show in the counter widget?"
+msgstr "你想什麼反網絡顯示在櫃檯部件？"
+
+#: ../LoginRadius_admin.php:1004
+#, fuzzy
+msgid "Social Counter Widget Position"
+msgstr "社会份额"
+
+#: ../LoginRadius_admin.php:1010
+#, fuzzy
+msgid "Select the position of the Social Counter widget"
+msgstr "選擇社會計數器部件的位置"
+
+#: ../LoginRadius_admin.php:1030
+msgid "Specify distance of vertical counter interface from top (Leave empty for default behaviour)"
+msgstr "指定距離從頂部垂直計數器接口（留空默認行為）"
+
+#: ../LoginRadius_admin.php:1040
+#, fuzzy
+msgid "Select the position of Social counter interface"
+msgstr "显示社会图标"
+
+#: ../LoginRadius_admin.php:1050
+msgid "What area(s) do you want to show the social counter widget?"
+msgstr "你要顯示哪些領域的社會計數器部件嗎？"
+
+#: ../LoginRadius_admin.php:1106
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: ../LoginRadius_admin.php:1107
+msgid "Preview"
+msgstr "预览"
+
+#: ../LoginRadius_function.php:159
+msgid "Log Out"
+msgstr "注销"
+
+#: ../LoginRadius_function.php:560
+msgid "This account is already mapped"
+msgstr "此帳戶已被映射"
+
+#: ../LoginRadius_function.php:563
+msgid "Account mapped successfully"
+msgstr "帳號成功映射"
+
+#: ../LoginRadius_function.php:568
+msgid "Link your account"
+msgstr "將您的帳戶"
+
+#: ../LoginRadius_function.php:572
+msgid "By adding another account, you can log in with the new account as well!"
+msgstr "加入另一個帳戶，您可以使用新的帳戶登錄的！"
+
+#: ../LoginRadius_function.php:676
+#: ../LoginRadius_function.php:699
+msgid "Connected with"
+msgstr "有關連"
+
+#: ../LoginRadius_function.php:680
+#: ../LoginRadius_function.php:703
+msgid "Remove"
+msgstr "清除"
+
+#: ../LoginRadius_widget.php:10
+msgid "Login or register with Facebook, Twitter, Yahoo, Google and many more"
+msgstr "在Facebook，Twitter，雅虎，谷歌和多登录或注册"
+
+#: ../LoginRadius_widget.php:62
+#: ../LoginRadius_widget.php:135
+#: ../LoginRadius_widget.php:208
+msgid "Title:"
+msgstr "标题"
+
+#: ../LoginRadius_widget.php:64
+#: ../LoginRadius_widget.php:137
+#: ../LoginRadius_widget.php:210
+msgid "Before widget content:"
+msgstr "前Widget内容："
+
+#: ../LoginRadius_widget.php:66
+#: ../LoginRadius_widget.php:139
+#: ../LoginRadius_widget.php:212
+msgid "After widget content:"
+msgstr "经过Widget内容："
+
+#: ../LoginRadius_widget.php:68
+#: ../LoginRadius_widget.php:141
+#: ../LoginRadius_widget.php:214
+msgid "Hide for logged in users:"
+msgstr "隐藏登录用户："
+
+#: ../LoginRadius_widget.php:83
+#, fuzzy
+msgid "Share post/page with Facebook, Twitter, Yahoo, Google and many more"
+msgstr "在Facebook，Twitter，雅虎，谷歌和多登录或注册"
+
+#: ../LoginRadius_widget.php:156
+msgid "Get your fan counts all over the social networks."
+msgstr "让您的风扇计算所有的社会网络。"
+
+#~ msgid ""
+#~ "Currently service is not available and we are working on a fix for it."
+#~ msgstr "目前服務不可用，並且我們正在努力修復它。"
+
+#~ msgid ""
+#~ "Embed it in registration form and show it below the registration form"
+#~ msgstr "在註冊表單中嵌入下面的報名表，並顯示"
+
+#, fuzzy
+#~ msgid "Redirect to the Custom URL:"
+#~ msgstr "重定向到以下URL："
+
+#, fuzzy
+#~ msgid ""
+#~ "YES, Link existing WP user accounts to user social account if email ID "
+#~ "matches"
+#~ msgstr "链接现有的WordPress用户帐户，以社会登录（如果有的话）"
+
+#, fuzzy
+#~ msgid "NO, Do not Link existing WP user accounts to user social account"
+#~ msgstr "链接现有的WordPress用户帐户，以社会登录（如果有的话）"
+
+#~ msgid ""
+#~ "Social Network provides User avatar image as profile data, do you want to "
+#~ "show User Social profile image as avatar for your website?"
+#~ msgstr ""
+#~ "社會網絡為用戶提供頭像圖片文件數據，你想顯示用戶的社會知名度形象，化身為你"
+#~ "的網站嗎？"
+
+#, fuzzy
+#~ msgid ""
+#~ "YES, use user social profile image or avatar (if provided by ID Provider)"
+#~ msgstr "利用社会提供的头像（如果提供）"
+
+#~ msgid ""
+#~ "You can customize the settings for your plugin on this page, though you "
+#~ "will have to choose your desired ID providers and get your unique"
+#~ msgstr ""
+#~ "您可以自定义此页面上的插件设置，虽然你会选择所需的编号提供商，并得到您的独"
+#~ "特"
+
+#, fuzzy
+#~ msgid "from your"
+#~ msgstr "现在创建您的免费帐户！"
+
+#~ msgid " account at"
+#~ msgstr "帐户"
+
+#~ msgid ""
+#~ "There you can also customize your login interface with different login "
+#~ "themes and icon sets. By using LoginRadius, the profile data of each user "
+#~ "who logs in via social login will be saved to your WordPress database."
+#~ msgstr ""
+#~ "有你也可以自定义您的登录界面，用不同的登录主题和图标集。通过使用"
+#~ "LoginRadius，每个用户登录，在通过社会登录的个人资料数据将被保存到您的"
+#~ "WordPress数据库。"
+
+#, fuzzy
+#~ msgid ""
+#~ "is a technology startup based in Canada that offers social login through "
+#~ "popular ID providers such as Facebook Twitter Google LinkedIn and over 15 "
+#~ "more as well as social sharing on over 80 networks. For tech support or "
+#~ "if you have any questions please contact us at"
+#~ msgstr ""
+#~ "它是一个北美的科技公司，提供社会登录通过流行的主机，如在Facebook，"
+#~ "Twitter，谷歌和超过15！的技术支持，或如果您有任何疑问，请联系我们在"
+
+#~ msgid "We are available 24/7 to assist our clients!"
+#~ msgstr "We提供24 / 7，以协助我们的客户！"
+
+#~ msgid "Plugin Help"
+#~ msgstr "插件的帮助"
+
+#, fuzzy
+#~ msgid "Live Demo (Wordpress)"
+#~ msgstr "现场演示网站"
+
+#, fuzzy
+#~ msgid "Live Demo (BuddyPress)"
+#~ msgstr "现场演示网站"
+
+#, fuzzy
+#~ msgid "Live Demo (bbPress)"
+#~ msgstr "现场演示网站"
+
+#~ msgid "Other AddOns"
+#~ msgstr "其他插件"
+
+#~ msgid "LoginRadius Blog"
+#~ msgstr "LoginRadius博客"
+
+#, fuzzy
+#~ msgid "WP Social Login Support"
+#~ msgstr "社会共享位置"
+
+#, fuzzy
+#~ msgid "Contact LoginRadius"
+#~ msgstr "关于LoginRadius"
+
+#, fuzzy
+#~ msgid "Social Share & Counter"
+#~ msgstr "社会份额"
+
+#~ msgid "LoginRadius Login & Redirection Settings"
+#~ msgstr "LoginRadius登录和重定向设置"
+
+#, fuzzy
+#~ msgid "Show on Login Page"
+#~ msgstr "上显示登录表单"
+
+#, fuzzy
+#~ msgid "Embed in Login Form"
+#~ msgstr "上显示登录表单"
+
+#, fuzzy
+#~ msgid "Show Beside Login Form"
+#~ msgstr "上显示登录表单"
+
+#, fuzzy
+#~ msgid "Show on Register Page"
+#~ msgstr "登记表上显示"
+
+#, fuzzy
+#~ msgid "Embed in Register Form"
+#~ msgstr "登记表上显示"
+
+#, fuzzy
+#~ msgid "Social Linking"
+#~ msgstr "社会共享位置"
+
+#~ msgid "Show Social Avatar"
+#~ msgstr "显示社会头像"
+
+#, fuzzy
+#~ msgid "Show social provider avatar image"
+#~ msgstr "社会提供头像图片评论"
+
+#~ msgid "Redirect user After login"
+#~ msgstr "重定向用户登录后"
+
+#~ msgid "Redirect to Same Page of blog"
+#~ msgstr "重定向到同一页的博客"
+
+#, fuzzy
+#~ msgid "Logout Redirection Setting"
+#~ msgstr "重定向设置"
+
+#, fuzzy
+#~ msgid "Redirect user After logout"
+#~ msgstr "重定向用户登录后"
+
+#~ msgid "(Only for Login Radius widget area)"
+#~ msgstr "（只适用于登录半径部件面积）"
+
+#, fuzzy
+#~ msgid "Redirect to Home Page of blog"
+#~ msgstr "重定向到同一页的博客"
+
+#~ msgid "To Communicate with API"
+#~ msgstr "沟通与API"
+
+#~ msgid "Use cURL (Require cURL support = enabled in your php.ini settings)"
+#~ msgstr "使用cURL（需求 cURL support = enabled 在你的php.ini设置)"
+
+#~ msgid ""
+#~ "Use FSOCKOPEN (Require allow_url_fopen = On and safemode = off in your "
+#~ "php.ini settings)"
+#~ msgstr ""
+#~ "使用FSOCKOPEN（需求 allow_url_fopen = On 和 safemode = off 在你的php.ini设"
+#~ "置)"
+
+#~ msgid "LoginRadius Basic Settings"
+#~ msgstr "LoginRadius基本设置"
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "Please Login with"
+#~ msgstr "请登入"
+
+#~ msgid "Send Email"
+#~ msgstr "发送电邮"
+
+#, fuzzy
+#~ msgid "After user registration"
+#~ msgstr "经过用户注册"
+
+#~ msgid "Email Required"
+#~ msgstr "电子邮件要求"
+
+#, fuzzy
+#~ msgid ""
+#~ "A few ID provider does not provide user's Email ID. Select YES if you "
+#~ "would like an email pop-up after login or select NO if you would like to "
+#~ "auto-generate the email address."
+#~ msgstr ""
+#~ "几个ID提供商不提供用户的电子邮件ID。选择YES如果你想要一个电子邮件弹出后登"
+#~ "录，或选择NO，如果你想自动生成的电子邮件地址。"
+
+#, fuzzy
+#~ msgid "This text will be displayed on the email popup"
+#~ msgstr "此文字将上面的弹出框中输入电子邮件displyed。"
+
+#, fuzzy
+#~ msgid "Please enter your email to proceed"
+#~ msgstr "请输入您的电子邮件地址进行。"
+
+#, fuzzy
+#~ msgid ""
+#~ "This text will be displayed on the email popup if the email is already "
+#~ "registered or invalid"
+#~ msgstr "此文字将displyed上面的弹出框，如果电子邮件已经注册或无效。"
+
+#~ msgid "Turn Social Sharing ON/OFF"
+#~ msgstr "将社会共享的ON / OFF"
+
+#~ msgid "Code"
+#~ msgstr "码"
+
+#~ msgid "paste sharing code from your LoginRadius account"
+#~ msgstr "共享代码粘贴从您的LoginRadius帐户"
+
+#, fuzzy
+#~ msgid "where to show social share bar"
+#~ msgstr "显示社会图标"
+
+#, fuzzy
+#~ msgid "Show on Top"
+#~ msgstr "上显示登录表单"
+
+#, fuzzy
+#~ msgid "Show on Bottom"
+#~ msgstr "意见表上显示"
+
+#~ msgid "which location to show social share bar"
+#~ msgstr "哪个位置，以显示社会共享吧"
+
+#~ msgid "Turn Social Counter ON/OFF"
+#~ msgstr "将社会计数器ON / OFF"
+
+#, fuzzy
+#~ msgid "which location to show social counter interface"
+#~ msgstr "哪个位置，以显示社会共享吧"
+
+#~ msgid "LoginRadius API Settings"
+#~ msgstr "LoginRadius的API设置"
+
+#, fuzzy
+#~ msgid "LoginRadius API key"
+#~ msgstr "LoginRadius的API设置"
+
+#, fuzzy
+#~ msgid "Required for LoginRadius plugin to work"
+#~ msgstr "其他LoginRadius插件"
+
+#~ msgid "Paste LoginRadius API Key here. To get the API Key, log in to"
+#~ msgstr "粘贴LoginRadius API这里的关键。要获得的API密钥，登录到"
+
+#, fuzzy
+#~ msgid "LoginRadius API Secret"
+#~ msgstr "LoginRadius API密钥和秘密"
+
+#~ msgid "Paste LoginRadius API Secret here. To get the API Secret, log in to "
+#~ msgstr "在这里粘贴LoginRadius API的秘密。为了得到API的秘密，登录到"
+
+#~ msgid "Turn Social Commenting ON/OFF"
+#~ msgstr "关闭社会评论的ON / OFF"
+
+#~ msgid "Enable Social Commenting"
+#~ msgstr "使社会评论"
+
+#~ msgid "Commenting Mode"
+#~ msgstr "谈到模式"
+
+#~ msgid "Show on Comment Form"
+#~ msgstr "意见表上显示"
+
+#~ msgid ""
+#~ "Integrate with Comment Form (Give your website users a new commenting "
+#~ "experience)"
+#~ msgstr "整合意见表（给你的网站的用户一个新的注释经验）"
+
+#~ msgid "Select a social network:"
+#~ msgstr "选择一个社交网络："
+
+#~ msgid "Auto Approve Social User's Comments"
+#~ msgstr "自动核准社会用户的评论"
+
+#, fuzzy
+#~ msgid "if user logged in using social login"
+#~ msgstr "如果在使用社会登录用户登录"
+
+#, fuzzy
+#~ msgid "LoginRadius Share Basic Settings"
+#~ msgstr "LoginRadius基本设置"
+
+#~ msgid "Open in new window"
+#~ msgstr "在新视窗开启"
+
+#~ msgid "opened new window for sharing"
+#~ msgstr "共享开辟了新的窗口"
+
+#~ msgid "Open share link in new Window"
+#~ msgstr "在新窗口中打开共享链接"
+
+#, fuzzy
+#~ msgid "LoginRadius Share Location Settings"
+#~ msgstr "LoginRadius基本设置"
+
+#, fuzzy
+#~ msgid "Required for Social Login and Social Share"
+#~ msgstr "需要社会登录"
+
+#~ msgid "Required for Social Login"
+#~ msgstr "需要社会登录"
+
+#~ msgid "Restored all settings to defaults."
+#~ msgstr "所有设置恢复到默认值。"
+
+#~ msgid "You Must Need a Login Radius Api Key For Login Process."
+#~ msgstr "你必须需要一个登录过程LoginRadius API密钥。"
+
+#~ msgid "You Must Need a Login Radius Api Secret For Login Process."
+#~ msgstr "你必须需要一个登录过程LoginRadius API秘密。"
+
+#~ msgid "You Need a Redirect url for Login Redirection."
+#~ msgstr "您需要登录重定向重定向URL。"
+
+#~ msgid "Saved changes."
+#~ msgstr "保存的更改。"
+
+#~ msgid "from"
+#~ msgstr "从"
+
+#~ msgid ""
+#~ "In order to make the login process secure, we require you to manage it "
+#~ "from your LoginRadius account."
+#~ msgstr "为了使登录过程的安全，我们要求您管理从LoginRadius account."
+
+#~ msgid "Restore Defaults"
+#~ msgstr "还原为默认值"
+
+#~ msgid "Welcome! "
+#~ msgstr "欢迎您！"

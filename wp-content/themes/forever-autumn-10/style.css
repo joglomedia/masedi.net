@@ -1,0 +1,409 @@
+/*  Theme Name: Forever Autumn
+    Theme URI: http://www.taintedsong.com
+    Description: Forever Autumn is a widget-ready 2-column theme with 404.php and archive.php. Theme designed by <a href="http://www.taintedsong.com">Joni</a> <a href="http://www.joniang.com">Ang</a>.
+    Version: 1.0
+    Author: Joni Ang
+    Author URI: http://www.joniang.com
+*/
+
+
+/* basic elements */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 13px;
+	color: #212121;
+	text-align: center;
+}
+html>body {
+	font-size: small;
+}
+p, ol, ul {
+	margin: 1.2em 0;
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+ol, ul {
+	margin: 1.2em 0 1.2em 2em;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1.2em 0 0 0;
+	padding: 0;
+	color: #E44E31;
+	font-family: 'Century Gothic', Tahoma, Arial;
+}
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h2, h3 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 14px;
+}
+h4, h5, h6 {
+	font-size: 13px;
+}
+a, a:visited, a:active {
+	color: #b93529;
+	border-bottom:1px dashed #ffac8f;
+	text-decoration:none;
+}
+a:hover {
+	color: #E44E31;
+	text-decoration: none;
+	border:none;
+}
+blockquote {
+	margin: 10px 30px 10px 30px;
+	padding: 0 10px 0 10px;
+	background: url(images/quote.gif) no-repeat 0 0.26em;
+	border-left: 2px solid #CCCCCC;
+	color:#cc3300;
+}
+code {
+	font-family: monospace;
+}
+small {
+	font-size: 0.92em;
+}
+input, textarea, select {	
+	border: 1px solid #868686;
+	background: #FFFFFF;
+	color: #212121;
+	font: 12px Tahoma, Arial, sans-serif;
+}
+.submit {
+	border: 1px solid #868686;
+	background: #fce248;
+	color: #FFF;
+}
+form {
+	border: 0; 
+	margin: 0; 
+	padding: 0;
+}
+a img {
+	border: 0;
+}
+img { 
+	border: 0;
+}
+/* Main */
+#page { width: 820px; margin-left: auto; margin-right: auto;}
+
+#frame { background:url(images/pagebg.jpg) repeat-y; float:left; width: 820px;}
+
+/* Header */
+
+#header01 {
+	width: 820px;
+	height: 80px;
+	overflow: hidden;
+	background: url(images/header-image01.jpg) no-repeat;
+}
+
+#header02 {
+	width: 820px;
+	height:136px;
+	overflow: hidden;
+	background: url(images/header-image02.jpg) no-repeat;
+	
+}
+#header03 {
+	width: 820px;
+	height: 100px;
+	overflow: hidden;
+	background: url(images/header-image03.jpg) no-repeat;
+}
+.header-title {
+	font-size:42px;
+	font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+	border-bottom:none;
+	border:0;
+	text-decoration:none;
+	padding:0;
+	margin-top:50px;
+}
+
+.header_menu {
+	text-align: left;
+	padding-left: 45px;
+	padding-top:4px;
+	line-height:27px;
+	font-weight:bold;
+}
+
+.header_menu a, .header_menu a:visited, .header_menu a:active {
+	text-decoration:none;
+	color:#bc1f02;
+	border-bottom:none;
+}
+.header_menu a:hover {
+	text-decoration:none;
+	color:#e89c15;
+	position:relative; 
+	top:1px; 
+	left:1px;
+}
+
+
+
+/* Content */
+#content {
+	float: left; 
+	padding: 0 0 0 40px; 
+	width: 520px; 
+	overflow:hidden;
+	text-align:justify;
+	margin: 20px 0 15px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#content ul li {
+	list-style-image: url(images/star.gif);
+	margin:0 0 0 25px;
+	padding:0 0 3px 5px;
+}
+#content ol li{
+	margin:0 0 0 25px;
+	padding:0 0 3px 5px;
+}
+
+* html #content {
+	overflow: hidden;
+}
+
+/* Sidebar */
+#sidebar {
+	float: left; 
+	overflow: hidden;
+	width: 210px;
+	margin: 0 5px 0 15px;
+	text-align:left;
+}
+#sidebar ul li {
+	list-style:none;
+}
+#sidebar ul li ul li{
+	list-style-image: url(images/star.gif);
+	margin:0 0 0 3px;
+	padding:0 0 3px 5px;
+}
+
+
+/* Footer */
+#footer {
+	clear: both;
+	background: url(images/footerimage.jpg) no-repeat;
+	width: 820px;
+	height:200px;
+	text-align:left;
+}
+#footer ul li {
+	list-style-image: url(images/star.gif);
+	margin:0 0 0 3px;
+	padding:0 0 3px 5px;
+}
+
+#footer-info {
+	float: right;
+	padding-top:20px;
+	width:70%;
+	color:#000000;
+	font-size:11px;
+
+}
+#footer-info h2 {
+	font-family: Arial, Verdana, Tahoma;
+	letter-spacing:-1px;
+	font-size:18px;
+	margin-bottom:0px;
+}
+
+
+.footer-info-01 {
+	width:33%;
+	float:left;
+
+
+}
+.footer-info-02 {
+	width:33%;
+	float:left;
+
+
+} 
+.footer-info-03 {
+	width:33%;
+	float:left;
+
+}
+
+#footer-meta {
+	float: right;
+	width: auto;
+	text-align:center;;
+	font-size:11px;
+	margin:150px 25px 0 0;
+	text-align:right;
+	letter-spacing:2px;
+}
+#footer-meta li {
+	list-style:none;
+	float: left;
+	display: block;
+}
+
+/* Post */
+.post {
+	width:100%;
+}
+
+.post_title, .post_title a {
+	font-size:20px;
+	color:#b93529;
+	border-bottom:none;
+	font-weight:bold;
+}
+.post_datetime {
+	padding: 2px 0 0 20px;
+	background: url(images/date.gif) no-repeat;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.post_body {
+	padding: 20px 0 20px 0;
+}
+.post_category {
+	padding: 2px 0 0 20px;
+	background: url(images/folder_images.gif) no-repeat;
+	font-size: 11px;
+	font-weight: bold;
+}
+.post_comments {
+	padding: 2px 0 0 20px;
+	background: url(images/page_user.gif) no-repeat;
+	font-size: 11px;
+	font-weight: bold;
+}
+.post_data {
+	padding: 2px 0 40px 20px;
+	background: url(images/flag_orange.gif) no-repeat;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* search */
+#sb_search{
+  margin: 0 0 0 0;
+  padding: 0 0 0 15px;
+}
+#search_form{
+  background-image: url(images/searchbg.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding-top: 18px;
+  width: 198px;
+  height: 84px;
+}
+.s_text{
+  border: 0;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #b93529;
+  width: 130px;
+}
+.searchsubmit{
+  background-image: url(images/search_go.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 13px;
+  width: 15px;
+  border: 0;
+}
+.txt{
+  margin: 24px 0 0 0;
+  padding: 0 0 0 15px;
+  float: left;
+  line-height: 14px;
+}
+.btn{
+  margin: 24px 0 0 0;
+  padding: 0;
+  float: left;
+  line-height: 14px
+}
+
+
+/* other styles */
+.divider { width: 100%;
+	text-align:center;
+	margin: 50px 0 50px 0;
+}
+.alignright
+{
+	float: right;
+}
+.alignleft
+{
+	float: left;
+}
+
+
+/* Comments Page */
+.commentlist {
+	clear: both;
+	margin-top: 30px;
+	padding-top: 0.8em;
+	list-style: none;
+	font-size:12px;
+	text-align:left;
+}
+.commentlist a {
+	border-bottom:none;
+}
+.commentmetadata {
+	float:right;
+	border-bottom:2px solid #b93529;
+	margin-right:10px;
+}
+.comment_author {
+	padding: 4px 0 0 20px;
+	background: url(images/page_user.gif) no-repeat;
+	background-position:bottom left;
+	font-size: 14px;
+	font-weight: bold;
+}
+.comment_text {
+	margin:0 30px 30px 30px
+}
+
+/*Calendar*/
+#wp-calendar {empty-cells: show; color: #E44E31; padding: 5px; width: 90%;}
+#wp-calendar caption{
+ width: 95%;
+ color: #000000;
+ font-size: 14px;
+ letter-spacing: 4px;
+ padding: 5px;
+ list-style: none;
+ margin:0;
+ text-align:center;}
+#wp-calendar {padding:10px 0 10px 0;}
+#wp-calendar td{color: #000000; padding: 1px 0;text-align: center;}
+#wp-calendar td.pad:hover{color: #000000;text-decoration: none;border: none;}
+#wp-calendar #today{background: #E44E31; color: #000000; border-bottom: 1px solid #000000;}
+#wp-calendar th{font-style: normal;text-transform: capitalize; color:#000000; font-weight:bold; text-align:center;}

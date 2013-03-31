@@ -1,0 +1,779 @@
+/*
+Template Name: Elegant
+Template URI: http://ezsqueezypro.com/
+Colors: blue,green,grey,brown,red
+Author: Suzanna Theresia
+Author URI: http://ezsqueezypro.com/
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+code {
+	background:#F5F5F5;
+	color:#666;
+}
+/* =SOME PRE-STYLING
+---------------------------------------------------------------------------------------------*/
+
+/*
+fonts.css from the YUI Library: developer.yahoo.com/yui/
+          Please refer to developer.yahoo.com/yui/fonts/ for font sizing percentages
+
+There are three custom edits:
+ * remove arial, helvetica from explicit font stack
+ * make the line-height relative and unit-less
+ * remove the pre, code styles
+*/
+
+body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
+
+table { font-size:inherit; font:100%; }
+
+select, input, textarea { font:99% sans-serif; }
+
+/* normalize monospace sizing 
+ * en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome
+ */
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+/* normalize monospace sizing 
+ * en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome
+ */
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+/* 
+ * minimal base styles 
+ */
+
+
+/* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */ 
+body, select, input, textarea { color:#222; }
+
+/* Headers (h1,h2,etc) have no default font-size or margin,
+   you'll want to define those yourself. */ 
+ 
+/* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
+h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; }
+
+/* maxvoltar.com/archive/-webkit-font-smoothing */
+html { -webkit-font-smoothing: antialiased; }
+
+ 
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active { outline: none; }
+
+a, a:active, a:visited { color:#2585c7; }
+a:hover { color:#39f; }
+
+
+ul { margin-left:30px; }
+ol { margin-left:30px; list-style-type: decimal; }
+
+small { font-size:85%; }
+strong, th { font-weight: bold; }
+
+td, td img { vertical-align:top; } 
+
+sub { vertical-align: sub; font-size: smaller; }
+sup { vertical-align: super; font-size: smaller; }
+
+pre { 
+  padding: 15px; 
+  
+  /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+/* align checkboxes, radios, text inputs with their label
+   by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; *vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+
+/* hand cursor on clickable input elements */
+label, input[type=button], input[type=submit], button { cursor: pointer; }
+
+
+/* These selection declarations have to be separate.
+   No text-shadow: twitter.com/miketaylr/status/12228805301  */
+::-moz-selection{ background: #2585c7; color:#fff; text-shadow: none; }
+::selection { background:#2585c7; color:#fff; text-shadow: none; } 
+
+/*  j.mp/webkit-tap-highlight-color */
+a:link { -webkit-tap-highlight-color: #5e93ff; } 
+
+
+/* always force a scrollbar in non-IE */
+html { overflow-y: scroll; }
+
+/* make buttons play nice in IE:    
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {  width: auto; overflow: visible; }
+ 
+/* bicubic resizing for non-native sized IMG: 
+   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+
+/* 
+ * Non-semantic helper classes 
+ */
+
+/* for image replacement */
+.ir { display:block; text-indent:-999em; overflow:hidden; background-repeat: no-repeat; }
+
+/* Hide for both screenreaders and browsers
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display:none; visibility:hidden; } 
+
+/* Hide only visually, but have it available for screenreaders 
+   www.webaim.org/techniques/css/invisiblecontent/ 
+   Solution from: j.mp/visuallyhidden - Thanks Jonathan Neal! */
+.visuallyhidden { position:absolute !important;    
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* =CLEARFIX
+---------------------------------------------------------------------------------------------*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; } /* Hides from IE-mac \*/
+.clearfix { display: block; }
+
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background-color:#FFF;
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 !important;
+	padding:0 0 16px 0 !important;
+}
+
+p {
+	margin:0 !important;
+	padding:0 0 13px 0 !important;
+}
+
+a {
+	color: #2585C7;
+	text-decoration:underline;
+}
+
+a: hover {
+	color: #2585C7 !important;
+	text-decoration:none;
+}
+
+del {
+	color:#cc0000;
+}
+
+/* =CONTAINER
+------------------------------------------*/
+#out-wrapper {
+	width:100%;
+	background:url(images/body-top.png) repeat-x top left;
+}
+
+#wrapper {
+	width:980px;
+	margin:0 auto;
+	border-top:1px solid #FFF;
+}
+
+#opl-header {
+	width:980px;
+	position:relative;
+	padding:0;
+	min-height:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#opl-logo {
+	position:relative;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.squeeze_header {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.full_width_header {
+	width:860px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#opl-logo {
+	position:relative;
+}
+
+#left_col {
+	margin:20px 30px 5px 0;
+	width:640px;
+	min-height:500px;
+	float:left;
+	background:transparent;
+	min-height:500px;
+}
+
+#right_col {
+	width:306px;
+	float:right;
+}
+
+#full_width_col {
+	margin:30px auto 5px auto;
+	padding:10px 15px;
+	width:830px;
+	min-height:500px;
+}
+
+#opl-main-video {
+	margin:30px 0;
+}
+
+#opl-social-share {
+	position:fixed;
+	margin:0;
+	z-index:9999;
+	bottom:15%;
+	display:block;
+	width:65px;
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(50%,#d8e1e7), color-stop(51%,#b5c6d0), color-stop(100%,#e0eff9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* IE10+ */
+	background: linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 3px 0px 4px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 3px 0px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+#footer-background {
+	width:100%;
+	min-height:103px;
+}
+
+#footer-content {
+	width:980px;
+}
+
+#footer-content {
+	margin:0 auto;
+	padding-top:20px;
+	min-height:83px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-shadow: 1px 1px 1px #808080;
+}
+
+#opl-user-action {
+	margin:20px auto 20px auto;
+	padding:20px;
+	background-color:transparent;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.opl-powered a, .opl-powered a:hover {
+	color:#FFF !important;
+}
+
+/* =TOP NAV;
+------------------------------------------*/
+#opl-top-nav {
+	margin-top:10px;
+	display:inline-block;
+	text-align:center;
+	padding:0 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 10px;
+	background:#FeFeFe;
+	-webkit-box-shadow: inset 0px 0px 4px 1px #d0d0d0;
+	box-shadow: inset 0px 0px 4px 1px #d0d0d0;
+	border:1px solid #cacaca;
+}
+
+/* Top Navigation */
+
+#opl_nav, #opl_nav ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none; 
+	line-height: 1;
+	z-index: 100;
+}
+
+#opl_nav a{
+	color:#666;
+	font-family: 'Open Sans', sans-serif;
+	font-size:11px;
+	display:block; 
+	z-index:100; 
+	padding:0 10px;
+	line-height:35px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#opl_nav a:hover {
+	text-decoration:underline;
+}
+
+#opl_nav li:hover, #opl_nav li.sfhover {
+	cursor: pointer;
+}
+
+#opl_nav li:hover span, #opl_nav li.sfhover span {
+	color: #FFF;
+}
+
+#opl_nav li{
+	float:left; 
+	width: auto; 
+	height:35px;
+	border-right:1px solid #e9e9e9;
+}
+
+#opl_nav li:last-child {
+	border-right:none;
+}
+
+#opl_nav li ul {
+	position: absolute; 
+	left: -999em; 
+	width: 180px;
+	z-index: 20;
+}
+
+#opl_nav li li {
+	background:#F0F0F0; 
+	border:1px solid #CCC; 
+	border-width:0 1px 1px 1px; 
+	height:30px;
+}
+
+#opl_nav li li:last-child {
+	border-right:1px solid #CCC; 
+}
+
+#opl_nav li:hover ul, #opl_nav li.sfhover1 ul {
+	left: auto;
+}
+
+#opl_nav li ul li a {
+	font-family: 'Open Sans', sans-serif;
+	width:160px; 
+	line-height:30px; 
+	padding:0 10px; 
+	font-size:11px; 
+	font-style:normal; 
+	font-weight:400; 
+	color:#555;
+}
+
+#opl_nav li ul li a:hover {
+	font-family: 'Open Sans', sans-serif;
+	color:#555;
+	background:#E6E6E6;
+	text-decoration:none;
+}
+
+#opl_nav li ul ul {
+	margin: -35px 0 0 180px;
+}
+
+#opl_nav li:hover ul ul, #opl_nav li:hover ul ul ul, #opl_nav li:hover ul ul ul ul, #opl_nav li.sfhover ul ul, #opl_nav li.sfhover ul ul ul, #opl_nav li.sfhover ul ul ul ul {
+	left: -999em;
+}
+
+#opl_nav li:hover ul, #opl_nav li li:hover ul, #opl_nav li li li:hover ul, #opl_nav li li li li:hover ul, #opl_nav li.sfhover1 ul, #nav2 li li.sfhover ul, #opl_nav li li li.sfhover ul, #opl_nav li li li li.sfhover ul{
+	left: auto;
+}
+
+#opl_nav  li:hover, #opl_nav  li.hover {  
+	position: static;
+}
+
+/* =FOOTER TEXT & NAV;
+------------------------------------------*/
+#footer-content .footer-nav a {
+	color:#FFF;
+	text-decoration:none !important;
+	padding:0 5px;
+	border-right:1px solid #FFF;
+}
+
+#footer-content .footer-nav a:hover {
+	color:#FFF;
+	text-decoration:underline !important;
+}
+
+#footer-content .footer-text {
+	margin:0;
+	padding:10px 0;
+	font-size:11px;
+	line-height:17px !important;
+}
+
+#footer-content .footer-text p {
+	margin:0;
+	padding:0 0 8px 0 !important;
+}
+
+/* =CONTENT
+------------------------------------------*/
+#opl-main {
+	margin:0;
+	padding:15px 20px;
+}
+
+#opl-main .opl-video {
+	width:640px;
+	margin:15px auto;
+}
+
+#opl-main .opl-content {
+	font-family: 'Open Sans', sans-serif;
+	color:#212121;
+	font-size:14px;
+}
+
+#opl-main,
+#opl-main input,
+#opl-main textarea {
+	color: #333;
+	font-size: 16px;
+	line-height: 24px;
+}
+#opl-main p,
+#opl-main ul,
+#opl-main ol,
+#opl-main dd,
+#opl-main pre,
+#opl-main hr {
+	margin-bottom: 16px;
+}
+#opl-main ul ul,
+#opl-main ol ol,
+#opl-main ul ol,
+#opl-main ol ul {
+	margin-bottom: 0;
+}
+#opl-main pre,
+#opl-main kbd,
+#opl-main tt,
+#opl-main var {
+	font-size: 15px;
+	line-height: 21px;
+}
+#opl-main code {
+	font-size: 13px;
+}
+#opl-main dt,
+#opl-main th {
+	color: #000;
+}
+#opl-main h1,
+#opl-main h2,
+#opl-main h3,
+#opl-main h4,
+#opl-main h5,
+#opl-main h6 {
+	color: #000;
+	line-height:1 !important;
+	margin: 0 0 20px 0;
+}
+#opl-main table {
+	border: 1px solid #e7e7e7;
+	margin: 0 -1px 24px 0;
+	text-align: left;
+	width: 100%;
+}
+#opl-main tr th,
+#opl-main thead th {
+	color: #888;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 9px 24px;
+}
+#opl-main tr td {
+	border-top: 1px solid #e7e7e7;
+	padding: 6px 24px;
+}
+#opl-main tr.odd td {
+	background: #f2f7fc;
+}
+
+/*=Content Typography
+--------------------------------*/
+#opl-main ul {
+	list-style: square;
+	margin: 0 0 18px 1.5em;
+}
+#opl-main ol {
+	list-style: decimal;
+	margin: 0 0 18px 1.5em;
+}
+#opl-main ol ol {
+	list-style: upper-alpha;
+}
+#opl-main ol ol ol {
+	list-style: lower-roman;
+}
+#opl-main ol ol ol ol {
+	list-style: lower-alpha;
+}
+
+#opl-main blockquote {
+	font-style: italic;
+	padding: 0 3em;
+}
+#opl-main blockquote cite,
+#opl-main blockquote em,
+#opl-main blockquote i {
+	font-style: normal;
+}
+#opl-main pre {
+	background: #f7f7f7;
+	color: #222;
+	line-height: 18px;
+	margin-bottom: 18px;
+	overflow: auto;
+	padding: 1.5em;
+}
+#opl-main abbr,
+#opl-main acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+#opl-main sup,
+#opl-main sub {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+#opl-main sup {
+	bottom: 1ex;
+}
+#opl-main sub {
+	top: .5ex;
+}
+
+#opl-main a {
+	color: #0066cc;
+}
+#opl-main a:active,
+#opl-main a:hover {
+	color: #ff4b33;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#optin {
+	width:306px;
+	margin-top:20px;
+	background:transparent url(images/divider.png) left top no-repeat;
+	min-height:400px;
+}
+
+#optin .optin_header {
+	width:306px;
+	height:5px;
+}
+
+.optin_footer {
+	width:306px;
+	height:240px;
+}
+
+#optin .optin_body {
+	width:306px;
+	min-height:145px;
+}
+
+#optin .optin_content {
+	padding:5px 30px;
+	padding-bottom:50px;
+	font-family: 'Open Sans', sans-serif;
+	color:#595959;
+	font-size:14px;
+	text-align:center;
+	text-shadow: 1px 1px 1px #FFF;
+}
+
+#optin .optin_content p {
+	line-height:19px;
+}
+
+#optin .optin_content p.optin_title {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+
+#optin .optin_content p.optin_fb_text {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:16px;
+	font-weight:normal;
+}
+
+#optin .optin_facebook {
+	margin:10px 0;
+	padding-top:8px;
+}
+
+#optin .opl-text-field {
+	margin:3px auto;
+	width:227px;
+	padding:7px;
+        -webkit-box-shadow: inset 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
+        border:1px solid #808080;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color:#595959;
+	font-weight:700;	
+	font-size:14px;
+	font-family:arial, verdana, helvetica, sans-serif;
+	display:block;
+}
+
+.opl-optin-only {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.opl-mini-optin {
+	background-image: none !important;
+	min-height:100px !important;
+}
+
+.opl-mini-optin-content {
+	padding-bottom:0 !important;
+}
+
+/* =OPTIN VIDEO
+-----------------------------------------*/
+#opl-optin-under {
+	padding:5px 30px;
+	font-family: 'Open Sans', sans-serif;
+	color:#212121;
+	font-size:14px;
+	text-align:center;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+#opl-optin-under p {
+	line-height:19px;
+}
+
+#opl-optin-under p.optin_title {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+
+#opl-optin-under p.optin_fb_text {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:16px;
+	font-weight:normal;
+}
+
+#opl-optin-under .optin_facebook {
+	margin:10px 0;
+	padding-top:8px;
+}
+
+#opl-optin-under .opl-text-field {
+	margin:3px auto;
+	width:227px;
+	padding:7px;
+        -webkit-box-shadow: inset 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
+        border:1px solid #808080;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color:#595959;
+	font-weight:700;	
+	font-size:14px;
+	font-family:arial, verdana, helvetica, sans-serif;
+	display:block;
+}
+
+/* =LAUNCH NAV
+-----------------------------------------*/
+.opl-launch-top {
+	color:#808080;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:14px;
+}

@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: quick-comments\n"
+"POT-Creation-Date: 2008-09-17 15:13+0900\n"
+"PO-Revision-Date: 2008-12-15 22:30+0800\n"
+"Last-Translator: mg12 <wuzhao.mail@gmail.com>\n"
+"Language-Team: NeoEase <http://www.neoease.com/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Quick Comments"
+msgstr ""
+
+msgid "Please wait"
+msgstr "正在提交, 请稍候"
+
+msgid "Loading"
+msgstr "正在加载"
+
+msgid "Done!"
+msgstr "处理成功!"
+
+msgid "Quick Comments Options"
+msgstr "Quick Comments 的设置"
+
+msgid "Comment Form CSS Path"
+msgstr "评论表单的 CSS 路径"
+
+msgid "Comment List CSS Path"
+msgstr "评论列表的 CSS 路径"
+
+msgid "Wait Message"
+msgstr "提交评论时显示的文本信息"
+
+msgid "Loading Image"
+msgstr "提交评论时显示的图像"
+
+msgid "Message CSS"
+msgstr "提交评论时显示文本对应的 CSS 样式"
+
+msgid "Overlay CSS"
+msgstr "提交评论时显示背景对应的 CSS 样式"
+
+msgid "Effect"
+msgstr "显示效果"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Slide Down"
+msgstr "下滑"
+
+msgid "Fade In"
+msgstr "淡入"
+
+msgid "Fast"
+msgstr "快速"
+
+msgid "Normal"
+msgstr "正常"
+
+msgid "Slow"
+msgstr "缓慢"
+
+msgid "Allows users to edit their comments?"
+msgstr "允许评论者编辑他们的评论"
+
+msgid "Allows users to edit their comments for a limited number of minutes after posting."
+msgstr "允许评论者在限定时间内编辑评论"
+
+msgid "Simple check"
+msgstr "简单的检测"
+
+msgid "Severe check"
+msgstr "严密的检测"
+
+msgid "Number of minutes that users are allowed to edit their comment"
+msgstr "评论提交后, 允许评论者编辑评论的时间"
+
+msgid "minutes after posting"
+msgstr "分钟"
+
+msgid "Comment Loading Message"
+msgstr "评论加载时显示的提示信息"
+
+msgid "Edit icon"
+msgstr "编辑图标"
+
+msgid "Position that returns after it edits it"
+msgstr "编辑后返回的页面位置"
+
+msgid "css path (%ID% is converted into comment ID.)"
+msgstr "CSS 路径 (%ID% 取代评论 ID)"
+
+msgid "Update Options"
+msgstr "保存更改"
+
+msgid "Uninstall"
+msgstr "卸载插件"
+
+msgid "Delete Options"
+msgstr "删除配置"
+
+msgid "You aren't allowed to edit this comment."
+msgstr "您不允许编辑这条评论"
+
+msgid "You aren't allowed to edit this comment, either because you didn't write it or you passed the %d minute time limit."
+msgstr "您不允许编辑这条评论, 它可能不是你提交的, 或者超过了允许编辑的时间"
+
+msgid "403 Forbidden"
+msgstr ""
+
+msgid "Edit button label"
+msgstr "更新按钮显示的文本"
+
+msgid "Update Comment"
+msgstr "更新评论"
+
+msgid "Automatically display it"
+msgstr "自动显示"
+
+msgid "Item that permits edit"
+msgstr "允许编辑的条目"
+
+msgid "Name"
+msgstr "昵称"
+
+msgid "Email"
+msgstr "电子邮箱"
+
+msgid "Website"
+msgstr "网站地址"
+
+msgid "Reject SPAM"
+msgstr "拒绝 SPAM"
+
+msgid "Reject SPAM. (IP Address is registered in the DNSBL &quot;<a href=\"http://spam-champuru.livedoor.com/dnsbl/\">SPAM Champuru</a>&quot;)"
+msgstr "拒绝 SPAM (IP 地址记录在 &quot;<a href=\"http://spam-champuru.livedoor.com/dnsbl/\">SPAM Champuru</a>&quot;中的评论者将被拒绝)"
+
+msgid "Error: Your IP Address is registered in the DNSBL (http://spam-champuru.livedoor.com/dnsbl/)."
+msgstr "错误: 您的 IP 地址已经被记录在 DNSBL(http://spam-champuru.livedoor.com/dnsbl/) 里, 不能进行评论."
+
+msgid "Enable"
+msgstr "激活"
+
+msgid "Notify Comment Author"
+msgstr "通知评论者"
+
+msgid "Notify Comment Author Options"
+msgstr "评论通知选项"
+
+msgid "&quot;Notify Comment Author&quot; is not Enable!"
+msgstr "&quot;通知评论者&quot;不能激活"
+
+msgid "Notify the comment author with Email."
+msgstr "通过邮件方式通知评论者"
+
+msgid "Notify the comment author with Twitter."
+msgstr "通过 Twitter 通知评论者"
+
+msgid "Site Name"
+msgstr "网站名称"
+
+msgid "Site Email Address"
+msgstr "网站地址"
+
+msgid "Twitter ID"
+msgstr "Twitter 帐号"
+
+msgid "Twitter Password"
+msgstr "Twitter 密码"
+
+msgid "\"Twitter ID\" who notifies without fail"
+msgstr "\"Twitter ID\" who notifies without fail"
+
+msgid "Tweet text"
+msgstr "Twitter 的留言"
+
+msgid "There is a new comment on the post \"%s\""
+msgstr "\"%s\" 文章有新的留言"
+
+msgid "Author: %s"
+msgstr "评论者: %s"
+
+msgid "Comment:"
+msgstr "评论:"
+
+msgid "See all comments on this post here:"
+msgstr "到文章中查看所有评论:"
+
+msgid "[%1$s] New Comment On: %2$s"
+msgstr "[%1$s] 有新的评论: %2$s"
+
+msgid "[%1$s] New comment! #%2$s \"%3$s\": %4$s"
+msgstr "[%1$s] #%2$s \"%3$s\" 有新的评论: %4$s"
+
+msgid "To use it by your theme"
+msgstr "使用方法"
+
+msgid "When you remove the check on &quot;Automatically display it&quot; of the comment edit icon."
+msgstr "当 &quot;自动显示&quot; 没被选上的时候, "
+
+msgid "Please insert the following codes in the template to display the comment edit icon."
+msgstr "请将下列代码插放到您的主题中, 以显示编辑评论按钮."
+
+msgid "You need to insert the following code snippet into the comments template."
+msgstr "您需要在评论模板里加入下列的代码片段."
+
+msgid "When the comment is added to this post, the notification is received with mail."
+msgstr "当有新评论添加到文章时, 获得邮件通知."
+
+msgid "The following characters are converted respectively."
+msgstr "以下字符将被逐个替换掉."
+
+msgid "Post No."
+msgstr "文章编号"
+
+msgid "Post Title"
+msgstr "文章标题"
+
+msgid "Comment No."
+msgstr "评论编号"
+
+msgid "Excerpt of content of comment"
+msgstr "评论内容的摘要"
+
+msgid "The notification is collectively tweeted."
+msgstr "通知将包括全部内容"
+

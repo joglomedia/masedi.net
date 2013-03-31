@@ -1,0 +1,66 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:url(../images/bg-red.jpg) left top repeat-x, #dddddd url(../images/bg.jpg) left top repeat;
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#a78285;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#left_col, #full_width_col {
+	border:1px solid #ccc;
+         -webkit-box-shadow: inset 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0px 0px 8px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#footer-background {
+	background:transparent;
+}
+
+ul#opl-launch-items li.opl-launch-top {
+	border-bottom:1px solid #dcc1c3 !important;
+}
+
+.opl-launch-top {
+	color:#a78285;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:14px;
+}
+
+.opl-launch-item-image img {
+	border:2px solid #a78285;
+}
+
+/* =TOP NAV
+-----------------------------------------*/
+#opl_nav li li {
+	background:#FFF; 
+	border:1px solid #ccc;
+	border-width:0 1px 1px 1px;
+}
+
+#opl_nav li li:last-child {
+	border-right:1px solid #ccc; 
+}
+
+#opl_nav li ul li a:hover {
+	color:#FFF;
+	background:#ccc;
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#optin .optin_body {
+	background-color:transparent;
+}
+
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #dcc1c3;
+}

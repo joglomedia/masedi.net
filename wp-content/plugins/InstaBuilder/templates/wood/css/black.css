@@ -1,0 +1,39 @@
+/* =GENERAL
+------------------------------------------*/
+body.opl-canvas {
+	background:#202020 url(../images/bg-black.jpg) left top scroll repeat;
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#2f2f2f;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+#footer-background {
+	background:transparent;
+}
+
+ul#opl-launch-items li.opl-launch-top {
+	border-bottom:1px solid #2f2f2f !important;
+}
+
+/* =TOP NAV
+------------------------------------------*/
+#opl_nav li li {
+	background:#262626; 
+}
+
+/* =OPTIN
+-----------------------------------------*/
+#optin .optin_body {
+	background-color:transparent;
+}
+
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #666666;
+}

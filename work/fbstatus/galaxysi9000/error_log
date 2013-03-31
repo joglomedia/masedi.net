@@ -1,0 +1,147 @@
+[17-Apr-2010 14:10:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 390
+[17-Apr-2010 14:10:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 390
+[17-Apr-2010 14:10:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 390
+[17-Apr-2010 14:10:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 394
+[17-Apr-2010 14:10:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 390
+[17-Apr-2010 14:10:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 390
+[17-Apr-2010 14:10:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 390
+[17-Apr-2010 14:10:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 394
+[17-Apr-2010 14:10:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 399
+[17-Apr-2010 14:13:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 197
+[17-Apr-2010 14:13:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 197
+[17-Apr-2010 14:13:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 200
+[17-Apr-2010 14:16:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 197
+[17-Apr-2010 14:16:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 197
+[17-Apr-2010 14:16:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 200
+[17-Apr-2010 14:18:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 197
+[17-Apr-2010 14:18:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 197
+[17-Apr-2010 14:18:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php:2) in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebook.php on line 200
+[17-Apr-2010 14:25:26] PHP Fatal error:  Call to undefined method FacebookRestClient::stream_publish() in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 26
+[28-Jan-2011 04:17:22] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('Gud night......')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[14-Apr-2011 08:05:13] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Session key invalid or no longer valid' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(18): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[14-Apr-2011 14:31:57] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'An unknown error occurred' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('\"\"Si creemos ...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[15-May-2011 16:22:00] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'The session is invalid because the user logged out or because auth.expireSession was invoked.' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(18): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[15-May-2011 16:22:12] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'The session is invalid because the user logged out or because auth.expireSession was invoked.' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(18): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[15-May-2011 16:23:48] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'The session is invalid because the user logged out or because auth.expireSession was invoked.' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(18): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[21-Jun-2011 06:27:46] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish(':: Jika Kita Be...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[22-Jun-2011 21:28:55] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'An unknown error occurred' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('di pepohonan ak...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[22-Jun-2011 22:03:59] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('Q Ill Fill buan...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[25-Jun-2011 10:06:38] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('I\'m waiting fo...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[25-Jun-2011 10:07:29] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('I\'m waiting fo...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[25-Jun-2011 10:09:29] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('I\'m waiting fo...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[26-Jun-2011 07:47:16] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('Ay bumibili ng ...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[01-Jul-2011 06:45:39] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('oui')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[05-Jul-2011 01:03:01] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 58
+[29-Jul-2011 07:48:57] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[29-Jul-2011 07:49:06] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[21-Aug-2011 03:06:24] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish(' :  2 hari bert...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[29-Aug-2011 08:15:25] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 58
+[16-Oct-2011 00:10:51] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 58
+[17-Oct-2011 13:44:14] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'User 100000345413584 has not authorized application 109944659041762.' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(18): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[27-Oct-2011 11:29:43] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 58
+[27-Oct-2011 12:41:32] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 58
+[04-Nov-2011 19:44:26] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 58
+[05-Nov-2011 19:58:01] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('HAY??')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[10-Nov-2011 19:41:51] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 58
+[15-Nov-2011 11:21:49] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php(26): FacebookRestClient->stream_publish('Goodnite...ever...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/galaxysi9000/facebookapi_php5_restlib.php on line 3003
+[15-Nov-2011 17:16:10] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/galaxysi9000/index.php on line 58

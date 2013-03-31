@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-02-24 19:37+0100\n"
+"PO-Revision-Date: 2013-02-25 09:58+0100\n"
+"Last-Translator: iziweb_@venir <iziwebavenir@gmail.com>\n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/"
+"wp-content/plugins/rdfa-breadcrumb\n"
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:172
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:175
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:178
+msgid "Archives for "
+msgstr "Archiv für "
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:182
+msgid "Archives by: "
+msgstr "Archiv von "
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:187
+msgid "Search results for \""
+msgstr "Suchergebnisse für \""
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:191
+msgid "Page Not Found"
+msgstr "Seite nicht gefunden"
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:234
+msgid "Split"
+msgstr "Spalten"
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:237
+msgid "Merge"
+msgstr "Verschmelzen"
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:240
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:254
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:274
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:383
+msgid " "
+msgstr ""
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:384
+msgid "Home"
+msgstr ""
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:416
+msgid "Prefix"
+msgstr ""
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:420
+msgid "Suffix"
+msgstr ""
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:424
+msgid "Title"
+msgstr "Titel"
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:428
+msgid "Home Title"
+msgstr "Home Titel"
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:432
+msgid "Breadcrumb Seperator"
+msgstr ""
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:437
+msgid "Update Options"
+msgstr ""
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:494
+msgid "Success! Your changes were successfully saved!"
+msgstr ""
+
+#: /Users/thomasbrechot/Sites/cahiersduhandballcom/www/wp-content/plugins/rdfa-breadcrumb/rdfa-breadcrumbs.php:497
+msgid "Sorry, But Your Changes Are Not Saved!"
+msgstr ""

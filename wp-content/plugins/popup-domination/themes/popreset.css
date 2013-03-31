@@ -1,0 +1,31 @@
+.popup-dom-lightbox-wrapper html, .popup-dom-lightbox-wrapper body, .popup-dom-lightbox-wrapper div, .popup-dom-lightbox-wrapper span, .popup-dom-lightbox-wrapper applet, .popup-dom-lightbox-wrapper object, .popup-dom-lightbox-wrapper iframe, .popup-dom-lightbox-wrapper h1, .popup-dom-lightbox-wrapper h2, .popup-dom-lightbox-wrapper h3, .popup-dom-lightbox-wrapper h4, .popup-dom-lightbox-wrapper h5, .popup-dom-lightbox-wrapper h6, .popup-dom-lightbox-wrapper p, .popup-dom-lightbox-wrapper blockquote, .popup-dom-lightbox-wrapper pre, .popup-dom-lightbox-wrapper a, .popup-dom-lightbox-wrapper abbr, .popup-dom-lightbox-wrapper acronym, .popup-dom-lightbox-wrapper address, .popup-dom-lightbox-wrapper big, .popup-dom-lightbox-wrapper cite, .popup-dom-lightbox-wrapper code, .popup-dom-lightbox-wrapper del, .popup-dom-lightbox-wrapper dfn, .popup-dom-lightbox-wrapper em, .popup-dom-lightbox-wrapper img, .popup-dom-lightbox-wrapper ins, .popup-dom-lightbox-wrapper kbd, .popup-dom-lightbox-wrapper q, .popup-dom-lightbox-wrapper s, .popup-dom-lightbox-wrapper samp,.popup-dom-lightbox-wrapper small, .popup-dom-lightbox-wrapper strike, .popup-dom-lightbox-wrapper strong, .popup-dom-lightbox-wrapper sub, .popup-dom-lightbox-wrapper sup, .popup-dom-lightbox-wrapper tt, .popup-dom-lightbox-wrapper var, .popup-dom-lightbox-wrapper b, .popup-dom-lightbox-wrapper u, .popup-dom-lightbox-wrapper i, .popup-dom-lightbox-wrapper center, .popup-dom-lightbox-wrapper dl, .popup-dom-lightbox-wrapper dt, .popup-dom-lightbox-wrapper dd, .popup-dom-lightbox-wrapper ol, .popup-dom-lightbox-wrapper ul, .popup-dom-lightbox-wrapper li, .popup-dom-lightbox-wrapper fieldset, .popup-dom-lightbox-wrapper form, .popup-dom-lightbox-wrapper label, .popup-dom-lightbox-wrapper legend, .popup-dom-lightbox-wrapper table, .popup-dom-lightbox-wrapper caption, .popup-dom-lightbox-wrapper tbody, .popup-dom-lightbox-wrapper tfoot, .popup-dom-lightbox-wrapper thead, .popup-dom-lightbox-wrapper tr, .popup-dom-lightbox-wrapper th, .popup-dom-lightbox-wrapper td, .popup-dom-lightbox-wrapper article, .popup-dom-lightbox-wrapper aside, .popup-dom-lightbox-wrapper canvas, .popup-dom-lightbox-wrapper details, .popup-dom-lightbox-wrapper embed, .popup-dom-lightbox-wrapper  .popup-dom-lightbox-wrapper figure, .popup-dom-lightbox-wrapper figcaption, .popup-dom-lightbox-wrapper footer, .popup-dom-lightbox-wrapper header, .popup-dom-lightbox-wrapper hgroup, .popup-dom-lightbox-wrapper menu, .popup-dom-lightbox-wrapper nav, .popup-dom-lightbox-wrapper output, .popup-dom-lightbox-wrapper ruby, .popup-dom-lightbox-wrapper section, .popup-dom-lightbox-wrapper summary, .popup-dom-lightbox-wrapper time, .popup-dom-lightbox-wrapper mark, .popup-dom-lightbox-wrapper audio, .popup-dom-lightbox-wrapper video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.popup-dom-lightbox-wrapper article, .popup-dom-lightbox-wrapper aside, .popup-dom-lightbox-wrapper details, .popup-dom-lightbox-wrapper figcaption, .popup-dom-lightbox-wrapper figure, .popup-dom-lightbox-wrapper 
+footer, .popup-dom-lightbox-wrapper header, .popup-dom-lightbox-wrapper hgroup, .popup-dom-lightbox-wrapper menu, .popup-dom-lightbox-wrapper nav, .popup-dom-lightbox-wrapper section {
+	display: block;
+}
+.popup-dom-lightbox-wrapper body {
+	line-height: 1;
+}
+.popup-dom-lightbox-wrapper ol, .popup-dom-lightbox-wrapper ul {
+	list-style: none;
+}
+.popup-dom-lightbox-wrapper blockquote, .popup-dom-lightbox-wrapper q {
+	quotes: none;
+}
+.popup-dom-lightbox-wrapper blockquote:before, .popup-dom-lightbox-wrapper blockquote:after,
+q:before, .popup-dom-lightbox-wrapper q:after {
+	content: '';
+	content: none;
+}
+.popup-dom-lightbox-wrapper table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

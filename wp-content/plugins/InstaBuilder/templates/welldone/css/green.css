@@ -1,0 +1,36 @@
+/* =GENERAL
+------------------------------------------*/
+#opl-header-bg {
+	background:#383700 url(../images/header-green.jpg) repeat-x left bottom;
+	
+}
+
+.opl-main-video {
+	margin:7px auto 16px auto;
+	background-color:#383700;
+	padding:5px;
+	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+.opl-optin-only {
+	background:#383700;
+}
+
+.opl-mini-optin-content {
+	color:#FFF !important;
+	text-shadow: 1px 1px 1px #808080 !important;
+}
+
+#footer-background {
+	background:#383700 url(../images/footer-green.jpg) repeat-x left top;
+}
+
+
+/* =OPTIN
+-----------------------------------------*/
+form#opl-ar-submit {
+	margin-bottom:5px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #b7cbd4;
+}

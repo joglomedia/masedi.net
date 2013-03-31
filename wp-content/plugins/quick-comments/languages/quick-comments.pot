@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: quick-comments\n"
+"POT-Creation-Date: 2008-09-17 15:13+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Quick Comments"
+msgstr ""
+
+msgid "Please wait"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Done!"
+msgstr ""
+
+msgid "Quick Comments Options"
+msgstr ""
+
+msgid "Comment Form CSS Path"
+msgstr ""
+
+msgid "Comment List CSS Path"
+msgstr ""
+
+msgid "Wait Message"
+msgstr ""
+
+msgid "Loading Image"
+msgstr ""
+
+msgid "Message CSS"
+msgstr ""
+
+msgid "Overlay CSS"
+msgstr ""
+
+msgid "Effect"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Slide Down"
+msgstr ""
+
+msgid "Fade In"
+msgstr ""
+
+msgid "Fast"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Slow"
+msgstr ""
+
+msgid "Allows users to edit their comments?"
+msgstr ""
+
+msgid "Allows users to edit their comments for a limited number of minutes after posting."
+msgstr ""
+
+msgid "Simple check"
+msgstr ""
+
+msgid "Severe check"
+msgstr ""
+
+msgid "Number of minutes that users are allowed to edit their comment"
+msgstr ""
+
+msgid "minutes after posting"
+msgstr ""
+
+msgid "Comment Loading Message"
+msgstr ""
+
+msgid "Edit icon"
+msgstr ""
+
+msgid "Position that returns after it edits it"
+msgstr ""
+
+msgid "css path (%ID% is converted into comment ID.)"
+msgstr ""
+
+msgid "Update Options"
+msgstr ""
+
+msgid "Uninstall"
+msgstr ""
+
+msgid "Delete Options"
+msgstr ""
+
+msgid "You aren't allowed to edit this comment."
+msgstr ""
+
+msgid "You aren't allowed to edit this comment, either because you didn't write it or you passed the %d minute time limit."
+msgstr ""
+
+msgid "403 Forbidden"
+msgstr ""
+
+msgid "Edit button label"
+msgstr ""
+
+msgid "Update Comment"
+msgstr ""
+
+msgid "Automatically display it"
+msgstr ""
+
+msgid "Item that permits edit"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Reject SPAM"
+msgstr ""
+
+msgid "Reject SPAM. (IP Address is registered in the DNSBL &quot;<a href=\"http://spam-champuru.livedoor.com/dnsbl/\">SPAM Champuru</a>&quot;)"
+msgstr ""
+
+msgid "Error: Your IP Address is registered in the DNSBL (http://spam-champuru.livedoor.com/dnsbl/)."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Notify Comment Author"
+msgstr ""
+
+msgid "Notify Comment Author Options"
+msgstr ""
+
+msgid "&quot;Notify Comment Author&quot; is not Enable!"
+msgstr ""
+
+msgid "Notify the comment author with Email."
+msgstr ""
+
+msgid "Notify the comment author with Twitter."
+msgstr ""
+
+msgid "Site Name"
+msgstr ""
+
+msgid "Site Email Address"
+msgstr ""
+
+msgid "Twitter ID"
+msgstr ""
+
+msgid "Twitter Password"
+msgstr ""
+
+msgid "\"Twitter ID\" who notifies without fail"
+msgstr ""
+
+msgid "Tweet text"
+msgstr ""
+
+msgid "There is a new comment on the post \"%s\""
+msgstr ""
+
+msgid "Author: %s"
+msgstr ""
+
+msgid "Comment:"
+msgstr ""
+
+msgid "See all comments on this post here:"
+msgstr ""
+
+msgid "[%1$s] New Comment On: %2$s"
+msgstr ""
+
+msgid "[%1$s] New comment! #%2$s \"%3$s\": %4$s"
+msgstr ""
+
+msgid "To use it by your theme"
+msgstr ""
+
+msgid "When you remove the check on &quot;Automatically display it&quot; of the comment edit icon."
+msgstr ""
+
+msgid "Please insert the following codes in the template to display the comment edit icon."
+msgstr ""
+
+msgid "You need to insert the following code snippet into the sidebar template."
+msgstr ""
+
+msgid "When the comment is added to this post, the notification is received with mail."
+msgstr ""
+
+msgid "The following characters are converted respectively."
+msgstr ""
+
+msgid "Post No."
+msgstr ""
+
+msgid "Post Title"
+msgstr ""
+
+msgid "Comment No."
+msgstr ""
+
+msgid "Excerpt of content of comment"
+msgstr ""
+
+msgid "The notification is collectively tweeted."
+msgstr ""
+
+msgid "Only the changed comment is sent."
+msgstr ""
+
+msgid "Should compress comments (gzip) if browsers ask for them."
+msgstr ""
+

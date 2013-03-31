@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smilies Themer\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-21 13:14+0100\n"
+"Last-Translator: Ricardo González <rickgc@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Albanian\n"
+"X-Poedit-Country: ALBANIA\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options-page.inc.php:4
+msgid "Opcionet e Smilies Themer: "
+msgstr ""
+
+#: ../options-page.inc.php:9
+#: ../options-page.inc.php:69
+msgid "Fresko Opcionet"
+msgstr ""
+
+#: ../options-page.inc.php:13
+msgid "P&euml;rpunim: "
+msgstr ""
+
+#: ../options-page.inc.php:17
+msgid "Konverto emoticons si <code>:-)</code> dhe <code>:-P</code> n&euml; grafike"
+msgstr ""
+
+#: ../options-page.inc.php:25
+msgid "Zgjidhe dukjen automatike t&euml; ikonave"
+msgstr ""
+
+#: ../options-page.inc.php:29
+msgid "Mund&euml;so"
+msgstr ""
+
+#: ../options-page.inc.php:30
+msgid "Dukja"
+msgstr ""
+
+#: ../options-page.inc.php:31
+msgid "Autori"
+msgstr ""
+
+#: ../options-page.inc.php:32
+msgid "P&euml;rshkrim"
+msgstr ""
+
+#: ../options-page.inc.php:33
+#: ../options-page.inc.php:60
+msgid "Shiko"
+msgstr ""
+
+#: ../preview-popup.php:48
+msgid "Tekst"
+msgstr ""
+
+#: ../preview-popup.php:49
+msgid "Smiley"
+msgstr ""
+
+#: ../preview-popup.php:63
+msgid "Mbylle"
+msgstr ""
+
+#: ../smilies-themer.php:171
+msgid "Opcionet u ruajt&euml;n."
+msgstr ""
+
+#: ../smilies-themer.php:181
+msgid "Q&euml; kjo t&euml; punoj ju duhet t'i kontrolloni \"konvertoni emoticons\"."
+msgstr ""
+

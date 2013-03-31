@@ -1,0 +1,1 @@
+<iframe title="YouTube Video Player" width="640" height="390" src="http://www.youtube.com/embed/<?php echo $_REQUEST['vidid'];?>?autoplay=1" frameborder="0" allowfullscreen></iframe>

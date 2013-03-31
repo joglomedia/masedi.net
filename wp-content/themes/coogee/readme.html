@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css" media="screen">
+
+body{width: 900px; margin: 20px auto; padding: 20px; line-height: 160%; font-size: 14px; border: 1px solid #f2f2f2; border-bottom: 0; background-color: #e3e5e4;}
+ol{padding: 0 20px;}
+ol li{padding: 20px 10px;}
+.code{color: #db5104;}
+
+</style>
+<title>Coogee Theme Readme</title>
+</head>
+
+<body>
+
+<p>Thank you for using Coogee Theme, a simple two-column, widget ready WordPress theme. You must read this file carefully.</p>
+
+<ol>
+
+	<li>Archives Page and Links Page are ready to use (archives.php and links.php). When you are writing a new page, just change the PAGE TEMPLATE. You can leave the content blank. And a page-template is created if you want to write some new pages. Comments are closed by default if you use page-template. An easy modification can enable comment. Open page-template.php and remove "//" at line 21.</li>
+
+	<li>If you are using the third party feed service, say Feedburner, and you hope to use their feed address, you need to do some modifations. Open sidebar.php and locate line 10, use your own feed address to replace <span class="code"> &lt;? php bloginfo('rss2_url'); ?&gt; </span>. Note, this applies when you are using the default sidebar.</li>
+  
+	<li><a href="http://wordpress.org/extend/plugins/wordpress-thread-comment/">Wordpress Thread Comment</a> plugin is recommended. If you are using this plugin, you can change the html code and css code at control panel setting as follow.
+		<p>Default HTML code:</p>
+		<p class="code">&lt;div class="comment-childs&lt;?php echo $deep%2 ? ' chalt' : ''; ?&gt;" id="comment-[ID]"&gt;&lt;p&gt;[author] @ [date] [time]&lt;/p&gt;[content]&lt;/div&gt;</p>
+		<p>Default CSS code:</p>
+    <p class="code">.editComment, .editableComment, .textComment{display: inline;}</p>
+    <p class="code">.comment-childs{color: #777;border: 1px dotted #ddd;border-left: 3px solid #ddd;	margin: 8px 10px;padding: 5px;background-color: #fff;overflow: hidden;}</p>
+    <p class="code">.chalt{background-color: #f6f6f6;}</p>
+    <p class="code">#newcomment{border:1px dashed #777;width:90%;}</p>
+    <p class="code">#newcommentsubmit{color: #db5104;}</p>
+    <p class="code">.adminreplycomment{border:1px dashed #777;width:99%;margin:4px;padding:4px;}</p>
+    <p class="code">.mvccls{color: #999;}</p>
+    <p>Save and refresh.</p>
+	</li>
+	
+	<li>Other plugins recommend: Simple Tags, Popularity Contest.</li>
+</ol>
+
+<p>If any problem happened, you can leavea message at <a href="http://imotta.cn/wordpress/coogee-theme-v02-for-wordpress.html">the theme release post</a>, I'll try my best to help.</p>
+
+<p style="color: #db5104; font-size: 12px; float: right;">Update: 2008-07-18</p>
+
+</body>
+</html>

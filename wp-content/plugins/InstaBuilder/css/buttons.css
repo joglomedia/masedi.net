@@ -1,0 +1,173 @@
+.opl-facebook-btn {
+	border:none;
+	background:transparent url(../images/fb-button.png) top left no-repeat;
+	width:247px;
+	height:44px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#FFF;
+	font-weight:800;
+	font-size:15px;
+	text-shadow: 1px 1px 1px #2b4e79; 
+}
+
+.opl-optin-button {
+	margin:8px 0;
+	width:247px;
+	height:54px;
+	font-family: 'Droid Serif', serif;
+	color:#FFF;
+	font-weight:800;
+	font-size:16px;
+	text-shadow: 1px 1px 1px #808080;
+	border:none !important;
+}
+
+.opl-button-yellow {
+	background:transparent url(../images/btn-yellow.png) top left no-repeat;
+}
+
+.opl-button-yellow:hover {
+	background:transparent url(../images/btn-yellow.png) bottom left no-repeat;
+}
+
+.opl-button-orange {
+	background:transparent url(../images/btn-orange.png) top left no-repeat;
+}
+
+.opl-button-orange:hover {
+	background:transparent url(../images/btn-orange.png) bottom left no-repeat;
+}
+
+.opl-button-red {
+	background:transparent url(../images/btn-red.png) top left no-repeat;
+}
+
+.opl-button-red:hover {
+	background:transparent url(../images/btn-red.png) bottom left no-repeat;
+}
+
+.opl-button-green {
+	background:transparent url(../images/btn-green.png) top left no-repeat;
+}
+
+.opl-button-green:hover {
+	background:transparent url(../images/btn-green.png) bottom left no-repeat;
+}
+
+.opl-button-blue {
+	background:transparent url(../images/btn-blue.png) top left no-repeat;
+}
+
+.opl-button-blue:hover {
+	background:transparent url(../images/btn-blue.png) bottom left no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+	.opl-facebook-btn {
+		background:transparent url(../images/fb-button-small.png) top left no-repeat;
+		width:229px;
+		height:41px;
+	}
+
+	.opl-optin-button {
+		margin:8px 0;
+		width:229px;
+		height:50px;
+		border:none !important;
+	}
+
+	.opl-button-green {
+		background:transparent url(../images/btn-green-small.png) top left no-repeat;
+	}
+
+	.opl-button-green:hover {
+		background:transparent url(../images/btn-green-small.png) bottom left no-repeat;
+	}
+
+	.opl-button-yellow {
+		background:transparent url(../images/btn-yellow-small.png) top left no-repeat;
+	}
+
+	.opl-button-yellow:hover {
+		background:transparent url(../images/btn-yellow-small.png) bottom left no-repeat;
+	}
+
+	.opl-button-orange {
+		background:transparent url(../images/btn-orange-small.png) top left no-repeat;
+	}
+
+	.opl-button-orange:hover {
+		background:transparent url(../images/btn-orange-small.png) bottom left no-repeat;
+	}
+
+	.opl-button-red {
+		background:transparent url(../images/btn-red-small.png) top left no-repeat;
+	}
+
+	.opl-button-red:hover {
+		background:transparent url(../images/btn-red-small.png) bottom left no-repeat;
+	}
+
+	.opl-button-blue {
+		background:transparent url(../images/btn-blue-small.png) top left no-repeat;
+	}
+
+	.opl-button-blue:hover {
+		background:transparent url(../images/btn-blue-small.png) bottom left no-repeat;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.opl-facebook-btn {
+		background:transparent url(../images/fb-button-small.png) top left no-repeat;
+		width:229px;
+		height:41px;
+	}
+
+	.opl-optin-button {
+		margin:8px 0;
+		width:229px;
+		height:50px;
+		border:none !important;
+	}
+
+	.opl-button-green {
+		background:transparent url(../images/btn-green-small.png) top left no-repeat;
+	}
+
+	.opl-button-green:hover {
+		background:transparent url(../images/btn-green-small.png) bottom left no-repeat;
+	}
+
+	.opl-button-yellow {
+		background:transparent url(../images/btn-yellow-small.png) top left no-repeat;
+	}
+
+	.opl-button-yellow:hover {
+		background:transparent url(../images/btn-yellow-small.png) bottom left no-repeat;
+	}
+
+	.opl-button-orange {
+		background:transparent url(../images/btn-orange-small.png) top left no-repeat;
+	}
+
+	.opl-button-orange:hover {
+		background:transparent url(../images/btn-orange-small.png) bottom left no-repeat;
+	}
+
+	.opl-button-red {
+		background:transparent url(../images/btn-red-small.png) top left no-repeat;
+	}
+
+	.opl-button-red:hover {
+		background:transparent url(../images/btn-red-small.png) bottom left no-repeat;
+	}
+
+	.opl-button-blue {
+		background:transparent url(../images/btn-blue-small.png) top left no-repeat;
+	}
+
+	.opl-button-blue:hover {
+		background:transparent url(../images/btn-blue-small.png) bottom left no-repeat;
+	}
+}

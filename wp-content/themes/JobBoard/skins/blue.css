@@ -1,0 +1,393 @@
+body { background:#fff; color:#333; }
+
+/* Links -----------------------------------------------------------------------*/
+a:hover { color: #333; }
+
+
+/* STRUCTURE ----------------------------------*/
+
+#search_section { background:#69aae7 url(blue_color_scheme/top_search_sectionbg.png) repeat-x bottom; border-bottom: 1px solid #3074b5;  }
+#main_tab { background:#4496E3 url(blue_color_scheme/tabbg.png) repeat-x bottom left; box-shadow: 0 2px 2px rgba(0,0,0,.6); border-top: 1px solid #64aaed;  }
+
+#footer-in { border-top:1px solid #dee1e5; }
+
+.category_list { border-bottom:1px solid #e3e3e3; }
+.category_list-in { color:#666;  }
+
+.category_list-in li { color:#666; border-right:1px solid #cfcfcf;  } 
+.category_list-in li a { color:#333;  }
+.category_list-in li a:hover { color:#207dd4; }
+.category_list-in li.bnone { border:none; }
+
+/*  Headings ----------------------------------*/
+
+h1 { color: #3875ac; background:url(blue_color_scheme/sepretor_hr.png) repeat-x bottom; }
+h3.title { 	font-size:28px; }
+h1 a, h3 a { border-bottom:none; }
+h2 { color: #546575; }
+h2 a { color: #333; }
+h3 { color:#666; }
+h4 { color:#333; }
+h5 { color:#333; }
+h6 { color:#000; border-bottom:1px dashed #CCCCCC; }
+
+
+/*tab start ----------------------------------------------- */
+/*#tab li { background:url(blue_color_scheme/navtabr.png) top right no-repeat; }
+#tab .page_item a { color: #cde7ff;  background: url(blue_color_scheme/navtabl.png) top left no-repeat; }
+
+#nav li:hover { background-position: 100% -50px; }
+#tab .page_item a:hover { background-position: 0px 0px; border: none; color:#fff; }
+#tab li.current_page_item { color:#000; background: url(blue_color_scheme/navtabr.png) no-repeat right; background-position: 100% -50px;}
+#tab .current_page_item a { color:#000; background: url(blue_color_scheme/navtabl.png) no-repeat; background-position: 0px -50px; }
+#tab .current_page_item a:hover { background: url(blue_color_scheme/navtabl.png) no-repeat; background-position: 0px -50px; color:#333; }
+
+.b_postajob a {  background:url(blue_color_scheme/b_postajob.png) no-repeat; }
+.b_postajob a:hover { background-position:0 -33px; }*/
+
+/*page navigation start ----------------------------------------------- */
+
+#nav ul li a  { color: #313131;	}
+#nav ul li:hover { color:#000; }
+#nav ul li a:hover { border: none; color:#fff; }
+#nav ul li.current_page_item, #nav ul li.current-menu-item  { color:#fff; }
+#nav ul li.current_page_item  a, #nav ul li.current-menu-item  a { color:#fff; }
+#nav ul li.current_page_item a:hover, #nav ul li.current-menu-item a:hover { color:#fff; }
+#nav ul li.current_page_item:hover, #nav ul li.current-menu-item:hover { color:#fff; }
+
+
+
+/* Header  ----------------------------------*/
+#header-in .logo-image { color:#add352; }
+#header-in .logo-image a { color:#000; background:url(blue_color_scheme/logo.png) no-repeat; }
+#header-in .logo-text { color:#c1c1c1; }
+#header-in .logo-text a { color:#d1d1d1; }
+#header-in .logo-text a:hover { color:#fff; }
+#header-in .description { color:#bdbcbc; }
+
+#header li a { color:#fff; }
+#header li a:hover { color:#ccc; }
+
+#header .i_rss { background:url(../images/i_rss.png) no-repeat left top;   }
+#header .i_email { background:url(../images/i_email.png) no-repeat left 1px;   }
+#header .i_twitter { background:url(../images/i_twitter.png) no-repeat left top;   }
+#header .i_face { background:url(../images/facebook-icon.png) no-repeat left top;   }
+
+a.rss  { background:url(../images/rss.png) no-repeat left 6px; }
+
+
+/* TOP SEARCH FORM  inner page  -----------------------------------------------------------------------*/
+/*#search { background:url(blue_color_scheme/searchbg.png) no-repeat; }
+#search .s { bborder:none; background:none; color: #666; }
+#search .sgo { background:url(blue_color_scheme/b_findjobs.png) no-repeat; }
+#search .sgo:hover { background-position:0 -38px;}*/
+
+#search a.advance_search { background:url(../images/i_search.png) no-repeat left 6px; }
+
+/* search 404 ------------------------ */
+.search404 { background:url(blue_color_scheme/searchbg2.png) no-repeat; }
+.search404 .s {	border:none; background:none; color: #666; }
+.search404 .sgo { background:url(blue_color_scheme/b_go2.png) no-repeat; }
+.search404 .sgo:hover { background-position:0 -31px; }
+
+ 
+/* Content start -----------------------------------------------------------------------*/
+
+#content h1 { background:none; color:#000; }
+#content h1 a { color:#207dd4; }
+#content h1 a:hover { color:#000; }
+
+#content h2 { color: #000; border-bottom:1px dashed #ccc; }
+
+#content .post_top { background:url(blue_color_scheme/sepretor_hr.png) repeat-x bottom; font-size:11px; padding-bottom:8px; overflow:hidden; height:100%; width:100%; margin-bottom:5px; }
+#content .post_top {  color:#333;    }
+#content .post_top  a { color:#207dd4;  }
+#content .post_top  a:hover { color:#333;  }
+
+#content p.company_name { color:#2c4862; }
+#content p.company_name a { color:#2c4862; }
+#content p.company_name a:hover { color:#000; }
+
+#content span.address { color:#333; }
+#content span.website {  color:#666;  }
+
+#content .post_top .date { color:#49759c; }
+
+#content .post_bottom { background:url(blue_color_scheme/sepretor_hr.png) repeat-x bottom;  }
+ 
+
+
+.lblue { color:#91a8bc; }
+.rss { background:url(../blue_color_scheme/rss.png) no-repeat 0 2px;}
+
+#content p a, #banner .classified p a { color:#318fe8; }
+#content p a:hover, #banner .classified p a:hover { border-bottom:none; color: #333; }
+#content a { color:#207dd4; }
+#content a:hover { color:#333; }
+
+#content .listings h3 { color: #207dd4; }
+#content .listings h3:hover { color:#2e475f;  }
+#content .listings h3 a { color: #207dd4;  }
+#content .listings h3 span a.jp_title { color:#207dd4; }
+
+#content .listings h3 a:hover { color: #2e475f; }
+
+#content .listings h3 span  { color:#666; }
+#content .listings h3 span  a { color:#666; }
+#content .listings h3 span  a:hover { color:#333; }
+
+#content .listings span.jobs { color:#49759c; background:url(blue_color_scheme/sepretor_vr.png) repeat-y right; }
+#content .listings span.jobs a { color:#49759c; }
+#content .listings span.jobs a:hover { color:#333; }
+#content .featured { background:#CAE4FF; border-bottom:1px solid #d7dce3; }
+#content .featured:hover { background:#eee; }
+
+#content .featured h3 { color: #207dd4; }
+#content .featured h3:hover { color:#2e475f;  }
+#content .featured h3 a { color: #207dd4;  }
+#content .featured h3 span a.jp_title { color:#207dd4; }
+
+#content .featured h3 a:hover { color: #2e475f; }
+
+#content .featured h3 span  { color:#666; }
+#content .featured h3 span  a { color:#666; }
+#content .featured h3 span  a:hover { color:#333; }
+
+#content .featured span.jobs { color:#49759c; background:url(blue_color_scheme/sepretor_vr.png) repeat-y right; }
+#content .featured span.jobs a { color:#49759c; }
+#content .featured span.jobs a:hover { color:#333; }
+
+.date small { color:#666; }
+.place { color:#333; } 
+.place small { color:#49759c;    }
+
+
+#content .listings p.time { color:#777; }
+#content ol li { background:none; }
+#content blockquote { background:url(grey_color_scheme/quote.png) no-repeat left top; color:#666; border-bottom:1px dotted #d2d2d2; clear:both; }
+#content blockquote p { color:#333; }
+#content blockquote cite { color:#444;  }
+#pagenavi { border-top:1px dashed #ccc; border-bottom:1px dashed #ccc; }
+#content p.i_previous { background:url(blue_color_scheme/arrow-left.gif) no-repeat 0 3px; }
+#content p.i_next { background:url(blue_color_scheme/arrow-right.gif) no-repeat right 5px; }
+
+/*Create a Job ----------------------------------*/
+#content .createjob h2 { color: #557ca0; border-bottom:1px dotted #c1c3c7; background:none; }
+
+.jobform { color:#333; }
+.jobtextfield { border:1px solid #d0d0d0; }
+.wordscal { border:1px solid #d0d0d0; background:#f7faff; }
+.note { color:#737373; }
+.jobcheckbox {  background:#f7faff; }
+
+
+.required { color:#FF0000; }
+
+
+.jobtextfield2 { border:1px solid #d0d0d0; }
+
+/*post css start ----------------------------------*/
+.category { border-right:1px solid #eee; }
+#content .category a, #content .archives a { color:#666; }
+#content .category a:hover, #content .archives a:hover { color:#333; }
+
+/* 	Previous/Next Page Navigation ----------------------------------*/
+.page-nav a { border-bottom:none; }
+.nav-previous a { background:url(blue_color_scheme/arrow-left.gif) no-repeat left; }
+.nav-next a { background:url(blue_color_scheme/arrow-right.gif) no-repeat right; border-bottom:none; }
+
+/* Comments  ----------------------------------*/
+#content .commentform h6 { border-bottom:none; padding:0; }
+#commentform label { color:#000; }
+.textarea { border:1px solid #ccc; background:#fff; color:#333; }
+.textarea:hover { border:1px solid #ccc; background:#f8f9f9; }
+.Cbutton { border:none; background:#2a8ce8; color:#fff; }
+.Cbutton:hover { border:none; background:#333; color:#fff; }
+
+
+.commetmainauthor { border-bottom:4px solid #ccc; }
+.commetmain { background:#f9f9f9 url(blue_color_scheme/sepretor_hr.png) repeat-x bottom; border-bottom:4px solid #ddd; }
+#content .trackbacklist li { border-bottom:1px solid #ccc; }
+
+ /* Contact Form ----------------------------------------------------------------*/
+.contactform textarea, .contactform input { border:1px solid #d0d0d0; background:#f7faff; padding:4px; font:12px Arial, Helvetica, sans-serif;  }
+.contactform textarea:hover, .input:hover, textarea:focus, input:focus { }
+.contactform #contactsubmit { color:#fff; background:#213648; }
+.contactform #contactsubmit:hover { background:#e6380d; }
+.contactright { color:#990000; }
+
+ 
+/*Page navigatoin 2 ----------------------------- */
+#content .wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active { color: #333; background-color:#d7d7d7; }
+#content .wp-pagenavi a:hover { color: #fff; background-color: #333; }
+#content .wp-pagenavi span.pages { background-color: #d7d7d7; color:#000; }
+#content .wp-pagenavi span.current { color: #fff; background:#207dd4; }
+#content .wp-pagenavi span.extend { color: #333; background-color: #d7d7d7; }
+#content .wp-pagenavi .on {  background:#2b8de8; color:#fff;  }
+
+/*widget calendar css =================================================== */
+#calendar_wrap caption { background:#ddd; color:#333; }
+
+/* widget search css ===================================================  */	
+#sidebar input { color:#666; border:1px solid #ccc; }
+
+/* -------------- My Account --------------- */
+.xboxcontent { background:#eee;  border:1px solid #ccc;  }
+
+/* ----------------------------- */
+#sidebar h2, #sidebar .widget h3 { color:#333; background:none; border-bottom:1px solid #ccc; }
+#sidebar h3 { background:#207dd4; color:#fff;  }
+#sidebar p { color:#333; }
+#sidebar p a, .widget_tag_cloud a  { color:#207dd4; }
+#sidebar p a:hover, .widget_tag_cloud a:hover { color:#333; text-decoration:none; }
+#sidebar ul li a  { color:#333; }
+#sidebar ul li a:hover { color:#207dd4; } 
+
+/* footer ---------------------------------- */
+
+#footer p { color:#666; text-align:center; }
+#footer span { color:#a3a2a2; }
+#footer span a { color:#a3a2a2; }
+#footer span a:hover { color:#000; text-decoration:none; }
+#footer a { color: #666; }
+#footer a:hover { color: #000; }
+#flinks li { color:#666;  }
+#flinks li a { color:#666; }
+#flinks li a:hover { color:#000; }
+
+
+.normal_button, #content .normal_button  { background:#57acea url(blue_color_scheme/btn_blue.png) repeat-x top; border:none; color:#fff;  }
+.normal_button:focus, #content .normal_button:focus { background:#333 url(blue_color_scheme/btn_blue_h.png) repeat-x top; color:#fff;  }
+.normal_button:hover, #content .normal_button:hover { background:#333 url(blue_color_scheme/btn_blue_h.png) repeat-x top;  color:#fff;  }
+
+
+/*------------------------------------------------------
+ nav menu 
+--------------------------------------------------------*/
+
+#navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
+#navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a
+{
+	border: 1px solid #2c567e;
+}
+#navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
+#navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a {
+}
+/* Top level */
+
+
+/* 2nd Menu */
+#navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
+#navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a,
+
+ /* 3rd Menu */
+#navmenu-h ul li:hover li:hover li a, ul#navmenu-v li:hover li:hover li a,
+#navmenu-h ul li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li a,
+
+/* 4rd Menu */
+#navmenu-h ul li:hover li:hover li:hover li a, ul#navmenu-v li:hover li:hover li:hover li a,
+#navmenu-h ul li.iehover li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li.iehover li a,
+
+/* 5th Menu */
+#navmenu-h ul li:hover li:hover li:hover li:hover li a, ul#navmenu-v li:hover li:hover li:hover li:hover li a,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a 
+{
+	background:#83bdf3;
+	color: #333;
+}
+#navmenu-h ul li a { background:none; }
+
+/* Root Menu Hover Persistence */
+#navmenu-h ul a:hover, 
+#navmenu-h ul li:hover a, 
+#navmenu-h ul li.iehover a,
+#navmenu-h ul li:hover a:hover, 
+{ color:#fff; }
+
+/* Remembers the parent page of the current page ------------------------------------- */
+
+#navmenu-h li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+
+
+/* IE Specific ------------------------------------- */
+
+/* 2nd Menu Hover Persistence */
+#navmenu-h ul li:hover li a:hover, ul#navmenu-v li:hover li a:hover,
+#navmenu-h ul li:hover li:hover a, ul#navmenu-v li:hover li:hover a, 
+#navmenu-h ul li.iehover li a:hover, ul#navmenu-v li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover a,
+
+/* 3rd Menu Hover Persistence */
+#navmenu-h ul li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li a:hover,
+#navmenu-h ul li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover a,
+
+/* 4rd Menu Hover Persistence */
+#navmenu-h ul li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li a:hover,
+#navmenu-h ul li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover a,
+
+/* 5th Menu Hover */
+#navmenu-h ul li:hover li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li.iehover a,  ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li.iehover a,
+#navmenu-h ul li:hover li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li:hover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a:hover,
+
+
+#navmenu-h li:hover, #navmenu-h li.iehover,#navmenu-h li.current_page_item,  #navmenu-h li.iehover,#navmenu-h li.current_page_ancestor { background:url(blue_color_scheme/bgnav.png) top left repeat-x; color:#fff; }
+#navmenu-h li:hover a, #navmenu-h li.iehover a, #navmenu-h li.current_page_item a, #navmenu-h li.current_page_ancestor a, #navmenu-h li.current_page_ancestor a:hover { background: #5595c4; color:#fff; border-radius: 35px; box-shadow: 0 1px 1px rgba(58, 55, 51, 0.7) inset, 0 1px 0 #DEDEDE; } 
+#navmenu-h li a { color:#fff; background:url(blue_color_scheme/bgnav.png) top left repeat-x; } 
+#navmenu-h li a:hover { color:#fff; background:url(blue_color_scheme/bgnav.png) top left repeat-x; }
+
+
+#navmenu-h li ul li ul li.current_page_parent a,#navmenu-h li ul li.current_page_ancestor a { background-position:-5px 0 !important; } 
+#navmenu-h li ul li ul li.current_page_parent a:hover,#navmenu-h li ul li.current_page_ancestor a:hover {  background-position:-5px 0!important;  } 
+
+
+
+/* IE verticle Specific ------------------------------------- */
+
+/* 2nd Menu Hover Persistence */
+#navmenu-h ul li:hover li a:hover, ul#navmenu-v li:hover li a:hover,
+#navmenu-h ul li:hover li:hover a, ul#navmenu-v li:hover li:hover a, 
+#navmenu-h ul li.iehover li a:hover, ul#navmenu-v li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover a,
+
+/* 3rd Menu Hover Persistence */
+#navmenu-h ul li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li a:hover,
+#navmenu-h ul li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover a,
+
+/* 4rd Menu Hover Persistence */
+#navmenu-h ul li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li a:hover,
+#navmenu-h ul li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover a,
+
+/* 5th Menu Hover */
+#navmenu-h ul li:hover li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li.iehover a,  ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li.iehover a,
+#navmenu-h ul li:hover li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li:hover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a:hover
+{ 
+background:#3d73a5 url(blue_color_scheme/none.gif) no-repeat;
+color:#fff;
+}
+
+.breviewyourlist .normal_button, #recaptcha-submit-btn-area .normal_button, *+html #commentform p .normal_button{filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7BBAEC', endColorstr='#31A0ED') !important;}
+
+.breviewyourlist .normal_button:hover, #recaptcha-submit-btn-area .normal_button:hover, *+html #commentform p .normal_button:hover{filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757', endColorstr='#2d2d2d') !important;}

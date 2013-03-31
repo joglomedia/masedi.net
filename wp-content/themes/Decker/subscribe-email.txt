@@ -1,0 +1,1 @@
+<img src="<?php bloginfo('template_directory'); ?>/images/email2.gif" alt="" /><a href="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=xxx">&nbsp;Subcribe via Email</a>

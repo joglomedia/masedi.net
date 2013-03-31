@@ -1,0 +1,318 @@
+[24-Sep-2011 15:25:09] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('greatful to jah...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[24-Sep-2011 23:31:27] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('kare-kare for l...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[26-Sep-2011 19:54:22] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Isang stormy an...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[28-Sep-2011 22:24:20] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Bitter b umaga ...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[29-Sep-2011 09:59:02] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Walaupun bagaim...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[30-Sep-2011 16:16:41] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Se viene Guelo ...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[01-Oct-2011 21:39:40] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Washuuuu~ Words...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[03-Oct-2011 16:08:10] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Sometimes, bein...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[04-Oct-2011 02:14:14] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('http://books.go...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[04-Oct-2011 21:29:09] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('mabuhay ang mga...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[04-Oct-2011 21:29:19] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('mabuhay ang mga...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[06-Oct-2011 09:36:54] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('RIP STEVE JOBS....')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[06-Oct-2011 09:37:10] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('RIP STEVE JOBS....')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[11-Oct-2011 23:32:15] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('We're all born ...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[12-Oct-2011 00:20:19] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('???????????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[12-Oct-2011 11:59:49] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Se acerca el ca...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[14-Oct-2011 19:08:57] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Hirap magising ...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[15-Oct-2011 01:56:40] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('downloading ......')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[15-Oct-2011 16:22:54] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Could you imagi...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[16-Oct-2011 06:57:10] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Nothing')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[16-Oct-2011 11:15:05] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('???????????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[16-Oct-2011 11:30:15] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('???????????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[16-Oct-2011 11:42:54] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('"??????????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[16-Oct-2011 11:44:07] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('"??????????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[16-Oct-2011 11:45:00] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('"??????????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[16-Oct-2011 11:46:00] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('"??????????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[16-Oct-2011 23:43:55] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('siang all')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[19-Oct-2011 11:24:18] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/apelipon4g/index.php on line 63
+[19-Oct-2011 13:14:33] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Super Hungry na...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[20-Oct-2011 03:48:56] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('''Sudah waktuny...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[22-Oct-2011 02:31:52] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('my heart is bli...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[25-Oct-2011 14:33:16] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/apelipon4g/index.php on line 63
+[27-Oct-2011 00:37:17] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('???????????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[27-Oct-2011 06:34:27] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/apelipon4g/index.php on line 63
+[28-Oct-2011 02:34:19] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('?????? ????????...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[28-Oct-2011 12:21:50] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('menghadapi stia...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[28-Oct-2011 19:54:00] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Insya Allah')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[29-Oct-2011 00:09:50] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('here in pampang...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[29-Oct-2011 05:34:08] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('How fast can yo...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[30-Oct-2011 04:28:15] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('@home')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[30-Oct-2011 09:31:58] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Test')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[30-Oct-2011 23:23:06] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('twins: wait u k...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[30-Oct-2011 23:24:13] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('i'm not gonna m...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[31-Oct-2011 00:41:21] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'An unknown error occurred' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Ketetapan Majel...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[01-Nov-2011 22:43:00] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Ayay Klase Na U...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[02-Nov-2011 14:51:33] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Cannot obtain session information due to a system error.' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(21): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[02-Nov-2011 14:52:02] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Cannot obtain session information due to a system error.' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(994): FacebookRestClient->call_method('facebook.fql.qu...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(21): FacebookRestClient->fql_query('SELECT publish_...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[03-Nov-2011 22:52:52] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('save the best f...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[04-Nov-2011 01:11:16] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/apelipon4g/index.php on line 63
+[04-Nov-2011 01:11:51] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/apelipon4g/index.php on line 63
+[04-Nov-2011 01:11:53] PHP Fatal error:  Cannot use string offset as an array in /home/masedi/public_html/work/fbstatus/apelipon4g/index.php on line 63
+[06-Nov-2011 08:34:24] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('jadilah seperti...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[08-Nov-2011 09:30:10] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('NasihatSahabat ...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[10-Nov-2011 20:16:35] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('Bekerja demi  s...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[11-Nov-2011 20:40:36] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('satinggi-tinggi...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[13-Nov-2011 03:54:36] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('sek sek gelok s...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[14-Nov-2011 15:20:21] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('?????????????? ...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003
+[15-Nov-2011 07:59:53] PHP Fatal error:  Uncaught exception 'FacebookRestClientException' with message 'Duplicate status message' in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php:3003
+Stack trace:
+#0 /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php(895): FacebookRestClient->call_method('facebook.stream...', Array)
+#1 /home/masedi/public_html/work/fbstatus/apelipon4g/index.php(29): FacebookRestClient->stream_publish('???????????? "?...')
+#2 {main}
+  thrown in /home/masedi/public_html/work/fbstatus/apelipon4g/facebookapi_php5_restlib.php on line 3003

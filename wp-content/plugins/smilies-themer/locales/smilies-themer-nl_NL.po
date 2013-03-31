@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smilies Themer\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-12-30 21:00+0100\n"
+"Last-Translator: X-trace <riaan@live.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options-page.inc.php:4
+msgid "Smilies Themer Options: "
+msgstr "Smilie Themer Opties:"
+
+#: ../options-page.inc.php:9
+#: ../options-page.inc.php:69
+msgid "Update Options"
+msgstr "Opslaan"
+
+#: ../options-page.inc.php:13
+msgid "Formating: "
+msgstr "Instellingen:"
+
+#: ../options-page.inc.php:17
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
+msgstr "Zet textuele emoticons zoals <code>:-)</code> en <code>:-P</code> om naar grafische emoticons."
+
+#: ../options-page.inc.php:25
+msgid "Choose the default smilies theme"
+msgstr "Selecteer de standaard smilies thema"
+
+#: ../options-page.inc.php:29
+msgid "Enable"
+msgstr "Activeer"
+
+#: ../options-page.inc.php:30
+msgid "Theme"
+msgstr "Thema"
+
+#: ../options-page.inc.php:31
+msgid "Author"
+msgstr "Ontwerper"
+
+#: ../options-page.inc.php:32
+msgid "Description"
+msgstr "Beschrijving"
+
+#: ../options-page.inc.php:33
+#: ../options-page.inc.php:60
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: ../preview-popup.php:48
+msgid "Text"
+msgstr "Tekst"
+
+#: ../preview-popup.php:49
+msgid "Smiley"
+msgstr "Smiley"
+
+#: ../preview-popup.php:63
+msgid "Close"
+msgstr "Sluiten"
+
+#: ../smilies-themer.php:171
+msgid "Options saved."
+msgstr "Opties opgeslagen."
+
+#: ../smilies-themer.php:181
+msgid "You need to check \"convert emoticons\" for this to work."
+msgstr "Je moet de optie onder de instellingen aanvinken voordat dit een thema te zien zal zijn."
+

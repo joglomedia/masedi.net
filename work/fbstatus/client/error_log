@@ -1,0 +1,2 @@
+[03-Oct-2010 15:41:59] PHP Warning:  include_once(jsonwrapper/jsonwrapper.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/masedi/public_html/work/fbstatus/client/facebookapi_php5_restlib.php on line 35
+[03-Oct-2010 15:41:59] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'jsonwrapper/jsonwrapper.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/masedi/public_html/work/fbstatus/client/facebookapi_php5_restlib.php on line 35
