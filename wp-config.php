@@ -14,25 +14,16 @@
  * @package WordPress
  */
 
-//prevent direct access
-if(eregi("wp-config.php",$_SERVER["PHP_SELF"])){
-header("Location: ./index.php");
-exit;
-}
-
-define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/home/masedi/masedi.net/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-define('DB_NAME', 'masedi_blogdb');
+define('DB_NAME', '');
 
 /** MySQL database username */
-define('DB_USER', 'masedi_us312DB');
+define('DB_USER', '');
 
 /** MySQL database password */
-define('DB_PASSWORD', '!RxzPeRPQZu(');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
